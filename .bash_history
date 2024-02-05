@@ -166,3 +166,20 @@ git add README.md
 git commit -m "second commit"
 git push -u origin main
 git config --global --edit
+git commit -m "test"
+git add README.md
+git commit -m "test"
+git push -u origin main
+git fetch
+git pull
+touch gitignore
+touch .gitignore
+cd
+./.git
+.\.git
+cd ./git
+cd .git/
+ls
+touch .gitignore
+ls
+vim .gitignore
