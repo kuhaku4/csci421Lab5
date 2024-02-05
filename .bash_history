@@ -187,3 +187,5 @@ git fetch
 git pull
 git config --global --edit
 ls
+git fetch
+git pull
