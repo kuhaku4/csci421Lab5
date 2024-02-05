@@ -5,30 +5,59 @@
 * the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
 * the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
 *
-Server bound to 127.0.0.1:45673 (IPv4)
-Extension host agent listening on 45673
+Server bound to 127.0.0.1:43435 (IPv4)
+Extension host agent listening on 43435
 
-[00:29:54] 
-
-
+[23:00:06] 
 
 
-[00:29:54] Extension host agent started.
-[00:29:54] [127.0.0.1][976c65e2][ManagementConnection] New connection established.
-[00:29:54] [127.0.0.1][2dd8194e][ExtensionHostConnection] New connection established.
-[00:29:54] [127.0.0.1][2dd8194e][ExtensionHostConnection] <58951> Launched Extension Host Process.
-[00:30:03] [127.0.0.1][976c65e2][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
-[00:30:03] [127.0.0.1][2dd8194e][ExtensionHostConnection] <58951> Extension Host Process exited with code: 0, signal: null.
+
+
+[23:00:06] Extension host agent started.
+[23:00:07] [127.0.0.1][aef51c44][ManagementConnection] New connection established.
+[23:00:07] [127.0.0.1][0148621a][ExtensionHostConnection] New connection established.
+[23:00:07] [127.0.0.1][0148621a][ExtensionHostConnection] <76118> Launched Extension Host Process.
+[23:00:27] [127.0.0.1][aef51c44][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[23:00:27] [127.0.0.1][0148621a][ExtensionHostConnection] <76118> Extension Host Process exited with code: 0, signal: null.
 Cancelling previous shutdown timeout
-[00:30:03] Cancelling previous shutdown timeout
+[23:00:27] Cancelling previous shutdown timeout
 Last EH closed, waiting before shutting down
-[00:30:03] Last EH closed, waiting before shutting down
+[23:00:27] Last EH closed, waiting before shutting down
 Got delay-shutdown request while in shutdown timeout, delaying
-[00:30:05] Got delay-shutdown request while in shutdown timeout, delaying
+[23:00:40] Got delay-shutdown request while in shutdown timeout, delaying
 Cancelling previous shutdown timeout
-[00:30:05] Cancelling previous shutdown timeout
-[00:30:05] [127.0.0.1][bc93f5cf][ManagementConnection] New connection established.
-[00:30:05] [127.0.0.1][9e50c299][ExtensionHostConnection] New connection established.
-[00:30:05] [127.0.0.1][9e50c299][ExtensionHostConnection] <59049> Launched Extension Host Process.
+[23:00:40] Cancelling previous shutdown timeout
+[23:00:40] [127.0.0.1][cf22253d][ManagementConnection] New connection established.
+[23:00:40] [127.0.0.1][cd7ef6bf][ExtensionHostConnection] New connection established.
+[23:00:40] [127.0.0.1][cd7ef6bf][ExtensionHostConnection] <76218> Launched Extension Host Process.
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/bitnami/.vscode-server/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937/out/vs/platform/terminal/node/ptyHostMain.js:43:32407)
+    at A.updateTitle (/home/bitnami/.vscode-server/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937/out/vs/platform/terminal/node/ptyHostMain.js:43:27539)
+    at U.<computed> (/home/bitnami/.vscode-server/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937/out/vs/platform/terminal/node/ptyHostMain.js:43:22765)
+    at Object.call (/home/bitnami/.vscode-server/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at $.s (/home/bitnami/.vscode-server/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at $.q (/home/bitnami/.vscode-server/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/bitnami/.vscode-server/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at d.y (/home/bitnami/.vscode-server/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at d.fire (/home/bitnami/.vscode-server/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ne (/home/bitnami/.vscode-server/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937/out/vs/platform/terminal/node/ptyHostMain.js:25:10072)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[23:00:43] Error [CodeExpectedError]: Could not find pty on pty host
+    at A.U (/home/bitnami/.vscode-server/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937/out/vs/platform/terminal/node/ptyHostMain.js:43:32407)
+    at A.updateTitle (/home/bitnami/.vscode-server/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937/out/vs/platform/terminal/node/ptyHostMain.js:43:27539)
+    at U.<computed> (/home/bitnami/.vscode-server/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937/out/vs/platform/terminal/node/ptyHostMain.js:43:22765)
+    at Object.call (/home/bitnami/.vscode-server/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at $.s (/home/bitnami/.vscode-server/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at $.q (/home/bitnami/.vscode-server/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/bitnami/.vscode-server/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at d.y (/home/bitnami/.vscode-server/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at d.fire (/home/bitnami/.vscode-server/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ne (/home/bitnami/.vscode-server/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937/out/vs/platform/terminal/node/ptyHostMain.js:25:10072)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
 New EH opened, aborting shutdown
-[00:35:05] New EH opened, aborting shutdown
+[23:05:40] New EH opened, aborting shutdown

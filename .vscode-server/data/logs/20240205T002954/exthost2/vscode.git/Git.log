@@ -1014,3 +1014,132 @@ fatal: failed to run repack
 2024-02-05 01:30:42.053 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
 2024-02-05 01:30:42.132 [info] > git status -z -uall [70ms]
 2024-02-05 01:30:45.702 [info] > git ls-tree -l HEAD -- /home/bitnami/.vscode-server/data/logs/20240205T002954/exthost2/vscode.git/Git.log [12ms]
+2024-02-05 01:30:45.793 [info] > git add -A -- . [93ms]
+2024-02-05 01:30:46.296 [info] > git show --textconv :.git/COMMIT_EDITMSG [10ms]
+2024-02-05 01:30:46.301 [info] > git ls-files --stage -- /home/bitnami/.git/COMMIT_EDITMSG [6ms]
+2024-02-05 01:30:47.202 [info] > git ls-tree -l HEAD -- /home/bitnami/.vscode-server/data/logs/20240205T002954/exthost2/vscode.git/Git.log [11ms]
+2024-02-05 01:30:47.205 [info] > git ls-files --stage -- /home/bitnami/.git/COMMIT_EDITMSG [5ms]
+2024-02-05 01:30:47.246 [info] > git show --textconv HEAD:.vscode-server/data/logs/20240205T002954/exthost2/vscode.git/Git.log [11ms]
+2024-02-05 01:30:47.250 [info] > git show --textconv :.git/COMMIT_EDITMSG [6ms]
+2024-02-05 01:30:48.203 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2024-02-05 01:30:48.203 [info] > git config --get commit.template [12ms]
+2024-02-05 01:30:48.215 [warning] ENOENT: no such file or directory, open '/home/bitnami/todo/.git/refs/remotes/origin/master'
+2024-02-05 01:30:48.218 [info] > git rev-parse refs/remotes/origin/master [3ms]
+2024-02-05 01:30:48.227 [info] > git status -z -uall [2ms]
+2024-02-05 01:30:50.718 [info] > git ls-tree -l HEAD -- /home/bitnami/.vscode-server/data/logs/20240205T002954/exthost2/vscode.git/Git.log [2ms]
+2024-02-05 01:30:50.731 [info] > git -c user.useConfigOnly=true commit --quiet [4927ms]
+2024-02-05 01:30:50.731 [info] warning: The last gc run reported the following. Please correct the root cause
+and remove .git/gc.log.
+Automatic cleanup will not be performed until the file is removed.
+
+error: pack-objects died of signal 9
+fatal: failed to run repack
+2024-02-05 01:30:50.749 [info] > git config --get commit.template [8ms]
+2024-02-05 01:30:50.750 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-05 01:30:50.836 [info] > git status -z -uall [79ms]
+2024-02-05 01:30:50.889 [info] > git config --get commit.template [15ms]
+2024-02-05 01:30:50.892 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-02-05 01:30:50.950 [info] > git merge-base refs/heads/main refs/remotes/origin/main [8ms]
+2024-02-05 01:30:50.983 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [5ms]
+2024-02-05 01:30:51.024 [info] > git status -z -uall [118ms]
+2024-02-05 01:30:51.536 [info] > git check-ignore -v -z --stdin [4ms]
+2024-02-05 01:30:51.567 [info] > git push origin main:main [711ms]
+2024-02-05 01:30:51.567 [info] To https://github.com/kuhaku4/csci421.git
+   2552f75..e2f7439  main -> main
+2024-02-05 01:30:51.587 [info] > git config --get commit.template [10ms]
+2024-02-05 01:30:51.587 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-05 01:30:51.677 [info] > git status -z -uall [81ms]
+2024-02-05 01:30:51.722 [info] > git merge-base refs/heads/main refs/remotes/origin/main [3ms]
+2024-02-05 01:30:51.743 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [12ms]
+2024-02-05 01:30:51.744 [info] > git config --get commit.template [1ms]
+2024-02-05 01:30:51.756 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-05 01:30:51.861 [info] > git status -z -uall [94ms]
+2024-02-05 01:30:52.809 [info] > git ls-tree -l HEAD -- /home/bitnami/.vscode-server/data/logs/20240205T002954/exthost2/vscode.git/Git.log [7ms]
+2024-02-05 01:30:52.853 [info] > git show --textconv HEAD:.vscode-server/data/logs/20240205T002954/exthost2/vscode.git/Git.log [7ms]
+2024-02-05 01:30:53.803 [info] > git config --get commit.template [8ms]
+2024-02-05 01:30:53.804 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-02-05 01:30:53.812 [warning] ENOENT: no such file or directory, open '/home/bitnami/todo/.git/refs/remotes/origin/master'
+2024-02-05 01:30:53.813 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2024-02-05 01:30:53.823 [info] > git status -z -uall [3ms]
+2024-02-05 01:30:56.054 [info] > git config --get commit.template [15ms]
+2024-02-05 01:30:56.057 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-02-05 01:30:56.143 [info] > git status -z -uall [71ms]
+2024-02-05 01:30:59.535 [info] > git show --textconv HEAD:.vscode-server/data/User/History/-30d7797a/08IE [10ms]
+2024-02-05 01:30:59.536 [info] > git ls-tree -l HEAD -- /home/bitnami/.vscode-server/data/User/History/-30d7797a/08IE [3ms]
+2024-02-05 01:31:00.108 [info] > git check-ignore -v -z --stdin [25ms]
+2024-02-05 01:31:00.641 [info] > git show --textconv HEAD:.vscode-server/data/User/History/-30d7797a/entries.json [10ms]
+2024-02-05 01:31:00.641 [info] > git ls-tree -l HEAD -- /home/bitnami/.vscode-server/data/User/History/-30d7797a/entries.json [2ms]
+2024-02-05 01:31:01.184 [info] > git config --get commit.template [19ms]
+2024-02-05 01:31:01.191 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-02-05 01:31:01.321 [info] > git status -z -uall [111ms]
+2024-02-05 01:31:03.445 [info] > git check-ignore -v -z --stdin [11ms]
+2024-02-05 01:31:06.362 [info] > git config --get commit.template [25ms]
+2024-02-05 01:31:06.364 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-02-05 01:31:06.436 [info] > git status -z -uall [64ms]
+2024-02-05 01:31:11.476 [info] > git config --get commit.template [21ms]
+2024-02-05 01:31:11.477 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-02-05 01:31:11.553 [info] > git status -z -uall [67ms]
+2024-02-05 01:31:16.576 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-02-05 01:31:16.576 [info] > git config --get commit.template [11ms]
+2024-02-05 01:31:16.655 [info] > git status -z -uall [70ms]
+2024-02-05 01:31:30.132 [info] > git ls-tree -l HEAD -- /home/bitnami/.vscode-server/data/User/History/-30d7797a/entries.json [14ms]
+2024-02-05 01:31:30.133 [info] > git config --get commit.template [5ms]
+2024-02-05 01:31:30.155 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2024-02-05 01:31:30.156 [info] > git log --oneline --cherry main...main@{upstream} -- [3ms]
+2024-02-05 01:31:30.293 [info] > git status -z -uall [112ms]
+2024-02-05 01:31:30.647 [info] > git pull --tags origin main [480ms]
+2024-02-05 01:31:30.647 [info] hint: Pulling without specifying how to reconcile divergent branches is
+hint: discouraged. You can squelch this message by running one of the following
+hint: commands sometime before your next pull:
+hint: 
+hint:   git config pull.rebase false  # merge (the default strategy)
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint: 
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
+From https://github.com/kuhaku4/csci421
+ * branch            main       -> FETCH_HEAD
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+warning: The last gc run reported the following. Please correct the root cause
+and remove .git/gc.log.
+Automatic cleanup will not be performed until the file is removed.
+
+error: pack-objects died of signal 9
+fatal: failed to run repack
+2024-02-05 01:31:30.665 [info] > git config --get commit.template [10ms]
+2024-02-05 01:31:30.666 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-05 01:31:30.742 [info] > git status -z -uall [67ms]
+2024-02-05 01:31:31.926 [info] > git ls-tree -l HEAD -- /home/bitnami/.vscode-server/data/User/History/-30d7797a/entries.json [2ms]
+2024-02-05 01:31:31.970 [info] > git show --textconv HEAD:.vscode-server/data/User/History/-30d7797a/entries.json [3ms]
+2024-02-05 01:31:32.935 [info] > git config --get commit.template [10ms]
+2024-02-05 01:31:32.935 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-02-05 01:31:32.945 [warning] ENOENT: no such file or directory, open '/home/bitnami/todo/.git/refs/remotes/origin/master'
+2024-02-05 01:31:32.946 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2024-02-05 01:31:32.956 [info] > git status -z -uall [2ms]
+2024-02-05 01:31:33.742 [info] > git show --textconv :bitnami_application_password [21ms]
+2024-02-05 01:31:33.752 [info] > git ls-files --stage -- /home/bitnami/bitnami_application_password [12ms]
+2024-02-05 01:31:36.535 [info] > git config --get commit.template [10ms]
+2024-02-05 01:31:36.536 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-05 01:31:36.619 [info] > git status -z -uall [74ms]
+2024-02-05 01:31:41.641 [info] > git config --get commit.template [8ms]
+2024-02-05 01:31:41.641 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-05 01:31:41.713 [info] > git status -z -uall [64ms]
+2024-02-05 01:31:46.743 [info] > git config --get commit.template [15ms]
+2024-02-05 01:31:46.746 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-02-05 01:31:46.827 [info] > git status -z -uall [70ms]
+2024-02-05 01:31:51.851 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-05 01:31:51.853 [info] > git config --get commit.template [12ms]
+2024-02-05 01:31:51.930 [info] > git status -z -uall [66ms]
+2024-02-05 01:31:56.955 [info] > git config --get commit.template [12ms]
+2024-02-05 01:31:56.955 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-02-05 01:31:57.044 [info] > git status -z -uall [79ms]
+2024-02-05 01:32:02.078 [info] > git config --get commit.template [17ms]
+2024-02-05 01:32:02.081 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-02-05 01:32:02.181 [info] > git status -z -uall [82ms]
+2024-02-05 01:32:07.232 [info] > git config --get commit.template [20ms]
+2024-02-05 01:32:07.233 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-05 01:32:07.306 [info] > git status -z -uall [64ms]

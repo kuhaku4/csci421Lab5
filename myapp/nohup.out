@@ -127,3 +127,17 @@ Port 3000 is already in use
 [0mGET / [32m200 [0m332.938 ms - 302[0m
 [0mGET /stylesheets/style.css [32m200 [0m24.518 ms - 111[0m
 [0mGET /favicon.ico [33m404 [0m23.277 ms - 1012[0m
+[0mGET / [32m200 [0m4.498 ms - 302[0m
+[0mGET / [32m200 [0m27.764 ms - 302[0m
+[0mGET / [32m200 [0m7.967 ms - 302[0m
+[0mGET /favicon.ico [33m404 [0m8.041 ms - 1012[0m
+[0mGET / [32m200 [0m7.868 ms - 302[0m
+[0mGET / [32m200 [0m4.142 ms - 302[0m
+[0mGET /favicon.ico [33m404 [0m5.164 ms - 1012[0m
+[0mGET /robots.txt [33m404 [0m7.325 ms - 1012[0m
+[0mGET /ui/authentication [33m404 [0m5.990 ms - 1012[0m
+[0mGET / [32m200 [0m4.369 ms - 302[0m
+[0mGET /stylesheets/style.css [32m200 [0m2.637 ms - 111[0m
+[0mGET /favicon.ico [33m404 [0m4.802 ms - 1012[0m
+[0mGET / [32m200 [0m13.688 ms - 302[0m
+[0mGET / [32m200 [0m5.794 ms - 302[0m
