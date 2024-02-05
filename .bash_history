@@ -183,3 +183,6 @@ ls
 touch .gitignore
 ls
 vim .gitignore
+git fetch
+git pull
+git config --global --edit
