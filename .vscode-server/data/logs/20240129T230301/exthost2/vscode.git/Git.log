@@ -1,0 +1,37 @@
+2024-01-29 23:03:20.157 [info] Log level: Info
+2024-01-29 23:03:20.158 [info] Validating found git in: "git"
+2024-01-29 23:03:20.158 [info] Using git "2.30.2" from "git"
+2024-01-29 23:03:20.158 [info] > git rev-parse --show-toplevel [2ms]
+2024-01-29 23:03:20.158 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-29 23:03:20.158 [info] > git rev-parse --show-toplevel [1ms]
+2024-01-29 23:03:20.159 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-29 23:03:20.160 [info] > git rev-parse --show-toplevel [11ms]
+2024-01-29 23:03:20.160 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-29 23:03:20.176 [info] > git rev-parse --show-toplevel [4ms]
+2024-01-29 23:03:20.176 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-29 23:03:20.188 [info] > git rev-parse --show-toplevel [5ms]
+2024-01-29 23:03:20.188 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-29 23:03:20.209 [info] > git rev-parse --show-toplevel [7ms]
+2024-01-29 23:03:20.221 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2024-01-29 23:03:20.241 [info] Open repository: /home/bitnami/todo
+2024-01-29 23:03:20.278 [info] > git config --get commit.template [13ms]
+2024-01-29 23:03:20.298 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2024-01-29 23:03:20.306 [warning] ENOENT: no such file or directory, open '/home/bitnami/todo/.git/refs/remotes/origin/master'
+2024-01-29 23:03:20.308 [info] > git rev-parse refs/remotes/origin/master [3ms]
+2024-01-29 23:03:20.337 [info] > git status -z -uall [21ms]
+2024-01-29 23:03:20.363 [info] > git config --get commit.template [7ms]
+2024-01-29 23:03:20.363 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-01-29 23:03:20.368 [warning] ENOENT: no such file or directory, open '/home/bitnami/todo/.git/refs/remotes/origin/master'
+2024-01-29 23:03:20.369 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2024-01-29 23:03:20.386 [info] > git status -z -uall [12ms]
+2024-01-29 23:03:21.069 [info] > git check-ignore -v -z --stdin [1ms]
+2024-01-29 23:06:08.443 [info] > git config --get commit.template [5ms]
+2024-01-29 23:06:08.451 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-01-29 23:06:08.456 [warning] ENOENT: no such file or directory, open '/home/bitnami/todo/.git/refs/remotes/origin/master'
+2024-01-29 23:06:08.457 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2024-01-29 23:06:08.472 [info] > git status -z -uall [10ms]
+2024-01-29 23:08:06.233 [info] > git config --get commit.template [6ms]
+2024-01-29 23:08:06.234 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-01-29 23:08:06.238 [warning] ENOENT: no such file or directory, open '/home/bitnami/todo/.git/refs/remotes/origin/master'
+2024-01-29 23:08:06.240 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2024-01-29 23:08:06.259 [info] > git status -z -uall [15ms]

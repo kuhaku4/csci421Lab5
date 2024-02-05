@@ -1,0 +1,115 @@
+0 verbose cli /opt/bitnami/node/bin/node /opt/bitnami/node/bin/npm
+1 info using npm@10.2.3
+2 info using node@v18.19.0
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:/opt/bitnami/node/lib/node_modules/npm/npmrc Completed in 9ms
+6 timing config:load:builtin Completed in 9ms
+7 timing config:load:cli Completed in 5ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:project Completed in 7ms
+10 timing config:load:file:/home/bitnami/.npmrc Completed in 0ms
+11 timing config:load:user Completed in 0ms
+12 timing config:load:file:/opt/bitnami/node/etc/npmrc Completed in 1ms
+13 timing config:load:global Completed in 1ms
+14 timing config:load:setEnvs Completed in 1ms
+15 timing config:load Completed in 27ms
+16 timing npm:load:configload Completed in 27ms
+17 timing config:load:flatten Completed in 6ms
+18 timing npm:load:mkdirpcache Completed in 0ms
+19 timing npm:load:mkdirplogs Completed in 1ms
+20 verbose title npm install express-generator
+21 verbose argv "install" "--global" "express-generator"
+22 timing npm:load:setTitle Completed in 1ms
+23 timing npm:load:display Completed in 0ms
+24 verbose logfile logs-max:10 dir:/home/bitnami/.npm/_logs/2024-01-29T23_04_28_369Z-
+25 verbose logfile /home/bitnami/.npm/_logs/2024-01-29T23_04_28_369Z-debug-0.log
+26 timing npm:load:logFile Completed in 12ms
+27 timing npm:load:timers Completed in 0ms
+28 timing npm:load:configScope Completed in 0ms
+29 timing npm:load Completed in 69ms
+30 timing config:load:flatten Completed in 1ms
+31 timing arborist:ctor Completed in 0ms
+32 silly logfile done cleaning log files
+33 timing idealTree:init Completed in 6ms
+34 timing idealTree:userRequests Completed in 4ms
+35 silly idealTree buildDeps
+36 silly fetch manifest express-generator@*
+37 http fetch GET 200 https://registry.npmjs.org/express-generator 122ms (cache miss)
+38 silly placeDep ROOT express-generator@4.16.1 OK for:  want: *
+39 silly fetch manifest commander@2.15.1
+40 silly fetch manifest ejs@2.6.1
+41 silly fetch manifest minimatch@3.0.4
+42 silly fetch manifest mkdirp@0.5.1
+43 silly fetch manifest sorted-object@2.0.1
+44 http fetch GET 200 https://registry.npmjs.org/commander 90ms (cache miss)
+45 http fetch GET 200 https://registry.npmjs.org/ejs 103ms (cache revalidated)
+46 http fetch GET 200 https://registry.npmjs.org/mkdirp 103ms (cache revalidated)
+47 http fetch GET 200 https://registry.npmjs.org/sorted-object 108ms (cache miss)
+48 http fetch GET 200 https://registry.npmjs.org/minimatch 111ms (cache revalidated)
+49 timing idealTree:#root Completed in 247ms
+50 silly placeDep node_modules/express-generator commander@2.15.1 OK for: express-generator@4.16.1 want: 2.15.1
+51 silly placeDep node_modules/express-generator ejs@2.6.1 OK for: express-generator@4.16.1 want: 2.6.1
+52 silly placeDep node_modules/express-generator minimatch@3.0.4 OK for: express-generator@4.16.1 want: 3.0.4
+53 silly fetch manifest brace-expansion@^1.1.7
+54 silly placeDep node_modules/express-generator mkdirp@0.5.1 OK for: express-generator@4.16.1 want: 0.5.1
+55 silly fetch manifest minimist@0.0.8
+56 silly placeDep node_modules/express-generator sorted-object@2.0.1 OK for: express-generator@4.16.1 want: 2.0.1
+57 http fetch GET 200 https://registry.npmjs.org/brace-expansion 40ms (cache revalidated)
+58 http fetch GET 200 https://registry.npmjs.org/minimist 43ms (cache revalidated)
+59 timing idealTree:node_modules/express-generator Completed in 53ms
+60 timing idealTree:node_modules/express-generator/node_modules/commander Completed in 0ms
+61 timing idealTree:node_modules/express-generator/node_modules/ejs Completed in 0ms
+62 silly placeDep node_modules/express-generator brace-expansion@1.1.11 OK for: minimatch@3.0.4 want: ^1.1.7
+63 silly fetch manifest balanced-match@^1.0.0
+64 silly fetch manifest concat-map@0.0.1
+65 http fetch GET 200 https://registry.npmjs.org/concat-map 31ms (cache revalidated)
+66 http fetch GET 200 https://registry.npmjs.org/balanced-match 32ms (cache revalidated)
+67 timing idealTree:node_modules/express-generator/node_modules/minimatch Completed in 35ms
+68 silly placeDep node_modules/express-generator balanced-match@1.0.2 OK for: brace-expansion@1.1.11 want: ^1.0.0
+69 silly placeDep node_modules/express-generator concat-map@0.0.1 OK for: brace-expansion@1.1.11 want: 0.0.1
+70 timing idealTree:node_modules/express-generator/node_modules/brace-expansion Completed in 8ms
+71 timing idealTree:node_modules/express-generator/node_modules/balanced-match Completed in 0ms
+72 timing idealTree:node_modules/express-generator/node_modules/concat-map Completed in 0ms
+73 silly placeDep node_modules/express-generator minimist@0.0.8 OK for: mkdirp@0.5.1 want: 0.0.8
+74 timing idealTree:node_modules/express-generator/node_modules/mkdirp Completed in 2ms
+75 timing idealTree:node_modules/express-generator/node_modules/minimist Completed in 0ms
+76 timing idealTree:node_modules/express-generator/node_modules/sorted-object Completed in 0ms
+77 timing idealTree:buildDeps Completed in 348ms
+78 timing idealTree:fixDepFlags Completed in 0ms
+79 timing idealTree Completed in 361ms
+80 timing reify:loadTrees Completed in 364ms
+81 timing reify:diffTrees Completed in 2ms
+82 silly reify moves {}
+83 timing reify:retireShallow Completed in 2ms
+84 timing reify:rollback:createSparse Completed in 0ms
+85 timing reify:rollback:retireShallow Completed in 0ms
+86 timing command:install Completed in 378ms
+87 verbose stack Error: EACCES: permission denied, mkdir '/opt/bitnami/node/lib/node_modules/express-generator'
+88 verbose cwd /home/bitnami
+89 verbose Linux 5.10.0-26-cloud-amd64
+90 verbose node v18.19.0
+91 verbose npm  v10.2.3
+92 error code EACCES
+93 error syscall mkdir
+94 error path /opt/bitnami/node/lib/node_modules/express-generator
+95 error errno -13
+96 error [Error: EACCES: permission denied, mkdir '/opt/bitnami/node/lib/node_modules/express-generator'] {
+96 error   errno: -13,
+96 error   code: 'EACCES',
+96 error   syscall: 'mkdir',
+96 error   path: '/opt/bitnami/node/lib/node_modules/express-generator'
+96 error }
+97 error
+97 error The operation was rejected by your operating system.
+97 error It is likely you do not have the permissions to access this file as the current user
+97 error
+97 error If you believe this might be a permissions issue, please double-check the
+97 error permissions of the file and its containing directories, or try running
+97 error the command again as root/Administrator.
+98 verbose exit -13
+99 timing npm Completed in 910ms
+100 verbose unfinished npm timer reify 1706569468893
+101 verbose unfinished npm timer reify:createSparse 1706569469266
+102 verbose code -13
+103 error A complete log of this run can be found in: /home/bitnami/.npm/_logs/2024-01-29T23_04_28_369Z-debug-0.log

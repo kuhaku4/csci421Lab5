@@ -1,0 +1,224 @@
+0 verbose cli /opt/bitnami/node/bin/node /opt/bitnami/node/bin/npm
+1 info using npm@10.2.3
+2 info using node@v18.19.0
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:/opt/bitnami/node/lib/node_modules/npm/npmrc Completed in 1ms
+6 timing config:load:builtin Completed in 1ms
+7 timing config:load:cli Completed in 4ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:file:/home/bitnami/.cache/typescript/5.3/.npmrc Completed in 1ms
+10 timing config:load:project Completed in 20ms
+11 timing config:load:file:/home/bitnami/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 0ms
+13 timing config:load:file:/opt/bitnami/node/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:setEnvs Completed in 1ms
+16 timing config:load Completed in 29ms
+17 timing npm:load:configload Completed in 29ms
+18 timing config:load:flatten Completed in 3ms
+19 timing npm:load:mkdirpcache Completed in 0ms
+20 timing npm:load:mkdirplogs Completed in 0ms
+21 verbose title npm install @types/cookie-parser@ts5.3 @types/debug@ts5.3 @types/express@ts5.3 @types/http-errors@ts5.3 @types/jade@ts5.3 @types/morgan@ts5.3 @types/node@ts5.3
+22 verbose argv "install" "--ignore-scripts" "@types/cookie-parser@ts5.3" "@types/debug@ts5.3" "@types/express@ts5.3" "@types/http-errors@ts5.3" "@types/jade@ts5.3" "@types/morgan@ts5.3" "@types/node@ts5.3" "--save-dev" "--user-agent" "typesInstaller/5.3.2"
+23 timing npm:load:setTitle Completed in 2ms
+24 timing npm:load:display Completed in 0ms
+25 verbose logfile logs-max:10 dir:/home/bitnami/.npm/_logs/2024-01-29T23_17_47_239Z-
+26 verbose logfile /home/bitnami/.npm/_logs/2024-01-29T23_17_47_239Z-debug-0.log
+27 timing npm:load:logFile Completed in 8ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 56ms
+31 timing arborist:ctor Completed in 1ms
+32 silly logfile done cleaning log files
+33 timing idealTree:init Completed in 14ms
+34 timing arborist:ctor Completed in 1ms
+35 http fetch GET 200 https://registry.npmjs.org/@types%2fdebug 170ms (cache miss)
+36 http fetch GET 200 https://registry.npmjs.org/@types%2fhttp-errors 173ms (cache miss)
+37 http fetch GET 200 https://registry.npmjs.org/@types%2fcookie-parser 176ms (cache miss)
+38 http fetch GET 200 https://registry.npmjs.org/@types%2fexpress 177ms (cache miss)
+39 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 254ms (cache miss)
+40 http fetch GET 200 https://registry.npmjs.org/@types%2fmorgan 749ms (cache miss)
+41 http fetch GET 200 https://registry.npmjs.org/@types%2fjade 758ms (cache miss)
+42 timing idealTree:userRequests Completed in 768ms
+43 silly idealTree buildDeps
+44 silly fetch manifest @types/debug@4.1.12
+45 silly fetch manifest @types/http-errors@2.0.4
+46 silly fetch manifest @types/cookie-parser@1.4.6
+47 silly fetch manifest @types/express@4.17.21
+48 silly fetch manifest @types/node@20.11.10
+49 silly fetch manifest @types/morgan@1.9.9
+50 silly fetch manifest @types/jade@0.0.34
+51 silly placeDep ROOT @types/cookie-parser@1.4.6 OK for:  want: 1.4.6
+52 silly fetch manifest @types/express@*
+53 silly placeDep ROOT @types/debug@4.1.12 OK for:  want: 4.1.12
+54 silly fetch manifest @types/ms@*
+55 silly placeDep ROOT @types/express@4.17.21 OK for:  want: 4.17.21
+56 silly fetch manifest @types/body-parser@*
+57 silly fetch manifest @types/express-serve-static-core@^4.17.33
+58 silly fetch manifest @types/qs@*
+59 silly fetch manifest @types/serve-static@*
+60 silly placeDep ROOT @types/http-errors@2.0.4 OK for:  want: 2.0.4
+61 silly placeDep ROOT @types/jade@0.0.34 OK for:  want: 0.0.34
+62 silly placeDep ROOT @types/morgan@1.9.9 OK for:  want: 1.9.9
+63 silly fetch manifest @types/node@*
+64 silly placeDep ROOT @types/node@20.11.10 OK for:  want: 20.11.10
+65 silly fetch manifest undici-types@~5.26.4
+66 http fetch GET 200 https://registry.npmjs.org/undici-types 34ms (cache miss)
+67 http fetch GET 200 https://registry.npmjs.org/@types%2fbody-parser 44ms (cache miss)
+68 http fetch GET 200 https://registry.npmjs.org/@types%2fms 66ms (cache miss)
+69 http fetch GET 200 https://registry.npmjs.org/@types%2fqs 65ms (cache miss)
+70 http fetch GET 200 https://registry.npmjs.org/@types%2fserve-static 66ms (cache miss)
+71 http fetch GET 200 https://registry.npmjs.org/@types%2fexpress-serve-static-core 71ms (cache miss)
+72 timing idealTree:#root Completed in 88ms
+73 timing idealTree:node_modules/@types/cookie-parser Completed in 0ms
+74 silly placeDep ROOT @types/ms@0.7.34 OK for: @types/debug@4.1.12 want: *
+75 timing idealTree:node_modules/@types/debug Completed in 3ms
+76 silly placeDep ROOT @types/body-parser@1.19.5 OK for: @types/express@4.17.21 want: *
+77 silly fetch manifest @types/connect@*
+78 silly placeDep ROOT @types/express-serve-static-core@4.17.42 OK for: @types/express@4.17.21 want: ^4.17.33
+79 silly fetch manifest @types/range-parser@*
+80 silly fetch manifest @types/send@*
+81 silly placeDep ROOT @types/qs@6.9.11 OK for: @types/express@4.17.21 want: *
+82 silly placeDep ROOT @types/serve-static@1.15.5 OK for: @types/express@4.17.21 want: *
+83 silly fetch manifest @types/mime@*
+84 http fetch GET 200 https://registry.npmjs.org/@types%2fsend 59ms (cache miss)
+85 http fetch GET 200 https://registry.npmjs.org/@types%2frange-parser 67ms (cache miss)
+86 http fetch GET 200 https://registry.npmjs.org/@types%2fconnect 70ms (cache miss)
+87 http fetch GET 200 https://registry.npmjs.org/@types%2fmime 67ms (cache miss)
+88 timing idealTree:node_modules/@types/express Completed in 79ms
+89 silly placeDep ROOT @types/connect@3.4.38 OK for: @types/body-parser@1.19.5 want: *
+90 timing idealTree:node_modules/@types/body-parser Completed in 2ms
+91 timing idealTree:node_modules/@types/connect Completed in 0ms
+92 silly placeDep ROOT @types/range-parser@1.2.7 OK for: @types/express-serve-static-core@4.17.42 want: *
+93 silly placeDep ROOT @types/send@0.17.4 OK for: @types/express-serve-static-core@4.17.42 want: *
+94 silly fetch manifest @types/mime@^1
+95 timing idealTree:node_modules/@types/express-serve-static-core Completed in 5ms
+96 timing idealTree:node_modules/@types/http-errors Completed in 0ms
+97 timing idealTree:node_modules/@types/jade Completed in 0ms
+98 timing idealTree:node_modules/@types/morgan Completed in 0ms
+99 timing idealTree:node_modules/@types/ms Completed in 0ms
+100 silly placeDep ROOT undici-types@5.26.5 OK for: @types/node@20.11.10 want: ~5.26.4
+101 timing idealTree:node_modules/@types/node Completed in 2ms
+102 timing idealTree:node_modules/@types/qs Completed in 0ms
+103 timing idealTree:node_modules/@types/range-parser Completed in 0ms
+104 silly placeDep ROOT @types/mime@1.3.5 OK for: @types/send@0.17.4 want: ^1
+105 timing idealTree:node_modules/@types/send Completed in 2ms
+106 timing idealTree:node_modules/@types/mime Completed in 0ms
+107 timing idealTree:node_modules/@types/serve-static Completed in 0ms
+108 timing idealTree:node_modules/undici-types Completed in 0ms
+109 timing idealTree:buildDeps Completed in 184ms
+110 timing idealTree:fixDepFlags Completed in 0ms
+111 timing idealTree Completed in 967ms
+112 timing reify:loadTrees Completed in 969ms
+113 timing reify:diffTrees Completed in 2ms
+114 silly reify moves {}
+115 timing reify:retireShallow Completed in 1ms
+116 timing reify:createSparse Completed in 4ms
+117 timing reify:loadBundles Completed in 0ms
+118 silly audit bulk request {
+118 silly audit   'types-registry': [ '0.1.681' ],
+118 silly audit   '@types/cookie-parser': [ '1.4.6' ],
+118 silly audit   '@types/debug': [ '4.1.12' ],
+118 silly audit   '@types/express': [ '4.17.21' ],
+118 silly audit   '@types/http-errors': [ '2.0.4' ],
+118 silly audit   '@types/jade': [ '0.0.34' ],
+118 silly audit   '@types/morgan': [ '1.9.9' ],
+118 silly audit   '@types/node': [ '20.11.10' ],
+118 silly audit   '@types/ms': [ '0.7.34' ],
+118 silly audit   '@types/body-parser': [ '1.19.5' ],
+118 silly audit   '@types/express-serve-static-core': [ '4.17.42' ],
+118 silly audit   '@types/qs': [ '6.9.11' ],
+118 silly audit   '@types/serve-static': [ '1.15.5' ],
+118 silly audit   '@types/connect': [ '3.4.38' ],
+118 silly audit   '@types/range-parser': [ '1.2.7' ],
+118 silly audit   '@types/send': [ '0.17.4' ],
+118 silly audit   'undici-types': [ '5.26.5' ],
+118 silly audit   '@types/mime': [ '1.3.5' ]
+118 silly audit }
+119 silly tarball no local data for undici-types@https://registry.npmjs.org/undici-types/-/undici-types-5.26.5.tgz. Extracting by manifest.
+120 silly tarball no local data for @types/mime@https://registry.npmjs.org/@types/mime/-/mime-1.3.5.tgz. Extracting by manifest.
+121 silly tarball no local data for @types/send@https://registry.npmjs.org/@types/send/-/send-0.17.4.tgz. Extracting by manifest.
+122 silly tarball no local data for @types/range-parser@https://registry.npmjs.org/@types/range-parser/-/range-parser-1.2.7.tgz. Extracting by manifest.
+123 silly tarball no local data for @types/connect@https://registry.npmjs.org/@types/connect/-/connect-3.4.38.tgz. Extracting by manifest.
+124 silly tarball no local data for @types/express-serve-static-core@https://registry.npmjs.org/@types/express-serve-static-core/-/express-serve-static-core-4.17.42.tgz. Extracting by manifest.
+125 silly tarball no local data for @types/serve-static@https://registry.npmjs.org/@types/serve-static/-/serve-static-1.15.5.tgz. Extracting by manifest.
+126 silly tarball no local data for @types/qs@https://registry.npmjs.org/@types/qs/-/qs-6.9.11.tgz. Extracting by manifest.
+127 silly tarball no local data for @types/ms@https://registry.npmjs.org/@types/ms/-/ms-0.7.34.tgz. Extracting by manifest.
+128 silly tarball no local data for @types/body-parser@https://registry.npmjs.org/@types/body-parser/-/body-parser-1.19.5.tgz. Extracting by manifest.
+129 silly tarball no local data for @types/node@https://registry.npmjs.org/@types/node/-/node-20.11.10.tgz. Extracting by manifest.
+130 silly tarball no local data for @types/jade@https://registry.npmjs.org/@types/jade/-/jade-0.0.34.tgz. Extracting by manifest.
+131 silly tarball no local data for @types/morgan@https://registry.npmjs.org/@types/morgan/-/morgan-1.9.9.tgz. Extracting by manifest.
+132 silly tarball no local data for @types/express@https://registry.npmjs.org/@types/express/-/express-4.17.21.tgz. Extracting by manifest.
+133 silly tarball no local data for @types/http-errors@https://registry.npmjs.org/@types/http-errors/-/http-errors-2.0.4.tgz. Extracting by manifest.
+134 silly tarball no local data for @types/debug@https://registry.npmjs.org/@types/debug/-/debug-4.1.12.tgz. Extracting by manifest.
+135 silly tarball no local data for @types/cookie-parser@https://registry.npmjs.org/@types/cookie-parser/-/cookie-parser-1.4.6.tgz. Extracting by manifest.
+136 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 165ms
+137 timing auditReport:getReport Completed in 167ms
+138 silly audit report {}
+139 timing auditReport:init Completed in 0ms
+140 timing reify:audit Completed in 169ms
+141 http fetch GET 200 https://registry.npmjs.org/@types/mime/-/mime-1.3.5.tgz 182ms (cache miss)
+142 timing reifyNode:node_modules/@types/mime Completed in 203ms
+143 http fetch GET 200 https://registry.npmjs.org/@types/connect/-/connect-3.4.38.tgz 210ms (cache miss)
+144 timing reifyNode:node_modules/@types/connect Completed in 234ms
+145 http fetch GET 200 https://registry.npmjs.org/@types/send/-/send-0.17.4.tgz 213ms (cache miss)
+146 timing reifyNode:node_modules/@types/send Completed in 234ms
+147 http fetch GET 200 https://registry.npmjs.org/@types/range-parser/-/range-parser-1.2.7.tgz 216ms (cache miss)
+148 timing reifyNode:node_modules/@types/range-parser Completed in 240ms
+149 http fetch GET 200 https://registry.npmjs.org/@types/serve-static/-/serve-static-1.15.5.tgz 227ms (cache miss)
+150 timing reifyNode:node_modules/@types/serve-static Completed in 253ms
+151 http fetch GET 200 https://registry.npmjs.org/@types/cookie-parser/-/cookie-parser-1.4.6.tgz 214ms (cache miss)
+152 timing reifyNode:node_modules/@types/cookie-parser Completed in 252ms
+153 http fetch GET 200 https://registry.npmjs.org/@types/express-serve-static-core/-/express-serve-static-core-4.17.42.tgz 231ms (cache miss)
+154 timing reifyNode:node_modules/@types/express-serve-static-core Completed in 256ms
+155 http fetch GET 200 https://registry.npmjs.org/@types/qs/-/qs-6.9.11.tgz 230ms (cache miss)
+156 timing reifyNode:node_modules/@types/qs Completed in 257ms
+157 http fetch GET 200 https://registry.npmjs.org/@types/debug/-/debug-4.1.12.tgz 222ms (cache miss)
+158 timing reifyNode:node_modules/@types/debug Completed in 255ms
+159 http fetch GET 200 https://registry.npmjs.org/@types/morgan/-/morgan-1.9.9.tgz 226ms (cache miss)
+160 timing reifyNode:node_modules/@types/morgan Completed in 257ms
+161 http fetch GET 200 https://registry.npmjs.org/@types/ms/-/ms-0.7.34.tgz 231ms (cache miss)
+162 timing reifyNode:node_modules/@types/ms Completed in 261ms
+163 http fetch GET 200 https://registry.npmjs.org/@types/express/-/express-4.17.21.tgz 228ms (cache miss)
+164 timing reifyNode:node_modules/@types/express Completed in 260ms
+165 http fetch GET 200 https://registry.npmjs.org/@types/body-parser/-/body-parser-1.19.5.tgz 232ms (cache miss)
+166 timing reifyNode:node_modules/@types/body-parser Completed in 263ms
+167 http fetch GET 200 https://registry.npmjs.org/@types/http-errors/-/http-errors-2.0.4.tgz 227ms (cache miss)
+168 timing reifyNode:node_modules/@types/http-errors Completed in 260ms
+169 http fetch GET 200 https://registry.npmjs.org/undici-types/-/undici-types-5.26.5.tgz 247ms (cache miss)
+170 timing reifyNode:node_modules/undici-types Completed in 267ms
+171 http fetch GET 200 https://registry.npmjs.org/@types/node/-/node-20.11.10.tgz 363ms (cache miss)
+172 timing reifyNode:node_modules/@types/node Completed in 395ms
+173 http fetch GET 200 https://registry.npmjs.org/@types/jade/-/jade-0.0.34.tgz 858ms (cache miss)
+174 timing reifyNode:node_modules/@types/jade Completed in 889ms
+175 timing reify:unpack Completed in 893ms
+176 timing reify:unretire Completed in 0ms
+177 timing build:queue Completed in 0ms
+178 timing build:deps Completed in 1ms
+179 timing build Completed in 2ms
+180 timing reify:build Completed in 2ms
+181 timing reify:trash Completed in 0ms
+182 timing reify:save Completed in 15ms
+183 timing reify Completed in 1912ms
+184 silly ADD node_modules/@types/mime
+185 silly ADD node_modules/undici-types
+186 silly ADD node_modules/@types/send
+187 silly ADD node_modules/@types/range-parser
+188 silly ADD node_modules/@types/connect
+189 silly ADD node_modules/@types/serve-static
+190 silly ADD node_modules/@types/qs
+191 silly ADD node_modules/@types/express-serve-static-core
+192 silly ADD node_modules/@types/body-parser
+193 silly ADD node_modules/@types/ms
+194 silly ADD node_modules/@types/node
+195 silly ADD node_modules/@types/morgan
+196 silly ADD node_modules/@types/jade
+197 silly ADD node_modules/@types/http-errors
+198 silly ADD node_modules/@types/express
+199 silly ADD node_modules/@types/debug
+200 silly ADD node_modules/@types/cookie-parser
+201 timing command:install Completed in 1919ms
+202 verbose exit 0
+203 timing npm Completed in 2160ms
+204 info ok

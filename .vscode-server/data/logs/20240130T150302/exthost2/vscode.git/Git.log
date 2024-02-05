@@ -1,0 +1,51 @@
+2024-01-30 15:03:27.902 [info] Log level: Info
+2024-01-30 15:03:27.902 [info] Validating found git in: "git"
+2024-01-30 15:03:27.902 [info] Using git "2.30.2" from "git"
+2024-01-30 15:03:27.902 [info] > git rev-parse --show-toplevel [13ms]
+2024-01-30 15:03:27.902 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-30 15:03:27.902 [info] > git rev-parse --show-toplevel [305ms]
+2024-01-30 15:03:27.902 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-30 15:03:27.902 [info] > git rev-parse --show-toplevel [13ms]
+2024-01-30 15:03:27.902 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-30 15:03:27.902 [info] > git rev-parse --show-toplevel [39ms]
+2024-01-30 15:03:27.902 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-30 15:03:27.902 [info] > git rev-parse --show-toplevel [15ms]
+2024-01-30 15:03:27.902 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-30 15:03:27.902 [info] > git rev-parse --show-toplevel [13ms]
+2024-01-30 15:03:27.902 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-30 15:03:27.905 [info] > git rev-parse --show-toplevel [14ms]
+2024-01-30 15:03:27.905 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-30 15:03:27.931 [info] > git rev-parse --show-toplevel [2ms]
+2024-01-30 15:03:27.931 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-30 15:03:27.999 [info] > git rev-parse --show-toplevel [36ms]
+2024-01-30 15:03:28.000 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-30 15:03:28.034 [info] > git rev-parse --show-toplevel [18ms]
+2024-01-30 15:03:28.034 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-30 15:03:28.248 [info] > git rev-parse --show-toplevel [193ms]
+2024-01-30 15:03:28.250 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-30 15:03:28.340 [info] > git rev-parse --show-toplevel [43ms]
+2024-01-30 15:03:28.340 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-30 15:03:28.376 [info] > git rev-parse --show-toplevel [16ms]
+2024-01-30 15:03:28.405 [info] > git rev-parse --git-dir --git-common-dir [13ms]
+2024-01-30 15:03:28.463 [info] Open repository: /home/bitnami/todo
+2024-01-30 15:03:28.559 [info] > git config --get commit.template [39ms]
+2024-01-30 15:03:28.597 [info] > git rev-parse --show-toplevel [40ms]
+2024-01-30 15:03:28.597 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-30 15:03:28.659 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [65ms]
+2024-01-30 15:03:28.683 [warning] ENOENT: no such file or directory, open '/home/bitnami/todo/.git/refs/remotes/origin/master'
+2024-01-30 15:03:28.684 [info] > git rev-parse --show-toplevel [35ms]
+2024-01-30 15:03:28.684 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-30 15:03:28.762 [info] > git rev-parse refs/remotes/origin/master [80ms]
+2024-01-30 15:03:28.805 [info] > git rev-parse --show-toplevel [44ms]
+2024-01-30 15:03:28.805 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-30 15:03:28.899 [info] > git status -z -uall [96ms]
+2024-01-30 15:03:28.969 [info] > git rev-parse --show-toplevel [71ms]
+2024-01-30 15:03:28.969 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-30 15:03:29.062 [info] > git config --get commit.template [94ms]
+2024-01-30 15:03:29.325 [info] > git rev-parse --show-toplevel [265ms]
+2024-01-30 15:03:29.325 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-30 15:03:29.333 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [227ms]
+2024-01-30 15:03:29.402 [warning] ENOENT: no such file or directory, open '/home/bitnami/todo/.git/refs/remotes/origin/master'
+2024-01-30 15:03:29.414 [info] > git rev-parse refs/remotes/origin/master [12ms]
+2024-01-30 15:03:29.540 [info] > git status -z -uall [58ms]
+2024-01-30 15:03:29.969 [info] > git check-ignore -v -z --stdin [10ms]

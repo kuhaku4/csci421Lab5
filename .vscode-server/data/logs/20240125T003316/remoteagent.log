@@ -1,0 +1,25 @@
+2024-01-25 00:33:16.432 [info] 
+
+
+
+
+2024-01-25 00:33:16.432 [info] Extension host agent started.
+2024-01-25 00:33:16.444 [info] Started initializing default profile extensions in extensions installation folder. file:///home/bitnami/.vscode-server/extensions
+2024-01-25 00:33:16.471 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/bitnami/.vscode-server/extensions
+2024-01-25 00:33:16.483 [info] [127.0.0.1][70d84b09][ManagementConnection] New connection established.
+2024-01-25 00:33:16.518 [info] [127.0.0.1][154da2ba][ExtensionHostConnection] New connection established.
+2024-01-25 00:33:16.826 [info] [127.0.0.1][154da2ba][ExtensionHostConnection] <61739> Launched Extension Host Process.
+2024-01-25 00:33:48.240 [info] [127.0.0.1][70d84b09][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-01-25 00:33:48.318 [info] [127.0.0.1][154da2ba][ExtensionHostConnection] <61739> Extension Host Process exited with code: 0, signal: null.
+2024-01-25 00:33:48.319 [info] Cancelling previous shutdown timeout
+2024-01-25 00:33:48.319 [info] Last EH closed, waiting before shutting down
+2024-01-25 00:33:50.124 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2024-01-25 00:33:50.124 [info] Cancelling previous shutdown timeout
+2024-01-25 00:33:50.262 [info] [127.0.0.1][92429936][ManagementConnection] New connection established.
+2024-01-25 00:33:50.342 [info] [127.0.0.1][c267c540][ExtensionHostConnection] New connection established.
+2024-01-25 00:33:50.350 [info] [127.0.0.1][c267c540][ExtensionHostConnection] <61882> Launched Extension Host Process.
+2024-01-25 00:34:03.983 [info] [127.0.0.1][92429936][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-01-25 00:34:04.019 [info] [127.0.0.1][c267c540][ExtensionHostConnection] <61882> Extension Host Process exited with code: 0, signal: null.
+2024-01-25 00:34:04.019 [info] Cancelling previous shutdown timeout
+2024-01-25 00:34:04.019 [info] Last EH closed, waiting before shutting down
+2024-01-25 00:39:04.020 [info] Last EH closed, shutting down

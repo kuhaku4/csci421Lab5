@@ -1,0 +1,9 @@
+show users
+db.createUser( { user: "tasks", pwd: "tasks", roles: ["dbOwner"] })
+...  pwd: "tasks",
+db.createUser( ... { ...  user: "tasks",
+use tasks
+user tasks
+db.createUser(
+use tasks
+show dbs
