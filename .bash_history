@@ -189,3 +189,84 @@ git config --global --edit
 ls
 git fetch
 git pull
+express --view=pug blogger
+ps aux | grep node
+sudo kill -9 2721
+sudo kill -9 2723
+cd blogger
+nohup sudo PORT=80 npm start &
+exit
+ps aux | grep node
+sudo kill -9 80627
+sudo kill -9 80628
+nohup sudo PORT=80 npm start &
+exit
+ps aux | grep node
+sudo kill -9 83363
+sudo kill -9 83364
+cd blogger
+nohup sudo PORT=80 npm start &
+exit
+cd blogger
+ps aux | grep node
+sudo kill -9 84129
+sudo kill -9 84130
+nohup sudo PORT=80 npm start &
+exit
+cd blogger
+ps aux | grep node
+sudo kill -9 85936
+sudo kill -9 85937
+nohup sudo PORT=80 npm start &
+exit
+ps aux | grep node
+sudo kill -9 86473
+sudo kill -9 86474
+cd blogger
+nohup sudo PORT=80 npm start &
+exit
+ps aux | grep node
+sudo kill -9 89351
+sudo kill -9 89352
+cd blogger
+nohup sudo PORT=80 npm start &
+exit
+cd blogger
+ps aux | grep node
+sudo kill -9 89714
+sudo kill -9 89715
+nohup sudo PORT=80 npm start &
+exit
+cd myapp
+nohup sudo PORT=3000 npm start &
+exit
+cd blogger
+nohup sudo PORT=3000 npm start &
+exit
+cd blogger
+ps aux | grep node
+sudo kill -9 1916
+sudo kill -9 1917
+nohup sudo PORT=80 npm start &
+exit
+cd myapp
+nohup sudo PORT=3000 npm start &
+exit
+cd blogger
+ps aux | grep node
+sudo kill -9 2442
+sudo kill -9 2443
+nohup sudo PORT=80 npm start &
+exit
+cd blogger
+ps aux | grep node
+sudo kill -9 3127
+sudo kill -9 3128
+nohup sudo PORT=80 npm start &
+exit
+cd blogger
+ps aux | grep node
+sudo kill -9 4303
+sudo kill -9 4304
+nohup sudo PORT=80 npm start &
+exit

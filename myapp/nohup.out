@@ -141,3 +141,11 @@ Port 3000 is already in use
 [0mGET /favicon.ico [33m404 [0m4.802 ms - 1012[0m
 [0mGET / [32m200 [0m13.688 ms - 302[0m
 [0mGET / [32m200 [0m5.794 ms - 302[0m
+
+> myapp@0.0.0 start
+> node ./bin/www
+
+
+> myapp@0.0.0 start
+> node ./bin/www
+

@@ -1,0 +1,185 @@
+
+> blogger@0.0.0 start
+> node ./bin/www
+
+[0mGET / [32m200 [0m271.318 ms - 170[0m
+[0mGET /stylesheets/style.css [32m200 [0m3.618 ms - 111[0m
+[0mGET /favicon.ico [33m404 [0m11.400 ms - 960[0m
+[0mGET /.env [33m404 [0m9.951 ms - 960[0m
+[0mPOST / [33m404 [0m25.201 ms - 960[0m
+[0mGET / [36m304 [0m9.127 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.563 ms - -[0m
+[0mGET / [36m304 [0m7.828 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.636 ms - -[0m
+[0mGET / [36m304 [0m11.390 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.423 ms - -[0m
+[0mGET / [36m304 [0m7.556 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.521 ms - -[0m
+[0mGET / [36m304 [0m5.847 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.521 ms - -[0m
+[0mGET / [36m304 [0m6.383 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.498 ms - -[0m
+[0mGET / [36m304 [0m7.386 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.550 ms - -[0m
+[0mGET / [36m304 [0m5.589 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.524 ms - -[0m
+
+> blogger@0.0.0 start
+> node ./bin/www
+
+[0mGET / [32m200 [0m347.425 ms - 221[0m
+[0mGET /stylesheets/style.css [32m200 [0m3.661 ms - 111[0m
+[0mGET / [36m304 [0m10.762 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.688 ms - -[0m
+[0mGET / [36m304 [0m9.302 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.659 ms - -[0m
+[0mGET / [36m304 [0m33.266 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.912 ms - -[0m
+[0mGET /add [33m404 [0m29.264 ms - 960[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.676 ms - -[0m
+
+> blogger@0.0.0 start
+> node ./bin/www
+
+[0mGET /add [32m200 [0m301.492 ms - 188[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.980 ms - -[0m
+[0mGET /list [32m200 [0m13.816 ms - 190[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.636 ms - -[0m
+
+> blogger@0.0.0 start
+> node ./bin/www
+
+[0mGET /list [32m200 [0m297.047 ms - 190[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.861 ms - -[0m
+[0mGET /list [36m304 [0m14.662 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.542 ms - -[0m
+[0mGET / [36m304 [0m10.334 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.437 ms - -[0m
+
+> blogger@0.0.0 start
+> node ./bin/www
+
+[0mGET / [31m500 [0m296.546 ms - 1180[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.590 ms - -[0m
+
+> blogger@0.0.0 start
+> node ./bin/www
+
+[0mGET / [32m200 [0m192.692 ms - 221[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.293 ms - -[0m
+[0mGET /add [31m500 [0m19.296 ms - 1102[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.662 ms - -[0m
+[0mGET /list [36m304 [0m11.605 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.530 ms - -[0m
+[0mGET /add [31m500 [0m12.331 ms - 1102[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.431 ms - -[0m
+[0mGET /.env [33m404 [0m332.080 ms - 960[0m
+[0mPOST / [33m404 [0m137.315 ms - 960[0m
+
+> blogger@0.0.0 start
+> node ./bin/www
+
+[0mGET /add [31m500 [0m322.965 ms - 1102[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.354 ms - -[0m
+[0mGET /add [31m500 [0m11.936 ms - 1102[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.564 ms - -[0m
+[0mGET /list [36m304 [0m8.515 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.410 ms - -[0m
+[0mGET /add [31m500 [0m11.665 ms - 1102[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.438 ms - -[0m
+[0mGET /add [32m200 [0m9.011 ms - 188[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.616 ms - -[0m
+[0mGET /list [36m304 [0m7.557 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.551 ms - -[0m
+[0mGET /list [36m304 [0m21.102 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.730 ms - -[0m
+[0mGET /list [36m304 [0m17.485 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.394 ms - -[0m
+[0mGET /.svn [33m404 [0m58.807 ms - 960[0m
+
+> blogger@0.0.0 start
+> node ./bin/www
+
+Port 3000 is already in use
+
+> blogger@0.0.0 start
+> node ./bin/www
+
+[0mGET / [31m500 [0m592.093 ms - 1255[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.916 ms - -[0m
+[0mGET / [31m500 [0m9.968 ms - 1255[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.738 ms - -[0m
+[0mGET /list [33m404 [0m10.078 ms - 1032[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.411 ms - -[0m
+[0mGET /add [33m404 [0m7.860 ms - 1032[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.511 ms - -[0m
+[0mGET / [31m500 [0m12.814 ms - 1255[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.629 ms - -[0m
+[0mGET / [31m500 [0m12.491 ms - 1255[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.411 ms - -[0m
+
+> blogger@0.0.0 start
+> node ./bin/www
+
+[0mGET / [31m500 [0m295.671 ms - 1284[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.913 ms - -[0m
+[0mGET / [31m500 [0m13.543 ms - 1284[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.634 ms - -[0m
+[0mGET / [31m500 [0m13.770 ms - 1284[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.611 ms - -[0m
+[0mGET /add [31m500 [0m13.263 ms - 1277[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.897 ms - -[0m
+[0mGET /list [31m500 [0m8.847 ms - 1280[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.362 ms - -[0m
+[0mGET /list [31m500 [0m7.066 ms - 1280[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.337 ms - -[0m
+[0mGET /routes [33m404 [0m6.669 ms - 1032[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.584 ms - -[0m
+[0mGET /routes [33m404 [0m13.806 ms - 1032[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.585 ms - -[0m
+[0mGET / [31m500 [0m16.618 ms - 1284[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.568 ms - -[0m
+[0mGET / [31m500 [0m11.174 ms - 1284[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.376 ms - -[0m
+
+> blogger@0.0.0 start
+> node ./bin/www
+
+[0mGET / [31m500 [0m246.530 ms - 1284[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.563 ms - -[0m
+[0mGET / [31m500 [0m14.329 ms - 1284[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.714 ms - -[0m
+[0mGET / [31m500 [0m8.613 ms - 1284[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.425 ms - -[0m
+[0mGET / [31m500 [0m11.638 ms - 1284[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.537 ms - -[0m
+[0mGET / [31m500 [0m7.909 ms - 1284[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.227 ms - -[0m
+[0mGET / [31m500 [0m8.542 ms - 1284[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.345 ms - -[0m
+[0mGET / [31m500 [0m8.066 ms - 1284[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.639 ms - -[0m
+[0mGET / [31m500 [0m17.135 ms - 1284[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.379 ms - -[0m
+[0mGET / [31m500 [0m9.986 ms - 1284[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.529 ms - -[0m
+
+> blogger@0.0.0 start
+> node ./bin/www
+
+[0mGET / [31m500 [0m252.415 ms - 1284[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.669 ms - -[0m
+[0mGET / [31m500 [0m12.278 ms - 1284[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.603 ms - -[0m
+[0mGET / [31m500 [0m7.415 ms - 1284[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.455 ms - -[0m
+[0mGET / [32m200 [0m10.237 ms - 221[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.550 ms - -[0m
+[0mGET /add [31m500 [0m24.763 ms - 1277[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.600 ms - -[0m
+[0mGET /add [32m200 [0m7.120 ms - 188[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.403 ms - -[0m
+[0mGET /list [31m500 [0m7.371 ms - 1280[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.517 ms - -[0m
+[0mGET /list [32m200 [0m7.373 ms - 190[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.556 ms - -[0m
