@@ -1999,3 +1999,194 @@ Node.js v18.19.0
 [0mGET /stylesheets/style.css [36m304 [0m0.444 ms - -[0m
 [0mGET / [36m304 [0m7.483 ms - -[0m
 [0mGET /stylesheets/style.css [36m304 [0m0.653 ms - -[0m
+[0mGET / [36m304 [0m5.604 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.366 ms - -[0m
+[0mGET /list [36m304 [0m8.592 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.541 ms - -[0m
+[0mGET /add [36m304 [0m6.235 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.453 ms - -[0m
+[0mGET / [36m304 [0m5.219 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.366 ms - -[0m
+[0mGET / [32m200 [0m5.357 ms - 1128[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.467 ms - -[0m
+[0mGET / [36m304 [0m10.393 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.509 ms - -[0m
+[0mGET / [36m304 [0m7.417 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.403 ms - -[0m
+[0mGET / [36m304 [0m7.477 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.384 ms - -[0m
+[0mGET / [32m200 [0m6.412 ms - 1128[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.434 ms - -[0m
+[0mGET / [36m304 [0m7.521 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.617 ms - -[0m
+[0mGET / [36m304 [0m7.696 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.384 ms - -[0m
+[0mGET / [36m304 [0m5.196 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m4.533 ms - -[0m
+[0mGET /.env [33m404 [0m17.088 ms - 1032[0m
+[0mPOST / [33m404 [0m19.332 ms - 1032[0m
+[0mGET / [32m200 [0m6.490 ms - 1128[0m
+[0mPOST /HNAP1/ [33m404 [0m3.602 ms - 1032[0m
+[0mGET /.env [33m404 [0m4.912 ms - 1032[0m
+[0mPOST / [33m404 [0m7.057 ms - 1032[0m
+[0mGET /.env [33m404 [0m3.681 ms - 1032[0m
+[0mPOST / [33m404 [0m3.700 ms - 1032[0m
+[0mGET / [32m200 [0m5.254 ms - 1128[0m
+[0mGET /.env [33m404 [0m3.306 ms - 1032[0m
+[0mPOST / [33m404 [0m4.017 ms - 1032[0m
+[0mGET / [32m200 [0m8.616 ms - 1128[0m
+[0mGET /.env [33m404 [0m4.522 ms - 1032[0m
+[0mPOST / [33m404 [0m6.066 ms - 1032[0m
+[0mGET /_profiler/phpinfo [33m404 [0m4.456 ms - 1032[0m
+[0mGET /phpinfo.php [33m404 [0m3.857 ms - 1032[0m
+[0mGET /phpinfo [33m404 [0m4.392 ms - 1032[0m
+[0mGET /aws.yml [33m404 [0m4.540 ms - 1032[0m
+[0mGET /.env.bak [33m404 [0m3.285 ms - 1032[0m
+[0mGET /info.php [33m404 [0m3.402 ms - 1032[0m
+[0mGET /.aws/credentials [33m404 [0m4.262 ms - 1032[0m
+[0mGET / [32m200 [0m5.134 ms - 1128[0m
+[0mGET /portal/redlion [33m404 [0m7.764 ms - 1032[0m
+[0mGET / [32m200 [0m6.135 ms - 1128[0m
+[0mPOST /HNAP1/ [33m404 [0m3.842 ms - 1032[0m
+[0mGET / [36m304 [0m6.859 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.492 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m3.874 ms - 1032[0m
+
+> blogger@0.0.0 start
+> node ./bin/www
+
+/home/bitnami/blogger/app.js:6
+import 'node_modules/bootstrap/dist/css/bootstrap.css';
+^^^^^^
+
+SyntaxError: Cannot use import statement outside a module
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/bitnami/blogger/bin/www:7:11)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+/home/bitnami/blogger/app.js:6
+import 'node_modules/bootstrap/dist/css/bootstrap.css';
+^^^^^^
+
+SyntaxError: Cannot use import statement outside a module
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/bitnami/blogger/bin/www:7:11)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+
+> blogger@0.0.0 start
+> node ./bin/www
+
+/home/bitnami/blogger/app.js:6
+import 'node_modules/bootstrap/dist/css/bootstrap.css';
+^^^^^^
+
+SyntaxError: Cannot use import statement outside a module
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/bitnami/blogger/bin/www:7:11)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+
+> blogger@0.0.0 start
+> node ./bin/www
+
+/home/bitnami/blogger/app.js:6
+import 'node_modules/bootstrap/dist/css/bootstrap.css';
+^^^^^^
+
+SyntaxError: Cannot use import statement outside a module
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/bitnami/blogger/bin/www:7:11)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+/home/bitnami/blogger/app.js:6
+import 'node_modules/bootstrap/dist/css/bootstrap.css';
+^^^^^^
+
+SyntaxError: Cannot use import statement outside a module
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/bitnami/blogger/bin/www:7:11)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+
+> blogger@0.0.0 start
+> node ./bin/www
+
+/home/bitnami/blogger/app.js:6
+import 'node_modules/bootstrap/dist/css/bootstrap.css';
+^^^^^^
+
+SyntaxError: Cannot use import statement outside a module
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/bitnami/blogger/bin/www:7:11)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+
+> blogger@0.0.0 start
+> node ./bin/www
+
+/home/bitnami/blogger/app.js:6
+import 'node_modules/bootstrap/dist/css/bootstrap.css';
+^^^^^^
+
+SyntaxError: Cannot use import statement outside a module
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/bitnami/blogger/bin/www:7:11)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0

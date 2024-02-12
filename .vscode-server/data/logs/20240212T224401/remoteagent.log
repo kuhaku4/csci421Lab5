@@ -1,0 +1,26 @@
+2024-02-12 22:44:01.856 [info] 
+
+
+
+
+2024-02-12 22:44:01.872 [info] Extension host agent started.
+2024-02-12 22:44:01.991 [info] [<unknown>][2395c999][ManagementConnection] New connection established.
+2024-02-12 22:44:02.004 [info] [<unknown>][d280fe6c][ExtensionHostConnection] New connection established.
+2024-02-12 22:44:02.126 [info] [<unknown>][d280fe6c][ExtensionHostConnection] <23209> Launched Extension Host Process.
+2024-02-12 22:44:08.756 [info] [<unknown>][27758c3c][ManagementConnection] New connection established.
+2024-02-12 22:44:08.775 [info] [<unknown>][41fd9fb7][ExtensionHostConnection] New connection established.
+2024-02-12 22:44:08.782 [info] [<unknown>][41fd9fb7][ExtensionHostConnection] <23300> Launched Extension Host Process.
+2024-02-12 22:49:01.874 [info] New EH opened, aborting shutdown
+2024-02-12 22:49:01.875 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-31c37ee8f63491495ac49e43b8544550fbae4533/server/out/vs/server/node/server.main.js:187:6090)
+    at process.emit (node:events:514:28)
+2024-02-12 22:49:08.986 [info] [<unknown>][d280fe6c][ExtensionHostConnection] <23209> Extension Host Process exited with code: 0, signal: null.
+2024-02-12 22:51:09.478 [info] [<unknown>][945c9d2e][ManagementConnection] New connection established.
+2024-02-12 22:51:09.486 [info] [<unknown>][e7e6164d][ExtensionHostConnection] New connection established.
+2024-02-12 22:51:09.498 [info] [<unknown>][e7e6164d][ExtensionHostConnection] <25418> Launched Extension Host Process.
+2024-02-12 22:51:15.759 [info] [<unknown>][1fe2ca23][ManagementConnection] New connection established.
+2024-02-12 22:51:15.779 [info] [<unknown>][42712d4a][ExtensionHostConnection] New connection established.
+2024-02-12 22:51:15.790 [info] [<unknown>][42712d4a][ExtensionHostConnection] <25505> Launched Extension Host Process.
+2024-02-12 22:51:25.198 [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/bitnami)
+2024-02-12 22:56:10.155 [info] [<unknown>][41fd9fb7][ExtensionHostConnection] <23300> Extension Host Process exited with code: 0, signal: null.
+2024-02-12 22:56:16.112 [info] [<unknown>][e7e6164d][ExtensionHostConnection] <25418> Extension Host Process exited with code: 0, signal: null.

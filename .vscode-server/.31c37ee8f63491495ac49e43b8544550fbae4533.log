@@ -5,28 +5,23 @@
 * the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
 * the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
 *
-Server bound to 127.0.0.1:33783 (IPv4)
-Extension host agent listening on 33783
+Server bound to 127.0.0.1:33041 (IPv4)
+Extension host agent listening on 33041
 
-[15:50:03] 
-
-
+[21:48:06] 
 
 
-[15:50:03] Extension host agent started.
-[15:50:04] [127.0.0.1][b6335551][ManagementConnection] New connection established.
-[15:50:04] [127.0.0.1][f1563a58][ExtensionHostConnection] New connection established.
-[15:50:04] [127.0.0.1][f1563a58][ExtensionHostConnection] <13011> Launched Extension Host Process.
-New EH opened, aborting shutdown
-[15:55:03] New EH opened, aborting shutdown
-[16:19:14] [127.0.0.1][b6335551][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
-[16:19:14] [127.0.0.1][f1563a58][ExtensionHostConnection] <13011> Extension Host Process exited with code: 0, signal: null.
-Last EH closed, waiting before shutting down
-[16:19:14] Last EH closed, waiting before shutting down
-Got delay-shutdown request while in shutdown timeout, delaying
-[16:19:23] Got delay-shutdown request while in shutdown timeout, delaying
+
+
+[21:48:06] Extension host agent started.
+[21:48:06] [127.0.0.1][12897b39][ManagementConnection] New connection established.
+[21:48:06] [127.0.0.1][79d4b854][ExtensionHostConnection] New connection established.
+[21:48:06] [127.0.0.1][79d4b854][ExtensionHostConnection] <22532> Launched Extension Host Process.
+[21:48:14] [127.0.0.1][12897b39][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[21:48:14] [127.0.0.1][79d4b854][ExtensionHostConnection] <22532> Extension Host Process exited with code: 0, signal: null.
 Cancelling previous shutdown timeout
-[16:19:23] Cancelling previous shutdown timeout
-[16:19:23] [127.0.0.1][fbb26922][ManagementConnection] New connection established.
-[16:19:23] [127.0.0.1][62318518][ExtensionHostConnection] New connection established.
-[16:19:23] [127.0.0.1][62318518][ExtensionHostConnection] <18052> Launched Extension Host Process.
+[21:48:14] Cancelling previous shutdown timeout
+Last EH closed, waiting before shutting down
+[21:48:14] Last EH closed, waiting before shutting down
+Last EH closed, shutting down
+[21:53:14] Last EH closed, shutting down

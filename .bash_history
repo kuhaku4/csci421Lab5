@@ -340,3 +340,64 @@ npm install
 npm audit fix --force
 npm install
 npm install bootstrap@5.2.3
+cd blogger2
+ps aux | grep node
+sudo kill -9 3559
+sudo kill -9 3560
+nohup sudo PORT=80 npm start &
+exit
+cd blogger2
+ps aux | grep node
+nohup sudo PORT=80 npm start &
+ps aux | grep node
+cd blogger2
+nohup sudo PORT=80 npm start &
+exit
+cd blogger
+nohup sudo PORT=80 npm start &
+exit
+cd blogger
+nohup sudo node ./bin/www &
+exit
+ps aux | grep node
+sudo kill -9 2297
+sudo kill -9 2298
+cd blogger2
+nohup sudo npm start &
+exit
+cd blogger
+nohup sudo PORT=80 npm start &
+ps aux | grep node
+nohup sudo PORT=80 npm start &
+exit
+cd blogger
+nohup sudo node ./bin/www &
+exit
+cd blogger2
+nohup sudo node ./bin/www &
+exit
+cd blogger2
+nohup sudo PORT=80 node ./bin/www &
+ps aux | grep node
+nohup sudo PORT=80 node ./bin/www &
+ps aux | grep node
+exit
+cd blogger2
+nohup sudo PORT=80 node ./bin/www &
+ps aux | grep node
+nohup sudo PORT=80 npm start &
+ps aux | grep node
+cd blogger2
+nohup sudo PORT=80 npm start &
+ps aux | grep node
+cd bin
+nohup sudo node ./www &
+exit
+ps aux | grep node
+cd blogger
+nohup sudo PORT=80 npm start &
+exit
+cd blogger
+ls
+nohup sudo PORT=80 npm start &
+exit

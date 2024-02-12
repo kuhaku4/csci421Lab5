@@ -1,0 +1,27 @@
+2024-02-12 22:56:46.928 [info] 
+
+
+
+
+2024-02-12 22:56:46.951 [info] Extension host agent started.
+2024-02-12 22:56:47.072 [error] [<unknown>][1fe2ca23][ManagementConnection] Unknown reconnection token (never seen).
+2024-02-12 22:57:06.047 [info] [<unknown>][dc63ea88][ExtensionHostConnection] New connection established.
+2024-02-12 22:57:06.048 [info] [<unknown>][ac78f3a3][ManagementConnection] New connection established.
+2024-02-12 22:57:06.053 [info] [<unknown>][dc63ea88][ExtensionHostConnection] <1237> Launched Extension Host Process.
+2024-02-12 22:57:13.474 [info] [<unknown>][47474a81][ManagementConnection] New connection established.
+2024-02-12 22:57:13.518 [info] [<unknown>][90485f53][ExtensionHostConnection] New connection established.
+2024-02-12 22:57:13.524 [info] [<unknown>][90485f53][ExtensionHostConnection] <1334> Launched Extension Host Process.
+2024-02-12 23:01:46.965 [info] New EH opened, aborting shutdown
+2024-02-12 23:01:46.971 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-31c37ee8f63491495ac49e43b8544550fbae4533/server/out/vs/server/node/server.main.js:187:6090)
+    at process.emit (node:events:514:28)
+2024-02-12 23:02:13.777 [info] [<unknown>][dc63ea88][ExtensionHostConnection] <1237> Extension Host Process exited with code: 0, signal: null.
+2024-02-12 23:03:50.031 [info] [<unknown>][1a0b829e][ManagementConnection] New connection established.
+2024-02-12 23:03:50.035 [info] [<unknown>][fddfa649][ExtensionHostConnection] New connection established.
+2024-02-12 23:03:50.046 [info] [<unknown>][fddfa649][ExtensionHostConnection] <3891> Launched Extension Host Process.
+2024-02-12 23:03:57.646 [info] [<unknown>][9b50f571][ManagementConnection] New connection established.
+2024-02-12 23:03:57.649 [info] [<unknown>][fbda7aa6][ExtensionHostConnection] New connection established.
+2024-02-12 23:03:57.656 [info] [<unknown>][fbda7aa6][ExtensionHostConnection] <3979> Launched Extension Host Process.
+2024-02-12 23:04:01.558 [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/bitnami)
+2024-02-12 23:08:51.002 [info] [<unknown>][90485f53][ExtensionHostConnection] <1334> Extension Host Process exited with code: 0, signal: null.
+2024-02-12 23:08:58.172 [info] [<unknown>][fddfa649][ExtensionHostConnection] <3891> Extension Host Process exited with code: 0, signal: null.

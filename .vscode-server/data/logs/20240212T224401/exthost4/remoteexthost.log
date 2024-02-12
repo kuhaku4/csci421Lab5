@@ -1,0 +1,16 @@
+2024-02-12 22:51:16.634 [info] Extension host with pid 25505 started
+2024-02-12 22:51:16.634 [error] Error: EEXIST: file already exists, open '/home/bitnami/.vscode-server/data/User/workspaceStorage/d866cbe83da49e127745e557969ca682/vscode.lock'
+2024-02-12 22:51:16.641 [info] Lock '/home/bitnami/.vscode-server/data/User/workspaceStorage/d866cbe83da49e127745e557969ca682/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-02-12 22:51:16.655 [info] Lock '/home/bitnami/.vscode-server/data/User/workspaceStorage/d866cbe83da49e127745e557969ca682/vscode.lock': The lock does not look stale, elapsed: 210 ms, giving up.
+2024-02-12 22:51:16.661 [info] Lock '/home/bitnami/.vscode-server/data/User/workspaceStorage/d866cbe83da49e127745e557969ca682-1/vscode.lock': Lock acquired.
+2024-02-12 22:51:16.916 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2024-02-12 22:51:16.917 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-02-12 22:51:17.472 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-02-12 22:51:17.487 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2024-02-12 22:51:18.064 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-02-12 22:51:18.065 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-02-12 22:51:19.696 [info] Eager extensions activated
+2024-02-12 22:51:19.714 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-02-12 22:51:19.720 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-02-12 22:51:23.520 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6068
+2024-02-12 22:51:26.969 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6068
