@@ -18,3 +18,5 @@
 2024-02-12 23:04:03.149 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
 2024-02-12 23:04:06.516 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6111
 2024-02-12 23:04:09.734 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6112
+2024-02-12 23:11:31.588 [warning] [Decorations] CAPPING events from decorations provider vscode.git 6112
+2024-02-12 23:30:04.610 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'

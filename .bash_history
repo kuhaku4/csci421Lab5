@@ -401,3 +401,37 @@ cd blogger
 ls
 nohup sudo PORT=80 npm start &
 exit
+cd blogger
+nohup sudo npm start &
+exit
+cd blogger
+ps aux | grep node
+cd
+cd myapp
+nohup sudo PORT=3000 npm start &
+exit
+cd blogger
+nohup sudo PORT=80 npm start &
+exit
+cd blogger
+nohup sudo PORT=80 npm start &
+nohup sudo node ./bin/www &
+nohup sudo PORT=80 npm start &
+nodemon
+sudo nodemon
+cd
+git remote add origin https://github.com/kuhaku4/csci421-lab3.git
+ls
+cd ./.git
+ls
+cd
+git remote remove origin
+git remote add origin https://github.com/kuhaku4/csci421-lab3.git
+git branch -M main
+git push -u origin main
+cd blogger
+sudo nodemon
+exit
+cd blogger
+nohup sudo nodemon
+exit
