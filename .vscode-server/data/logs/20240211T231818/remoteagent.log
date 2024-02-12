@@ -180,3 +180,7 @@
 2024-02-12 00:06:09.865 [info] [127.0.0.1][db9b6c0a][ExtensionHostConnection] New connection established.
 2024-02-12 00:06:09.903 [info] [127.0.0.1][db9b6c0a][ExtensionHostConnection] <4543> Launched Extension Host Process.
 2024-02-12 00:11:12.126 [info] [127.0.0.1][6ecf0ea8][ExtensionHostConnection] <1444> Extension Host Process exited with code: 0, signal: null.
+2024-02-12 00:29:09.068 [info] [127.0.0.1][4093ec6c][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-02-12 00:29:09.518 [info] [127.0.0.1][db9b6c0a][ExtensionHostConnection] <4543> Extension Host Process exited with code: 0, signal: null.
+2024-02-12 00:29:09.518 [info] Last EH closed, waiting before shutting down
+2024-02-12 00:34:09.519 [info] Last EH closed, shutting down

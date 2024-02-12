@@ -335,3 +335,8 @@ sudo kill -9 2723
 sudo kill -9 2724
 nohup sudo PORT=80 npm start &
 exit
+cd blogger
+npm install
+npm audit fix --force
+npm install
+npm install bootstrap@5.2.3
