@@ -5,30 +5,23 @@
 * the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
 * the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
 *
-Server bound to 127.0.0.1:39127 (IPv4)
-Extension host agent listening on 39127
+Server bound to 127.0.0.1:41451 (IPv4)
+Extension host agent listening on 41451
 
-[00:20:27] 
-
-
+[01:08:45] 
 
 
-[00:20:27] Extension host agent started.
-[00:20:28] [127.0.0.1][60b4415e][ManagementConnection] New connection established.
-[00:20:28] [127.0.0.1][8156a49a][ExtensionHostConnection] New connection established.
-[00:20:28] [127.0.0.1][8156a49a][ExtensionHostConnection] <1462> Launched Extension Host Process.
-[00:20:33] [127.0.0.1][60b4415e][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
-[00:20:33] [127.0.0.1][8156a49a][ExtensionHostConnection] <1462> Extension Host Process exited with code: 0, signal: null.
+
+
+[01:08:45] Extension host agent started.
+[01:08:46] [127.0.0.1][9181433e][ManagementConnection] New connection established.
+[01:08:46] [127.0.0.1][6b0ef6c9][ExtensionHostConnection] New connection established.
+[01:08:46] [127.0.0.1][6b0ef6c9][ExtensionHostConnection] <6372> Launched Extension Host Process.
+[01:08:51] [127.0.0.1][9181433e][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[01:08:51] [127.0.0.1][6b0ef6c9][ExtensionHostConnection] <6372> Extension Host Process exited with code: 0, signal: null.
 Cancelling previous shutdown timeout
-[00:20:33] Cancelling previous shutdown timeout
+[01:08:51] Cancelling previous shutdown timeout
 Last EH closed, waiting before shutting down
-[00:20:33] Last EH closed, waiting before shutting down
-Got delay-shutdown request while in shutdown timeout, delaying
-[00:20:35] Got delay-shutdown request while in shutdown timeout, delaying
-Cancelling previous shutdown timeout
-[00:20:35] Cancelling previous shutdown timeout
-[00:20:35] [127.0.0.1][6a321418][ManagementConnection] New connection established.
-[00:20:35] [127.0.0.1][02112962][ExtensionHostConnection] New connection established.
-[00:20:35] [127.0.0.1][02112962][ExtensionHostConnection] <1569> Launched Extension Host Process.
-New EH opened, aborting shutdown
-[00:25:35] New EH opened, aborting shutdown
+[01:08:51] Last EH closed, waiting before shutting down
+Last EH closed, shutting down
+[01:13:51] Last EH closed, shutting down

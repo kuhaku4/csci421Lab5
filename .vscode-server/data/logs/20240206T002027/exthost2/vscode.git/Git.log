@@ -455,3 +455,81 @@
 2024-02-06 00:33:57.404 [info] > git config --get commit.template [8ms]
 2024-02-06 00:33:57.404 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
 2024-02-06 00:33:57.553 [info] > git status -z -uall [142ms]
+2024-02-06 00:34:01.123 [info] > git add -A -- . [3672ms]
+2024-02-06 00:34:01.138 [info] warning: CRLF will be replaced by LF in blogger/node_modules/void-elements/.gitattributes.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in blogger/node_modules/void-elements/.npmignore.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in blogger/node_modules/void-elements/.travis.yml.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in blogger/node_modules/void-elements/LICENSE.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in blogger/node_modules/void-elements/README.md.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in blogger/node_modules/void-elements/pre-publish.js.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in blogger/node_modules/void-elements/test/index.js.
+The file will have its original line endings in your working directory
+2024-02-06 00:34:02.615 [info] > git show --textconv :.git/COMMIT_EDITMSG [17ms]
+2024-02-06 00:34:02.618 [info] > git ls-files --stage -- /home/bitnami/.git/COMMIT_EDITMSG [7ms]
+2024-02-06 00:34:02.966 [info] > git check-ignore -v -z --stdin [5ms]
+2024-02-06 00:34:03.033 [info] > git ls-files --stage -- /home/bitnami/.git/COMMIT_EDITMSG [5ms]
+2024-02-06 00:34:03.074 [info] > git show --textconv :.git/COMMIT_EDITMSG [6ms]
+2024-02-06 00:34:08.139 [info] > git -c user.useConfigOnly=true commit --quiet [6988ms]
+2024-02-06 00:34:08.139 [info] warning: The last gc run reported the following. Please correct the root cause
+and remove .git/gc.log.
+Automatic cleanup will not be performed until the file is removed.
+
+error: pack-objects died of signal 9
+fatal: failed to run repack
+2024-02-06 00:34:08.159 [info] > git config --get commit.template [9ms]
+2024-02-06 00:34:08.165 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2024-02-06 00:34:08.321 [info] > git status -z -uall [146ms]
+2024-02-06 00:34:08.380 [info] > git config --get commit.template [6ms]
+2024-02-06 00:34:08.410 [info] > git show --textconv :blogger/views/blogList.pug [20ms]
+2024-02-06 00:34:08.412 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-02-06 00:34:08.412 [info] > git ls-files --stage -- /home/bitnami/blogger/views/blogList.pug [12ms]
+2024-02-06 00:34:08.428 [info] > git cat-file -s 1cac489f482f0bbec49f0e85e70bdce916037c12 [9ms]
+2024-02-06 00:34:08.512 [info] > git merge-base refs/heads/main refs/remotes/origin/main [8ms]
+2024-02-06 00:34:08.535 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [9ms]
+2024-02-06 00:34:08.566 [info] > git status -z -uall [139ms]
+2024-02-06 00:34:09.257 [info] > git check-ignore -v -z --stdin [1ms]
+2024-02-06 00:34:09.263 [info] > git check-ignore -v -z --stdin [21ms]
+2024-02-06 00:34:09.308 [info] > git ls-files --stage -- /home/bitnami/blogger/views/blogList.pug [5ms]
+2024-02-06 00:34:09.319 [info] > git cat-file -s 1cac489f482f0bbec49f0e85e70bdce916037c12 [2ms]
+2024-02-06 00:34:09.349 [info] > git show --textconv :blogger/views/blogList.pug [6ms]
+2024-02-06 00:34:13.576 [info] > git push origin main:main [5213ms]
+2024-02-06 00:34:13.576 [info] To https://github.com/kuhaku4/csci421.git
+   3fcc8ce..5bcb3d0  main -> main
+2024-02-06 00:34:13.594 [info] > git config --get commit.template [9ms]
+2024-02-06 00:34:13.595 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-06 00:34:13.694 [info] > git status -z -uall [92ms]
+2024-02-06 00:34:13.733 [info] > git merge-base refs/heads/main refs/remotes/origin/main [2ms]
+2024-02-06 00:34:13.745 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [2ms]
+2024-02-06 00:34:13.796 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-06 00:34:13.797 [info] > git config --get commit.template [13ms]
+2024-02-06 00:34:13.899 [info] > git status -z -uall [94ms]
+2024-02-06 00:34:14.933 [info] > git ls-files --stage -- /home/bitnami/blogger/views/blogList.pug [6ms]
+2024-02-06 00:34:14.943 [info] > git cat-file -s 1cac489f482f0bbec49f0e85e70bdce916037c12 [1ms]
+2024-02-06 00:34:14.975 [info] > git show --textconv :blogger/views/blogList.pug [7ms]
+2024-02-06 00:34:15.559 [info] > git config --get commit.template [9ms]
+2024-02-06 00:34:15.560 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-06 00:34:15.675 [info] > git status -z -uall [107ms]
+2024-02-06 00:34:20.702 [info] > git config --get commit.template [13ms]
+2024-02-06 00:34:20.703 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-06 00:34:20.809 [info] > git status -z -uall [97ms]
+2024-02-06 00:34:25.836 [info] > git config --get commit.template [8ms]
+2024-02-06 00:34:25.837 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-06 00:34:25.945 [info] > git status -z -uall [100ms]
+2024-02-06 00:34:30.976 [info] > git config --get commit.template [14ms]
+2024-02-06 00:34:30.978 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-06 00:34:31.080 [info] > git status -z -uall [92ms]
+2024-02-06 00:34:49.480 [info] > git config --get commit.template [10ms]
+2024-02-06 00:34:49.481 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-06 00:34:49.578 [info] > git status -z -uall [88ms]
+2024-02-06 00:34:54.593 [info] > git config --get commit.template [2ms]
+2024-02-06 00:34:54.607 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-02-06 00:34:54.709 [info] > git status -z -uall [87ms]
+2024-02-06 00:34:59.738 [info] > git config --get commit.template [13ms]
+2024-02-06 00:34:59.738 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-06 00:34:59.832 [info] > git status -z -uall [87ms]

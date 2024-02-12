@@ -1,0 +1,362 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to 127.0.0.1:42561 (IPv4)
+Extension host agent listening on 42561
+
+[23:18:18] 
+
+
+
+
+[23:18:18] Extension host agent started.
+[23:18:18] [127.0.0.1][34713826][ManagementConnection] New connection established.
+[23:18:18] [127.0.0.1][0340d537][ExtensionHostConnection] New connection established.
+[23:18:18] [127.0.0.1][0340d537][ExtensionHostConnection] <1343> Launched Extension Host Process.
+[23:18:22] [127.0.0.1][34713826][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[23:18:22] [127.0.0.1][0340d537][ExtensionHostConnection] <1343> Extension Host Process exited with code: 0, signal: null.
+Cancelling previous shutdown timeout
+[23:18:22] Cancelling previous shutdown timeout
+Last EH closed, waiting before shutting down
+[23:18:22] Last EH closed, waiting before shutting down
+Got delay-shutdown request while in shutdown timeout, delaying
+[23:18:23] Got delay-shutdown request while in shutdown timeout, delaying
+Cancelling previous shutdown timeout
+[23:18:23] Cancelling previous shutdown timeout
+[23:18:23] [127.0.0.1][117dc8cd][ManagementConnection] New connection established.
+[23:18:24] [127.0.0.1][6ecf0ea8][ExtensionHostConnection] New connection established.
+[23:18:24] [127.0.0.1][6ecf0ea8][ExtensionHostConnection] <1444> Launched Extension Host Process.
+New EH opened, aborting shutdown
+[23:23:23] New EH opened, aborting shutdown
+[23:45:33] [127.0.0.1][117dc8cd][ManagementConnection] The client has reconnected.
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:32407)
+    at A.updateIcon (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:27592)
+    at U.<computed> (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:22765)
+    at Object.call (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at $.s (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at $.q (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at d.y (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at d.fire (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ne (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:25:10072)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[23:45:34] Error [CodeExpectedError]: Could not find pty on pty host
+    at A.U (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:32407)
+    at A.updateIcon (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:27592)
+    at U.<computed> (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:22765)
+    at Object.call (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at $.s (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at $.q (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at d.y (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at d.fire (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ne (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:25:10072)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:32407)
+    at A.updateTitle (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:27539)
+    at U.<computed> (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:22765)
+    at Object.call (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at $.s (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at $.q (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at d.y (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at d.fire (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ne (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:25:10072)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[23:45:34] Error [CodeExpectedError]: Could not find pty on pty host
+    at A.U (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:32407)
+    at A.updateTitle (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:27539)
+    at U.<computed> (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:22765)
+    at Object.call (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at $.s (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at $.q (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at d.y (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at d.fire (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ne (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:25:10072)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[23:46:07] [127.0.0.1][6ecf0ea8][ExtensionHostConnection] The client has reconnected.
+[23:48:40] No ptyHost heartbeat after 6 seconds
+[23:52:22] No ptyHost heartbeat after 6 seconds
+[23:59:28] No ptyHost heartbeat after 6 seconds
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:32407)
+    at A.updateIcon (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:27592)
+    at U.<computed> (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:22765)
+    at Object.call (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at $.s (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at $.q (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at d.y (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at d.fire (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ne (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:25:10072)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[23:59:31] Error [CodeExpectedError]: Could not find pty on pty host
+    at A.U (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:32407)
+    at A.updateIcon (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:27592)
+    at U.<computed> (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:22765)
+    at Object.call (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at $.s (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at $.q (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at d.y (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at d.fire (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ne (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:25:10072)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:32407)
+    at A.updateTitle (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:27539)
+    at U.<computed> (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:22765)
+    at Object.call (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at $.s (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at $.q (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at d.y (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at d.fire (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ne (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:25:10072)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[23:59:31] Error [CodeExpectedError]: Could not find pty on pty host
+    at A.U (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:32407)
+    at A.updateTitle (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:27539)
+    at U.<computed> (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:22765)
+    at Object.call (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at $.s (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at $.q (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at d.y (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at d.fire (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ne (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:25:10072)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:32407)
+    at A.updateTitle (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:27539)
+    at U.<computed> (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:22765)
+    at Object.call (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at $.s (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at $.q (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at d.y (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at d.fire (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ne (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:25:10072)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[23:59:31] Error [CodeExpectedError]: Could not find pty on pty host
+    at A.U (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:32407)
+    at A.updateTitle (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:27539)
+    at U.<computed> (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:22765)
+    at Object.call (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at $.s (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at $.q (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at d.y (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at d.fire (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ne (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:25:10072)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:32407)
+    at A.updateIcon (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:27592)
+    at U.<computed> (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:22765)
+    at Object.call (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at $.s (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at $.q (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at d.y (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at d.fire (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ne (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:25:10072)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[23:59:31] Error [CodeExpectedError]: Could not find pty on pty host
+    at A.U (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:32407)
+    at A.updateIcon (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:27592)
+    at U.<computed> (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:22765)
+    at Object.call (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at $.s (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at $.q (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at d.y (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at d.fire (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ne (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:25:10072)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:32407)
+    at A.updateTitle (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:27539)
+    at U.<computed> (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:22765)
+    at Object.call (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at $.s (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at $.q (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at d.y (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at d.fire (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ne (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:25:10072)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[23:59:31] Error [CodeExpectedError]: Could not find pty on pty host
+    at A.U (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:32407)
+    at A.updateTitle (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:27539)
+    at U.<computed> (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:22765)
+    at Object.call (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at $.s (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at $.q (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at d.y (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at d.fire (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ne (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:25:10072)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:32407)
+    at A.updateTitle (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:27539)
+    at U.<computed> (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:22765)
+    at Object.call (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at $.s (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at $.q (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at d.y (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at d.fire (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ne (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:25:10072)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[23:59:31] Error [CodeExpectedError]: Could not find pty on pty host
+    at A.U (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:32407)
+    at A.updateTitle (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:27539)
+    at U.<computed> (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:22765)
+    at Object.call (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at $.s (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at $.q (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at d.y (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at d.fire (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ne (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:25:10072)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:32407)
+    at A.updateIcon (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:27592)
+    at U.<computed> (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:22765)
+    at Object.call (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at $.s (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at $.q (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at d.y (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at d.fire (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ne (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:25:10072)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[23:59:31] Error [CodeExpectedError]: Could not find pty on pty host
+    at A.U (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:32407)
+    at A.updateIcon (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:27592)
+    at U.<computed> (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:22765)
+    at Object.call (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at $.s (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at $.q (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at d.y (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at d.fire (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ne (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:25:10072)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:32407)
+    at A.updateTitle (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:27539)
+    at U.<computed> (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:22765)
+    at Object.call (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at $.s (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at $.q (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at d.y (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at d.fire (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ne (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:25:10072)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[23:59:31] Error [CodeExpectedError]: Could not find pty on pty host
+    at A.U (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:32407)
+    at A.updateTitle (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:27539)
+    at U.<computed> (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:22765)
+    at Object.call (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at $.s (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at $.q (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at d.y (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at d.fire (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ne (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:25:10072)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:32407)
+    at A.updateTitle (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:27539)
+    at U.<computed> (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:22765)
+    at Object.call (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at $.s (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at $.q (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at d.y (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at d.fire (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ne (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:25:10072)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[23:59:31] Error [CodeExpectedError]: Could not find pty on pty host
+    at A.U (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:32407)
+    at A.updateTitle (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:27539)
+    at U.<computed> (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:22765)
+    at Object.call (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at $.s (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at $.q (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at d.y (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at d.fire (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ne (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:25:10072)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[00:06:09] [127.0.0.1][4093ec6c][ManagementConnection] New connection established.
+[00:06:09] [127.0.0.1][db9b6c0a][ExtensionHostConnection] New connection established.
+[00:06:09] [127.0.0.1][db9b6c0a][ExtensionHostConnection] <4543> Launched Extension Host Process.
+[00:11:12] [127.0.0.1][6ecf0ea8][ExtensionHostConnection] <1444> Extension Host Process exited with code: 0, signal: null.

@@ -149,3 +149,103 @@ Port 3000 is already in use
 > myapp@0.0.0 start
 > node ./bin/www
 
+[0mGET / [32m200 [0m703.128 ms - 302[0m
+[0mGET / [32m200 [0m13.740 ms - 302[0m
+[0mGET / [32m200 [0m9.235 ms - 302[0m
+[0mGET / [32m200 [0m8.053 ms - 302[0m
+[0mGET / [32m200 [0m9.434 ms - 302[0m
+[0mGET /39z4s0o5pk [33m404 [0m18.480 ms - 1012[0m
+[0mGET / [32m200 [0m9.331 ms - 302[0m
+[0mGET /user/login [33m404 [0m8.009 ms - 1012[0m
+[0mGET / [32m200 [0m9.301 ms - 302[0m
+[0mGET /ui/authentication [33m404 [0m6.488 ms - 1012[0m
+[0mGET / [32m200 [0m7.456 ms - 302[0m
+[0mGET /favicon.ico [33m404 [0m6.623 ms - 1012[0m
+[0mGET / [32m200 [0m6.105 ms - 302[0m
+[0mGET / [32m200 [0m5.675 ms - 302[0m
+[0mGET / [32m200 [0m7.126 ms - 302[0m
+[0mGET / [32m200 [0m5.925 ms - 302[0m
+[0mGET / [32m200 [0m5.142 ms - 302[0m
+[0mGET /ui/authentication [33m404 [0m7.024 ms - 1012[0m
+[0mGET / [32m200 [0m5.259 ms - 302[0m
+[0mGET /favicon.ico [33m404 [0m6.119 ms - 1012[0m
+[0mGET / [32m200 [0m7.642 ms - 302[0m
+[0mGET / [32m200 [0m14.659 ms - 302[0m
+[0mGET /favicon.ico [33m404 [0m5.648 ms - 1012[0m
+[0mGET / [32m200 [0m5.180 ms - 302[0m
+[0mGET / [32m200 [0m6.689 ms - 302[0m
+[0mGET / [32m200 [0m5.261 ms - 302[0m
+[0mGET /stylesheets/style.css [32m200 [0m5.138 ms - 111[0m
+[0mGET /favicon.ico [33m404 [0m7.294 ms - 1012[0m
+[0mGET /bio [32m200 [0m16.071 ms - 456[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.280 ms - -[0m
+[0mGET / [32m200 [0m5.340 ms - 302[0m
+[0mGET / [32m200 [0m4.584 ms - 302[0m
+[0mGET / [32m200 [0m10.022 ms - 302[0m
+[0mGET /ui/authentication [33m404 [0m4.596 ms - 1012[0m
+[0mGET / [32m200 [0m6.964 ms - 302[0m
+[0mGET / [32m200 [0m7.460 ms - 302[0m
+[0mGET /favicon.ico [33m404 [0m7.673 ms - 1012[0m
+[0mGET / [32m200 [0m4.843 ms - 302[0m
+[0mGET / [32m200 [0m8.827 ms - 302[0m
+[0mGET / [32m200 [0m6.013 ms - 302[0m
+[0mGET /ui/authentication [33m404 [0m4.827 ms - 1012[0m
+[0mGET / [32m200 [0m6.872 ms - 302[0m
+[0mGET / [32m200 [0m6.067 ms - 302[0m
+[0mGET / [32m200 [0m4.581 ms - 302[0m
+[0mGET /ui/authentication [33m404 [0m4.782 ms - 1012[0m
+[0mGET / [32m200 [0m5.245 ms - 302[0m
+[0mGET / [32m200 [0m9.564 ms - 302[0m
+[0mGET / [32m200 [0m5.851 ms - 302[0m
+[0mGET /favicon.ico [33m404 [0m5.241 ms - 1012[0m
+[0mGET / [32m200 [0m5.068 ms - 302[0m
+[0mGET / [32m200 [0m6.699 ms - 302[0m
+[0mGET / [32m200 [0m6.171 ms - 302[0m
+[0mGET / [32m200 [0m4.024 ms - 302[0m
+[0mGET /ui/authentication [33m404 [0m4.446 ms - 1012[0m
+[0mGET / [32m200 [0m4.591 ms - 302[0m
+[0mGET / [32m200 [0m7.169 ms - 302[0m
+
+> myapp@0.0.0 start
+> node ./bin/www
+
+
+> myapp@0.0.0 start
+> node ./bin/www
+
+Port 3000 is already in use
+[0mGET / [32m200 [0m558.434 ms - 302[0m
+[0mGET /stylesheets/style.css [32m200 [0m3.395 ms - 111[0m
+[0mGET /favicon.ico [33m404 [0m16.229 ms - 1012[0m
+[0mGET / [36m304 [0m10.865 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.163 ms - -[0m
+[0mGET / [36m304 [0m10.685 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.426 ms - -[0m
+[0mGET / [36m304 [0m8.128 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.640 ms - -[0m
+[0mGET / [36m304 [0m23.133 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.423 ms - -[0m
+[0mGET / [36m304 [0m9.738 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.534 ms - -[0m
+[0mGET / [36m304 [0m8.024 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.669 ms - -[0m
+[0mGET / [36m304 [0m11.802 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.419 ms - -[0m
+[0mGET / [36m304 [0m11.567 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.550 ms - -[0m
+[0mGET / [36m304 [0m6.518 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.541 ms - -[0m
+[0mGET / [36m304 [0m13.686 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.535 ms - -[0m
+[0mGET / [36m304 [0m6.587 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.519 ms - -[0m
+[0mGET / [36m304 [0m626.766 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m11.322 ms - -[0m
+
+> myapp@0.0.0 start
+> node ./bin/www
+
+[0mGET / [32m200 [0m552.386 ms - 302[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.318 ms - -[0m
+[0mGET / [32m200 [0m386.827 ms - 302[0m
+[0mGET /stylesheets/style.css [36m304 [0m5.474 ms - -[0m

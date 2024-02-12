@@ -1,0 +1,43 @@
+2024-02-06 01:08:48.901 [info] Log level: Info
+2024-02-06 01:08:48.901 [info] Validating found git in: "git"
+2024-02-06 01:08:48.901 [info] Using git "2.30.2" from "git"
+2024-02-06 01:08:48.901 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-06 01:08:48.901 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-02-06 01:08:48.901 [info] Open repository: /home/bitnami
+2024-02-06 01:08:48.901 [info] > git rev-parse --show-toplevel [9ms]
+2024-02-06 01:08:48.901 [info] > git config --get commit.template [13ms]
+2024-02-06 01:08:48.901 [info] > git rev-parse --show-toplevel [8ms]
+2024-02-06 01:08:48.901 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [18ms]
+2024-02-06 01:08:48.901 [info] > git rev-parse --show-toplevel [11ms]
+2024-02-06 01:08:48.911 [info] > git rev-parse --show-toplevel [11ms]
+2024-02-06 01:08:49.044 [info] > git rev-parse --show-toplevel [116ms]
+2024-02-06 01:08:49.067 [info] > git rev-parse --show-toplevel [8ms]
+2024-02-06 01:08:49.094 [info] > git rev-parse --show-toplevel [6ms]
+2024-02-06 01:08:49.114 [info] > git rev-parse --show-toplevel [4ms]
+2024-02-06 01:08:49.125 [info] > git status -z -uall [216ms]
+2024-02-06 01:08:49.126 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-06 01:08:49.168 [info] > git rev-parse --show-toplevel [14ms]
+2024-02-06 01:08:49.177 [info] > git config --get commit.template [10ms]
+2024-02-06 01:08:49.188 [info] > git rev-parse --show-toplevel [11ms]
+2024-02-06 01:08:49.197 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2024-02-06 01:08:49.200 [info] > git rev-parse --show-toplevel [3ms]
+2024-02-06 01:08:49.217 [info] > git rev-parse --show-toplevel [10ms]
+2024-02-06 01:08:49.336 [info] > git rev-parse --show-toplevel [105ms]
+2024-02-06 01:08:49.361 [info] > git status -z -uall [144ms]
+2024-02-06 01:08:49.361 [info] > git rev-parse --git-dir --git-common-dir [5ms]
+2024-02-06 01:08:49.367 [info] Open repository: /home/bitnami/todo
+2024-02-06 01:08:49.388 [info] > git config --get commit.template [9ms]
+2024-02-06 01:08:49.401 [info] > git rev-parse --show-toplevel [15ms]
+2024-02-06 01:08:49.408 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [14ms]
+2024-02-06 01:08:49.414 [warning] ENOENT: no such file or directory, open '/home/bitnami/todo/.git/refs/remotes/origin/master'
+2024-02-06 01:08:49.416 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2024-02-06 01:08:49.449 [info] > git status -z -uall [20ms]
+2024-02-06 01:08:49.539 [info] > git config --get commit.template [24ms]
+2024-02-06 01:08:49.700 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [162ms]
+2024-02-06 01:08:49.706 [warning] ENOENT: no such file or directory, open '/home/bitnami/todo/.git/refs/remotes/origin/master'
+2024-02-06 01:08:49.735 [info] > git check-ignore -v -z --stdin [38ms]
+2024-02-06 01:08:49.736 [info] > git rev-parse refs/remotes/origin/master [30ms]
+2024-02-06 01:08:49.744 [info] > git status -z -uall [2ms]
+2024-02-06 01:08:49.919 [info] > git show --textconv :blogger/views/blogList.pug [16ms]
+2024-02-06 01:08:49.929 [info] > git ls-files --stage -- /home/bitnami/blogger/views/blogList.pug [11ms]
+2024-02-06 01:08:49.937 [info] > git cat-file -s 1cac489f482f0bbec49f0e85e70bdce916037c12 [2ms]

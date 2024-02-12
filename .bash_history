@@ -270,3 +270,68 @@ sudo kill -9 4303
 sudo kill -9 4304
 nohup sudo PORT=80 npm start &
 exit
+cd blogger
+nohup sudo node ./bin/www &
+exit
+cd blogger
+cd
+nohup sudo node ./bin/www &
+exit
+ps aux | grep node
+sudo kill -9 2217
+sudo kill -9 2219
+cd blogger
+nohup sudo node ./bin/www &
+exit
+cd blogger
+nohup sudo node ./bin/www &
+exit
+ps aux | grep node
+cd blogger
+nohup sudo port=80 npm start &
+exit
+ls
+cd myapp
+nohup sudo PORT=3000 npm start &
+exit
+cd blogger
+ps aux | grep node
+nohup sudo PORT=80 npm start &
+ps aux | grep node
+exit
+cd myapp
+nohup sudo PORT=3000 npm start &
+exit
+cd blogger
+nohup sudo PORT=80 npm start &
+ps aux | grep node
+cd
+nohup sudo PORT=80 npm start &
+ps aux | grep node
+sudo kill -9 3156
+sudo kill -9 3157
+cd blogger
+nohup sudo PORT=80 npm start &
+exit
+cd blogger
+nohup sudo node ./bin/www &
+exit
+cd blogger
+nohup sudo npm start &
+nohup sudo PORT=80 npm start &
+ls
+cd blogger
+nohup sudo PORT=80 npm start &
+exit
+cd myapp
+nohup sudo PORT=3000 npm start &
+exit
+cd blogger
+nohup sudo PORT=80 npm start &
+exit
+cd blogger
+ps aux | grep node
+sudo kill -9 2723
+sudo kill -9 2724
+nohup sudo PORT=80 npm start &
+exit

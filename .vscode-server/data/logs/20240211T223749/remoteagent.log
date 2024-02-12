@@ -1,0 +1,46 @@
+2024-02-11 22:37:49.430 [info] 
+
+
+
+
+2024-02-11 22:37:49.451 [info] Extension host agent started.
+2024-02-11 22:37:49.595 [info] [127.0.0.1][ca4a470a][ManagementConnection] New connection established.
+2024-02-11 22:37:49.606 [info] [127.0.0.1][c29bc237][ExtensionHostConnection] New connection established.
+2024-02-11 22:37:49.755 [info] [127.0.0.1][c29bc237][ExtensionHostConnection] <1502> Launched Extension Host Process.
+2024-02-11 22:37:52.321 [error] CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:32407)
+    at A.updateTitle (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:27539)
+    at U.<computed> (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:22765)
+    at Object.call (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at $.s (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at $.q (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at d.y (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at d.fire (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ne (/home/bitnami/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:25:10072)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-02-11 22:37:54.194 [info] [127.0.0.1][ca4a470a][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-02-11 22:37:54.235 [info] [127.0.0.1][c29bc237][ExtensionHostConnection] <1502> Extension Host Process exited with code: 0, signal: null.
+2024-02-11 22:37:54.236 [info] Cancelling previous shutdown timeout
+2024-02-11 22:37:54.236 [info] Last EH closed, waiting before shutting down
+2024-02-11 22:37:56.441 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2024-02-11 22:37:56.442 [info] Cancelling previous shutdown timeout
+2024-02-11 22:37:56.655 [info] [127.0.0.1][0d8756a9][ManagementConnection] New connection established.
+2024-02-11 22:37:56.719 [info] [127.0.0.1][ea17e1bb][ExtensionHostConnection] New connection established.
+2024-02-11 22:37:56.727 [info] [127.0.0.1][ea17e1bb][ExtensionHostConnection] <1610> Launched Extension Host Process.
+2024-02-11 22:38:00.920 [error] [File Watcher (parcel)] Unexpected error: inotify_add_watch on '/home/bitnami/.vscode-server/data/logs/20240129T230301/exthost2/vscode.github' failed: No such file or directory (EUNKNOWN) (path: /home/bitnami)
+2024-02-11 22:38:00.922 [error] [File Watcher (universal)] restarting watcher after error: inotify_add_watch on '/home/bitnami/.vscode-server/data/logs/20240129T230301/exthost2/vscode.github' failed: No such file or directory
+2024-02-11 22:42:56.451 [info] New EH opened, aborting shutdown
+2024-02-11 22:48:46.607 [warning] No ptyHost heartbeat after 6 seconds
+2024-02-11 22:55:12.549 [warning] No ptyHost heartbeat after 6 seconds
+2024-02-11 23:00:32.784 [warning] No ptyHost heartbeat after 6 seconds
+2024-02-11 23:02:21.971 [warning] No ptyHost heartbeat after 6 seconds
+2024-02-11 23:03:33.618 [warning] No ptyHost heartbeat after 6 seconds
+2024-02-11 23:04:26.290 [warning] No ptyHost heartbeat after 6 seconds
+2024-02-11 23:05:32.344 [warning] No ptyHost heartbeat after 6 seconds
+2024-02-11 23:06:23.196 [warning] No ptyHost heartbeat after 6 seconds
+2024-02-11 23:08:02.641 [warning] No ptyHost heartbeat after 6 seconds
+2024-02-11 23:10:06.023 [warning] No ptyHost heartbeat after 6 seconds
+2024-02-11 23:14:18.516 [warning] No ptyHost heartbeat after 6 seconds

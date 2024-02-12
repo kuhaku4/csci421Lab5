@@ -1,9 +1,0 @@
-2024-01-29 23:03:19.497 [info] Extension host with pid 104449 started
-2024-01-29 23:03:19.513 [info] Lock '/home/bitnami/.vscode-server/data/User/workspaceStorage/c21f082734a9b7139263b551584b646b/vscode.lock': Lock acquired.
-2024-01-29 23:03:19.588 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
-2024-01-29 23:03:19.638 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
-2024-01-29 23:03:19.639 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
-2024-01-29 23:03:20.085 [info] Eager extensions activated
-2024-01-29 23:03:20.086 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
-2024-01-29 23:03:20.087 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
-2024-01-29 23:04:29.346 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
