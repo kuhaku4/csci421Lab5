@@ -1,0 +1,231 @@
+0 verbose cli /opt/bitnami/node/bin/node /opt/bitnami/node/bin/npm
+1 info using npm@10.2.3
+2 info using node@v18.19.0
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 3ms
+5 timing config:load:file:/opt/bitnami/node/lib/node_modules/npm/npmrc Completed in 11ms
+6 timing config:load:builtin Completed in 12ms
+7 timing config:load:cli Completed in 9ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:/home/bitnami/.cache/typescript/5.3/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 3ms
+11 timing config:load:file:/home/bitnami/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:/opt/bitnami/node/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 1ms
+15 timing config:load:setEnvs Completed in 1ms
+16 timing config:load Completed in 30ms
+17 timing npm:load:configload Completed in 30ms
+18 timing config:load:flatten Completed in 2ms
+19 timing npm:load:mkdirpcache Completed in 0ms
+20 timing npm:load:mkdirplogs Completed in 0ms
+21 verbose title npm install @types/content-disposition@ts5.3 @types/methods@ts5.3 @types/on-finished@ts5.3 @types/parseurl@ts5.3 @types/proxy-addr@ts5.3 @types/statuses@ts5.3 @types/utils-merge@ts5.3 @types/content-type@ts5.3 @types/depd@ts5.3 @types/ee-first@ts5.3 @types/encodeurl@ts5.3 @types/escape-html@ts5.3 @types/etag@ts5.3 @types/finalhandler@ts5.3 @types/forwarded@ts5.3
+22 verbose argv "install" "--ignore-scripts" "@types/content-disposition@ts5.3" "@types/methods@ts5.3" "@types/on-finished@ts5.3" "@types/parseurl@ts5.3" "@types/proxy-addr@ts5.3" "@types/statuses@ts5.3" "@types/utils-merge@ts5.3" "@types/content-type@ts5.3" "@types/depd@ts5.3" "@types/ee-first@ts5.3" "@types/encodeurl@ts5.3" "@types/escape-html@ts5.3" "@types/etag@ts5.3" "@types/finalhandler@ts5.3" "@types/forwarded@ts5.3" "--save-dev" "--user-agent" "typesInstaller/5.3.2"
+23 timing npm:load:setTitle Completed in 1ms
+24 timing npm:load:display Completed in 1ms
+25 verbose logfile logs-max:10 dir:/home/bitnami/.npm/_logs/2024-02-18T15_50_17_616Z-
+26 verbose logfile /home/bitnami/.npm/_logs/2024-02-18T15_50_17_616Z-debug-0.log
+27 timing npm:load:logFile Completed in 11ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 63ms
+31 timing arborist:ctor Completed in 0ms
+32 silly logfile start cleaning logs, removing 1 files
+33 silly logfile done cleaning log files
+34 timing idealTree:init Completed in 34ms
+35 timing arborist:ctor Completed in 0ms
+36 http fetch GET 200 https://registry.npmjs.org/@types%2futils-merge 226ms (cache miss)
+37 http fetch GET 200 https://registry.npmjs.org/@types%2fcontent-disposition 242ms (cache miss)
+38 http fetch GET 200 https://registry.npmjs.org/@types%2fmethods 602ms (cache miss)
+39 http fetch GET 200 https://registry.npmjs.org/@types%2fparseurl 602ms (cache miss)
+40 http fetch GET 200 https://registry.npmjs.org/@types%2fon-finished 603ms (cache miss)
+41 http fetch GET 200 https://registry.npmjs.org/@types%2fescape-html 609ms (cache miss)
+42 http fetch GET 200 https://registry.npmjs.org/@types%2fforwarded 635ms (cache miss)
+43 http fetch GET 200 https://registry.npmjs.org/@types%2fcontent-type 818ms (cache miss)
+44 http fetch GET 200 https://registry.npmjs.org/@types%2fstatuses 833ms (cache miss)
+45 http fetch GET 200 https://registry.npmjs.org/@types%2fencodeurl 837ms (cache miss)
+46 http fetch GET 200 https://registry.npmjs.org/@types%2fproxy-addr 842ms (cache miss)
+47 http fetch GET 200 https://registry.npmjs.org/@types%2fee-first 845ms (cache miss)
+48 http fetch GET 200 https://registry.npmjs.org/@types%2fetag 855ms (cache miss)
+49 http fetch GET 200 https://registry.npmjs.org/@types%2ffinalhandler 860ms (cache miss)
+50 http fetch GET 200 https://registry.npmjs.org/@types%2fdepd 871ms (cache miss)
+51 timing idealTree:userRequests Completed in 879ms
+52 silly idealTree buildDeps
+53 silly fetch manifest @types/utils-merge@0.0.31
+54 silly fetch manifest @types/content-disposition@0.5.8
+55 silly fetch manifest @types/methods@1.1.4
+56 silly fetch manifest @types/parseurl@1.3.3
+57 silly fetch manifest @types/on-finished@2.3.4
+58 silly fetch manifest @types/escape-html@1.0.4
+59 silly fetch manifest @types/forwarded@0.1.3
+60 silly fetch manifest @types/content-type@1.1.8
+61 silly fetch manifest @types/statuses@2.0.4
+62 silly fetch manifest @types/encodeurl@1.0.2
+63 silly fetch manifest @types/proxy-addr@2.0.3
+64 silly fetch manifest @types/ee-first@1.1.3
+65 silly fetch manifest @types/etag@1.8.3
+66 silly fetch manifest @types/finalhandler@1.2.3
+67 silly fetch manifest @types/depd@1.1.36
+68 silly placeDep ROOT @types/content-disposition@0.5.8 OK for:  want: 0.5.8
+69 silly placeDep ROOT @types/content-type@1.1.8 OK for:  want: 1.1.8
+70 silly placeDep ROOT @types/depd@1.1.36 OK for:  want: 1.1.36
+71 silly placeDep ROOT @types/ee-first@1.1.3 OK for:  want: 1.1.3
+72 silly placeDep ROOT @types/encodeurl@1.0.2 OK for:  want: 1.0.2
+73 silly placeDep ROOT @types/escape-html@1.0.4 OK for:  want: 1.0.4
+74 silly placeDep ROOT @types/etag@1.8.3 OK for:  want: 1.8.3
+75 silly placeDep ROOT @types/finalhandler@1.2.3 OK for:  want: 1.2.3
+76 silly placeDep ROOT @types/forwarded@0.1.3 OK for:  want: 0.1.3
+77 silly placeDep ROOT @types/methods@1.1.4 OK for:  want: 1.1.4
+78 silly placeDep ROOT @types/on-finished@2.3.4 OK for:  want: 2.3.4
+79 silly placeDep ROOT @types/parseurl@1.3.3 OK for:  want: 1.3.3
+80 silly placeDep ROOT @types/proxy-addr@2.0.3 OK for:  want: 2.0.3
+81 silly placeDep ROOT @types/statuses@2.0.4 OK for:  want: 2.0.4
+82 silly placeDep ROOT @types/utils-merge@0.0.31 OK for:  want: 0.0.31
+83 timing idealTree:#root Completed in 50ms
+84 timing idealTree:node_modules/@types/content-disposition Completed in 0ms
+85 timing idealTree:node_modules/@types/content-type Completed in 0ms
+86 timing idealTree:node_modules/@types/depd Completed in 0ms
+87 timing idealTree:node_modules/@types/ee-first Completed in 0ms
+88 timing idealTree:node_modules/@types/encodeurl Completed in 0ms
+89 timing idealTree:node_modules/@types/escape-html Completed in 1ms
+90 timing idealTree:node_modules/@types/etag Completed in 0ms
+91 timing idealTree:node_modules/@types/finalhandler Completed in 0ms
+92 timing idealTree:node_modules/@types/forwarded Completed in 0ms
+93 timing idealTree:node_modules/@types/methods Completed in 0ms
+94 timing idealTree:node_modules/@types/on-finished Completed in 0ms
+95 timing idealTree:node_modules/@types/parseurl Completed in 0ms
+96 timing idealTree:node_modules/@types/proxy-addr Completed in 0ms
+97 timing idealTree:node_modules/@types/statuses Completed in 0ms
+98 timing idealTree:node_modules/@types/utils-merge Completed in 0ms
+99 timing idealTree:buildDeps Completed in 53ms
+100 timing idealTree:fixDepFlags Completed in 0ms
+101 timing idealTree Completed in 968ms
+102 timing reify:loadTrees Completed in 969ms
+103 timing reify:diffTrees Completed in 3ms
+104 silly reify moves {}
+105 timing reify:retireShallow Completed in 1ms
+106 timing reify:createSparse Completed in 8ms
+107 timing reify:loadBundles Completed in 0ms
+108 silly audit bulk request {
+108 silly audit   '@popperjs/core': [ '2.11.8' ],
+108 silly audit   '@types/body-parser': [ '1.19.5' ],
+108 silly audit   '@types/bootstrap': [ '5.2.10' ],
+108 silly audit   '@types/connect': [ '3.4.38' ],
+108 silly audit   '@types/cookie-parser': [ '1.4.6' ],
+108 silly audit   '@types/debug': [ '4.1.12' ],
+108 silly audit   '@types/ejs': [ '3.1.5' ],
+108 silly audit   '@types/express': [ '4.17.21' ],
+108 silly audit   '@types/express-serve-static-core': [ '4.17.42' ],
+108 silly audit   '@types/http-errors': [ '2.0.4' ],
+108 silly audit   '@types/jade': [ '0.0.34' ],
+108 silly audit   '@types/jquery': [ '3.5.29' ],
+108 silly audit   '@types/mime': [ '1.3.5' ],
+108 silly audit   '@types/morgan': [ '1.9.9' ],
+108 silly audit   '@types/ms': [ '0.7.34' ],
+108 silly audit   '@types/node': [ '20.11.10' ],
+108 silly audit   '@types/prop-types': [ '15.7.11' ],
+108 silly audit   '@types/pug': [ '2.0.10' ],
+108 silly audit   '@types/qs': [ '6.9.11' ],
+108 silly audit   '@types/range-parser': [ '1.2.7' ],
+108 silly audit   '@types/react': [ '18.2.55' ],
+108 silly audit   '@types/scheduler': [ '0.16.8' ],
+108 silly audit   '@types/send': [ '0.17.4' ],
+108 silly audit   '@types/serve-static': [ '1.15.5' ],
+108 silly audit   '@types/sizzle': [ '2.3.8' ],
+108 silly audit   csstype: [ '3.1.3' ],
+108 silly audit   'types-registry': [ '0.1.684' ],
+108 silly audit   'undici-types': [ '5.26.5' ],
+108 silly audit   '@types/content-disposition': [ '0.5.8' ],
+108 silly audit   '@types/content-type': [ '1.1.8' ],
+108 silly audit   '@types/depd': [ '1.1.36' ],
+108 silly audit   '@types/ee-first': [ '1.1.3' ],
+108 silly audit   '@types/encodeurl': [ '1.0.2' ],
+108 silly audit   '@types/escape-html': [ '1.0.4' ],
+108 silly audit   '@types/etag': [ '1.8.3' ],
+108 silly audit   '@types/finalhandler': [ '1.2.3' ],
+108 silly audit   '@types/forwarded': [ '0.1.3' ],
+108 silly audit   '@types/methods': [ '1.1.4' ],
+108 silly audit   '@types/on-finished': [ '2.3.4' ],
+108 silly audit   '@types/parseurl': [ '1.3.3' ],
+108 silly audit   '@types/proxy-addr': [ '2.0.3' ],
+108 silly audit   '@types/statuses': [ '2.0.4' ],
+108 silly audit   '@types/utils-merge': [ '0.0.31' ]
+108 silly audit }
+109 silly tarball no local data for @types/utils-merge@https://registry.npmjs.org/@types/utils-merge/-/utils-merge-0.0.31.tgz. Extracting by manifest.
+110 silly tarball no local data for @types/statuses@https://registry.npmjs.org/@types/statuses/-/statuses-2.0.4.tgz. Extracting by manifest.
+111 silly tarball no local data for @types/proxy-addr@https://registry.npmjs.org/@types/proxy-addr/-/proxy-addr-2.0.3.tgz. Extracting by manifest.
+112 silly tarball no local data for @types/parseurl@https://registry.npmjs.org/@types/parseurl/-/parseurl-1.3.3.tgz. Extracting by manifest.
+113 silly tarball no local data for @types/on-finished@https://registry.npmjs.org/@types/on-finished/-/on-finished-2.3.4.tgz. Extracting by manifest.
+114 silly tarball no local data for @types/methods@https://registry.npmjs.org/@types/methods/-/methods-1.1.4.tgz. Extracting by manifest.
+115 silly tarball no local data for @types/forwarded@https://registry.npmjs.org/@types/forwarded/-/forwarded-0.1.3.tgz. Extracting by manifest.
+116 silly tarball no local data for @types/finalhandler@https://registry.npmjs.org/@types/finalhandler/-/finalhandler-1.2.3.tgz. Extracting by manifest.
+117 silly tarball no local data for @types/etag@https://registry.npmjs.org/@types/etag/-/etag-1.8.3.tgz. Extracting by manifest.
+118 silly tarball no local data for @types/escape-html@https://registry.npmjs.org/@types/escape-html/-/escape-html-1.0.4.tgz. Extracting by manifest.
+119 silly tarball no local data for @types/encodeurl@https://registry.npmjs.org/@types/encodeurl/-/encodeurl-1.0.2.tgz. Extracting by manifest.
+120 silly tarball no local data for @types/ee-first@https://registry.npmjs.org/@types/ee-first/-/ee-first-1.1.3.tgz. Extracting by manifest.
+121 silly tarball no local data for @types/depd@https://registry.npmjs.org/@types/depd/-/depd-1.1.36.tgz. Extracting by manifest.
+122 silly tarball no local data for @types/content-type@https://registry.npmjs.org/@types/content-type/-/content-type-1.1.8.tgz. Extracting by manifest.
+123 silly tarball no local data for @types/content-disposition@https://registry.npmjs.org/@types/content-disposition/-/content-disposition-0.5.8.tgz. Extracting by manifest.
+124 http fetch GET 200 https://registry.npmjs.org/@types/methods/-/methods-1.1.4.tgz 74ms (cache miss)
+125 timing reifyNode:node_modules/@types/methods Completed in 93ms
+126 http fetch GET 200 https://registry.npmjs.org/@types/content-type/-/content-type-1.1.8.tgz 68ms (cache miss)
+127 timing reifyNode:node_modules/@types/content-type Completed in 93ms
+128 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 99ms
+129 timing auditReport:getReport Completed in 103ms
+130 silly audit report {}
+131 timing auditReport:init Completed in 0ms
+132 timing reify:audit Completed in 106ms
+133 http fetch GET 200 https://registry.npmjs.org/@types/forwarded/-/forwarded-0.1.3.tgz 157ms (cache miss)
+134 timing reifyNode:node_modules/@types/forwarded Completed in 178ms
+135 http fetch GET 200 https://registry.npmjs.org/@types/encodeurl/-/encodeurl-1.0.2.tgz 156ms (cache miss)
+136 timing reifyNode:node_modules/@types/encodeurl Completed in 178ms
+137 http fetch GET 200 https://registry.npmjs.org/@types/on-finished/-/on-finished-2.3.4.tgz 162ms (cache miss)
+138 timing reifyNode:node_modules/@types/on-finished Completed in 180ms
+139 http fetch GET 200 https://registry.npmjs.org/@types/statuses/-/statuses-2.0.4.tgz 434ms (cache miss)
+140 timing reifyNode:node_modules/@types/statuses Completed in 450ms
+141 http fetch GET 200 https://registry.npmjs.org/@types/utils-merge/-/utils-merge-0.0.31.tgz 437ms (cache miss)
+142 timing reifyNode:node_modules/@types/utils-merge Completed in 452ms
+143 http fetch GET 200 https://registry.npmjs.org/@types/depd/-/depd-1.1.36.tgz 428ms (cache miss)
+144 timing reifyNode:node_modules/@types/depd Completed in 452ms
+145 http fetch GET 200 https://registry.npmjs.org/@types/parseurl/-/parseurl-1.3.3.tgz 436ms (cache miss)
+146 timing reifyNode:node_modules/@types/parseurl Completed in 453ms
+147 http fetch GET 200 https://registry.npmjs.org/@types/escape-html/-/escape-html-1.0.4.tgz 432ms (cache miss)
+148 timing reifyNode:node_modules/@types/escape-html Completed in 453ms
+149 http fetch GET 200 https://registry.npmjs.org/@types/proxy-addr/-/proxy-addr-2.0.3.tgz 438ms (cache miss)
+150 timing reifyNode:node_modules/@types/proxy-addr Completed in 454ms
+151 http fetch GET 200 https://registry.npmjs.org/@types/etag/-/etag-1.8.3.tgz 434ms (cache miss)
+152 timing reifyNode:node_modules/@types/etag Completed in 454ms
+153 http fetch GET 200 https://registry.npmjs.org/@types/ee-first/-/ee-first-1.1.3.tgz 431ms (cache miss)
+154 timing reifyNode:node_modules/@types/ee-first Completed in 454ms
+155 http fetch GET 200 https://registry.npmjs.org/@types/finalhandler/-/finalhandler-1.2.3.tgz 436ms (cache miss)
+156 timing reifyNode:node_modules/@types/finalhandler Completed in 455ms
+157 http fetch GET 200 https://registry.npmjs.org/@types/content-disposition/-/content-disposition-0.5.8.tgz 428ms (cache miss)
+158 timing reifyNode:node_modules/@types/content-disposition Completed in 455ms
+159 timing reify:unpack Completed in 456ms
+160 timing reify:unretire Completed in 3ms
+161 timing build:queue Completed in 1ms
+162 timing build:deps Completed in 1ms
+163 timing build Completed in 1ms
+164 timing reify:build Completed in 1ms
+165 timing reify:trash Completed in 0ms
+166 timing reify:save Completed in 29ms
+167 timing reify Completed in 1497ms
+168 silly ADD node_modules/@types/utils-merge
+169 silly ADD node_modules/@types/statuses
+170 silly ADD node_modules/@types/proxy-addr
+171 silly ADD node_modules/@types/parseurl
+172 silly ADD node_modules/@types/on-finished
+173 silly ADD node_modules/@types/methods
+174 silly ADD node_modules/@types/forwarded
+175 silly ADD node_modules/@types/finalhandler
+176 silly ADD node_modules/@types/etag
+177 silly ADD node_modules/@types/escape-html
+178 silly ADD node_modules/@types/encodeurl
+179 silly ADD node_modules/@types/ee-first
+180 silly ADD node_modules/@types/depd
+181 silly ADD node_modules/@types/content-type
+182 silly ADD node_modules/@types/content-disposition
+183 timing command:install Completed in 1504ms
+184 verbose exit 0
+185 timing npm Completed in 1858ms
+186 info ok

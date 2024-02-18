@@ -2352,3 +2352,1128 @@ Node.js v18.19.0
 [0mGET /stylesheets/style.css [36m304 [0m0.547 ms - -[0m
 [0mGET / [36m304 [0m7.775 ms - -[0m
 [0mGET /stylesheets/style.css [36m304 [0m0.417 ms - -[0m
+[0mGET / [32m200 [0m8.566 ms - 1138[0m
+[0mGET /.env [33m404 [0m9.958 ms - 1032[0m
+[0mPOST / [33m404 [0m29.945 ms - 1032[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.602 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m7.406 ms - 1032[0m
+[0mGET / [32m200 [0m6.584 ms - 1138[0m
+[0mGET / [32m200 [0m8.790 ms - 1138[0m
+[0mGET /.env [33m404 [0m8.248 ms - 1032[0m
+[0mPOST / [33m404 [0m6.220 ms - 1032[0m
+[0mGET / [32m200 [0m6.414 ms - 1138[0m
+[0mPOST /HNAP1/ [33m404 [0m5.854 ms - 1032[0m
+[0mGET / [32m200 [0m6.417 ms - 1138[0m
+[0mGET /.env [33m404 [0m6.379 ms - 1032[0m
+[0mPOST / [33m404 [0m4.894 ms - 1032[0m
+[0mGET http://52.91.47.28:80/mysql-admin/scripts/setup.php [33m404 [0m7.678 ms - 1032[0m
+[0mGET / [32m200 [0m7.381 ms - 1138[0m
+[0mGET /druid/index.html [33m404 [0m9.824 ms - 1032[0m
+[0mGET /.env [33m404 [0m6.094 ms - 1032[0m
+[0mPOST / [33m404 [0m5.519 ms - 1032[0m
+[0mGET / [32m200 [0m5.989 ms - 1138[0m
+[0mGET / [32m200 [0m5.138 ms - 1138[0m
+[0mGET /.env [33m404 [0m4.976 ms - 1032[0m
+[0mPOST / [33m404 [0m7.810 ms - 1032[0m
+[0mGET /boaform/admin/formLogin?username=ec8&psd=ec8 [33m404 [0m8.067 ms - 1032[0m
+[0mGET /.env [33m404 [0m5.825 ms - 1032[0m
+[0mPOST / [33m404 [0m5.229 ms - 1032[0m
+[0mGET /.env [33m404 [0m5.838 ms - 1032[0m
+[0mPOST / [33m404 [0m6.866 ms - 1032[0m
+[0mGET / [32m200 [0m8.871 ms - 1138[0m
+[0mPOST /HNAP1/ [33m404 [0m5.907 ms - 1032[0m
+[0mGET /.env [33m404 [0m4.677 ms - 1032[0m
+[0mPOST / [33m404 [0m5.708 ms - 1032[0m
+[0mGET /.env [33m404 [0m4.759 ms - 1032[0m
+[0mPOST / [33m404 [0m4.562 ms - 1032[0m
+[0mGET / [32m200 [0m5.602 ms - 1138[0m
+[0mGET / [32m200 [0m6.941 ms - 1138[0m
+[0mGET /.env [33m404 [0m5.518 ms - 1032[0m
+[0mPOST / [33m404 [0m4.822 ms - 1032[0m
+[0mGET / [32m200 [0m6.117 ms - 1138[0m
+[0mGET /.env [33m404 [0m5.415 ms - 1032[0m
+[0mPOST / [33m404 [0m4.059 ms - 1032[0m
+[0mGET /.env [33m404 [0m4.808 ms - 1032[0m
+[0mPOST / [33m404 [0m868.394 ms - 1032[0m
+[0mGET /.env [33m404 [0m12.169 ms - 1032[0m
+[0mPOST / [33m404 [0m5.197 ms - 1032[0m
+[0mGET /.env [33m404 [0m4.621 ms - 1032[0m
+[0mPOST / [33m404 [0m5.290 ms - 1032[0m
+[0mGET / [32m200 [0m14.719 ms - 1138[0m
+[0mGET /.env [33m404 [0m4.021 ms - 1032[0m
+[0mPOST / [33m404 [0m6.104 ms - 1032[0m
+[0mGET /.env [33m404 [0m5.337 ms - 1032[0m
+[0mPOST / [33m404 [0m17.992 ms - 1032[0m
+[0mGET /.git/config [33m404 [0m4.627 ms - 1032[0m
+[0mGET / [32m200 [0m7.813 ms - 1138[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.373 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m5.110 ms - 1032[0m
+[0mGET / [32m200 [0m5.826 ms - 1138[0m
+[0mGET /systembc/password.php [33m404 [0m5.539 ms - 1032[0m
+[0mGET /.env [33m404 [0m4.324 ms - 1032[0m
+[0mPOST / [33m404 [0m22.378 ms - 1032[0m
+[0mGET / [32m200 [0m5.568 ms - 1138[0m
+[0mGET /favicon.ico [33m404 [0m4.310 ms - 1032[0m
+[0mGET /geoserver/web/ [33m404 [0m5.125 ms - 1032[0m
+[0mGET /.env [33m404 [0m4.463 ms - 1032[0m
+[0mPOST / [33m404 [0m8.079 ms - 1032[0m
+[0mGET /sy.php [33m404 [0m5.772 ms - 1032[0m
+[0mGET / [32m200 [0m5.222 ms - 1138[0m
+[0mGET /favicon.ico [33m404 [0m7.460 ms - 1032[0m
+[0mGET /robots.txt [33m404 [0m4.095 ms - 1032[0m
+[0mGET /sitemap.xml [33m404 [0m5.350 ms - 1032[0m
+[0mGET /.env [33m404 [0m3.751 ms - 1032[0m
+[0mPOST / [33m404 [0m4.072 ms - 1032[0m
+[0mGET /.env [33m404 [0m5.282 ms - 1032[0m
+[0mPOST / [33m404 [0m4.888 ms - 1032[0m
+[0mGET / [32m200 [0m7.309 ms - 1138[0m
+[0mGET / [32m200 [0m5.552 ms - 1138[0m
+[0mGET /.env [33m404 [0m3.839 ms - 1032[0m
+[0mPOST / [33m404 [0m4.251 ms - 1032[0m
+[0mGET / [32m200 [0m5.799 ms - 1138[0m
+[0mPOST /HNAP1/ [33m404 [0m5.349 ms - 1032[0m
+[0mGET /.env [33m404 [0m4.572 ms - 1032[0m
+[0mPOST / [33m404 [0m4.670 ms - 1032[0m
+[0mGET / [32m200 [0m5.363 ms - 1138[0m
+[0mGET /.env [33m404 [0m7.290 ms - 1032[0m
+[0mPOST / [33m404 [0m9.110 ms - 1032[0m
+[0mGET / [32m200 [0m5.483 ms - 1138[0m
+[0mGET / [32m200 [0m8.886 ms - 1138[0m
+[0mGET / [32m200 [0m6.996 ms - 1138[0m
+[0mGET /.env [33m404 [0m6.390 ms - 1032[0m
+[0mPOST / [33m404 [0m7.611 ms - 1032[0m
+[0mGET / [32m200 [0m5.287 ms - 1138[0m
+[0mGET / [32m200 [0m5.898 ms - 1138[0m
+[0mGET / [32m200 [0m6.562 ms - 1138[0m
+[0mGET / [32m200 [0m5.638 ms - 1138[0m
+[0mGET /favicon.ico [33m404 [0m4.683 ms - 1032[0m
+[0mGET /.env [33m404 [0m5.836 ms - 1032[0m
+[0mPOST / [33m404 [0m4.329 ms - 1032[0m
+[0mGET / [32m200 [0m6.873 ms - 1138[0m
+[0mGET /stylesheets/style.css [32m200 [0m2.896 ms - 111[0m
+[0mGET /favicon.ico [33m404 [0m19.268 ms - 1032[0m
+[0mGET / [36m304 [0m6.307 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.514 ms - -[0m
+[0mGET / [32m200 [0m10.926 ms - 1138[0m
+[0mPOST /HNAP1/ [33m404 [0m4.133 ms - 1032[0m
+[0mGET /.env [33m404 [0m3.492 ms - 1032[0m
+[0mPOST / [33m404 [0m3.876 ms - 1032[0m
+[0mGET / [32m200 [0m5.275 ms - 1138[0m
+[0mGET / [32m200 [0m7.511 ms - 1138[0m
+[0mGET /.env [33m404 [0m4.187 ms - 1032[0m
+[0mPOST / [33m404 [0m4.237 ms - 1032[0m
+[0mGET / [32m200 [0m6.179 ms - 1138[0m
+[0mGET / [32m200 [0m8.229 ms - 1138[0m
+[0mGET / [32m200 [0m5.028 ms - 1138[0m
+[0mGET /.env [33m404 [0m3.813 ms - 1032[0m
+[0mPOST / [33m404 [0m4.977 ms - 1032[0m
+[0mGET /.env [33m404 [0m3.237 ms - 1032[0m
+[0mPOST / [33m404 [0m3.290 ms - 1032[0m
+[0mGET /.env [33m404 [0m4.136 ms - 1032[0m
+[0mPOST / [33m404 [0m10.219 ms - 1032[0m
+[0mGET /.env [33m404 [0m3.964 ms - 1032[0m
+[0mPOST / [33m404 [0m4.191 ms - 1032[0m
+[0mGET /.env [33m404 [0m4.075 ms - 1032[0m
+[0mPOST / [33m404 [0m4.166 ms - 1032[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.351 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m14.156 ms - 1032[0m
+[0mGET /actuator/health [33m404 [0m4.029 ms - 1032[0m
+[0mGET /.env [33m404 [0m12.060 ms - 1032[0m
+[0mPOST / [33m404 [0m4.288 ms - 1032[0m
+[0mGET / [32m200 [0m16.734 ms - 1138[0m
+[0mGET / [32m200 [0m5.239 ms - 1138[0m
+[0mGET /.env [33m404 [0m3.933 ms - 1032[0m
+[0mPOST / [33m404 [0m4.479 ms - 1032[0m
+[0mGET /admin/config.php [33m404 [0m3.472 ms - 1032[0m
+[0mGET /.env [33m404 [0m3.573 ms - 1032[0m
+[0mPOST / [33m404 [0m4.027 ms - 1032[0m
+[0mGET / [32m200 [0m9.861 ms - 1138[0m
+[0mGET / [32m200 [0m6.100 ms - 1138[0m
+[0mGET /.env [33m404 [0m4.994 ms - 1032[0m
+[0mPOST / [33m404 [0m4.490 ms - 1032[0m
+[0mGET /.env [33m404 [0m4.761 ms - 1032[0m
+[0mPOST / [33m404 [0m4.921 ms - 1032[0m
+[0mGET /.env [33m404 [0m5.064 ms - 1032[0m
+[0mPOST / [33m404 [0m6.421 ms - 1032[0m
+[0mGET /.env [33m404 [0m3.438 ms - 1032[0m
+[0mPOST / [33m404 [0m4.226 ms - 1032[0m
+[0mGET /.env [33m404 [0m3.897 ms - 1032[0m
+[0mPOST / [33m404 [0m4.672 ms - 1032[0m
+[0mGET /.env [33m404 [0m4.282 ms - 1032[0m
+[0mPOST / [33m404 [0m4.241 ms - 1032[0m
+[0mGET /stalker_portal/server/tools/auth_simple.php [33m404 [0m3.766 ms - 1032[0m
+[0mGET / [32m200 [0m5.971 ms - 1138[0m
+[0mGET /.env [33m404 [0m3.382 ms - 1032[0m
+[0mPOST / [33m404 [0m5.035 ms - 1032[0m
+[0mGET /.env [33m404 [0m4.694 ms - 1032[0m
+[0mPOST / [33m404 [0m8.075 ms - 1032[0m
+[0mGET /.env [33m404 [0m3.890 ms - 1032[0m
+[0mPOST / [33m404 [0m5.066 ms - 1032[0m
+[0mGET /cl/9_md/9/9/9/9/999999 [33m404 [0m5.937 ms - 1032[0m
+[0mGET /.git/config [33m404 [0m4.227 ms - 1032[0m
+[0mGET /.env [33m404 [0m5.397 ms - 1032[0m
+[0mPOST / [33m404 [0m3.752 ms - 1032[0m
+[0mGET / [32m200 [0m6.003 ms - 1138[0m
+[0mGET / [32m200 [0m5.542 ms - 1138[0m
+[0mGET /.env [33m404 [0m11.848 ms - 1032[0m
+[0mPOST / [33m404 [0m14.803 ms - 1032[0m
+[0mGET /.env [33m404 [0m3.993 ms - 1032[0m
+[0mPOST / [33m404 [0m14.140 ms - 1032[0m
+[0mGET / [32m200 [0m5.484 ms - 1138[0m
+[0mGET /.env [33m404 [0m4.071 ms - 1032[0m
+[0mGET / [32m200 [0m6.650 ms - 1138[0m
+[0mGET /favicon.ico [33m404 [0m4.321 ms - 1032[0m
+[0mGET /geoserver/web/ [33m404 [0m3.820 ms - 1032[0m
+[0mGET /.env [33m404 [0m4.107 ms - 1032[0m
+[0mPOST / [33m404 [0m4.114 ms - 1032[0m
+[0mGET /.env [33m404 [0m4.669 ms - 1032[0m
+[0mPOST / [33m404 [0m4.113 ms - 1032[0m
+[0mGET /.env [33m404 [0m4.132 ms - 1032[0m
+[0mGET / [32m200 [0m5.847 ms - 1138[0m
+[0mGET /favicon.ico [33m404 [0m4.288 ms - 1032[0m
+[0mGET /sitemap.xml [33m404 [0m4.827 ms - 1032[0m
+[0mGET /robots.txt [33m404 [0m8.612 ms - 1032[0m
+[0mGET /systembc/password.php [33m404 [0m3.411 ms - 1032[0m
+[0mGET /.env [33m404 [0m3.544 ms - 1032[0m
+[0mPOST / [33m404 [0m4.669 ms - 1032[0m
+[0mGET /.env [33m404 [0m3.788 ms - 1032[0m
+[0mPOST / [33m404 [0m37.875 ms - 1032[0m
+[0mGET /.env [33m404 [0m4.749 ms - 1032[0m
+[0mPOST / [33m404 [0m17.841 ms - 1032[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.760 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m4.341 ms - 1032[0m
+[0mGET / [32m200 [0m5.345 ms - 1138[0m
+[0mGET / [32m200 [0m5.138 ms - 1138[0m
+[0mGET /.env [33m404 [0m4.115 ms - 1032[0m
+[0mPOST / [33m404 [0m3.702 ms - 1032[0m
+[0mGET /.env [33m404 [0m5.912 ms - 1032[0m
+[0mPOST / [33m404 [0m6.176 ms - 1032[0m
+[0mGET / [32m200 [0m5.525 ms - 1138[0m
+[0mGET /Public/home/js/check.js [33m404 [0m4.069 ms - 1032[0m
+[0mGET /static/admin/javascript/hetong.js [33m404 [0m4.482 ms - 1032[0m
+[0mGET /.env [33m404 [0m4.482 ms - 1032[0m
+[0mPOST / [33m404 [0m3.584 ms - 1032[0m
+[0mGET /.env [33m404 [0m3.332 ms - 1032[0m
+[0mPOST / [33m404 [0m29.374 ms - 1032[0m
+[0mGET /.env [33m404 [0m4.854 ms - 1032[0m
+[0mPOST / [33m404 [0m5.248 ms - 1032[0m
+[0mGET / [32m200 [0m14.206 ms - 1138[0m
+[0mGET /.env [33m404 [0m3.847 ms - 1032[0m
+[0mPOST / [33m404 [0m74.653 ms - 1032[0m
+[0mGET / [32m200 [0m4.876 ms - 1138[0m
+[0mGET /.env [33m404 [0m4.658 ms - 1032[0m
+[0mPOST / [33m404 [0m4.070 ms - 1032[0m
+[0mGET /.env [33m404 [0m3.329 ms - 1032[0m
+[0mGET /.DS_Store [33m404 [0m3.531 ms - 1032[0m
+[0mGET / [32m200 [0m5.973 ms - 1138[0m
+[0mGET /.git/HEAD [33m404 [0m3.286 ms - 1032[0m
+[0mGET /.env [33m404 [0m3.613 ms - 1032[0m
+[0mPOST / [33m404 [0m4.779 ms - 1032[0m
+[0mGET / [32m200 [0m5.789 ms - 1138[0m
+[0mGET / [32m200 [0m6.149 ms - 1138[0m
+[0mGET / [32m200 [0m5.792 ms - 1138[0m
+[0mGET /.env [33m404 [0m5.753 ms - 1032[0m
+[0mPOST / [33m404 [0m4.461 ms - 1032[0m
+[0mGET / [32m200 [0m9.422 ms - 1138[0m
+[0mGET / [32m200 [0m4.755 ms - 1138[0m
+[0mGET /.env [33m404 [0m12.490 ms - 1032[0m
+[0mPOST / [33m404 [0m3.768 ms - 1032[0m
+[0mGET /.env [33m404 [0m3.378 ms - 1032[0m
+[0mPOST / [33m404 [0m3.354 ms - 1032[0m
+[0mGET /.vscode/sftp.json [33m404 [0m4.391 ms - 1032[0m
+[0mGET / [32m200 [0m4.709 ms - 1138[0m
+[0mGET /.env [33m404 [0m3.957 ms - 1032[0m
+[0mPOST / [33m404 [0m4.108 ms - 1032[0m
+[0mGET /.env [33m404 [0m4.988 ms - 1032[0m
+[0mPOST / [33m404 [0m5.082 ms - 1032[0m
+[0mGET / [32m200 [0m5.722 ms - 1138[0m
+[0mGET /.env [33m404 [0m4.048 ms - 1032[0m
+[0mPOST / [33m404 [0m3.525 ms - 1032[0m
+[0mGET / [32m200 [0m5.856 ms - 1138[0m
+[0mGET / [32m200 [0m8.635 ms - 1138[0m
+[0mGET /.env [33m404 [0m3.749 ms - 1032[0m
+[0mPOST / [33m404 [0m7.271 ms - 1032[0m
+[0mGET /.git/config [33m404 [0m3.736 ms - 1032[0m
+[0mGET / [32m200 [0m5.990 ms - 1138[0m
+[0mGET / [32m200 [0m4.640 ms - 1138[0m
+[0mGET /form.html [33m404 [0m4.344 ms - 1032[0m
+[0mGET /upl.php [33m404 [0m3.946 ms - 1032[0m
+[0mGET /geoip/ [33m404 [0m3.719 ms - 1032[0m
+[0mGET /favicon.ico [33m404 [0m4.411 ms - 1032[0m
+[0mGET /1.php [33m404 [0m6.161 ms - 1032[0m
+[0mGET /bundle.js [33m404 [0m12.289 ms - 1032[0m
+[0mGET /files/ [33m404 [0m4.916 ms - 1032[0m
+[0mGET /systembc/password.php [33m404 [0m3.449 ms - 1032[0m
+[0mGET /password.php [33m404 [0m4.792 ms - 1032[0m
+[0mGET /info.php [33m404 [0m4.013 ms - 1032[0m
+[0mGET /.env [33m404 [0m9.235 ms - 1032[0m
+[0mPOST / [33m404 [0m4.489 ms - 1032[0m
+[0mGET / [32m200 [0m5.481 ms - 1138[0m
+[0mGET / [32m200 [0m4.790 ms - 1138[0m
+[0mGET /.env [33m404 [0m3.770 ms - 1032[0m
+[0mPOST / [33m404 [0m4.170 ms - 1032[0m
+[0mGET / [32m200 [0m4.836 ms - 1138[0m
+[0mGET /c/ [33m404 [0m3.948 ms - 1032[0m
+[0mGET / [32m200 [0m4.996 ms - 1138[0m
+[0mGET /.env [33m404 [0m3.758 ms - 1032[0m
+[0mPOST / [33m404 [0m3.944 ms - 1032[0m
+[0mGET / [32m200 [0m5.706 ms - 1138[0m
+[0mGET /.env [33m404 [0m3.704 ms - 1032[0m
+[0mPOST / [33m404 [0m5.147 ms - 1032[0m
+[0mGET / [32m200 [0m6.991 ms - 1138[0m
+[0mGET /favicon.ico [33m404 [0m6.779 ms - 1032[0m
+[0mGET /.env [33m404 [0m6.086 ms - 1032[0m
+[0mPOST / [33m404 [0m3.286 ms - 1032[0m
+[0mGET /.env [33m404 [0m3.881 ms - 1032[0m
+[0mPOST / [33m404 [0m4.285 ms - 1032[0m
+[0mGET / [32m200 [0m5.837 ms - 1138[0m
+[0mGET / [32m200 [0m5.671 ms - 1138[0m
+[0mGET / [32m200 [0m6.193 ms - 1138[0m
+[0mGET /favicon.ico [33m404 [0m3.838 ms - 1032[0m
+[0mGET /geoserver/web/ [33m404 [0m4.374 ms - 1032[0m
+[0mGET / [32m200 [0m12.585 ms - 1138[0m
+[0mGET /.env [33m404 [0m5.928 ms - 1032[0m
+[0mPOST / [33m404 [0m4.253 ms - 1032[0m
+[0mGET /.env [33m404 [0m3.773 ms - 1032[0m
+[0mPOST / [33m404 [0m4.266 ms - 1032[0m
+[0mGET / [32m200 [0m5.701 ms - 1138[0m
+[0mGET /.env [33m404 [0m3.875 ms - 1032[0m
+[0mPOST / [33m404 [0m4.932 ms - 1032[0m
+[0mGET /.env [33m404 [0m5.980 ms - 1032[0m
+[0mPOST / [33m404 [0m4.346 ms - 1032[0m
+[0mGET /.env [33m404 [0m3.984 ms - 1032[0m
+[0mPOST / [33m404 [0m4.170 ms - 1032[0m
+[0mGET /systembc/password.php [33m404 [0m3.981 ms - 1032[0m
+[0mGET /.env [33m404 [0m4.676 ms - 1032[0m
+[0mPOST / [33m404 [0m3.748 ms - 1032[0m
+[0mGET / [32m200 [0m7.469 ms - 1138[0m
+[0mGET /.env [33m404 [0m3.554 ms - 1032[0m
+[0mPOST / [33m404 [0m3.391 ms - 1032[0m
+[0mGET / [32m200 [0m5.580 ms - 1138[0m
+[0mGET / [32m200 [0m4.623 ms - 1138[0m
+[0mGET /form.html [33m404 [0m4.055 ms - 1032[0m
+[0mGET /upl.php [33m404 [0m3.330 ms - 1032[0m
+[0mGET /geoip/ [33m404 [0m4.589 ms - 1032[0m
+[0mGET /favicon.ico [33m404 [0m3.935 ms - 1032[0m
+[0mGET /1.php [33m404 [0m3.945 ms - 1032[0m
+[0mGET /bundle.js [33m404 [0m4.447 ms - 1032[0m
+[0mGET /files/ [33m404 [0m3.702 ms - 1032[0m
+[0mGET /systembc/password.php [33m404 [0m5.730 ms - 1032[0m
+[0mGET /password.php [33m404 [0m4.896 ms - 1032[0m
+[0mGET /info.php [33m404 [0m3.780 ms - 1032[0m
+[0mGET /.env [33m404 [0m4.355 ms - 1032[0m
+[0mPOST / [33m404 [0m3.713 ms - 1032[0m
+[0mGET / [32m200 [0m4.672 ms - 1138[0m
+[0mGET /.env [33m404 [0m4.134 ms - 1032[0m
+[0mPOST / [33m404 [0m3.767 ms - 1032[0m
+[0mGET / [32m200 [0m5.696 ms - 1138[0m
+[0mGET /.env [33m404 [0m3.713 ms - 1032[0m
+[0mPOST / [33m404 [0m3.301 ms - 1032[0m
+[0mGET / [32m200 [0m9.273 ms - 1138[0m
+[0mGET / [32m200 [0m5.695 ms - 1138[0m
+[0mGET /.env [33m404 [0m4.602 ms - 1032[0m
+[0mPOST / [33m404 [0m4.013 ms - 1032[0m
+[0mGET /.env [33m404 [0m4.134 ms - 1032[0m
+[0mPOST / [33m404 [0m14.297 ms - 1032[0m
+[0mGET /.env [33m404 [0m4.210 ms - 1032[0m
+[0mPOST / [33m404 [0m4.032 ms - 1032[0m
+[0mGET / [32m200 [0m6.405 ms - 1138[0m
+[0mGET /.env [33m404 [0m4.344 ms - 1032[0m
+[0mGET / [32m200 [0m5.431 ms - 1138[0m
+[0mGET / [32m200 [0m5.694 ms - 1138[0m
+[0mGET /.env [33m404 [0m4.436 ms - 1032[0m
+[0mPOST / [33m404 [0m4.317 ms - 1032[0m
+[0mGET / [32m200 [0m5.137 ms - 1138[0m
+[0mGET / [32m200 [0m4.971 ms - 1138[0m
+[0mGET /favicon.ico [33m404 [0m5.758 ms - 1032[0m
+[0mGET / [32m200 [0m5.333 ms - 1138[0m
+[0mGET / [32m200 [0m7.063 ms - 1138[0m
+[0mGET /.env [33m404 [0m3.439 ms - 1032[0m
+[0mPOST / [33m404 [0m4.856 ms - 1032[0m
+[0mGET /.env [33m404 [0m4.647 ms - 1032[0m
+[0mPOST / [33m404 [0m7.335 ms - 1032[0m
+[0mGET /hudson [33m404 [0m3.590 ms - 1032[0m
+[0mGET /.env [33m404 [0m3.249 ms - 1032[0m
+[0mPOST / [33m404 [0m4.649 ms - 1032[0m
+[0mGET /.env [33m404 [0m4.684 ms - 1032[0m
+[0mPOST / [33m404 [0m3.962 ms - 1032[0m
+[0mGET /.env [33m404 [0m3.797 ms - 1032[0m
+[0mPOST / [33m404 [0m3.492 ms - 1032[0m
+[0mGET / [32m200 [0m5.584 ms - 1138[0m
+[0mGET / [32m200 [0m5.306 ms - 1138[0m
+[0mGET /favicon.ico [33m404 [0m3.812 ms - 1032[0m
+[0mGET /.env [33m404 [0m3.640 ms - 1032[0m
+[0mPOST / [33m404 [0m3.525 ms - 1032[0m
+[0mGET /.env [33m404 [0m7.750 ms - 1032[0m
+[0mPOST / [33m404 [0m4.164 ms - 1032[0m
+[0mGET /.env [33m404 [0m3.782 ms - 1032[0m
+[0mPOST / [33m404 [0m3.863 ms - 1032[0m
+[0mGET /.env [33m404 [0m4.426 ms - 1032[0m
+[0mPOST / [33m404 [0m4.766 ms - 1032[0m
+[0mGET / [32m200 [0m4.885 ms - 1138[0m
+[0mGET / [32m200 [0m4.891 ms - 1138[0m
+[0mGET /form.html [33m404 [0m3.606 ms - 1032[0m
+[0mGET /upl.php [33m404 [0m5.061 ms - 1032[0m
+[0mGET /geoip/ [33m404 [0m3.537 ms - 1032[0m
+[0mGET /favicon.ico [33m404 [0m3.759 ms - 1032[0m
+[0mGET /1.php [33m404 [0m3.967 ms - 1032[0m
+[0mGET /bundle.js [33m404 [0m12.029 ms - 1032[0m
+[0mGET /files/ [33m404 [0m3.910 ms - 1032[0m
+[0mGET /systembc/password.php [33m404 [0m3.867 ms - 1032[0m
+[0mGET /password.php [33m404 [0m3.308 ms - 1032[0m
+[0mGET /info.php [33m404 [0m3.357 ms - 1032[0m
+[0mGET /.env [33m404 [0m5.555 ms - 1032[0m
+[0mPOST / [33m404 [0m3.092 ms - 1032[0m
+[0mGET /.env [33m404 [0m5.070 ms - 1032[0m
+[0mGET / [32m200 [0m4.994 ms - 1138[0m
+[0mGET /portal/redlion [33m404 [0m3.142 ms - 1032[0m
+[0mGET /.env [33m404 [0m3.707 ms - 1032[0m
+[0mPOST / [33m404 [0m3.838 ms - 1032[0m
+[0mGET /.env [33m404 [0m5.546 ms - 1032[0m
+[0mPOST / [33m404 [0m3.958 ms - 1032[0m
+[0mGET / [32m200 [0m5.515 ms - 1138[0m
+[0mGET /.env [33m404 [0m3.909 ms - 1032[0m
+[0mGET / [32m200 [0m8.823 ms - 1138[0m
+[0mGET /.env [33m404 [0m4.319 ms - 1032[0m
+[0mPOST / [33m404 [0m6.192 ms - 1032[0m
+[0mGET / [32m200 [0m5.156 ms - 1138[0m
+[0mGET /.env [33m404 [0m9.107 ms - 1032[0m
+[0mPOST / [33m404 [0m3.972 ms - 1032[0m
+[0mGET / [32m200 [0m10.104 ms - 1138[0m
+[0mGET / [32m200 [0m4.576 ms - 1138[0m
+[0mGET / [32m200 [0m5.061 ms - 1138[0m
+[0mGET /.env [33m404 [0m3.810 ms - 1032[0m
+[0mGET /.env [33m404 [0m6.843 ms - 1032[0m
+[0mPOST / [33m404 [0m3.387 ms - 1032[0m
+[0mGET /systembc/password.php [33m404 [0m3.939 ms - 1032[0m
+[0mGET /.env [33m404 [0m3.934 ms - 1032[0m
+[0mPOST / [33m404 [0m97.216 ms - 1032[0m
+[0mGET /.env [33m404 [0m5.784 ms - 1032[0m
+[0mPOST / [33m404 [0m3.302 ms - 1032[0m
+[0mGET / [32m200 [0m5.176 ms - 1138[0m
+[0mGET / [32m200 [0m4.745 ms - 1138[0m
+[0mGET /.env [33m404 [0m3.865 ms - 1032[0m
+[0mPOST / [33m404 [0m7.909 ms - 1032[0m
+[0mGET /.env [33m404 [0m3.431 ms - 1032[0m
+[0mPOST / [33m404 [0m228.072 ms - 1032[0m
+[0mGET /.env [33m404 [0m4.273 ms - 1032[0m
+[0mPOST / [33m404 [0m4.297 ms - 1032[0m
+[0mGET / [32m200 [0m5.932 ms - 1138[0m
+[0mGET /.env [33m404 [0m3.830 ms - 1032[0m
+[0mPOST / [33m404 [0m3.341 ms - 1032[0m
+[0mGET /.env [33m404 [0m4.738 ms - 1032[0m
+[0mPOST / [33m404 [0m3.719 ms - 1032[0m
+[0mGET /druid/index.html [33m404 [0m4.322 ms - 1032[0m
+[0mGET /.env [33m404 [0m8.543 ms - 1032[0m
+[0mPOST / [33m404 [0m5.993 ms - 1032[0m
+[0mGET / [32m200 [0m4.611 ms - 1138[0m
+[0mGET / [32m200 [0m5.017 ms - 1138[0m
+[0mGET /.env [33m404 [0m4.114 ms - 1032[0m
+[0mPOST / [33m404 [0m396.868 ms - 1032[0m
+[0mGET /.env [33m404 [0m5.722 ms - 1032[0m
+[0mPOST / [33m404 [0m5.074 ms - 1032[0m
+[0mGET /.env [33m404 [0m9.012 ms - 1032[0m
+[0mPOST / [33m404 [0m8.405 ms - 1032[0m
+[0mGET / [32m200 [0m7.506 ms - 1138[0m
+[0mGET / [32m200 [0m8.784 ms - 1138[0m
+[0mGET / [32m200 [0m6.385 ms - 1138[0m
+[0mGET / [32m200 [0m4.923 ms - 1138[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.831 ms - 111[0m
+[0mGET /favicon.ico [33m404 [0m5.418 ms - 1032[0m
+[0mGET / [36m304 [0m6.711 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.433 ms - -[0m
+[0mGET /.env [33m404 [0m3.686 ms - 1032[0m
+[0mPOST / [33m404 [0m5.194 ms - 1032[0m
+[0mGET / [32m200 [0m4.647 ms - 1138[0m
+[0mGET / [32m200 [0m5.023 ms - 1138[0m
+[0mGET / [32m200 [0m5.353 ms - 1138[0m
+[0mGET /.env [33m404 [0m3.706 ms - 1032[0m
+[0mPOST / [33m404 [0m3.852 ms - 1032[0m
+[0mGET / [32m200 [0m4.970 ms - 1138[0m
+[0mGET / [32m200 [0m4.659 ms - 1138[0m
+[0mGET / [32m200 [0m5.144 ms - 1138[0m
+[0mGET /favicon.ico [33m404 [0m4.171 ms - 1032[0m
+[0mGET / [32m200 [0m6.295 ms - 1138[0m
+[0mGET / [32m200 [0m4.529 ms - 1138[0m
+[0mGET / [32m200 [0m6.449 ms - 1138[0m
+[0mGET / [32m200 [0m6.653 ms - 1138[0m
+[0mGET /favicon.ico [33m404 [0m4.067 ms - 1032[0m
+[0mGET /.env [33m404 [0m3.460 ms - 1032[0m
+[0mPOST / [33m404 [0m6.545 ms - 1032[0m
+[0mGET /.env [33m404 [0m4.956 ms - 1032[0m
+[0mPOST / [33m404 [0m3.927 ms - 1032[0m
+[0mGET / [32m200 [0m5.185 ms - 1138[0m
+[0mGET / [32m200 [0m5.361 ms - 1138[0m
+[0mGET /favicon.ico [33m404 [0m3.662 ms - 1032[0m
+[0mGET / [32m200 [0m5.306 ms - 1138[0m
+[0mGET / [32m200 [0m5.126 ms - 1138[0m
+[0mGET /.env [33m404 [0m4.022 ms - 1032[0m
+[0mPOST / [33m404 [0m3.947 ms - 1032[0m
+[0mGET /boaform/admin/formLogin?username=admin&psd=admin [33m404 [0m3.883 ms - 1032[0m
+[0mGET / [32m200 [0m4.581 ms - 1138[0m
+[0mPOST /GponForm/diag_Form?images/ [33m404 [0m4.296 ms - 1032[0m
+[0mGET /.env [33m404 [0m4.020 ms - 1032[0m
+[0mPOST / [33m404 [0m175.804 ms - 1032[0m
+[0mGET / [32m200 [0m6.148 ms - 1138[0m
+[0mGET / [32m200 [0m5.268 ms - 1138[0m
+[0mGET /favicon.ico [33m404 [0m4.359 ms - 1032[0m
+[0mGET /geoserver/web/ [33m404 [0m4.754 ms - 1032[0m
+[0mGET /.env [33m404 [0m10.050 ms - 1032[0m
+[0mPOST / [33m404 [0m3.348 ms - 1032[0m
+[0mGET /.env [33m404 [0m3.760 ms - 1032[0m
+[0mPOST / [33m404 [0m3.968 ms - 1032[0m
+[0mGET / [32m200 [0m5.154 ms - 1138[0m
+[0mGET /.env [33m404 [0m3.698 ms - 1032[0m
+[0mPOST / [33m404 [0m5.249 ms - 1032[0m
+[0mGET /.env [33m404 [0m3.911 ms - 1032[0m
+[0mPOST / [33m404 [0m6.808 ms - 1032[0m
+[0mGET /.env [33m404 [0m4.529 ms - 1032[0m
+[0mPOST / [33m404 [0m6.306 ms - 1032[0m
+[0mGET / [32m200 [0m6.602 ms - 1138[0m
+[0mGET / [32m200 [0m4.502 ms - 1138[0m
+[0mGET /favicon.ico [33m404 [0m3.704 ms - 1032[0m
+[0mGET /.env [33m404 [0m4.897 ms - 1032[0m
+[0mPOST / [33m404 [0m3.706 ms - 1032[0m
+[0mGET / [32m200 [0m5.896 ms - 1138[0m
+[0mGET /actuator/health [33m404 [0m4.140 ms - 1032[0m
+[0mGET /.env [33m404 [0m3.675 ms - 1032[0m
+[0mPOST / [33m404 [0m3.046 ms - 1032[0m
+[0mGET /manager/text/list [33m404 [0m3.595 ms - 1032[0m
+[0mGET / [32m200 [0m5.047 ms - 1138[0m
+[0mGET / [32m200 [0m6.766 ms - 1138[0m
+[0mGET /signin [33m404 [0m5.504 ms - 1032[0m
+[0mGET /.env [33m404 [0m4.436 ms - 1032[0m
+[0mPOST / [33m404 [0m4.399 ms - 1032[0m
+[0mGET / [32m200 [0m4.883 ms - 1138[0m
+[0mGET /.env [33m404 [0m3.821 ms - 1032[0m
+[0mPOST / [33m404 [0m4.404 ms - 1032[0m
+[0mGET /.env [33m404 [0m3.778 ms - 1032[0m
+[0mPOST / [33m404 [0m4.715 ms - 1032[0m
+[0mGET /.env [33m404 [0m3.749 ms - 1032[0m
+[0mPOST / [33m404 [0m3.495 ms - 1032[0m
+[0mGET /.env [33m404 [0m4.271 ms - 1032[0m
+[0mPOST / [33m404 [0m3.812 ms - 1032[0m
+[0mGET /.env [33m404 [0m3.719 ms - 1032[0m
+[0mPOST / [33m404 [0m4.100 ms - 1032[0m
+[0mGET /systembc/password.php [33m404 [0m3.873 ms - 1032[0m
+[0mGET /.env [33m404 [0m3.705 ms - 1032[0m
+[0mPOST / [33m404 [0m3.549 ms - 1032[0m
+[0mGET /.env [33m404 [0m4.293 ms - 1032[0m
+[0mPOST / [33m404 [0m3.848 ms - 1032[0m
+[0mGET /.env [33m404 [0m4.142 ms - 1032[0m
+[0mPOST / [33m404 [0m4.140 ms - 1032[0m
+[0mGET /.env [33m404 [0m3.233 ms - 1032[0m
+[0mPOST / [33m404 [0m3.868 ms - 1032[0m
+[0mGET / [32m200 [0m4.775 ms - 1138[0m
+[0mGET / [32m200 [0m9.842 ms - 1138[0m
+[0mGET /.env [33m404 [0m4.423 ms - 1032[0m
+[0mPOST / [33m404 [0m3.469 ms - 1032[0m
+[0mGET / [32m200 [0m5.785 ms - 1138[0m
+[0mGET /.env [33m404 [0m2.991 ms - 1032[0m
+[0mPOST / [33m404 [0m4.493 ms - 1032[0m
+[0mGET / [32m200 [0m4.971 ms - 1138[0m
+[0mGET /.env [33m404 [0m3.050 ms - 1032[0m
+[0mPOST / [33m404 [0m3.622 ms - 1032[0m
+[0mGET / [32m200 [0m4.862 ms - 1138[0m
+[0mGET / [32m200 [0m5.295 ms - 1138[0m
+[0mGET /form.html [33m404 [0m3.774 ms - 1032[0m
+[0mGET /upl.php [33m404 [0m4.400 ms - 1032[0m
+[0mGET /geoip/ [33m404 [0m3.531 ms - 1032[0m
+[0mGET /favicon.ico [33m404 [0m5.255 ms - 1032[0m
+[0mGET /1.php [33m404 [0m5.226 ms - 1032[0m
+[0mGET /bundle.js [33m404 [0m3.311 ms - 1032[0m
+[0mGET /files/ [33m404 [0m5.147 ms - 1032[0m
+[0mGET /systembc/password.php [33m404 [0m4.778 ms - 1032[0m
+[0mGET /password.php [33m404 [0m3.565 ms - 1032[0m
+[0mGET /info.php [33m404 [0m3.834 ms - 1032[0m
+[0mGET /.env [33m404 [0m3.268 ms - 1032[0m
+[0mPOST / [33m404 [0m3.646 ms - 1032[0m
+[0mGET / [32m200 [0m4.288 ms - 1138[0m
+[0mGET /ReportServer [33m404 [0m6.600 ms - 1032[0m
+[0mGET /.env [33m404 [0m3.622 ms - 1032[0m
+[0mPOST / [33m404 [0m3.491 ms - 1032[0m
+[0mGET /.env [33m404 [0m5.000 ms - 1032[0m
+[0mPOST / [33m404 [0m3.248 ms - 1032[0m
+[0mGET / [32m200 [0m4.729 ms - 1138[0m
+[0mGET / [32m200 [0m4.809 ms - 1138[0m
+[0mGET /.env [33m404 [0m3.612 ms - 1032[0m
+[0mPOST / [33m404 [0m8.569 ms - 1032[0m
+[0mGET / [32m200 [0m4.568 ms - 1138[0m
+[0mGET /.env [33m404 [0m3.914 ms - 1032[0m
+[0mGET / [32m200 [0m5.281 ms - 1138[0m
+[0mGET /.env [33m404 [0m12.015 ms - 1032[0m
+[0mPOST / [33m404 [0m7.832 ms - 1032[0m
+[0mGET / [32m200 [0m9.240 ms - 1138[0m
+[0mGET / [32m200 [0m5.293 ms - 1138[0m
+[0mGET /.env [33m404 [0m4.875 ms - 1032[0m
+[0mGET /.env [33m404 [0m4.091 ms - 1032[0m
+[0mPOST / [33m404 [0m3.981 ms - 1032[0m
+[0mGET /.env [33m404 [0m3.742 ms - 1032[0m
+[0mPOST / [33m404 [0m3.647 ms - 1032[0m
+[0mGET / [32m200 [0m4.660 ms - 1138[0m
+[0mGET / [32m200 [0m4.364 ms - 1138[0m
+[0mGET / [32m200 [0m5.286 ms - 1138[0m
+[0mGET / [32m200 [0m9.703 ms - 1138[0m
+[0mGET /.env [33m404 [0m6.403 ms - 1032[0m
+[0mPOST / [33m404 [0m6.189 ms - 1032[0m
+[0mGET / [32m200 [0m4.816 ms - 1138[0m
+[0mGET / [32m200 [0m11.017 ms - 1138[0m
+[0mGET /_profiler/phpinfo [33m404 [0m4.675 ms - 1032[0m
+[0mGET /.env [33m404 [0m5.232 ms - 1032[0m
+[0mGET /.aws/credentials [33m404 [0m4.363 ms - 1032[0m
+[0mGET /api/.env [33m404 [0m3.269 ms - 1032[0m
+[0mGET /.s3cfg [33m404 [0m4.106 ms - 1032[0m
+[0mGET /.env.prod [33m404 [0m5.259 ms - 1032[0m
+[0mGET /config/default.json [33m404 [0m5.545 ms - 1032[0m
+[0mGET /.env.prod [33m404 [0m5.649 ms - 1032[0m
+[0mGET /.env_1 [33m404 [0m3.514 ms - 1032[0m
+[0mGET /.env.local [33m404 [0m4.586 ms - 1032[0m
+[0mGET /.aws/config [33m404 [0m7.573 ms - 1032[0m
+[0mGET /config.json [33m404 [0m3.690 ms - 1032[0m
+[0mGET /s3cmd.ini [33m404 [0m4.691 ms - 1032[0m
+[0mGET /env.development.js [33m404 [0m4.056 ms - 1032[0m
+[0mGET /env.production.js [33m404 [0m3.845 ms - 1032[0m
+[0mGET /env.test.js [33m404 [0m3.578 ms - 1032[0m
+[0mGET /env.dev.js [33m404 [0m3.601 ms - 1032[0m
+[0mGET /env.prod.js [33m404 [0m6.777 ms - 1032[0m
+[0mGET /.env [33m404 [0m3.162 ms - 1032[0m
+[0mPOST / [33m404 [0m2.650 ms - 1032[0m
+[0mGET / [32m200 [0m6.743 ms - 1138[0m
+[0mGET /.env [33m404 [0m2.914 ms - 1032[0m
+[0mPOST / [33m404 [0m3.528 ms - 1032[0m
+[0mGET / [32m200 [0m4.453 ms - 1138[0m
+[0mGET /favicon.ico [33m404 [0m3.210 ms - 1032[0m
+[0mGET /geoserver/web/ [33m404 [0m4.554 ms - 1032[0m
+[0mGET / [32m200 [0m4.791 ms - 1138[0m
+[0mGET / [32m200 [0m6.641 ms - 1138[0m
+[0mGET /systembc/password.php [33m404 [0m4.043 ms - 1032[0m
+[0mGET / [32m200 [0m6.447 ms - 1138[0m
+[0mPOST / [33m404 [0m6.094 ms - 1032[0m
+[0mPOST / [33m404 [0m3.314 ms - 1032[0m
+[0mGET /WuEL [33m404 [0m5.624 ms - 1032[0m
+[0mGET /a [33m404 [0m6.794 ms - 1032[0m
+[0mGET /download/file.ext [33m404 [0m3.777 ms - 1032[0m
+[0mGET /SiteLoader [33m404 [0m4.897 ms - 1032[0m
+[0mGET /mPlayer [33m404 [0m5.871 ms - 1032[0m
+[0mPOST / [33m404 [0m4.450 ms - 1032[0m
+[0mGET /.env [33m404 [0m4.728 ms - 1032[0m
+[0mPOST / [33m404 [0m3.614 ms - 1032[0m
+[0mGET /.env [33m404 [0m4.081 ms - 1032[0m
+[0mPOST / [33m404 [0m3.375 ms - 1032[0m
+[0mGET /.env [33m404 [0m2.907 ms - 1032[0m
+[0mPOST / [33m404 [0m4.869 ms - 1032[0m
+[0mGET / [32m200 [0m4.872 ms - 1138[0m
+[0mGET / [32m200 [0m4.496 ms - 1138[0m
+[0mGET / [32m200 [0m5.091 ms - 1138[0m
+[0mGET / [32m200 [0m5.585 ms - 1138[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.767 ms - 111[0m
+[0mGET /favicon.ico [33m404 [0m4.051 ms - 1032[0m
+[0mGET / [31m500 [0m5.159 ms - 1232[0m
+Error: Failed to lookup view "error" in views directory "/home/bitnami/blogger/views"
+    at Function.render (/home/bitnami/blogger/node_modules/express/lib/application.js:597:17)
+    at ServerResponse.render (/home/bitnami/blogger/node_modules/express/lib/response.js:1039:7)
+    at /home/bitnami/blogger/app.js:39:7
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+    at /home/bitnami/blogger/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/bitnami/blogger/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/bitnami/blogger/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:67:12)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+[0mGET / [31m500 [0m1.269 ms - 1232[0m
+Error: Failed to lookup view "error" in views directory "/home/bitnami/blogger/views"
+    at Function.render (/home/bitnami/blogger/node_modules/express/lib/application.js:597:17)
+    at ServerResponse.render (/home/bitnami/blogger/node_modules/express/lib/response.js:1039:7)
+    at /home/bitnami/blogger/app.js:39:7
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+    at /home/bitnami/blogger/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/bitnami/blogger/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/bitnami/blogger/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:67:12)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+[0mGET / [31m500 [0m0.973 ms - 1232[0m
+Error: Failed to lookup view "error" in views directory "/home/bitnami/blogger/views"
+    at Function.render (/home/bitnami/blogger/node_modules/express/lib/application.js:597:17)
+    at ServerResponse.render (/home/bitnami/blogger/node_modules/express/lib/response.js:1039:7)
+    at /home/bitnami/blogger/app.js:39:7
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+    at /home/bitnami/blogger/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/bitnami/blogger/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/bitnami/blogger/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:67:12)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+[0mGET / [31m500 [0m0.968 ms - 1232[0m
+Error: Failed to lookup view "error" in views directory "/home/bitnami/blogger/views"
+    at Function.render (/home/bitnami/blogger/node_modules/express/lib/application.js:597:17)
+    at ServerResponse.render (/home/bitnami/blogger/node_modules/express/lib/response.js:1039:7)
+    at /home/bitnami/blogger/app.js:39:7
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+    at /home/bitnami/blogger/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/bitnami/blogger/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/bitnami/blogger/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:67:12)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+[0mGET / [31m500 [0m1.262 ms - 1232[0m
+Error: Failed to lookup view "error" in views directory "/home/bitnami/blogger/views"
+    at Function.render (/home/bitnami/blogger/node_modules/express/lib/application.js:597:17)
+    at ServerResponse.render (/home/bitnami/blogger/node_modules/express/lib/response.js:1039:7)
+    at /home/bitnami/blogger/app.js:39:7
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+    at /home/bitnami/blogger/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/bitnami/blogger/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/bitnami/blogger/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:67:12)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+[0mGET / [32m200 [0m6.171 ms - 1138[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.380 ms - -[0m
+[0mGET / [31m500 [0m1.618 ms - 1232[0m
+Error: Failed to lookup view "error" in views directory "/home/bitnami/blogger/views"
+    at Function.render (/home/bitnami/blogger/node_modules/express/lib/application.js:597:17)
+    at ServerResponse.render (/home/bitnami/blogger/node_modules/express/lib/response.js:1039:7)
+    at /home/bitnami/blogger/app.js:39:7
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+    at /home/bitnami/blogger/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/bitnami/blogger/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/bitnami/blogger/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:67:12)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+[0mGET / [31m500 [0m1.080 ms - 1232[0m
+Error: Failed to lookup view "error" in views directory "/home/bitnami/blogger/views"
+    at Function.render (/home/bitnami/blogger/node_modules/express/lib/application.js:597:17)
+    at ServerResponse.render (/home/bitnami/blogger/node_modules/express/lib/response.js:1039:7)
+    at /home/bitnami/blogger/app.js:39:7
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+    at /home/bitnami/blogger/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/bitnami/blogger/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/bitnami/blogger/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:67:12)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+[0mGET / [31m500 [0m1.092 ms - 1232[0m
+Error: Failed to lookup view "error" in views directory "/home/bitnami/blogger/views"
+    at Function.render (/home/bitnami/blogger/node_modules/express/lib/application.js:597:17)
+    at ServerResponse.render (/home/bitnami/blogger/node_modules/express/lib/response.js:1039:7)
+    at /home/bitnami/blogger/app.js:39:7
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+    at /home/bitnami/blogger/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/bitnami/blogger/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/bitnami/blogger/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:67:12)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+[0mGET / [31m500 [0m1.381 ms - 1232[0m
+Error: Failed to lookup view "error" in views directory "/home/bitnami/blogger/views"
+    at Function.render (/home/bitnami/blogger/node_modules/express/lib/application.js:597:17)
+    at ServerResponse.render (/home/bitnami/blogger/node_modules/express/lib/response.js:1039:7)
+    at /home/bitnami/blogger/app.js:39:7
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+    at /home/bitnami/blogger/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/bitnami/blogger/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/bitnami/blogger/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:67:12)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+[0mGET / [31m500 [0m2.776 ms - 1232[0m
+Error: Failed to lookup view "error" in views directory "/home/bitnami/blogger/views"
+    at Function.render (/home/bitnami/blogger/node_modules/express/lib/application.js:597:17)
+    at ServerResponse.render (/home/bitnami/blogger/node_modules/express/lib/response.js:1039:7)
+    at /home/bitnami/blogger/app.js:39:7
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+    at /home/bitnami/blogger/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/bitnami/blogger/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/bitnami/blogger/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:67:12)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+[0mGET / [31m500 [0m1.074 ms - 1232[0m
+Error: Failed to lookup view "error" in views directory "/home/bitnami/blogger/views"
+    at Function.render (/home/bitnami/blogger/node_modules/express/lib/application.js:597:17)
+    at ServerResponse.render (/home/bitnami/blogger/node_modules/express/lib/response.js:1039:7)
+    at /home/bitnami/blogger/app.js:39:7
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+    at /home/bitnami/blogger/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/bitnami/blogger/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/bitnami/blogger/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:67:12)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+[0mGET / [31m500 [0m1.701 ms - 1232[0m
+Error: Failed to lookup view "error" in views directory "/home/bitnami/blogger/views"
+    at Function.render (/home/bitnami/blogger/node_modules/express/lib/application.js:597:17)
+    at ServerResponse.render (/home/bitnami/blogger/node_modules/express/lib/response.js:1039:7)
+    at /home/bitnami/blogger/app.js:39:7
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+    at /home/bitnami/blogger/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/bitnami/blogger/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/bitnami/blogger/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:67:12)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+[0mGET / [31m500 [0m0.928 ms - 1232[0m
+Error: Failed to lookup view "error" in views directory "/home/bitnami/blogger/views"
+    at Function.render (/home/bitnami/blogger/node_modules/express/lib/application.js:597:17)
+    at ServerResponse.render (/home/bitnami/blogger/node_modules/express/lib/response.js:1039:7)
+    at /home/bitnami/blogger/app.js:39:7
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+    at /home/bitnami/blogger/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/bitnami/blogger/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/bitnami/blogger/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:67:12)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+[0mGET / [31m500 [0m0.954 ms - 1232[0m
+Error: Failed to lookup view "error" in views directory "/home/bitnami/blogger/views"
+    at Function.render (/home/bitnami/blogger/node_modules/express/lib/application.js:597:17)
+    at ServerResponse.render (/home/bitnami/blogger/node_modules/express/lib/response.js:1039:7)
+    at /home/bitnami/blogger/app.js:39:7
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+    at /home/bitnami/blogger/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/bitnami/blogger/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/bitnami/blogger/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:67:12)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+[0mGET / [31m500 [0m1.177 ms - 1232[0m
+Error: Failed to lookup view "error" in views directory "/home/bitnami/blogger/views"
+    at Function.render (/home/bitnami/blogger/node_modules/express/lib/application.js:597:17)
+    at ServerResponse.render (/home/bitnami/blogger/node_modules/express/lib/response.js:1039:7)
+    at /home/bitnami/blogger/app.js:39:7
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+    at /home/bitnami/blogger/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/bitnami/blogger/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/bitnami/blogger/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:67:12)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+[0mGET / [31m500 [0m1.026 ms - 1232[0m
+Error: Failed to lookup view "error" in views directory "/home/bitnami/blogger/views"
+    at Function.render (/home/bitnami/blogger/node_modules/express/lib/application.js:597:17)
+    at ServerResponse.render (/home/bitnami/blogger/node_modules/express/lib/response.js:1039:7)
+    at /home/bitnami/blogger/app.js:39:7
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+    at /home/bitnami/blogger/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/bitnami/blogger/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/bitnami/blogger/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:67:12)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+[0mGET / [31m500 [0m1.039 ms - 1232[0m
+Error: Failed to lookup view "error" in views directory "/home/bitnami/blogger/views"
+    at Function.render (/home/bitnami/blogger/node_modules/express/lib/application.js:597:17)
+    at ServerResponse.render (/home/bitnami/blogger/node_modules/express/lib/response.js:1039:7)
+    at /home/bitnami/blogger/app.js:39:7
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+    at /home/bitnami/blogger/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/bitnami/blogger/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/bitnami/blogger/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:67:12)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+[0mGET / [31m500 [0m1.167 ms - 1232[0m
+Error: Failed to lookup view "error" in views directory "/home/bitnami/blogger/views"
+    at Function.render (/home/bitnami/blogger/node_modules/express/lib/application.js:597:17)
+    at ServerResponse.render (/home/bitnami/blogger/node_modules/express/lib/response.js:1039:7)
+    at /home/bitnami/blogger/app.js:39:7
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+    at /home/bitnami/blogger/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/bitnami/blogger/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/bitnami/blogger/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:67:12)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+[0mGET / [31m500 [0m0.923 ms - 1232[0m
+Error: Failed to lookup view "error" in views directory "/home/bitnami/blogger/views"
+    at Function.render (/home/bitnami/blogger/node_modules/express/lib/application.js:597:17)
+    at ServerResponse.render (/home/bitnami/blogger/node_modules/express/lib/response.js:1039:7)
+    at /home/bitnami/blogger/app.js:39:7
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+    at /home/bitnami/blogger/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/bitnami/blogger/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/bitnami/blogger/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:67:12)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+[0mGET / [31m500 [0m2.181 ms - 1232[0m
+Error: Failed to lookup view "error" in views directory "/home/bitnami/blogger/views"
+    at Function.render (/home/bitnami/blogger/node_modules/express/lib/application.js:597:17)
+    at ServerResponse.render (/home/bitnami/blogger/node_modules/express/lib/response.js:1039:7)
+    at /home/bitnami/blogger/app.js:39:7
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+    at /home/bitnami/blogger/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/bitnami/blogger/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/bitnami/blogger/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:67:12)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+[0mGET / [31m500 [0m0.988 ms - 1232[0m
+Error: Failed to lookup view "error" in views directory "/home/bitnami/blogger/views"
+    at Function.render (/home/bitnami/blogger/node_modules/express/lib/application.js:597:17)
+    at ServerResponse.render (/home/bitnami/blogger/node_modules/express/lib/response.js:1039:7)
+    at /home/bitnami/blogger/app.js:39:7
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+    at /home/bitnami/blogger/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/bitnami/blogger/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/bitnami/blogger/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:67:12)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+[0mGET / [31m500 [0m1.051 ms - 1232[0m
+Error: Failed to lookup view "error" in views directory "/home/bitnami/blogger/views"
+    at Function.render (/home/bitnami/blogger/node_modules/express/lib/application.js:597:17)
+    at ServerResponse.render (/home/bitnami/blogger/node_modules/express/lib/response.js:1039:7)
+    at /home/bitnami/blogger/app.js:39:7
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+    at /home/bitnami/blogger/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/bitnami/blogger/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/bitnami/blogger/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:67:12)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+[0mGET / [31m500 [0m1.004 ms - 1232[0m
+Error: Failed to lookup view "error" in views directory "/home/bitnami/blogger/views"
+    at Function.render (/home/bitnami/blogger/node_modules/express/lib/application.js:597:17)
+    at ServerResponse.render (/home/bitnami/blogger/node_modules/express/lib/response.js:1039:7)
+    at /home/bitnami/blogger/app.js:39:7
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+    at /home/bitnami/blogger/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/bitnami/blogger/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/bitnami/blogger/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:67:12)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+[0mGET / [31m500 [0m1.189 ms - 1232[0m
+Error: Failed to lookup view "error" in views directory "/home/bitnami/blogger/views"
+    at Function.render (/home/bitnami/blogger/node_modules/express/lib/application.js:597:17)
+    at ServerResponse.render (/home/bitnami/blogger/node_modules/express/lib/response.js:1039:7)
+    at /home/bitnami/blogger/app.js:39:7
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+    at /home/bitnami/blogger/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/bitnami/blogger/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/bitnami/blogger/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:67:12)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+[0mGET / [31m500 [0m1.459 ms - 1232[0m
+Error: Failed to lookup view "error" in views directory "/home/bitnami/blogger/views"
+    at Function.render (/home/bitnami/blogger/node_modules/express/lib/application.js:597:17)
+    at ServerResponse.render (/home/bitnami/blogger/node_modules/express/lib/response.js:1039:7)
+    at /home/bitnami/blogger/app.js:39:7
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+    at /home/bitnami/blogger/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/bitnami/blogger/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/bitnami/blogger/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:67:12)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+[0mGET / [31m500 [0m1.336 ms - 1232[0m
+Error: Failed to lookup view "error" in views directory "/home/bitnami/blogger/views"
+    at Function.render (/home/bitnami/blogger/node_modules/express/lib/application.js:597:17)
+    at ServerResponse.render (/home/bitnami/blogger/node_modules/express/lib/response.js:1039:7)
+    at /home/bitnami/blogger/app.js:39:7
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+    at /home/bitnami/blogger/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/bitnami/blogger/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/bitnami/blogger/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:67:12)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+[0mGET / [31m500 [0m1.173 ms - 1232[0m
+Error: Failed to lookup view "error" in views directory "/home/bitnami/blogger/views"
+    at Function.render (/home/bitnami/blogger/node_modules/express/lib/application.js:597:17)
+    at ServerResponse.render (/home/bitnami/blogger/node_modules/express/lib/response.js:1039:7)
+    at /home/bitnami/blogger/app.js:39:7
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+    at /home/bitnami/blogger/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/bitnami/blogger/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/bitnami/blogger/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:67:12)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+[0mGET / [31m500 [0m4.965 ms - 1232[0m
+Error: Failed to lookup view "error" in views directory "/home/bitnami/blogger/views"
+    at Function.render (/home/bitnami/blogger/node_modules/express/lib/application.js:597:17)
+    at ServerResponse.render (/home/bitnami/blogger/node_modules/express/lib/response.js:1039:7)
+    at /home/bitnami/blogger/app.js:39:7
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+    at /home/bitnami/blogger/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/bitnami/blogger/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/bitnami/blogger/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:67:12)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+[0mGET / [31m500 [0m0.861 ms - 1232[0m
+Error: Failed to lookup view "error" in views directory "/home/bitnami/blogger/views"
+    at Function.render (/home/bitnami/blogger/node_modules/express/lib/application.js:597:17)
+    at ServerResponse.render (/home/bitnami/blogger/node_modules/express/lib/response.js:1039:7)
+    at /home/bitnami/blogger/app.js:39:7
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+    at /home/bitnami/blogger/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/bitnami/blogger/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/bitnami/blogger/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:67:12)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+[0mGET / [31m500 [0m0.900 ms - 1232[0m
+Error: Failed to lookup view "error" in views directory "/home/bitnami/blogger/views"
+    at Function.render (/home/bitnami/blogger/node_modules/express/lib/application.js:597:17)
+    at ServerResponse.render (/home/bitnami/blogger/node_modules/express/lib/response.js:1039:7)
+    at /home/bitnami/blogger/app.js:39:7
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+    at /home/bitnami/blogger/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/bitnami/blogger/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/bitnami/blogger/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:67:12)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+[0mGET / [31m500 [0m0.955 ms - 1232[0m
+Error: Failed to lookup view "error" in views directory "/home/bitnami/blogger/views"
+    at Function.render (/home/bitnami/blogger/node_modules/express/lib/application.js:597:17)
+    at ServerResponse.render (/home/bitnami/blogger/node_modules/express/lib/response.js:1039:7)
+    at /home/bitnami/blogger/app.js:39:7
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+    at /home/bitnami/blogger/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/bitnami/blogger/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/bitnami/blogger/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:67:12)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+[0mGET / [31m500 [0m0.942 ms - 1232[0m
+Error: Failed to lookup view "error" in views directory "/home/bitnami/blogger/views"
+    at Function.render (/home/bitnami/blogger/node_modules/express/lib/application.js:597:17)
+    at ServerResponse.render (/home/bitnami/blogger/node_modules/express/lib/response.js:1039:7)
+    at /home/bitnami/blogger/app.js:39:7
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+    at /home/bitnami/blogger/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/bitnami/blogger/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/bitnami/blogger/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:67:12)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+[0mGET / [31m500 [0m0.919 ms - 1232[0m
+Error: Failed to lookup view "error" in views directory "/home/bitnami/blogger/views"
+    at Function.render (/home/bitnami/blogger/node_modules/express/lib/application.js:597:17)
+    at ServerResponse.render (/home/bitnami/blogger/node_modules/express/lib/response.js:1039:7)
+    at /home/bitnami/blogger/app.js:39:7
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+    at /home/bitnami/blogger/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/bitnami/blogger/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/bitnami/blogger/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:67:12)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+[0mGET / [31m500 [0m1.029 ms - 1232[0m
+Error: Failed to lookup view "error" in views directory "/home/bitnami/blogger/views"
+    at Function.render (/home/bitnami/blogger/node_modules/express/lib/application.js:597:17)
+    at ServerResponse.render (/home/bitnami/blogger/node_modules/express/lib/response.js:1039:7)
+    at /home/bitnami/blogger/app.js:39:7
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+    at /home/bitnami/blogger/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/bitnami/blogger/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/bitnami/blogger/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:67:12)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+[0mGET / [31m500 [0m1.901 ms - 1232[0m
+Error: Failed to lookup view "error" in views directory "/home/bitnami/blogger/views"
+    at Function.render (/home/bitnami/blogger/node_modules/express/lib/application.js:597:17)
+    at ServerResponse.render (/home/bitnami/blogger/node_modules/express/lib/response.js:1039:7)
+    at /home/bitnami/blogger/app.js:39:7
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+    at /home/bitnami/blogger/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/bitnami/blogger/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/bitnami/blogger/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:67:12)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+[0mGET / [31m500 [0m1.141 ms - 1232[0m
+Error: Failed to lookup view "error" in views directory "/home/bitnami/blogger/views"
+    at Function.render (/home/bitnami/blogger/node_modules/express/lib/application.js:597:17)
+    at ServerResponse.render (/home/bitnami/blogger/node_modules/express/lib/response.js:1039:7)
+    at /home/bitnami/blogger/app.js:39:7
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+    at /home/bitnami/blogger/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/bitnami/blogger/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/bitnami/blogger/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:67:12)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+[0mGET / [31m500 [0m0.932 ms - 1232[0m
+Error: Failed to lookup view "error" in views directory "/home/bitnami/blogger/views"
+    at Function.render (/home/bitnami/blogger/node_modules/express/lib/application.js:597:17)
+    at ServerResponse.render (/home/bitnami/blogger/node_modules/express/lib/response.js:1039:7)
+    at /home/bitnami/blogger/app.js:39:7
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+    at /home/bitnami/blogger/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/bitnami/blogger/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/bitnami/blogger/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:67:12)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+[0mGET / [31m500 [0m1.333 ms - 1232[0m
+Error: Failed to lookup view "error" in views directory "/home/bitnami/blogger/views"
+    at Function.render (/home/bitnami/blogger/node_modules/express/lib/application.js:597:17)
+    at ServerResponse.render (/home/bitnami/blogger/node_modules/express/lib/response.js:1039:7)
+    at /home/bitnami/blogger/app.js:39:7
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+    at /home/bitnami/blogger/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/bitnami/blogger/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/bitnami/blogger/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:67:12)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+[0mGET / [31m500 [0m1.140 ms - 1232[0m
+Error: Failed to lookup view "error" in views directory "/home/bitnami/blogger/views"
+    at Function.render (/home/bitnami/blogger/node_modules/express/lib/application.js:597:17)
+    at ServerResponse.render (/home/bitnami/blogger/node_modules/express/lib/response.js:1039:7)
+    at /home/bitnami/blogger/app.js:39:7
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+    at /home/bitnami/blogger/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/bitnami/blogger/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/bitnami/blogger/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:67:12)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+[0mGET / [31m500 [0m0.930 ms - 1232[0m
+Error: Failed to lookup view "error" in views directory "/home/bitnami/blogger/views"
+    at Function.render (/home/bitnami/blogger/node_modules/express/lib/application.js:597:17)
+    at ServerResponse.render (/home/bitnami/blogger/node_modules/express/lib/response.js:1039:7)
+    at /home/bitnami/blogger/app.js:39:7
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+    at /home/bitnami/blogger/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/bitnami/blogger/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/bitnami/blogger/node_modules/express/lib/router/index.js:280:10)
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:67:12)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:326:13)
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+[0mGET / [36m304 [0m275.649 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.672 ms - -[0m
+[0mGET / [36m304 [0m35.727 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.731 ms - -[0m
+[0mGET / [36m304 [0m23.206 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.731 ms - -[0m

@@ -25,3 +25,6 @@
 2024-02-12 23:04:01.558 [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/bitnami)
 2024-02-12 23:08:51.002 [info] [<unknown>][90485f53][ExtensionHostConnection] <1334> Extension Host Process exited with code: 0, signal: null.
 2024-02-12 23:08:58.172 [info] [<unknown>][fddfa649][ExtensionHostConnection] <3891> Extension Host Process exited with code: 0, signal: null.
+2024-02-13 02:59:53.997 [info] [<unknown>][fbda7aa6][ExtensionHostConnection] <3979> Extension Host Process exited with code: 0, signal: null.
+2024-02-13 02:59:54.015 [info] Last EH closed, waiting before shutting down
+2024-02-13 03:04:54.015 [info] Last EH closed, shutting down

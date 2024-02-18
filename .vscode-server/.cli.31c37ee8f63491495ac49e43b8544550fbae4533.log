@@ -3,3 +3,4 @@ Listening on 127.0.0.1:37123
 looking for token 50a2a471-d1f9-4579-ac50-04e124058bb8, got Some("50a2a471-d1f9-4579-ac50-04e124058bb8")
 [2024-02-12 23:03:57] info Checking /home/bitnami/.vscode-server/cli/servers/Stable-31c37ee8f63491495ac49e43b8544550fbae4533/log.txt and /home/bitnami/.vscode-server/cli/servers/Stable-31c37ee8f63491495ac49e43b8544550fbae4533/pid.txt for a running server...
 [2024-02-12 23:03:57] info Found running server (pid=1031)
+[2024-02-12 23:59:43] info Disposed of connection to running server.
