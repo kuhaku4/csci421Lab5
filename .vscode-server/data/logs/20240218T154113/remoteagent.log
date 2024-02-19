@@ -18,3 +18,5 @@
 2024-02-18 15:46:13.442 [info] New EH opened, aborting shutdown
 2024-02-18 15:46:17.784 [info] [<unknown>][a617b3ce][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
 2024-02-18 15:46:17.919 [info] [<unknown>][2e8586c3][ExtensionHostConnection] <54153> Extension Host Process exited with code: 0, signal: null.
+2024-02-19 02:17:39.449 [warning] No ptyHost heartbeat after 6 seconds
+2024-02-19 02:27:40.634 [info] [<unknown>][60ed437d][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...

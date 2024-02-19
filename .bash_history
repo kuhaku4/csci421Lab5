@@ -437,3 +437,63 @@ nohup sudo nodemon
 exit
 cd blogger
 npm install mongoose
+cd blogger
+ps aux | grep node
+sudo kill -9 6854
+sudo nodemon
+nohup sudo nodemon
+npm install mongoose
+ps aux | grep node
+sudo kill -9 58035
+nohup sudo nodemon
+exit
+cd blogger
+ps aux | grep node
+sudo kill -9 64708
+ps aux | grep node
+nohup sudo nodemon
+exit
+cd blogger
+nohup sudo nodemon
+exit
+cd blogger
+nohup sudo nodemon
+exit
+cd blogger
+nohup sudo nodemon
+npm install
+nohup sudo nodemon
+exit
+cd blogger
+ps aux | grep node
+sudo kill -9 67950
+nohup sudo nodemon
+cd blogger
+nohup sudo nodemon
+npm install --save mongoose
+npm install
+nohup sudo nodemon
+exit
+cd blogger
+nohup sudo nodemon
+cd
+npm install
+npm audit fix --force
+cd blogger
+nohup sudo nodemon
+exit
+cd blogger
+mongoose --version
+mongoose -version
+mongod -version
+npm list mongoose
+cd
+npm install mongoose
+npm install --save mongoose
+npm install
+npm list mongoose
+cd blogger
+npm list mongoose
+nohup sudo nodemon
+xit
+exit

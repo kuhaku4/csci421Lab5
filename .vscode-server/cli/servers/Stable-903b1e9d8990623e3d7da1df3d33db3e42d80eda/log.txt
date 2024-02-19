@@ -5,23 +5,27 @@
 * the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
 * the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
 *
-Server bound to /tmp/code-7f112244-8c9c-49aa-b803-34babbaa4268
-Extension host agent listening on /tmp/code-7f112244-8c9c-49aa-b803-34babbaa4268
+Server bound to /tmp/code-250dbab4-4c85-4516-819e-ba40c8bd801b
+Extension host agent listening on /tmp/code-250dbab4-4c85-4516-819e-ba40c8bd801b
 
-[15:41:13] 
-
-
+[02:29:54] 
 
 
-[15:41:13] Extension host agent started.
-[15:41:13] [<unknown>][2e8586c3][ExtensionHostConnection] New connection established.
-[15:41:13] [<unknown>][a617b3ce][ManagementConnection] New connection established.
-[15:41:13] [<unknown>][2e8586c3][ExtensionHostConnection] <54153> Launched Extension Host Process.
-[15:41:15] [<unknown>][a617b3ce][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
-[15:41:15] Error: Unexpected SIGPIPE
-    at process.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/server/node/server.main.js:187:6090)
-    at process.emit (node:events:514:28)
-[15:41:17] [<unknown>][a617b3ce][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
-[15:41:17] [<unknown>][60ed437d][ManagementConnection] New connection established.
-[15:41:17] [<unknown>][b8cad939][ExtensionHostConnection] New connection established.
-[15:41:17] [<unknown>][b8cad939][ExtensionHostConnection] <54249> Launched Extension Host Process.
+
+
+[02:29:55] Extension host agent started.
+[02:29:55] [<unknown>][327eae20][ManagementConnection] New connection established.
+[02:29:55] [<unknown>][cddf9119][ExtensionHostConnection] New connection established.
+[02:29:55] [<unknown>][cddf9119][ExtensionHostConnection] <1208> Launched Extension Host Process.
+[02:30:05] [<unknown>][b30cd2d5][ManagementConnection] New connection established.
+[02:30:05] [<unknown>][ec071fdb][ExtensionHostConnection] New connection established.
+[02:30:05] [<unknown>][ec071fdb][ExtensionHostConnection] <1302> Launched Extension Host Process.
+[02:30:33] [<unknown>][c66aae63][ManagementConnection] New connection established.
+[02:30:33] [<unknown>][213fd740][ExtensionHostConnection] New connection established.
+[02:30:33] [<unknown>][213fd740][ExtensionHostConnection] <1441> Launched Extension Host Process.
+[02:30:38] [<unknown>][4715cf6a][ExtensionHostConnection] New connection established.
+[02:30:38] [<unknown>][4715cf6a][ExtensionHostConnection] <1544> Launched Extension Host Process.
+[02:30:38] [<unknown>][25f24d35][ManagementConnection] New connection established.
+[02:30:45] [<unknown>][8693b848][ManagementConnection] New connection established.
+[02:30:46] [<unknown>][96f8ca54][ExtensionHostConnection] New connection established.
+[02:30:46] [<unknown>][96f8ca54][ExtensionHostConnection] <1630> Launched Extension Host Process.

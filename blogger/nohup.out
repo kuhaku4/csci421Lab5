@@ -3477,3 +3477,1921 @@ Node.js v18.19.0
 [0mGET /stylesheets/style.css [36m304 [0m0.731 ms - -[0m
 [0mGET / [36m304 [0m23.206 ms - -[0m
 [0mGET /stylesheets/style.css [36m304 [0m0.731 ms - -[0m
+[0mGET //.env [33m404 [0m82.662 ms - 1032[0m
+[0mGET /manager/html [33m404 [0m15.528 ms - 1032[0m
+[0mGET /.env [33m404 [0m17.103 ms - 1032[0m
+[0mPOST / [33m404 [0m31.440 ms - 1032[0m
+[0mGET / [32m200 [0m26.517 ms - 1138[0m
+[0mGET / [32m200 [0m13.801 ms - 1138[0m
+[0mGET / [32m200 [0m7.767 ms - 1138[0m
+[0mGET /favicon.ico [33m404 [0m7.621 ms - 1032[0m
+[0mGET /cl/9_md/9/9/9/9/999999 [33m404 [0m7.384 ms - 1032[0m
+[0mGET /.env [33m404 [0m10.972 ms - 1032[0m
+[0mPOST / [33m404 [0m7.722 ms - 1032[0m
+[0mGET /.env [33m404 [0m7.823 ms - 1032[0m
+[0mPOST / [33m404 [0m18.721 ms - 1032[0m
+[0mGET / [32m200 [0m8.181 ms - 1138[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.480 ms - -[0m
+[0mGET / [32m200 [0m7.156 ms - 1138[0m
+[0mGET /.env [33m404 [0m5.198 ms - 1032[0m
+[0mPOST / [33m404 [0m5.597 ms - 1032[0m
+[0mPOST /GponForm/diag_Form?images/ [33m404 [0m13.899 ms - 1032[0m
+[0mGET / [32m200 [0m17.654 ms - 1138[0m
+[0mGET /.env [33m404 [0m7.293 ms - 1032[0m
+[0mPOST / [33m404 [0m35.265 ms - 1032[0m
+[0mGET /.env [33m404 [0m8.616 ms - 1032[0m
+[0mPOST / [33m404 [0m5.500 ms - 1032[0m
+[0mGET /.git/HEAD [33m404 [0m5.487 ms - 1032[0m
+[0mGET /.env [33m404 [0m5.388 ms - 1032[0m
+[0mPOST / [33m404 [0m5.034 ms - 1032[0m
+[0mGET /.git/config [33m404 [0m5.337 ms - 1032[0m
+[0mGET /private/.env [33m404 [0m6.183 ms - 1032[0m
+[0mPOST /private/.env [33m404 [0m6.145 ms - 1032[0m
+[0mGET /sources/.env [33m404 [0m6.385 ms - 1032[0m
+[0mPOST /sources/.env [33m404 [0m5.673 ms - 1032[0m
+[0mGET /apps/.env [33m404 [0m9.901 ms - 1032[0m
+[0mPOST /apps/.env [33m404 [0m10.223 ms - 1032[0m
+[0mGET /.env.production [33m404 [0m4.689 ms - 1032[0m
+[0mPOST /.env.production [33m404 [0m9.352 ms - 1032[0m
+[0mGET /api/.env [33m404 [0m9.641 ms - 1032[0m
+[0mPOST /api/.env [33m404 [0m6.618 ms - 1032[0m
+[0mGET /application/.env [33m404 [0m5.150 ms - 1032[0m
+[0mPOST /application/.env [33m404 [0m5.674 ms - 1032[0m
+[0mGET /.env.development [33m404 [0m6.141 ms - 1032[0m
+[0mPOST /.env.development [33m404 [0m5.999 ms - 1032[0m
+[0mGET /core/.env [33m404 [0m9.085 ms - 1032[0m
+[0mPOST /core/.env [33m404 [0m3.883 ms - 1032[0m
+[0mGET /shared/.env [33m404 [0m4.760 ms - 1032[0m
+[0mPOST /shared/.env [33m404 [0m4.313 ms - 1032[0m
+[0mGET /.env.dist [33m404 [0m11.868 ms - 1032[0m
+[0mPOST /.env.dist [33m404 [0m4.198 ms - 1032[0m
+[0mGET /app/.env [33m404 [0m4.221 ms - 1032[0m
+[0mPOST /app/.env [33m404 [0m9.361 ms - 1032[0m
+[0mGET /.env.prod [33m404 [0m4.095 ms - 1032[0m
+[0mPOST /.env.prod [33m404 [0m23.449 ms - 1032[0m
+[0mGET /system/.env [33m404 [0m3.977 ms - 1032[0m
+[0mPOST /system/.env [33m404 [0m6.245 ms - 1032[0m
+[0mGET /enviroments/.env [33m404 [0m4.054 ms - 1032[0m
+[0mPOST /enviroments/.env [33m404 [0m6.437 ms - 1032[0m
+[0mGET /admin-app/.env [33m404 [0m4.137 ms - 1032[0m
+[0mPOST /admin-app/.env [33m404 [0m3.231 ms - 1032[0m
+[0mGET /.env [33m404 [0m3.540 ms - 1032[0m
+[0mPOST /.env [33m404 [0m8.628 ms - 1032[0m
+[0mGET /.env.project [33m404 [0m3.205 ms - 1032[0m
+[0mPOST /.env.project [33m404 [0m5.925 ms - 1032[0m
+[0mGET /cp/.env [33m404 [0m3.649 ms - 1032[0m
+[0mPOST /cp/.env [33m404 [0m3.935 ms - 1032[0m
+[0mGET /live_env [33m404 [0m3.327 ms - 1032[0m
+[0mPOST /live_env [33m404 [0m3.998 ms - 1032[0m
+[0mGET /enviroments/.env.production [33m404 [0m3.962 ms - 1032[0m
+[0mPOST /enviroments/.env.production [33m404 [0m9.323 ms - 1032[0m
+[0mGET /script/.env [33m404 [0m4.676 ms - 1032[0m
+[0mPOST /script/.env [33m404 [0m8.791 ms - 1032[0m
+[0mGET /laravel/.env [33m404 [0m3.197 ms - 1032[0m
+[0mPOST /laravel/.env [33m404 [0m3.885 ms - 1032[0m
+[0mGET /docker/.env [33m404 [0m4.737 ms - 1032[0m
+[0mPOST /docker/.env [33m404 [0m4.342 ms - 1032[0m
+[0mGET /local/.env [33m404 [0m3.773 ms - 1032[0m
+[0mPOST /local/.env [33m404 [0m3.671 ms - 1032[0m
+[0mGET /.env.save [33m404 [0m3.677 ms - 1032[0m
+[0mPOST /.env.save [33m404 [0m20.698 ms - 1032[0m
+[0mGET /development/.env [33m404 [0m4.605 ms - 1032[0m
+[0mPOST /development/.env [33m404 [0m3.712 ms - 1032[0m
+[0mGET /cms/.env [33m404 [0m3.656 ms - 1032[0m
+[0mPOST /cms/.env [33m404 [0m24.628 ms - 1032[0m
+[0mGET /back/.env [33m404 [0m3.977 ms - 1032[0m
+[0mPOST /back/.env [33m404 [0m6.926 ms - 1032[0m
+[0mGET /rest/.env [33m404 [0m3.329 ms - 1032[0m
+[0mPOST /rest/.env [33m404 [0m13.652 ms - 1032[0m
+[0mGET /fedex/.env [33m404 [0m12.233 ms - 1032[0m
+[0mPOST /fedex/.env [33m404 [0m12.687 ms - 1032[0m
+[0mGET /.env.old [33m404 [0m6.350 ms - 1032[0m
+[0mPOST /.env.old [33m404 [0m7.332 ms - 1032[0m
+[0mGET /frontend_dev.php/$ [33m404 [0m4.462 ms - 1032[0m
+[0mGET /debug/default/view?panel=config [33m404 [0m10.177 ms - 1032[0m
+[0mGET /.json [33m404 [0m4.153 ms - 1032[0m
+[0mGET /config.json [33m404 [0m4.317 ms - 1032[0m
+[0mGET /_profiler/phpinfo [33m404 [0m3.064 ms - 1032[0m
+[0mGET /info.php [33m404 [0m3.266 ms - 1032[0m
+[0mGET /phpinfo.php [33m404 [0m3.857 ms - 1032[0m
+[0mGET /?phpinfo=1 [32m200 [0m4.250 ms - 1138[0m
+[0mGET /.env [33m404 [0m4.034 ms - 1032[0m
+[0mPOST / [33m404 [0m4.576 ms - 1032[0m
+[0mGET / [36m304 [0m5.051 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.426 ms - -[0m
+[0mGET / [36m304 [0m12.911 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.543 ms - -[0m
+[0mGET / [36m304 [0m115.326 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m7.264 ms - -[0m
+[0mGET /robots.txt [33m404 [0m9.602 ms - 1032[0m
+[0mGET / [32m200 [0m32.980 ms - 1138[0m
+[0mGET /stylesheets/style.css [32m200 [0m59.412 ms - 111[0m
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+[0mGET / [36m304 [0m611.560 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.433 ms - -[0m
+Mongoose disconnected
+Mongoose connection error: MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+/home/bitnami/blogger/node_modules/mongoose/lib/connection.js:829
+    err = new ServerSelectionError();
+          ^
+
+MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at _handleConnectionErrors (/home/bitnami/blogger/node_modules/mongoose/lib/connection.js:829:11)
+    at NativeConnection.openUri (/home/bitnami/blogger/node_modules/mongoose/lib/connection.js:804:11) {
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) {
+      'localhost:27017' => ServerDescription {
+        address: 'localhost:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 529322487,
+        lastWriteDate: 0,
+        error: MongoNetworkError: connect ECONNREFUSED 127.0.0.1:27017
+            at connectionFailureError (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/connect.js:379:20)
+            at Socket.<anonymous> (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/connect.js:285:22)
+            at Object.onceWrapper (node:events:632:26)
+            at Socket.emit (node:events:517:28)
+            at emitErrorNT (node:internal/streams/destroy:151:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+            at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' },
+          [cause]: Error: connect ECONNREFUSED 127.0.0.1:27017
+              at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+            errno: -111,
+            code: 'ECONNREFUSED',
+            syscall: 'connect',
+            address: '127.0.0.1',
+            port: 27017
+          }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      }
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined
+}
+
+Node.js v18.19.0
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+[0mGET / [36m304 [0m231.573 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.386 ms - -[0m
+[0mGET / [36m304 [0m15.226 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.560 ms - -[0m
+[0mGET / [36m304 [0m12.674 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.711 ms - -[0m
+Mongoose disconnected
+Mongoose connection error: MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+/home/bitnami/blogger/node_modules/mongoose/lib/connection.js:829
+    err = new ServerSelectionError();
+          ^
+
+MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at _handleConnectionErrors (/home/bitnami/blogger/node_modules/mongoose/lib/connection.js:829:11)
+    at NativeConnection.openUri (/home/bitnami/blogger/node_modules/mongoose/lib/connection.js:804:11) {
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) {
+      'localhost:27017' => ServerDescription {
+        address: 'localhost:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 529442025,
+        lastWriteDate: 0,
+        error: MongoNetworkError: connect ECONNREFUSED 127.0.0.1:27017
+            at connectionFailureError (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/connect.js:379:20)
+            at Socket.<anonymous> (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/connect.js:285:22)
+            at Object.onceWrapper (node:events:632:26)
+            at Socket.emit (node:events:517:28)
+            at emitErrorNT (node:internal/streams/destroy:151:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+            at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' },
+          [cause]: Error: connect ECONNREFUSED 127.0.0.1:27017
+              at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+            errno: -111,
+            code: 'ECONNREFUSED',
+            syscall: 'connect',
+            address: '127.0.0.1',
+            port: 27017
+          }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      }
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined
+}
+
+Node.js v18.19.0
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+[0mGET / [36m304 [0m219.239 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.494 ms - -[0m
+[0mGET / [36m304 [0m16.033 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.586 ms - -[0m
+[0mGET / [36m304 [0m10.008 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.491 ms - -[0m
+Mongoose disconnected
+Mongoose connection error: MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+/home/bitnami/blogger/node_modules/mongoose/lib/connection.js:829
+    err = new ServerSelectionError();
+          ^
+
+MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at _handleConnectionErrors (/home/bitnami/blogger/node_modules/mongoose/lib/connection.js:829:11)
+    at NativeConnection.openUri (/home/bitnami/blogger/node_modules/mongoose/lib/connection.js:804:11) {
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) {
+      'localhost:27017' => ServerDescription {
+        address: 'localhost:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 529506505,
+        lastWriteDate: 0,
+        error: MongoNetworkError: connect ECONNREFUSED 127.0.0.1:27017
+            at connectionFailureError (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/connect.js:379:20)
+            at Socket.<anonymous> (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/connect.js:285:22)
+            at Object.onceWrapper (node:events:632:26)
+            at Socket.emit (node:events:517:28)
+            at emitErrorNT (node:internal/streams/destroy:151:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+            at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' },
+          [cause]: Error: connect ECONNREFUSED 127.0.0.1:27017
+              at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+            errno: -111,
+            code: 'ECONNREFUSED',
+            syscall: 'connect',
+            address: '127.0.0.1',
+            port: 27017
+          }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      }
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined
+}
+
+Node.js v18.19.0
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+[0mGET / [36m304 [0m216.505 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.434 ms - -[0m
+[0mGET /list [32m200 [0m13.437 ms - 1107[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.673 ms - -[0m
+[0mGET /add [32m200 [0m9.912 ms - 1105[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.547 ms - -[0m
+[0mGET / [36m304 [0m25.099 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.521 ms - -[0m
+[0mGET / [36m304 [0m7.931 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.702 ms - -[0m
+[0mGET / [36m304 [0m11.896 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.672 ms - -[0m
+[0mGET / [36m304 [0m15.280 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.548 ms - -[0m
+[0mGET / [36m304 [0m12.948 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.774 ms - -[0m
+[0mGET / [36m304 [0m11.888 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.639 ms - -[0m
+[0mGET / [36m304 [0m8.958 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.509 ms - -[0m
+[0mGET / [36m304 [0m10.755 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.628 ms - -[0m
+[0mGET / [36m304 [0m24.227 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.429 ms - -[0m
+[0mGET / [36m304 [0m7.902 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.446 ms - -[0m
+[0mGET / [36m304 [0m6.633 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.392 ms - -[0m
+[0mGET / [36m304 [0m9.481 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.465 ms - -[0m
+[0mGET / [36m304 [0m6.450 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.690 ms - -[0m
+[0mGET / [36m304 [0m12.824 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.433 ms - -[0m
+[0mGET / [36m304 [0m10.385 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.485 ms - -[0m
+[0mGET / [36m304 [0m7.173 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.371 ms - -[0m
+[0mGET / [36m304 [0m8.248 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.358 ms - -[0m
+[0mGET / [36m304 [0m5.998 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.760 ms - -[0m
+[0mGET / [36m304 [0m8.077 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.377 ms - -[0m
+[0mGET / [36m304 [0m6.433 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.476 ms - -[0m
+[0mGET / [36m304 [0m6.232 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.204 ms - -[0m
+[0mGET / [36m304 [0m7.025 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.547 ms - -[0m
+[0mGET / [36m304 [0m5.779 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.483 ms - -[0m
+[0mGET / [36m304 [0m6.953 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.388 ms - -[0m
+[0mGET / [36m304 [0m5.021 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.380 ms - -[0m
+[0mGET / [36m304 [0m5.693 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.371 ms - -[0m
+[0mGET / [36m304 [0m6.504 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.356 ms - -[0m
+[0mGET / [36m304 [0m4.890 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.361 ms - -[0m
+[0mGET / [36m304 [0m5.541 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.311 ms - -[0m
+[0mGET / [36m304 [0m7.676 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.525 ms - -[0m
+[0mGET / [36m304 [0m6.621 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.376 ms - -[0m
+Mongoose disconnected
+Mongoose connection error: MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+/home/bitnami/blogger/node_modules/mongoose/lib/connection.js:829
+    err = new ServerSelectionError();
+          ^
+
+MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at _handleConnectionErrors (/home/bitnami/blogger/node_modules/mongoose/lib/connection.js:829:11)
+    at NativeConnection.openUri (/home/bitnami/blogger/node_modules/mongoose/lib/connection.js:804:11) {
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) {
+      'localhost:27017' => ServerDescription {
+        address: 'localhost:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 529613796,
+        lastWriteDate: 0,
+        error: MongoNetworkError: connect ECONNREFUSED 127.0.0.1:27017
+            at connectionFailureError (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/connect.js:379:20)
+            at Socket.<anonymous> (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/connect.js:285:22)
+            at Object.onceWrapper (node:events:632:26)
+            at Socket.emit (node:events:517:28)
+            at emitErrorNT (node:internal/streams/destroy:151:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+            at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' },
+          [cause]: Error: connect ECONNREFUSED 127.0.0.1:27017
+              at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+            errno: -111,
+            code: 'ECONNREFUSED',
+            syscall: 'connect',
+            address: '127.0.0.1',
+            port: 27017
+          }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      }
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined
+}
+
+Node.js v18.19.0
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+[0mGET / [32m200 [0m237.703 ms - 1138[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.526 ms - -[0m
+[0mGET / [36m304 [0m17.066 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.831 ms - -[0m
+[0mGET / [36m304 [0m14.702 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.568 ms - -[0m
+[0mGET / [36m304 [0m23.372 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.410 ms - -[0m
+[0mGET / [36m304 [0m11.795 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.727 ms - -[0m
+[0mGET / [36m304 [0m10.393 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.395 ms - -[0m
+[0mGET / [36m304 [0m9.239 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.542 ms - -[0m
+[0mGET / [36m304 [0m13.726 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.525 ms - -[0m
+[0mGET / [36m304 [0m19.170 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.629 ms - -[0m
+[0mGET / [36m304 [0m6.558 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.418 ms - -[0m
+[0mGET / [36m304 [0m8.370 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.431 ms - -[0m
+[0mGET /list [36m304 [0m9.054 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.609 ms - -[0m
+[0mGET /add [36m304 [0m13.893 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.616 ms - -[0m
+Mongoose disconnected
+Mongoose connection error: MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+/home/bitnami/blogger/node_modules/mongoose/lib/connection.js:829
+    err = new ServerSelectionError();
+          ^
+
+MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at _handleConnectionErrors (/home/bitnami/blogger/node_modules/mongoose/lib/connection.js:829:11)
+    at NativeConnection.openUri (/home/bitnami/blogger/node_modules/mongoose/lib/connection.js:804:11) {
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) {
+      'localhost:27017' => ServerDescription {
+        address: 'localhost:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 529667028,
+        lastWriteDate: 0,
+        error: MongoNetworkError: connect ECONNREFUSED 127.0.0.1:27017
+            at connectionFailureError (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/connect.js:379:20)
+            at Socket.<anonymous> (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/connect.js:285:22)
+            at Object.onceWrapper (node:events:632:26)
+            at Socket.emit (node:events:517:28)
+            at emitErrorNT (node:internal/streams/destroy:151:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+            at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' },
+          [cause]: Error: connect ECONNREFUSED 127.0.0.1:27017
+              at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+            errno: -111,
+            code: 'ECONNREFUSED',
+            syscall: 'connect',
+            address: '127.0.0.1',
+            port: 27017
+          }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      }
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined
+}
+
+Node.js v18.19.0
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+[0mGET / [32m200 [0m259.214 ms - 1138[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.489 ms - -[0m
+[0mGET / [36m304 [0m13.955 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.760 ms - -[0m
+[0mGET /list [36m304 [0m9.783 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.884 ms - -[0m
+[0mGET /add [36m304 [0m15.445 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.403 ms - -[0m
+[0mGET / [36m304 [0m9.320 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.724 ms - -[0m
+[0mGET / [36m304 [0m12.814 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.498 ms - -[0m
+Mongoose disconnected
+Mongoose connection error: MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+/home/bitnami/blogger/node_modules/mongoose/lib/connection.js:829
+    err = new ServerSelectionError();
+          ^
+
+MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at _handleConnectionErrors (/home/bitnami/blogger/node_modules/mongoose/lib/connection.js:829:11)
+    at NativeConnection.openUri (/home/bitnami/blogger/node_modules/mongoose/lib/connection.js:804:11) {
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) {
+      'localhost:27017' => ServerDescription {
+        address: 'localhost:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 529736490,
+        lastWriteDate: 0,
+        error: MongoNetworkError: connect ECONNREFUSED 127.0.0.1:27017
+            at connectionFailureError (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/connect.js:379:20)
+            at Socket.<anonymous> (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/connect.js:285:22)
+            at Object.onceWrapper (node:events:632:26)
+            at Socket.emit (node:events:517:28)
+            at emitErrorNT (node:internal/streams/destroy:151:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+            at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' },
+          [cause]: Error: connect ECONNREFUSED 127.0.0.1:27017
+              at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+            errno: -111,
+            code: 'ECONNREFUSED',
+            syscall: 'connect',
+            address: '127.0.0.1',
+            port: 27017
+          }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      }
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined
+}
+
+Node.js v18.19.0
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+/home/bitnami/blogger/app_server/models/blogs.js:5
+mongoose.model('blogs', blogSchema);
+                        ^
+
+ReferenceError: blogSchema is not defined
+    at Object.<anonymous> (/home/bitnami/blogger/app_server/models/blogs.js:5:25)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/bitnami/blogger/app_server/models/db.js:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+
+Node.js v18.19.0
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+[0mGET / [36m304 [0m236.180 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.898 ms - -[0m
+[0mGET / [36m304 [0m15.880 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.822 ms - -[0m
+/home/bitnami/blogger/node_modules/mongoose/lib/connection.js:829
+    err = new ServerSelectionError();
+          ^
+
+MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at _handleConnectionErrors (/home/bitnami/blogger/node_modules/mongoose/lib/connection.js:829:11)
+    at NativeConnection.openUri (/home/bitnami/blogger/node_modules/mongoose/lib/connection.js:804:11) {
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) {
+      'localhost:27017' => ServerDescription {
+        address: 'localhost:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 529862989,
+        lastWriteDate: 0,
+        error: MongoNetworkError: connect ECONNREFUSED 127.0.0.1:27017
+            at connectionFailureError (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/connect.js:379:20)
+            at Socket.<anonymous> (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/connect.js:285:22)
+            at Object.onceWrapper (node:events:632:26)
+            at Socket.emit (node:events:517:28)
+            at emitErrorNT (node:internal/streams/destroy:151:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+            at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' },
+          [cause]: Error: connect ECONNREFUSED 127.0.0.1:27017
+              at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+            errno: -111,
+            code: 'ECONNREFUSED',
+            syscall: 'connect',
+            address: '127.0.0.1',
+            port: 27017
+          }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      }
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined
+}
+
+Node.js v18.19.0
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+[0mGET / [36m304 [0m240.431 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.786 ms - -[0m
+/home/bitnami/blogger/node_modules/mongoose/lib/connection.js:829
+    err = new ServerSelectionError();
+          ^
+
+MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at _handleConnectionErrors (/home/bitnami/blogger/node_modules/mongoose/lib/connection.js:829:11)
+    at NativeConnection.openUri (/home/bitnami/blogger/node_modules/mongoose/lib/connection.js:804:11) {
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) {
+      'localhost:27017' => ServerDescription {
+        address: 'localhost:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 529927023,
+        lastWriteDate: 0,
+        error: MongoNetworkError: connect ECONNREFUSED 127.0.0.1:27017
+            at connectionFailureError (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/connect.js:379:20)
+            at Socket.<anonymous> (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/connect.js:285:22)
+            at Object.onceWrapper (node:events:632:26)
+            at Socket.emit (node:events:517:28)
+            at emitErrorNT (node:internal/streams/destroy:151:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+            at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' },
+          [cause]: Error: connect ECONNREFUSED 127.0.0.1:27017
+              at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+            errno: -111,
+            code: 'ECONNREFUSED',
+            syscall: 'connect',
+            address: '127.0.0.1',
+            port: 27017
+          }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      }
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined
+}
+
+Node.js v18.19.0
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+[0mGET / [36m304 [0m250.800 ms - -[0m
+[0mGET / [36m304 [0m15.432 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.331 ms - -[0m
+/home/bitnami/blogger/node_modules/mongoose/lib/connection.js:829
+    err = new ServerSelectionError();
+          ^
+
+MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at _handleConnectionErrors (/home/bitnami/blogger/node_modules/mongoose/lib/connection.js:829:11)
+    at NativeConnection.openUri (/home/bitnami/blogger/node_modules/mongoose/lib/connection.js:804:11) {
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) {
+      'localhost:27017' => ServerDescription {
+        address: 'localhost:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 530030368,
+        lastWriteDate: 0,
+        error: MongoNetworkError: connect ECONNREFUSED 127.0.0.1:27017
+            at connectionFailureError (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/connect.js:379:20)
+            at Socket.<anonymous> (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/connect.js:285:22)
+            at Object.onceWrapper (node:events:632:26)
+            at Socket.emit (node:events:517:28)
+            at emitErrorNT (node:internal/streams/destroy:151:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+            at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' },
+          [cause]: Error: connect ECONNREFUSED 127.0.0.1:27017
+              at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+            errno: -111,
+            code: 'ECONNREFUSED',
+            syscall: 'connect',
+            address: '127.0.0.1',
+            port: 27017
+          }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      }
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined
+}
+
+Node.js v18.19.0
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+[0mGET / [36m304 [0m252.139 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.378 ms - -[0m
+[0mGET / [36m304 [0m16.400 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.781 ms - -[0m
+[0mGET / [36m304 [0m12.738 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.661 ms - -[0m
+[0mGET / [36m304 [0m14.141 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.515 ms - -[0m
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+[0mGET / [36m304 [0m195.983 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.439 ms - -[0m
+/home/bitnami/blogger/node_modules/mongoose/lib/connection.js:829
+    err = new ServerSelectionError();
+          ^
+
+MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at _handleConnectionErrors (/home/bitnami/blogger/node_modules/mongoose/lib/connection.js:829:11)
+    at NativeConnection.openUri (/home/bitnami/blogger/node_modules/mongoose/lib/connection.js:804:11) {
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) {
+      '127.0.0.1:27017' => ServerDescription {
+        address: '127.0.0.1:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 530270036,
+        lastWriteDate: 0,
+        error: MongoNetworkError: connect ECONNREFUSED 127.0.0.1:27017
+            at connectionFailureError (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/connect.js:379:20)
+            at Socket.<anonymous> (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/connect.js:285:22)
+            at Object.onceWrapper (node:events:632:26)
+            at Socket.emit (node:events:517:28)
+            at emitErrorNT (node:internal/streams/destroy:151:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+            at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' },
+          [cause]: Error: connect ECONNREFUSED 127.0.0.1:27017
+              at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+            errno: -111,
+            code: 'ECONNREFUSED',
+            syscall: 'connect',
+            address: '127.0.0.1',
+            port: 27017
+          }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      }
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined
+}
+
+Node.js v18.19.0
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+[0mGET / [36m304 [0m265.131 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.035 ms - -[0m
+/home/bitnami/blogger/node_modules/mongoose/lib/connection.js:829
+    err = new ServerSelectionError();
+          ^
+
+MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at _handleConnectionErrors (/home/bitnami/blogger/node_modules/mongoose/lib/connection.js:829:11)
+    at NativeConnection.openUri (/home/bitnami/blogger/node_modules/mongoose/lib/connection.js:804:11) {
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) {
+      '127.0.0.1:27017' => ServerDescription {
+        address: '127.0.0.1:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 530344648,
+        lastWriteDate: 0,
+        error: MongoNetworkError: connect ECONNREFUSED 127.0.0.1:27017
+            at connectionFailureError (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/connect.js:379:20)
+            at Socket.<anonymous> (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/connect.js:285:22)
+            at Object.onceWrapper (node:events:632:26)
+            at Socket.emit (node:events:517:28)
+            at emitErrorNT (node:internal/streams/destroy:151:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+            at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' },
+          [cause]: Error: connect ECONNREFUSED 127.0.0.1:27017
+              at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+            errno: -111,
+            code: 'ECONNREFUSED',
+            syscall: 'connect',
+            address: '127.0.0.1',
+            port: 27017
+          }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      }
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined
+}
+
+Node.js v18.19.0
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+[0mGET / [36m304 [0m658.376 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.369 ms - -[0m
+/home/bitnami/blogger/node_modules/mongoose/lib/connection.js:829
+    err = new ServerSelectionError();
+          ^
+
+MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at _handleConnectionErrors (/home/bitnami/blogger/node_modules/mongoose/lib/connection.js:829:11)
+    at NativeConnection.openUri (/home/bitnami/blogger/node_modules/mongoose/lib/connection.js:804:11) {
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) {
+      'localhost:27017' => ServerDescription {
+        address: 'localhost:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 156290,
+        lastWriteDate: 0,
+        error: MongoNetworkError: connect ECONNREFUSED 127.0.0.1:27017
+            at connectionFailureError (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/connect.js:379:20)
+            at Socket.<anonymous> (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/connect.js:285:22)
+            at Object.onceWrapper (node:events:632:26)
+            at Socket.emit (node:events:517:28)
+            at emitErrorNT (node:internal/streams/destroy:151:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+            at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' },
+          [cause]: Error: connect ECONNREFUSED 127.0.0.1:27017
+              at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+            errno: -111,
+            code: 'ECONNREFUSED',
+            syscall: 'connect',
+            address: '127.0.0.1',
+            port: 27017
+          }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      }
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined
+}
+
+Node.js v18.19.0
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+node:internal/modules/cjs/loader:1137
+  throw err;
+  ^
+
+Error: Cannot find module '/app_server/models/db'
+Require stack:
+- /home/bitnami/blogger/app.js
+- /home/bitnami/blogger/bin/www
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/bitnami/blogger/app.js:6:1)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/home/bitnami/blogger/app.js', '/home/bitnami/blogger/bin/www' ]
+}
+
+Node.js v18.19.0
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+node:internal/modules/cjs/loader:1137
+  throw err;
+  ^
+
+Error: Cannot find module '/app_server/models/db'
+Require stack:
+- /home/bitnami/blogger/app.js
+- /home/bitnami/blogger/bin/www
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/bitnami/blogger/app.js:6:1)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/home/bitnami/blogger/app.js', '/home/bitnami/blogger/bin/www' ]
+}
+
+Node.js v18.19.0
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+[0mGET / [36m304 [0m697.609 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.812 ms - -[0m
+Mongoose disconnected
+Mongoose connection error: MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+/home/bitnami/blogger/node_modules/mongoose/lib/connection.js:829
+    err = new ServerSelectionError();
+          ^
+
+MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at _handleConnectionErrors (/home/bitnami/blogger/node_modules/mongoose/lib/connection.js:829:11)
+    at NativeConnection.openUri (/home/bitnami/blogger/node_modules/mongoose/lib/connection.js:804:11) {
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) {
+      'localhost:27017' => ServerDescription {
+        address: 'localhost:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 592592,
+        lastWriteDate: 0,
+        error: MongoNetworkError: connect ECONNREFUSED 127.0.0.1:27017
+            at connectionFailureError (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/connect.js:379:20)
+            at Socket.<anonymous> (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/connect.js:285:22)
+            at Object.onceWrapper (node:events:632:26)
+            at Socket.emit (node:events:517:28)
+            at emitErrorNT (node:internal/streams/destroy:151:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+            at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' },
+          [cause]: Error: connect ECONNREFUSED 127.0.0.1:27017
+              at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+            errno: -111,
+            code: 'ECONNREFUSED',
+            syscall: 'connect',
+            address: '127.0.0.1',
+            port: 27017
+          }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      }
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined
+}
+
+Node.js v18.19.0
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+[0mGET / [36m304 [0m233.058 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.544 ms - -[0m
+Mongoose disconnected
+Mongoose connection error: MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+/home/bitnami/blogger/node_modules/mongoose/lib/connection.js:829
+    err = new ServerSelectionError();
+          ^
+
+MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at _handleConnectionErrors (/home/bitnami/blogger/node_modules/mongoose/lib/connection.js:829:11)
+    at NativeConnection.openUri (/home/bitnami/blogger/node_modules/mongoose/lib/connection.js:804:11) {
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) {
+      '127.0.0.1:27017' => ServerDescription {
+        address: '127.0.0.1:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 754819,
+        lastWriteDate: 0,
+        error: MongoNetworkError: connect ECONNREFUSED 127.0.0.1:27017
+            at connectionFailureError (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/connect.js:379:20)
+            at Socket.<anonymous> (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/connect.js:285:22)
+            at Object.onceWrapper (node:events:632:26)
+            at Socket.emit (node:events:517:28)
+            at emitErrorNT (node:internal/streams/destroy:151:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+            at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' },
+          [cause]: Error: connect ECONNREFUSED 127.0.0.1:27017
+              at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+            errno: -111,
+            code: 'ECONNREFUSED',
+            syscall: 'connect',
+            address: '127.0.0.1',
+            port: 27017
+          }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      }
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined
+}
+
+Node.js v18.19.0
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+[0mGET / [36m304 [0m243.842 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.824 ms - -[0m
+Mongoose disconnected
+Mongoose connection error: MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+/home/bitnami/blogger/node_modules/mongoose/lib/connection.js:829
+    err = new ServerSelectionError();
+          ^
+
+MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at _handleConnectionErrors (/home/bitnami/blogger/node_modules/mongoose/lib/connection.js:829:11)
+    at NativeConnection.openUri (/home/bitnami/blogger/node_modules/mongoose/lib/connection.js:804:11) {
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) {
+      '127.0.0.1:27017' => ServerDescription {
+        address: '127.0.0.1:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 851250,
+        lastWriteDate: 0,
+        error: MongoNetworkError: connect ECONNREFUSED 127.0.0.1:27017
+            at connectionFailureError (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/connect.js:379:20)
+            at Socket.<anonymous> (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/connect.js:285:22)
+            at Object.onceWrapper (node:events:632:26)
+            at Socket.emit (node:events:517:28)
+            at emitErrorNT (node:internal/streams/destroy:151:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+            at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' },
+          [cause]: Error: connect ECONNREFUSED 127.0.0.1:27017
+              at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+            errno: -111,
+            code: 'ECONNREFUSED',
+            syscall: 'connect',
+            address: '127.0.0.1',
+            port: 27017
+          }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      }
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined
+}
+
+Node.js v18.19.0
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose disconnected
+Mongoose connection error: MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+/home/bitnami/blogger/node_modules/mongoose/lib/connection.js:829
+    err = new ServerSelectionError();
+          ^
+
+MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at _handleConnectionErrors (/home/bitnami/blogger/node_modules/mongoose/lib/connection.js:829:11)
+    at NativeConnection.openUri (/home/bitnami/blogger/node_modules/mongoose/lib/connection.js:804:11) {
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) {
+      '127.0.0.1:27017' => ServerDescription {
+        address: '127.0.0.1:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 1001806,
+        lastWriteDate: 0,
+        error: MongoNetworkError: connect ECONNREFUSED 127.0.0.1:27017
+            at connectionFailureError (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/connect.js:379:20)
+            at Socket.<anonymous> (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/connect.js:285:22)
+            at Object.onceWrapper (node:events:632:26)
+            at Socket.emit (node:events:517:28)
+            at emitErrorNT (node:internal/streams/destroy:151:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+            at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' },
+          [cause]: Error: connect ECONNREFUSED 127.0.0.1:27017
+              at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+            errno: -111,
+            code: 'ECONNREFUSED',
+            syscall: 'connect',
+            address: '127.0.0.1',
+            port: 27017
+          }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      }
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined
+}
+
+Node.js v18.19.0
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+[0mGET / [36m304 [0m562.954 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.821 ms - -[0m
+Mongoose disconnected
+Mongoose connection error: MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+/home/bitnami/blogger/node_modules/mongoose/lib/connection.js:829
+    err = new ServerSelectionError();
+          ^
+
+MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at _handleConnectionErrors (/home/bitnami/blogger/node_modules/mongoose/lib/connection.js:829:11)
+    at NativeConnection.openUri (/home/bitnami/blogger/node_modules/mongoose/lib/connection.js:804:11) {
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) {
+      'localhost:27017' => ServerDescription {
+        address: 'localhost:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 1153755,
+        lastWriteDate: 0,
+        error: MongoNetworkError: connect ECONNREFUSED 127.0.0.1:27017
+            at connectionFailureError (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/connect.js:379:20)
+            at Socket.<anonymous> (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/connect.js:285:22)
+            at Object.onceWrapper (node:events:632:26)
+            at Socket.emit (node:events:517:28)
+            at emitErrorNT (node:internal/streams/destroy:151:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+            at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' },
+          [cause]: Error: connect ECONNREFUSED 127.0.0.1:27017
+              at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+            errno: -111,
+            code: 'ECONNREFUSED',
+            syscall: 'connect',
+            address: '127.0.0.1',
+            port: 27017
+          }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      }
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined
+}
+
+Node.js v18.19.0
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+[0mGET / [36m304 [0m238.183 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.592 ms - -[0m
+Mongoose disconnected
+MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at _handleConnectionErrors (/home/bitnami/blogger/node_modules/mongoose/lib/connection.js:829:11)
+    at NativeConnection.openUri (/home/bitnami/blogger/node_modules/mongoose/lib/connection.js:804:11)
+    at async main (/home/bitnami/blogger/app_server/models/db.js:6:3) {
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { '127.0.0.1:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined
+}
+Mongoose connection error: MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017

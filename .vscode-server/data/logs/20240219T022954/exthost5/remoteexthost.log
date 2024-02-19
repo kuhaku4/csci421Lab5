@@ -1,0 +1,888 @@
+2024-02-19 02:30:46.894 [info] Extension host with pid 1630 started
+2024-02-19 02:30:46.894 [error] Error: EEXIST: file already exists, open '/home/bitnami/.vscode-server/data/User/workspaceStorage/d866cbe83da49e127745e557969ca682/vscode.lock'
+2024-02-19 02:30:46.899 [info] Lock '/home/bitnami/.vscode-server/data/User/workspaceStorage/d866cbe83da49e127745e557969ca682/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-02-19 02:30:46.924 [info] Lock '/home/bitnami/.vscode-server/data/User/workspaceStorage/d866cbe83da49e127745e557969ca682/vscode.lock': The pid 54249 appears to be gone.
+2024-02-19 02:30:46.925 [info] Lock '/home/bitnami/.vscode-server/data/User/workspaceStorage/d866cbe83da49e127745e557969ca682/vscode.lock': Deleting a stale lock.
+2024-02-19 02:30:46.931 [info] Lock '/home/bitnami/.vscode-server/data/User/workspaceStorage/d866cbe83da49e127745e557969ca682/vscode.lock': Lock acquired.
+2024-02-19 02:30:47.125 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-02-19 02:30:47.126 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2024-02-19 02:30:48.076 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-02-19 02:30:48.102 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2024-02-19 02:30:48.417 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-02-19 02:30:48.418 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-02-19 02:30:50.640 [info] Eager extensions activated
+2024-02-19 02:30:50.640 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-02-19 02:30:50.641 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-02-19 02:30:52.150 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-19 02:30:52.150 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-19 02:30:52.150 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-19 02:30:52.150 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-19 02:30:52.150 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-19 02:30:52.150 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-19 02:30:52.150 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-19 02:30:52.150 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-19 02:30:52.150 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-19 02:30:52.150 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-19 02:30:52.150 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-19 02:30:52.150 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-19 02:30:52.150 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-19 02:30:52.150 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-19 02:30:52.150 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-19 02:30:52.150 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-19 02:30:52.150 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-19 02:30:52.150 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-19 02:30:52.150 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-19 02:30:52.150 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-19 02:30:52.150 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-19 02:30:53.152 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-19 02:30:53.154 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-19 02:30:53.155 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-19 02:30:53.156 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-19 02:30:53.158 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-19 02:30:53.159 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-19 02:30:53.161 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-19 02:30:53.173 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-19 02:30:53.177 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-19 02:30:53.181 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-19 02:30:53.192 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-19 02:30:53.192 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-19 02:30:53.193 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-19 02:30:53.193 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-19 02:30:53.194 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-19 02:30:53.205 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-19 02:30:53.209 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-19 02:30:53.210 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-19 02:30:53.218 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-19 02:30:53.219 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-19 02:30:53.220 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-19 02:33:05.156 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-02-19 02:33:05.157 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2024-02-19 02:36:48.000 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:994012)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-19 02:36:48.001 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:994012)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-19 02:36:49.002 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:994012)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-19 02:36:49.004 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:994012)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-19 02:43:02.043 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1011
+2024-02-19 02:43:07.237 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1010
+2024-02-19 02:43:12.458 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1010
+2024-02-19 02:43:18.080 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1010
+2024-02-19 02:43:23.248 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1010
+2024-02-19 02:43:35.766 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1010
+2024-02-19 02:43:40.967 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1010
+2024-02-19 02:43:46.131 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1010
+2024-02-19 02:43:51.365 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1010
+2024-02-19 02:43:56.550 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1010
+2024-02-19 02:44:01.888 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1010
+2024-02-19 02:44:07.090 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1011
+2024-02-19 02:44:12.311 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1011
+2024-02-19 02:44:17.507 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1011
+2024-02-19 02:44:22.701 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1011
+2024-02-19 02:44:27.921 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1011
+2024-02-19 02:44:33.115 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1011
+2024-02-19 02:44:38.345 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1011
+2024-02-19 02:44:54.202 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1011
+2024-02-19 02:44:59.501 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1012
+2024-02-19 02:45:04.691 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1011
+2024-02-19 02:45:09.855 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1011
+2024-02-19 02:45:15.054 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1030
+2024-02-19 02:45:20.255 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1937
+2024-02-19 02:45:25.552 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1938
+2024-02-19 02:45:32.327 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1938
+2024-02-19 02:45:37.502 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1938
+2024-02-19 02:45:42.706 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1937
+2024-02-19 02:45:47.907 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1937
+2024-02-19 02:46:00.519 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1937
+2024-02-19 02:46:05.725 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1937
+2024-02-19 02:46:10.929 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1937
+2024-02-19 02:46:16.133 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1937
+2024-02-19 02:46:28.150 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1937
+2024-02-19 02:46:33.361 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1937
+2024-02-19 02:46:38.573 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1937
+2024-02-19 02:46:48.528 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1937
+2024-02-19 02:46:52.517 [error] [vscode.typescript-language-features] provider FAILED
+2024-02-19 02:46:52.530 [error] Error: <semantic> TypeScript Server Error (5.3.2)
+No Project.
+Error: No Project.
+    at Object.ThrowNoProject (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:175375:11)
+    at ScriptInfo.getDefaultProject (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:176121:23)
+    at _ProjectService.doEnsureDefaultProjectForFile (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:179441:36)
+    at _ProjectService.ensureDefaultProjectForFile (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:179436:75)
+    at IpcIOSession.getFileAndProjectWorker (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:184435:77)
+    at IpcIOSession.getFileAndProject (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:184421:17)
+    at IpcIOSession.getApplicableRefactors (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:184984:36)
+    at getApplicableRefactors (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:183219:43)
+    at /home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185377:69
+    at IpcIOSession.executeWithRequestId (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185369:14)
+    at IpcIOSession.executeCommand (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185377:29)
+    at IpcIOSession.onMessage (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185419:51)
+    at process.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:187001:14)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+	at n.create (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:475229)
+	at v.w (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:470554)
+	at v.u (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:469637)
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:469269)
+	at ChildProcess.emit (node:events:514:28)
+	at emit (node:internal/child_process:937:14)
+	at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-02-19 02:46:52.533 [error] [vscode.typescript-language-features] provider FAILED
+2024-02-19 02:46:52.533 [error] Error: <semantic> TypeScript Server Error (5.3.2)
+No Project.
+Error: No Project.
+    at Object.ThrowNoProject (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:175375:11)
+    at ScriptInfo.getDefaultProject (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:176121:23)
+    at _ProjectService.doEnsureDefaultProjectForFile (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:179441:36)
+    at _ProjectService.ensureDefaultProjectForFile (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:179436:75)
+    at IpcIOSession.getFileAndProjectWorker (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:184435:77)
+    at IpcIOSession.getFileAndProject (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:184421:17)
+    at IpcIOSession.getEncodedSemanticClassifications (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:183733:36)
+    at encodedSemanticClassifications-full (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:183038:43)
+    at /home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185377:69
+    at IpcIOSession.executeWithRequestId (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185369:14)
+    at IpcIOSession.executeCommand (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185377:29)
+    at IpcIOSession.onMessage (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185419:51)
+    at process.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:187001:14)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+	at n.create (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:475229)
+	at v.w (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:470554)
+	at v.u (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:469637)
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:469269)
+	at ChildProcess.emit (node:events:514:28)
+	at emit (node:internal/child_process:937:14)
+	at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-02-19 02:46:52.577 [error] [vscode.typescript-language-features] provider FAILED
+2024-02-19 02:46:52.577 [error] Error: <semantic> TypeScript Server Error (5.3.2)
+No Project.
+Error: No Project.
+    at Object.ThrowNoProject (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:175375:11)
+    at ScriptInfo.getDefaultProject (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:176121:23)
+    at _ProjectService.doEnsureDefaultProjectForFile (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:179441:36)
+    at _ProjectService.ensureDefaultProjectForFile (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:179436:75)
+    at IpcIOSession.getFileAndProjectWorker (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:184435:77)
+    at IpcIOSession.getFileAndProject (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:184421:17)
+    at IpcIOSession.getApplicableRefactors (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:184984:36)
+    at getApplicableRefactors (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:183219:43)
+    at /home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185377:69
+    at IpcIOSession.executeWithRequestId (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185369:14)
+    at IpcIOSession.executeCommand (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185377:29)
+    at IpcIOSession.onMessage (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185419:51)
+    at process.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:187001:14)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+	at n.create (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:475229)
+	at v.w (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:470554)
+	at v.u (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:469637)
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:469269)
+	at ChildProcess.emit (node:events:514:28)
+	at emit (node:internal/child_process:937:14)
+	at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-02-19 02:46:53.534 [error] Error: <semantic> TypeScript Server Error (5.3.2)
+No Project.
+Error: No Project.
+    at Object.ThrowNoProject (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:175375:11)
+    at ScriptInfo.getDefaultProject (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:176121:23)
+    at _ProjectService.doEnsureDefaultProjectForFile (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:179441:36)
+    at _ProjectService.ensureDefaultProjectForFile (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:179436:75)
+    at IpcIOSession.getFileAndProjectWorker (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:184435:77)
+    at IpcIOSession.getProjectInfoWorker (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:184237:30)
+    at IpcIOSession.getProjectInfo (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:184228:17)
+    at projectInfo (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:183172:43)
+    at /home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185377:69
+    at IpcIOSession.executeWithRequestId (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185369:14)
+    at IpcIOSession.executeCommand (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185377:29)
+    at IpcIOSession.onMessage (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185419:51)
+    at process.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:187001:14)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+	at n.create (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:475229)
+	at v.w (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:470554)
+	at v.u (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:469637)
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:469269)
+	at ChildProcess.emit (node:events:514:28)
+	at emit (node:internal/child_process:937:14)
+	at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-02-19 02:46:53.544 [error] Error: <semantic> TypeScript Server Error (5.3.2)
+No Project.
+Error: No Project.
+    at Object.ThrowNoProject (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:175375:11)
+    at ScriptInfo.getDefaultProject (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:176121:23)
+    at _ProjectService.doEnsureDefaultProjectForFile (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:179441:36)
+    at _ProjectService.ensureDefaultProjectForFile (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:179436:75)
+    at IpcIOSession.getFileAndProjectWorker (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:184435:77)
+    at IpcIOSession.getFileAndProject (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:184421:17)
+    at IpcIOSession.getEncodedSemanticClassifications (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:183733:36)
+    at encodedSemanticClassifications-full (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:183038:43)
+    at /home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185377:69
+    at IpcIOSession.executeWithRequestId (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185369:14)
+    at IpcIOSession.executeCommand (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185377:29)
+    at IpcIOSession.onMessage (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185419:51)
+    at process.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:187001:14)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+	at n.create (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:475229)
+	at v.w (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:470554)
+	at v.u (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:469637)
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:469269)
+	at ChildProcess.emit (node:events:514:28)
+	at emit (node:internal/child_process:937:14)
+	at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-02-19 02:46:53.732 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1938
+2024-02-19 02:46:54.367 [error] [vscode.typescript-language-features] provider FAILED
+2024-02-19 02:46:54.368 [error] Error: <semantic> TypeScript Server Error (5.3.2)
+No Project.
+Error: No Project.
+    at Object.ThrowNoProject (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:175375:11)
+    at ScriptInfo.getDefaultProject (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:176121:23)
+    at _ProjectService.doEnsureDefaultProjectForFile (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:179441:36)
+    at _ProjectService.ensureDefaultProjectForFile (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:179436:75)
+    at IpcIOSession.getFileAndProjectWorker (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:184435:77)
+    at IpcIOSession.getFileAndProject (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:184421:17)
+    at IpcIOSession.getApplicableRefactors (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:184984:36)
+    at getApplicableRefactors (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:183219:43)
+    at /home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185377:69
+    at IpcIOSession.executeWithRequestId (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185369:14)
+    at IpcIOSession.executeCommand (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185377:29)
+    at IpcIOSession.onMessage (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185419:51)
+    at process.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:187001:14)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+	at n.create (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:475229)
+	at v.w (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:470554)
+	at v.u (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:469637)
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:469269)
+	at ChildProcess.emit (node:events:514:28)
+	at emit (node:internal/child_process:937:14)
+	at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-02-19 02:46:54.369 [error] [vscode.typescript-language-features] provider FAILED
+2024-02-19 02:46:54.369 [error] Error: <semantic> TypeScript Server Error (5.3.2)
+No Project.
+Error: No Project.
+    at Object.ThrowNoProject (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:175375:11)
+    at ScriptInfo.getDefaultProject (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:176121:23)
+    at _ProjectService.doEnsureDefaultProjectForFile (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:179441:36)
+    at _ProjectService.ensureDefaultProjectForFile (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:179436:75)
+    at IpcIOSession.getFileAndProjectWorker (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:184435:77)
+    at IpcIOSession.getFileAndProject (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:184421:17)
+    at IpcIOSession.getCodeFixes (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185068:36)
+    at getCodeFixes (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:183185:43)
+    at /home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185377:69
+    at IpcIOSession.executeWithRequestId (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185369:14)
+    at IpcIOSession.executeCommand (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185377:29)
+    at IpcIOSession.onMessage (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185419:51)
+    at process.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:187001:14)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+	at n.create (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:475229)
+	at v.w (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:470554)
+	at v.u (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:469637)
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:469269)
+	at ChildProcess.emit (node:events:514:28)
+	at emit (node:internal/child_process:937:14)
+	at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-02-19 02:46:54.685 [error] [vscode.typescript-language-features] provider FAILED
+2024-02-19 02:46:54.685 [error] Error: <semantic> TypeScript Server Error (5.3.2)
+No Project.
+Error: No Project.
+    at Object.ThrowNoProject (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:175375:11)
+    at ScriptInfo.getDefaultProject (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:176121:23)
+    at _ProjectService.doEnsureDefaultProjectForFile (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:179441:36)
+    at _ProjectService.ensureDefaultProjectForFile (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:179436:75)
+    at IpcIOSession.getFileAndProjectWorker (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:184435:77)
+    at IpcIOSession.getFileAndProject (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:184421:17)
+    at IpcIOSession.getEncodedSemanticClassifications (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:183733:36)
+    at encodedSemanticClassifications-full (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:183038:43)
+    at /home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185377:69
+    at IpcIOSession.executeWithRequestId (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185369:14)
+    at IpcIOSession.executeCommand (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185377:29)
+    at IpcIOSession.onMessage (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185419:51)
+    at process.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:187001:14)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+	at n.create (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:475229)
+	at v.w (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:470554)
+	at v.u (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:469637)
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:469269)
+	at ChildProcess.emit (node:events:514:28)
+	at emit (node:internal/child_process:937:14)
+	at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-02-19 02:46:55.688 [error] Error: <semantic> TypeScript Server Error (5.3.2)
+No Project.
+Error: No Project.
+    at Object.ThrowNoProject (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:175375:11)
+    at ScriptInfo.getDefaultProject (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:176121:23)
+    at _ProjectService.doEnsureDefaultProjectForFile (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:179441:36)
+    at _ProjectService.ensureDefaultProjectForFile (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:179436:75)
+    at IpcIOSession.getFileAndProjectWorker (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:184435:77)
+    at IpcIOSession.getFileAndProject (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:184421:17)
+    at IpcIOSession.getEncodedSemanticClassifications (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:183733:36)
+    at encodedSemanticClassifications-full (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:183038:43)
+    at /home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185377:69
+    at IpcIOSession.executeWithRequestId (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185369:14)
+    at IpcIOSession.executeCommand (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185377:29)
+    at IpcIOSession.onMessage (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185419:51)
+    at process.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:187001:14)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+	at n.create (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:475229)
+	at v.w (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:470554)
+	at v.u (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:469637)
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:469269)
+	at ChildProcess.emit (node:events:514:28)
+	at emit (node:internal/child_process:937:14)
+	at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-02-19 02:46:56.882 [error] [vscode.typescript-language-features] provider FAILED
+2024-02-19 02:46:56.882 [error] Error: <semantic> TypeScript Server Error (5.3.2)
+No Project.
+Error: No Project.
+    at Object.ThrowNoProject (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:175375:11)
+    at ScriptInfo.getDefaultProject (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:176121:23)
+    at _ProjectService.doEnsureDefaultProjectForFile (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:179441:36)
+    at _ProjectService.ensureDefaultProjectForFile (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:179436:75)
+    at IpcIOSession.getFileAndProjectWorker (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:184435:77)
+    at IpcIOSession.getFileAndProject (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:184421:17)
+    at IpcIOSession.getEncodedSemanticClassifications (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:183733:36)
+    at encodedSemanticClassifications-full (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:183038:43)
+    at /home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185377:69
+    at IpcIOSession.executeWithRequestId (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185369:14)
+    at IpcIOSession.executeCommand (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185377:29)
+    at IpcIOSession.onMessage (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185419:51)
+    at process.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:187001:14)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+	at n.create (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:475229)
+	at v.w (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:470554)
+	at v.u (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:469637)
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:469269)
+	at ChildProcess.emit (node:events:514:28)
+	at emit (node:internal/child_process:937:14)
+	at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-02-19 02:46:57.746 [error] Error: <semantic> TypeScript Server Error (5.3.2)
+No Project.
+Error: No Project.
+    at Object.ThrowNoProject (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:175375:11)
+    at ScriptInfo.getDefaultProject (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:176121:23)
+    at _ProjectService.doEnsureDefaultProjectForFile (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:179441:36)
+    at _ProjectService.ensureDefaultProjectForFile (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:179436:75)
+    at IpcIOSession.getFileAndProjectWorker (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:184435:77)
+    at IpcIOSession.getProjectInfoWorker (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:184237:30)
+    at IpcIOSession.getProjectInfo (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:184228:17)
+    at projectInfo (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:183172:43)
+    at /home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185377:69
+    at IpcIOSession.executeWithRequestId (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185369:14)
+    at IpcIOSession.executeCommand (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185377:29)
+    at IpcIOSession.onMessage (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185419:51)
+    at process.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:187001:14)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+	at n.create (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:475229)
+	at v.w (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:470554)
+	at v.u (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:469637)
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:469269)
+	at ChildProcess.emit (node:events:514:28)
+	at emit (node:internal/child_process:937:14)
+	at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-02-19 02:46:57.884 [error] Error: <semantic> TypeScript Server Error (5.3.2)
+No Project.
+Error: No Project.
+    at Object.ThrowNoProject (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:175375:11)
+    at ScriptInfo.getDefaultProject (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:176121:23)
+    at _ProjectService.doEnsureDefaultProjectForFile (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:179441:36)
+    at _ProjectService.ensureDefaultProjectForFile (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:179436:75)
+    at IpcIOSession.getFileAndProjectWorker (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:184435:77)
+    at IpcIOSession.getFileAndProject (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:184421:17)
+    at IpcIOSession.getEncodedSemanticClassifications (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:183733:36)
+    at encodedSemanticClassifications-full (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:183038:43)
+    at /home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185377:69
+    at IpcIOSession.executeWithRequestId (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185369:14)
+    at IpcIOSession.executeCommand (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185377:29)
+    at IpcIOSession.onMessage (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185419:51)
+    at process.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:187001:14)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+	at n.create (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:475229)
+	at v.w (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:470554)
+	at v.u (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:469637)
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:469269)
+	at ChildProcess.emit (node:events:514:28)
+	at emit (node:internal/child_process:937:14)
+	at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-02-19 02:47:00.526 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1939
+2024-02-19 02:47:05.740 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1939
+2024-02-19 02:47:10.950 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1940
+2024-02-19 02:47:16.186 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1939
+2024-02-19 02:47:21.430 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1939
+2024-02-19 02:47:26.641 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1939
+2024-02-19 02:47:31.876 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1940
+2024-02-19 02:47:37.097 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1940
+2024-02-19 02:47:51.498 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1941
+2024-02-19 02:48:05.601 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1942
+2024-02-19 02:48:08.252 [error] [vscode.typescript-language-features] provider FAILED
+2024-02-19 02:48:08.252 [error] Error: <semantic> TypeScript Server Error (5.3.2)
+No Project.
+Error: No Project.
+    at Object.ThrowNoProject (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:175375:11)
+    at ScriptInfo.getDefaultProject (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:176121:23)
+    at _ProjectService.doEnsureDefaultProjectForFile (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:179441:36)
+    at _ProjectService.ensureDefaultProjectForFile (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:179436:75)
+    at IpcIOSession.getFileAndProjectWorker (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:184435:77)
+    at IpcIOSession.getFileAndProject (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:184421:17)
+    at IpcIOSession.getEncodedSemanticClassifications (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:183733:36)
+    at encodedSemanticClassifications-full (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:183038:43)
+    at /home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185377:69
+    at IpcIOSession.executeWithRequestId (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185369:14)
+    at IpcIOSession.executeCommand (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185377:29)
+    at IpcIOSession.onMessage (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185419:51)
+    at process.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:187001:14)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+	at n.create (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:475229)
+	at v.w (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:470554)
+	at v.u (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:469637)
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:469269)
+	at ChildProcess.emit (node:events:514:28)
+	at emit (node:internal/child_process:937:14)
+	at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-02-19 02:48:09.087 [error] Error: <semantic> TypeScript Server Error (5.3.2)
+No Project.
+Error: No Project.
+    at Object.ThrowNoProject (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:175375:11)
+    at ScriptInfo.getDefaultProject (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:176121:23)
+    at _ProjectService.doEnsureDefaultProjectForFile (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:179441:36)
+    at _ProjectService.ensureDefaultProjectForFile (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:179436:75)
+    at IpcIOSession.getFileAndProjectWorker (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:184435:77)
+    at IpcIOSession.getProjectInfoWorker (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:184237:30)
+    at IpcIOSession.getProjectInfo (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:184228:17)
+    at projectInfo (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:183172:43)
+    at /home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185377:69
+    at IpcIOSession.executeWithRequestId (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185369:14)
+    at IpcIOSession.executeCommand (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185377:29)
+    at IpcIOSession.onMessage (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185419:51)
+    at process.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:187001:14)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+	at n.create (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:475229)
+	at v.w (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:470554)
+	at v.u (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:469637)
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:469269)
+	at ChildProcess.emit (node:events:514:28)
+	at emit (node:internal/child_process:937:14)
+	at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-02-19 02:48:09.254 [error] Error: <semantic> TypeScript Server Error (5.3.2)
+No Project.
+Error: No Project.
+    at Object.ThrowNoProject (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:175375:11)
+    at ScriptInfo.getDefaultProject (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:176121:23)
+    at _ProjectService.doEnsureDefaultProjectForFile (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:179441:36)
+    at _ProjectService.ensureDefaultProjectForFile (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:179436:75)
+    at IpcIOSession.getFileAndProjectWorker (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:184435:77)
+    at IpcIOSession.getFileAndProject (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:184421:17)
+    at IpcIOSession.getEncodedSemanticClassifications (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:183733:36)
+    at encodedSemanticClassifications-full (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:183038:43)
+    at /home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185377:69
+    at IpcIOSession.executeWithRequestId (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185369:14)
+    at IpcIOSession.executeCommand (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185377:29)
+    at IpcIOSession.onMessage (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185419:51)
+    at process.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:187001:14)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+	at n.create (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:475229)
+	at v.w (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:470554)
+	at v.u (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:469637)
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:469269)
+	at ChildProcess.emit (node:events:514:28)
+	at emit (node:internal/child_process:937:14)
+	at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-02-19 02:48:10.798 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1943
+2024-02-19 02:48:16.032 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1943
+2024-02-19 02:48:21.220 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1943
+2024-02-19 02:48:23.425 [error] [vscode.typescript-language-features] provider FAILED
+2024-02-19 02:48:23.425 [error] Error: <semantic> TypeScript Server Error (5.3.2)
+No Project.
+Error: No Project.
+    at Object.ThrowNoProject (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:175375:11)
+    at ScriptInfo.getDefaultProject (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:176121:23)
+    at _ProjectService.doEnsureDefaultProjectForFile (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:179441:36)
+    at _ProjectService.ensureDefaultProjectForFile (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:179436:75)
+    at IpcIOSession.getFileAndProjectWorker (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:184435:77)
+    at IpcIOSession.getFileAndProject (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:184421:17)
+    at IpcIOSession.getEncodedSemanticClassifications (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:183733:36)
+    at encodedSemanticClassifications-full (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:183038:43)
+    at /home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185377:69
+    at IpcIOSession.executeWithRequestId (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185369:14)
+    at IpcIOSession.executeCommand (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185377:29)
+    at IpcIOSession.onMessage (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185419:51)
+    at process.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:187001:14)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+	at n.create (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:475229)
+	at v.w (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:470554)
+	at v.u (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:469637)
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:469269)
+	at ChildProcess.emit (node:events:514:28)
+	at emit (node:internal/child_process:937:14)
+	at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-02-19 02:48:24.290 [error] Error: <semantic> TypeScript Server Error (5.3.2)
+No Project.
+Error: No Project.
+    at Object.ThrowNoProject (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:175375:11)
+    at ScriptInfo.getDefaultProject (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:176121:23)
+    at _ProjectService.doEnsureDefaultProjectForFile (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:179441:36)
+    at _ProjectService.ensureDefaultProjectForFile (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:179436:75)
+    at IpcIOSession.getFileAndProjectWorker (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:184435:77)
+    at IpcIOSession.getProjectInfoWorker (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:184237:30)
+    at IpcIOSession.getProjectInfo (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:184228:17)
+    at projectInfo (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:183172:43)
+    at /home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185377:69
+    at IpcIOSession.executeWithRequestId (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185369:14)
+    at IpcIOSession.executeCommand (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185377:29)
+    at IpcIOSession.onMessage (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185419:51)
+    at process.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:187001:14)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+	at n.create (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:475229)
+	at v.w (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:470554)
+	at v.u (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:469637)
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:469269)
+	at ChildProcess.emit (node:events:514:28)
+	at emit (node:internal/child_process:937:14)
+	at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-02-19 02:48:24.427 [error] Error: <semantic> TypeScript Server Error (5.3.2)
+No Project.
+Error: No Project.
+    at Object.ThrowNoProject (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:175375:11)
+    at ScriptInfo.getDefaultProject (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:176121:23)
+    at _ProjectService.doEnsureDefaultProjectForFile (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:179441:36)
+    at _ProjectService.ensureDefaultProjectForFile (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:179436:75)
+    at IpcIOSession.getFileAndProjectWorker (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:184435:77)
+    at IpcIOSession.getFileAndProject (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:184421:17)
+    at IpcIOSession.getEncodedSemanticClassifications (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:183733:36)
+    at encodedSemanticClassifications-full (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:183038:43)
+    at /home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185377:69
+    at IpcIOSession.executeWithRequestId (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185369:14)
+    at IpcIOSession.executeCommand (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185377:29)
+    at IpcIOSession.onMessage (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185419:51)
+    at process.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:187001:14)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+	at n.create (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:475229)
+	at v.w (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:470554)
+	at v.u (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:469637)
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:469269)
+	at ChildProcess.emit (node:events:514:28)
+	at emit (node:internal/child_process:937:14)
+	at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-02-19 02:48:26.421 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1943
+2024-02-19 02:49:32.734 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1943
+2024-02-19 02:49:37.945 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1943
+2024-02-19 02:49:43.166 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1943
+2024-02-19 02:49:48.404 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1943
+2024-02-19 02:49:53.673 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1943
+2024-02-19 02:49:58.882 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1943
+2024-02-19 02:50:04.984 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1943
+2024-02-19 02:50:10.215 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1943
+2024-02-19 02:50:15.423 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1943
+2024-02-19 02:50:20.681 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1943
+2024-02-19 02:50:23.627 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-02-19 02:50:25.903 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1943
+2024-02-19 02:50:31.115 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1943
+2024-02-19 02:50:36.332 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1943
+2024-02-19 02:50:43.946 [error] [vscode.typescript-language-features] provider FAILED
+2024-02-19 02:50:43.946 [error] Error: <semantic> TypeScript Server Error (5.3.2)
+No Project.
+Error: No Project.
+    at Object.ThrowNoProject (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:175375:11)
+    at ScriptInfo.getDefaultProject (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:176121:23)
+    at _ProjectService.doEnsureDefaultProjectForFile (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:179441:36)
+    at _ProjectService.ensureDefaultProjectForFile (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:179436:75)
+    at IpcIOSession.getFileAndProjectWorker (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:184435:77)
+    at IpcIOSession.getFileAndProject (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:184421:17)
+    at IpcIOSession.getDocumentHighlights (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:184178:36)
+    at documentHighlights (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:183151:43)
+    at /home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185377:69
+    at IpcIOSession.executeWithRequestId (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185369:14)
+    at IpcIOSession.executeCommand (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185377:29)
+    at IpcIOSession.onMessage (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185419:51)
+    at process.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:187001:14)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+	at n.create (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:475229)
+	at v.w (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:470554)
+	at v.u (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:469637)
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:469269)
+	at ChildProcess.emit (node:events:514:28)
+	at emit (node:internal/child_process:937:14)
+	at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-02-19 02:50:44.086 [error] [vscode.typescript-language-features] provider FAILED
+2024-02-19 02:50:44.087 [error] Error: <semantic> TypeScript Server Error (5.3.2)
+No Project.
+Error: No Project.
+    at Object.ThrowNoProject (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:175375:11)
+    at ScriptInfo.getDefaultProject (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:176121:23)
+    at _ProjectService.doEnsureDefaultProjectForFile (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:179441:36)
+    at _ProjectService.ensureDefaultProjectForFile (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:179436:75)
+    at IpcIOSession.getFileAndProjectWorker (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:184435:77)
+    at IpcIOSession.getFileAndProject (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:184421:17)
+    at IpcIOSession.getEncodedSemanticClassifications (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:183733:36)
+    at encodedSemanticClassifications-full (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:183038:43)
+    at /home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185377:69
+    at IpcIOSession.executeWithRequestId (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185369:14)
+    at IpcIOSession.executeCommand (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185377:29)
+    at IpcIOSession.onMessage (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185419:51)
+    at process.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:187001:14)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+	at n.create (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:475229)
+	at v.w (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:470554)
+	at v.u (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:469637)
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:469269)
+	at ChildProcess.emit (node:events:514:28)
+	at emit (node:internal/child_process:937:14)
+	at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-02-19 02:50:44.218 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1943
+2024-02-19 02:50:44.948 [error] Error: <semantic> TypeScript Server Error (5.3.2)
+No Project.
+Error: No Project.
+    at Object.ThrowNoProject (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:175375:11)
+    at ScriptInfo.getDefaultProject (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:176121:23)
+    at _ProjectService.doEnsureDefaultProjectForFile (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:179441:36)
+    at _ProjectService.ensureDefaultProjectForFile (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:179436:75)
+    at IpcIOSession.getFileAndProjectWorker (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:184435:77)
+    at IpcIOSession.getProjectInfoWorker (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:184237:30)
+    at IpcIOSession.getProjectInfo (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:184228:17)
+    at projectInfo (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:183172:43)
+    at /home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185377:69
+    at IpcIOSession.executeWithRequestId (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185369:14)
+    at IpcIOSession.executeCommand (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185377:29)
+    at IpcIOSession.onMessage (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185419:51)
+    at process.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:187001:14)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+	at n.create (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:475229)
+	at v.w (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:470554)
+	at v.u (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:469637)
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:469269)
+	at ChildProcess.emit (node:events:514:28)
+	at emit (node:internal/child_process:937:14)
+	at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-02-19 02:50:45.090 [error] Error: <semantic> TypeScript Server Error (5.3.2)
+No Project.
+Error: No Project.
+    at Object.ThrowNoProject (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:175375:11)
+    at ScriptInfo.getDefaultProject (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:176121:23)
+    at _ProjectService.doEnsureDefaultProjectForFile (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:179441:36)
+    at _ProjectService.ensureDefaultProjectForFile (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:179436:75)
+    at IpcIOSession.getFileAndProjectWorker (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:184435:77)
+    at IpcIOSession.getFileAndProject (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:184421:17)
+    at IpcIOSession.getEncodedSemanticClassifications (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:183733:36)
+    at encodedSemanticClassifications-full (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:183038:43)
+    at /home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185377:69
+    at IpcIOSession.executeWithRequestId (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185369:14)
+    at IpcIOSession.executeCommand (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185377:29)
+    at IpcIOSession.onMessage (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:185419:51)
+    at process.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/node_modules/typescript/lib/tsserver.js:187001:14)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+	at n.create (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:475229)
+	at v.w (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:470554)
+	at v.u (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:469637)
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/typescript-language-features/dist/extension.js:2:469269)
+	at ChildProcess.emit (node:events:514:28)
+	at emit (node:internal/child_process:937:14)
+	at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-02-19 02:50:49.411 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1943
+2024-02-19 02:50:54.656 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1943
+2024-02-19 02:50:59.857 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1943
+2024-02-19 02:51:05.585 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1943
+2024-02-19 02:51:10.796 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1944
+2024-02-19 02:51:43.739 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1944
+2024-02-19 02:52:01.421 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1944
+2024-02-19 02:52:20.903 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1944
+2024-02-19 02:52:26.126 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1944
+2024-02-19 02:52:31.341 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1944
+2024-02-19 02:52:36.560 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1944
+2024-02-19 02:52:41.747 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1944
+2024-02-19 02:52:46.961 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1944
+2024-02-19 02:53:12.855 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1944
+2024-02-19 02:53:18.068 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1944
+2024-02-19 02:53:37.049 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1944
+2024-02-19 02:53:42.280 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1944
+2024-02-19 02:53:50.997 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1945
+2024-02-19 02:53:56.220 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1945
+2024-02-19 02:54:01.566 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1946
+2024-02-19 02:54:06.781 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1946
+2024-02-19 02:54:11.994 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1946
+2024-02-19 02:54:17.194 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1946
+2024-02-19 02:54:22.401 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1946
+2024-02-19 02:54:49.797 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1946
+2024-02-19 02:55:39.418 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1946
+2024-02-19 02:55:44.658 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1947
+2024-02-19 02:55:49.947 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1947
+2024-02-19 02:55:55.159 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1947
+2024-02-19 02:56:00.405 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1947
+2024-02-19 02:56:05.620 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1947
+2024-02-19 02:57:00.374 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1947
+2024-02-19 02:57:05.573 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1947
+2024-02-19 02:57:10.876 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1948
+2024-02-19 02:57:16.115 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1948
+2024-02-19 02:57:21.339 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1949
+2024-02-19 02:58:14.296 [warning] [Decorations] CAPPING events from decorations provider vscode.git 11519
