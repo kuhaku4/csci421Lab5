@@ -892,3 +892,7 @@ Error: No Project.
 2024-02-19 03:01:28.779 [warning] [Decorations] CAPPING events from decorations provider vscode.git 19022
 2024-02-19 03:01:34.945 [warning] [Decorations] CAPPING events from decorations provider vscode.git 19049
 2024-02-19 03:01:41.069 [warning] [Decorations] CAPPING events from decorations provider vscode.git 17254
+2024-02-19 03:01:52.691 [warning] [Decorations] CAPPING events from decorations provider vscode.git 17253
+2024-02-19 03:05:35.489 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1816
+2024-02-19 03:05:41.147 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1842
+2024-02-19 03:06:08.539 [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'

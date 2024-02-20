@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  include ./partials/nav
+  h1= title
+  each blog in blogs 
+    h4 
+    a(href="blogs") = blog.blogtitle 

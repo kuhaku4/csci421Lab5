@@ -27,3 +27,4 @@
 2024-02-19 02:35:34.220 [info] [<unknown>][ec071fdb][ExtensionHostConnection] <1302> Extension Host Process exited with code: 0, signal: null.
 2024-02-19 02:35:39.195 [info] [<unknown>][213fd740][ExtensionHostConnection] <1441> Extension Host Process exited with code: 0, signal: null.
 2024-02-19 02:35:46.346 [info] [<unknown>][4715cf6a][ExtensionHostConnection] <1544> Extension Host Process exited with code: 0, signal: null.
+2024-02-19 03:19:39.915 [warning] No ptyHost heartbeat after 6 seconds

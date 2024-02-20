@@ -1,0 +1,30 @@
+2024-02-19 04:05:18.211 [info] 
+
+
+
+
+2024-02-19 04:05:18.229 [info] Extension host agent started.
+2024-02-19 04:05:18.490 [info] [<unknown>][2baf5318][ExtensionHostConnection] New connection established.
+2024-02-19 04:05:18.501 [info] [<unknown>][d4896eb0][ManagementConnection] New connection established.
+2024-02-19 04:05:18.572 [info] [<unknown>][2baf5318][ExtensionHostConnection] <1505> Launched Extension Host Process.
+2024-02-19 04:05:46.187 [info] [<unknown>][690ea6ff][ManagementConnection] New connection established.
+2024-02-19 04:05:46.211 [info] [<unknown>][0f7a2599][ExtensionHostConnection] New connection established.
+2024-02-19 04:05:46.240 [info] [<unknown>][0f7a2599][ExtensionHostConnection] <1822> Launched Extension Host Process.
+2024-02-19 04:05:55.691 [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/bitnami)
+2024-02-19 04:10:18.247 [info] New EH opened, aborting shutdown
+2024-02-19 04:10:18.260 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/server/node/server.main.js:187:6090)
+    at process.emit (node:events:514:28)
+2024-02-19 04:10:46.703 [info] [<unknown>][2baf5318][ExtensionHostConnection] <1505> Extension Host Process exited with code: 0, signal: null.
+2024-02-19 04:55:01.290 [info] [<unknown>][ca251705][ManagementConnection] New connection established.
+2024-02-19 04:55:01.303 [info] [<unknown>][0ffe3b80][ExtensionHostConnection] New connection established.
+2024-02-19 04:55:01.318 [info] [<unknown>][0ffe3b80][ExtensionHostConnection] <2646> Launched Extension Host Process.
+2024-02-19 04:55:06.969 [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/bitnami)
+2024-02-19 05:00:02.036 [info] [<unknown>][0f7a2599][ExtensionHostConnection] <1822> Extension Host Process exited with code: 0, signal: null.
+2024-02-19 05:26:43.242 [info] [<unknown>][e87a9c52][ManagementConnection] New connection established.
+2024-02-19 05:26:43.281 [info] [<unknown>][c264bd3e][ExtensionHostConnection] New connection established.
+2024-02-19 05:26:43.289 [info] [<unknown>][c264bd3e][ExtensionHostConnection] <3028> Launched Extension Host Process.
+2024-02-19 05:31:43.561 [info] [<unknown>][0ffe3b80][ExtensionHostConnection] <2646> Extension Host Process exited with code: 0, signal: null.
+2024-02-19 08:27:02.779 [info] [<unknown>][c264bd3e][ExtensionHostConnection] <3028> Extension Host Process exited with code: 0, signal: null.
+2024-02-19 08:27:02.779 [info] Last EH closed, waiting before shutting down
+2024-02-19 08:32:02.780 [info] Last EH closed, shutting down

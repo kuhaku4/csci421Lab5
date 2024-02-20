@@ -1,3 +1,51 @@
+db.blogs.insertOne({name: 'hello database'})
+db.blogs.insertOne({name: 'nah i\'d win'})
+db.blogs.find().pretty()
+show collections
+use Blog
+db.blogs.find().pretty()
+show collections
+show collection
+use Blog
+show dbs
+show collections
+show collection
+db.blogs.insertOne({name: 'test'})
+db.blogs.save({name: 'test'})
+use Blog
+db.blog.save({name: 'test'})
+db.blogs.save({name: 'test'})
+use blogs
+db.blogs.save({name: 'test'})
+use blogs
+db.startup_log.find()
+use local
+show collections
+db.blogs.save({name: 'test', blog: 'test string'})
+db.startup_log.find()
+show dbs
+use blogs
+show dbs
+db.dropDatabase()
+use tasks
+show dbs
+show collections
+use blogs
+db.blogs.find
+use local
+show dbs
+mongo
+mongosh
+mongo
+show dbs
+admin
+show dbs
+show databases
+show database
+db.createUser({name: "test", blog: "test data"})
+db.createBlog({name: "test", blog: "test data"})
+use blogs
+show databases
 show users
 db.createUser( { user: "tasks", pwd: "tasks", roles: ["dbOwner"] })
 ...  pwd: "tasks",

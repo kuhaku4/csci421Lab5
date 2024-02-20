@@ -497,3 +497,21 @@ npm list mongoose
 nohup sudo nodemon
 xit
 exit
+cat bitnami_application_password 
+mongo admin --username root -p IpMymwN5+Fiu
+npm install mongo
+mongo admin --username root -p IpMymwN5+Fiu
+mongosh admin --username root -p IpMymwN5+Fiu
+cd blogger
+mongosh admin --username root -p IpMymwN5+Fiu
+nohup sudo nodemon
+exit
+cd blogger
+nuhup sudo npm start
+nohup sudo npm start
+exit
+nohup sudo npm start &
+exit
+cd blogger
+nohup sudo npm start &
+exit

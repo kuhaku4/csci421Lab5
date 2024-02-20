@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  include ./partials/nav
+  h1= title
+  each blog in blogs 
+    p blog.blogtitle 
+    p blog.blogtext 
+    p blog.createdDate 
