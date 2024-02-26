@@ -70,3 +70,113 @@
 2024-02-26 01:38:37.206 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [5ms]
 2024-02-26 01:38:37.216 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
 2024-02-26 01:38:37.216 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-26 01:38:38.945 [info] > git add -A -- . [1969ms]
+2024-02-26 01:38:40.069 [info] > git show --textconv :.git/COMMIT_EDITMSG [16ms]
+2024-02-26 01:38:40.075 [info] > git ls-files --stage -- /home/bitnami/.git/COMMIT_EDITMSG [11ms]
+2024-02-26 01:38:40.374 [info] > git check-ignore -v -z --stdin [11ms]
+2024-02-26 01:38:43.481 [info] > git -c user.useConfigOnly=true commit --quiet [4528ms]
+2024-02-26 01:38:43.502 [info] > git config --get commit.template [7ms]
+2024-02-26 01:38:43.502 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-26 01:38:43.718 [info] > git show --textconv :blogger/app_server/controllers/blog.js [39ms]
+2024-02-26 01:38:43.720 [info] > git ls-files --stage -- /home/bitnami/blogger/app_server/controllers/blog.js [23ms]
+2024-02-26 01:38:43.749 [info] > git cat-file -s 62e1f19cccf213ae600cf725ec42e0ce20a9f1d9 [6ms]
+2024-02-26 01:38:43.765 [info] > git status -z -uall [254ms]
+2024-02-26 01:38:43.789 [info] > git push [3ms]
+2024-02-26 01:38:43.789 [info] fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin main
+2024-02-26 01:38:43.802 [info] > git config --get commit.template [3ms]
+2024-02-26 01:38:43.814 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-02-26 01:38:43.898 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [8ms]
+2024-02-26 01:38:43.913 [info] > git config --local branch.main.vscode-merge-base [4ms]
+2024-02-26 01:38:43.913 [warning] git config failed: Failed to execute git
+2024-02-26 01:38:43.929 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [5ms]
+2024-02-26 01:38:43.945 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [6ms]
+2024-02-26 01:38:43.945 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-26 01:38:44.052 [info] > git status -z -uall [232ms]
+2024-02-26 01:38:44.055 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [5ms]
+2024-02-26 01:38:44.065 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-02-26 01:38:44.065 [warning] git config failed: Failed to execute git
+2024-02-26 01:38:44.075 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [3ms]
+2024-02-26 01:38:44.083 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-02-26 01:38:44.083 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-26 01:38:44.128 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [2ms]
+2024-02-26 01:38:44.136 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-02-26 01:38:44.136 [warning] git config failed: Failed to execute git
+2024-02-26 01:38:44.149 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [3ms]
+2024-02-26 01:38:44.160 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [4ms]
+2024-02-26 01:38:44.160 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-26 01:38:44.210 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [1ms]
+2024-02-26 01:38:44.217 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-02-26 01:38:44.217 [warning] git config failed: Failed to execute git
+2024-02-26 01:38:44.230 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [8ms]
+2024-02-26 01:38:44.237 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-02-26 01:38:44.237 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-26 01:38:44.568 [info] > git check-ignore -v -z --stdin [10ms]
+2024-02-26 01:38:48.763 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [6ms]
+2024-02-26 01:38:48.776 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-02-26 01:38:48.776 [warning] git config failed: Failed to execute git
+2024-02-26 01:38:48.788 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [2ms]
+2024-02-26 01:38:48.800 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [3ms]
+2024-02-26 01:38:48.800 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-26 01:38:48.847 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [2ms]
+2024-02-26 01:38:48.856 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-02-26 01:38:48.856 [warning] git config failed: Failed to execute git
+2024-02-26 01:38:48.865 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [3ms]
+2024-02-26 01:38:48.879 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [7ms]
+2024-02-26 01:38:48.879 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-26 01:39:01.290 [info] > git push -u origin main [12565ms]
+2024-02-26 01:39:01.302 [info] remote: warning: See https://gh.io/lfs for more information.        
+remote: warning: File .vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/node is 87.79 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+remote: warning: File .vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node is 86.60 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+remote: warning: File .vscode-server/bin/05047486b6df5eb8d44b2ecd70ea3bdf775fd937/node is 87.88 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+remote: warning: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.        
+To https://github.com/kuhaku4/csci421-lab4.git
+ * [new branch]        main -> main
+2024-02-26 01:39:01.358 [info] > git config --get commit.template [23ms]
+2024-02-26 01:39:01.359 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [15ms]
+2024-02-26 01:39:03.462 [info] > git status -z -uall [2094ms]
+2024-02-26 01:39:03.576 [info] > git merge-base refs/heads/main refs/remotes/origin/main [9ms]
+2024-02-26 01:39:03.591 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [8ms]
+2024-02-26 01:39:03.592 [info] > git config --get commit.template [3ms]
+2024-02-26 01:39:03.599 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-26 01:39:03.799 [info] > git status -z -uall [193ms]
+2024-02-26 01:39:38.906 [info] > git show --textconv :blogger/app_server/routes/index.js [17ms]
+2024-02-26 01:39:38.931 [info] > git ls-files --stage -- /home/bitnami/blogger/app_server/routes/index.js [26ms]
+2024-02-26 01:39:38.944 [info] > git cat-file -s a52e27c84ac4b013f82476dbaa34d7f3a8540800 [2ms]
+2024-02-26 01:39:39.587 [info] > git show --textconv :blogger/app_server/views/addBlog.pug [12ms]
+2024-02-26 01:39:39.594 [info] > git ls-files --stage -- /home/bitnami/blogger/app_server/views/addBlog.pug [11ms]
+2024-02-26 01:39:39.602 [info] > git cat-file -s 7548405213a1be684725d66771fc51c3652d83fe [1ms]
+2024-02-26 01:39:39.804 [info] > git check-ignore -v -z --stdin [9ms]
+2024-02-26 01:39:48.056 [info] > git show --textconv :blogger/app_server/routes/index.js [12ms]
+2024-02-26 01:39:48.062 [info] > git ls-files --stage -- /home/bitnami/blogger/app_server/routes/index.js [10ms]
+2024-02-26 01:39:48.070 [info] > git cat-file -s a52e27c84ac4b013f82476dbaa34d7f3a8540800 [1ms]
+2024-02-26 01:39:59.383 [info] > git check-ignore -v -z --stdin [10ms]
+2024-02-26 01:40:10.585 [info] > git check-ignore -v -z --stdin [13ms]
+2024-02-26 01:40:11.416 [info] > git check-ignore -v -z --stdin [3ms]
+2024-02-26 01:40:11.425 [info] > git check-ignore -v -z --stdin [32ms]
+2024-02-26 01:40:12.240 [info] > git check-ignore -v -z --stdin [12ms]
+2024-02-26 01:40:14.784 [info] > git check-ignore -v -z --stdin [12ms]
+2024-02-26 01:40:15.733 [info] > git check-ignore -v -z --stdin [14ms]
+2024-02-26 01:40:16.534 [info] > git check-ignore -v -z --stdin [22ms]
+2024-02-26 01:40:38.734 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+2024-02-26 01:40:42.086 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-02-26 01:40:45.347 [info] > git for-each-ref --format %(refname:short)%00%(upstream:short) refs/heads [1ms]
+2024-02-26 01:40:45.361 [info] > git checkout -q master [6ms]
+2024-02-26 01:40:45.388 [info] > git config --get commit.template [1ms]
+2024-02-26 01:40:45.407 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-02-26 01:40:45.414 [warning] ENOENT: no such file or directory, open '/home/bitnami/todo/.git/refs/remotes/origin/master'
+2024-02-26 01:40:45.415 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2024-02-26 01:40:45.423 [info] > git status -z -uall [2ms]
+2024-02-26 01:40:47.898 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2024-02-26 01:41:10.707 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --author-date-order 22995bcc1c05b7471e1d796bae084ceb6b7bc534..705a4372b6d35d45616bb1012a83be8d44443029 [5ms]
+2024-02-26 01:41:12.582 [info] > git diff --name-status -z --diff-filter=ADMR 22995bcc1c05b7471e1d796bae084ceb6b7bc534...705a4372b6d35d45616bb1012a83be8d44443029 [3ms]
+2024-02-26 01:41:13.123 [info] > git check-ignore -v -z --stdin [1ms]
+2024-02-26 01:41:14.444 [info] > git show --textconv 22995bcc1c05b7471e1d796bae084ceb6b7bc534:nohup.out [30ms]
+2024-02-26 01:41:14.444 [info] > git show --textconv 705a4372b6d35d45616bb1012a83be8d44443029:nohup.out [23ms]
+2024-02-26 01:41:14.450 [info] > git ls-tree -l 22995bcc1c05b7471e1d796bae084ceb6b7bc534 -- /home/bitnami/todo/nohup.out [18ms]
+2024-02-26 01:41:14.464 [info] > git ls-tree -l 705a4372b6d35d45616bb1012a83be8d44443029 -- /home/bitnami/todo/nohup.out [25ms]
+2024-02-26 01:41:14.951 [info] > git check-ignore -v -z --stdin [2ms]
+2024-02-26 01:41:57.790 [info] > git ls-tree -l 22995bcc1c05b7471e1d796bae084ceb6b7bc534 -- /home/bitnami/todo/nohup.out [15ms]
+2024-02-26 01:41:57.791 [info] > git ls-tree -l 705a4372b6d35d45616bb1012a83be8d44443029 -- /home/bitnami/todo/nohup.out [12ms]

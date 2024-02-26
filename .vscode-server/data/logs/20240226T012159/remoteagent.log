@@ -30,3 +30,4 @@
 2024-02-26 01:38:16.564 [info] [<unknown>][0535f6d5][ExtensionHostConnection] New connection established.
 2024-02-26 01:38:16.585 [info] [<unknown>][0535f6d5][ExtensionHostConnection] <75865> Launched Extension Host Process.
 2024-02-26 01:38:26.802 [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/bitnami)
+2024-02-26 01:39:03.594 [error] [File Watcher (node.js)] Failed to watch /home/bitnami/.git/refs/remotes/origin/main for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/bitnami/.git/refs/remotes/origin/main')
