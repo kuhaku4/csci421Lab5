@@ -1,3 +1,14 @@
+db.collectionName.find()
+db.collectionName.find(). .
+db.collectionName.find().pretty()
+db.collectionName.find(blogs)
+db.collections.find(blogs)
+db.collections.find()
+show collections
+use Blog
+show dbs
+db list
+db
 db.blogs.insertOne({name: 'hello database'})
 db.blogs.insertOne({name: 'nah i\'d win'})
 db.blogs.find().pretty()
