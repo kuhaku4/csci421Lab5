@@ -1,0 +1,12 @@
+2024-02-26 14:11:54.244 [info] 
+
+
+
+
+2024-02-26 14:11:54.263 [info] Extension host agent started.
+2024-02-26 14:11:54.382 [info] [<unknown>][3d2daf8e][ExtensionHostConnection] New connection established.
+2024-02-26 14:11:54.404 [info] [<unknown>][9bdefe62][ManagementConnection] New connection established.
+2024-02-26 14:11:54.466 [info] [<unknown>][3d2daf8e][ExtensionHostConnection] <1286> Launched Extension Host Process.
+2024-02-26 14:11:58.347 [info] [<unknown>][a7bad635][ExtensionHostConnection] New connection established.
+2024-02-26 14:11:58.354 [info] [<unknown>][a7bad635][ExtensionHostConnection] <1384> Launched Extension Host Process.
+2024-02-26 14:11:58.368 [info] [<unknown>][505e4fef][ManagementConnection] New connection established.

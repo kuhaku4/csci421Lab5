@@ -1,0 +1,17 @@
+2024-02-26 02:04:19.488 [info] Log level: Info
+2024-02-26 02:04:19.488 [info] Validating found git in: "git"
+2024-02-26 02:04:19.488 [info] Using git "2.30.2" from "git"
+2024-02-26 02:04:19.488 [info] > git rev-parse --show-toplevel [105ms]
+2024-02-26 02:04:19.490 [info] > git rev-parse --git-dir --git-common-dir [170ms]
+2024-02-26 02:04:19.573 [info] Open repository: /home/bitnami
+2024-02-26 02:04:20.202 [info] > git rev-parse --show-toplevel [524ms]
+2024-02-26 02:04:20.234 [info] > git config --get commit.template [556ms]
+2024-02-26 02:05:53.566 [info] > git check-ignore -v -z --stdin [16077ms]
+2024-02-26 02:05:53.802 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [93391ms]
+2024-02-26 02:05:53.806 [info] > git rev-parse --show-toplevel [93511ms]
+2024-02-26 02:06:02.996 [info] > git rev-parse --show-toplevel [8965ms]
+2024-02-26 02:06:04.817 [info] > git rev-parse --show-toplevel [1549ms]
+2024-02-26 02:16:40.381 [info] > git rev-parse --show-toplevel [630431ms]
+2024-02-26 02:16:53.403 [info] > git rev-parse --show-toplevel [11699ms]
+2024-02-26 02:17:49.555 [info] > git status -z -uall [701772ms]
+2024-02-26 02:17:49.650 [info] > git rev-parse --show-toplevel [8201ms]

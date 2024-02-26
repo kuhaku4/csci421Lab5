@@ -549,3 +549,11 @@ git push -u origin main
 git config --global edalmonr@millersville.edu
 git config --global user.email edalmonr@millersville.edu
 git config --global user.name kuhaku4
+cat /proc/sys/fs/inotify/max_user_watches
+fs.inotify.max_user_watches=524288
+sudo sysctl -p
+cat /proc/sys/fs/inotify/max_user_watches
+sudo vim /etc/sysctl.conf
+cat /proc/sys/fs/inotify/max_user_watches
+sudo sysctl -p
+cat /proc/sys/fs/inotify/max_user_watches
