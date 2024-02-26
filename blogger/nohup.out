@@ -7459,3 +7459,4 @@ Mongoose connected to mongodb://0.0.0.0:27017/blogger
 [0mPOST / [33m404 [0m23.300 ms - 1032[0m
 [0mGET / [32m200 [0m7.605 ms - 1138[0m
 [0mGET / [32m200 [0m7.364 ms - 1138[0m
+[0mGET / [32m200 [0m319.411 ms - 1138[0m
