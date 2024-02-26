@@ -2,9 +2,6 @@ extends layout
 
 block content
   include ./partials/nav
-  .row.page-header
-    .col-lg-12
-      h1= pageHeader.title
   .row
     .col-xs-12.col-md-6
       form.form-horizontal(action="/blog", method="get", role="form")
@@ -20,6 +17,6 @@ block content
           label.col-sm-2.control-label(for="createdDate") createdDate
           .col-sm-10
             textarea#review.form-control(name="createdDate")
-        button.btn.btn-default.pull-right Add my review
+        button.btn.btn-default.pull-right Add my blog
     .col-xs-12.col-md-4
             
