@@ -479,3 +479,77 @@ From https://github.com/kuhaku4/csci421-lab4
 2024-02-26 01:51:09.681 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [3ms]
 2024-02-26 01:51:09.694 [info] > git config --local branch.main.vscode-merge-base [3ms]
 2024-02-26 01:51:09.695 [warning] git config failed: Failed to execute git
+2024-02-26 01:51:09.709 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [5ms]
+2024-02-26 01:51:09.720 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-02-26 01:51:09.720 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-26 01:51:09.784 [info] > git add -A -- . [275ms]
+2024-02-26 01:51:10.485 [info] > git show --textconv :.git/COMMIT_EDITMSG [12ms]
+2024-02-26 01:51:10.501 [info] > git ls-files --stage -- /home/bitnami/.git/COMMIT_EDITMSG [17ms]
+2024-02-26 01:51:15.181 [info] > git -c user.useConfigOnly=true commit --quiet [5390ms]
+2024-02-26 01:51:15.192 [info] > git config --get commit.template [2ms]
+2024-02-26 01:51:15.200 [info] No remotes found in the git config file.
+2024-02-26 01:51:15.201 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-26 01:51:15.392 [info] > git status -z -uall [184ms]
+2024-02-26 01:51:15.423 [info] > git show --textconv :blogger/app_server/routes/index.js [17ms]
+2024-02-26 01:51:15.431 [info] > git ls-files --stage -- /home/bitnami/blogger/app_server/routes/index.js [12ms]
+2024-02-26 01:51:15.447 [info] > git cat-file -s 61fb2f68f8ad9dc1adf588d54c507259863c702c [8ms]
+2024-02-26 01:51:15.447 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [2ms]
+2024-02-26 01:51:15.457 [info] > git config --local branch.main.vscode-merge-base [3ms]
+2024-02-26 01:51:15.457 [warning] git config failed: Failed to execute git
+2024-02-26 01:51:15.468 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [4ms]
+2024-02-26 01:51:15.479 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [3ms]
+2024-02-26 01:51:15.479 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-26 01:51:15.542 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [2ms]
+2024-02-26 01:51:15.552 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-02-26 01:51:15.552 [warning] git config failed: Failed to execute git
+2024-02-26 01:51:15.564 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [3ms]
+2024-02-26 01:51:15.572 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-02-26 01:51:15.572 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-26 01:51:15.611 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [2ms]
+2024-02-26 01:51:15.621 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-02-26 01:51:15.621 [warning] git config failed: Failed to execute git
+2024-02-26 01:51:15.636 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [3ms]
+2024-02-26 01:51:15.644 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-02-26 01:51:15.644 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-26 01:51:16.127 [info] > git check-ignore -v -z --stdin [9ms]
+2024-02-26 01:51:26.640 [info] > git remote add main https://github.com/kuhaku4/csci421-lab4.git [5ms]
+2024-02-26 01:51:26.660 [info] > git config --get commit.template [7ms]
+2024-02-26 01:51:26.660 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-26 01:51:26.833 [info] > git status -z -uall [167ms]
+2024-02-26 01:51:26.884 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [4ms]
+2024-02-26 01:51:26.895 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-02-26 01:51:26.895 [warning] git config failed: Failed to execute git
+2024-02-26 01:51:26.909 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [4ms]
+2024-02-26 01:51:26.919 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-02-26 01:51:26.919 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-26 01:51:26.988 [info] > git fetch main [146ms]
+2024-02-26 01:51:26.988 [info] From https://github.com/kuhaku4/csci421-lab4
+ * [new branch]        main       -> main/main
+2024-02-26 01:51:27.011 [info] > git config --get commit.template [15ms]
+2024-02-26 01:51:27.011 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-26 01:51:27.185 [info] > git status -z -uall [167ms]
+2024-02-26 01:51:27.226 [info] > git config --get commit.template [7ms]
+2024-02-26 01:51:27.226 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-26 01:51:27.246 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [3ms]
+2024-02-26 01:51:27.308 [info] > git config --local branch.main.vscode-merge-base [7ms]
+2024-02-26 01:51:27.308 [warning] git config failed: Failed to execute git
+2024-02-26 01:51:27.324 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [4ms]
+2024-02-26 01:51:27.336 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-02-26 01:51:27.336 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-26 01:51:27.431 [info] > git status -z -uall [200ms]
+2024-02-26 01:51:27.468 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [2ms]
+2024-02-26 01:51:27.477 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-02-26 01:51:27.477 [warning] git config failed: Failed to execute git
+2024-02-26 01:51:27.492 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [3ms]
+2024-02-26 01:51:27.500 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-02-26 01:51:27.500 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-26 01:51:32.623 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [2ms]
+2024-02-26 01:51:32.633 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-02-26 01:51:32.633 [warning] git config failed: Failed to execute git
+2024-02-26 01:51:32.645 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [4ms]
+2024-02-26 01:51:32.657 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [3ms]
+2024-02-26 01:51:32.657 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-26 01:51:32.721 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [9ms]
+2024-02-26 01:51:32.734 [info] > git config --local branch.main.vscode-merge-base [3ms]
+2024-02-26 01:51:32.734 [warning] git config failed: Failed to execute git
+2024-02-26 01:51:32.748 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [5ms]
