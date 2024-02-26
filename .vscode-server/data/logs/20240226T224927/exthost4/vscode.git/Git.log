@@ -1,0 +1,27 @@
+2024-02-26 23:22:28.100 [info] Log level: Info
+2024-02-26 23:22:28.100 [info] Validating found git in: "git"
+2024-02-26 23:22:28.100 [info] Using git "2.30.2" from "git"
+2024-02-26 23:22:28.100 [info] > git rev-parse --show-toplevel [330ms]
+2024-02-26 23:22:28.251 [info] > git rev-parse --git-dir --git-common-dir [127ms]
+2024-02-26 23:22:28.322 [info] Open repository: /home/bitnami
+2024-02-26 23:22:28.518 [info] > git rev-parse --show-toplevel [122ms]
+2024-02-26 23:22:28.535 [info] > git config --get commit.template [162ms]
+2024-02-26 23:22:28.619 [info] > git rev-parse --show-toplevel [45ms]
+2024-02-26 23:22:28.634 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [44ms]
+2024-02-26 23:22:28.693 [info] > git rev-parse --show-toplevel [60ms]
+2024-02-26 23:22:28.749 [info] > git rev-parse --show-toplevel [6ms]
+2024-02-26 23:23:03.908 [info] > git check-ignore -v -z --stdin [30306ms]
+2024-02-26 23:23:05.776 [info] > git rev-parse --show-toplevel [36719ms]
+2024-02-26 23:23:10.043 [info] > git rev-parse --show-toplevel [1487ms]
+2024-02-26 23:23:10.319 [info] > git rev-parse --show-toplevel [132ms]
+2024-02-26 23:23:10.601 [info] > git rev-parse --show-toplevel [143ms]
+2024-02-26 23:23:10.652 [info] > git rev-parse --show-toplevel [15ms]
+2024-02-26 23:23:10.845 [info] > git rev-parse --show-toplevel [72ms]
+2024-02-26 23:23:10.902 [info] > git rev-parse --show-toplevel [18ms]
+2024-02-26 23:23:10.969 [info] > git rev-parse --show-toplevel [41ms]
+2024-02-26 23:23:11.016 [info] > git rev-parse --show-toplevel [14ms]
+2024-02-26 23:23:11.095 [info] > git rev-parse --show-toplevel [36ms]
+2024-02-26 23:23:11.213 [info] > git rev-parse --git-dir --git-common-dir [29ms]
+2024-02-26 23:23:11.290 [info] Open repository: /home/bitnami/todo
+2024-02-26 23:25:12.816 [info] > git check-ignore -v -z --stdin [116735ms]
+2024-02-26 23:25:12.959 [info] > git rev-parse --show-toplevel [121552ms]

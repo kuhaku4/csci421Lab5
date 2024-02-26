@@ -17,3 +17,12 @@
 2024-02-26 23:08:11.081 [info] [<unknown>][81ed42c2][ExtensionHostConnection] New connection established.
 2024-02-26 23:08:11.102 [info] [<unknown>][81ed42c2][ExtensionHostConnection] <6091> Launched Extension Host Process.
 2024-02-26 23:13:12.384 [info] [<unknown>][47c92ed5][ExtensionHostConnection] <1276> Extension Host Process exited with code: 0, signal: null.
+2024-02-26 23:19:56.094 [info] [<unknown>][43733544][ManagementConnection] New connection established.
+2024-02-26 23:19:56.109 [info] [<unknown>][b1c9a86f][ExtensionHostConnection] New connection established.
+2024-02-26 23:19:56.124 [info] [<unknown>][b1c9a86f][ExtensionHostConnection] <7457> Launched Extension Host Process.
+2024-02-26 23:22:22.152 [info] [<unknown>][948e564d][ManagementConnection] New connection established.
+2024-02-26 23:22:22.192 [info] [<unknown>][b616146b][ExtensionHostConnection] New connection established.
+2024-02-26 23:22:22.226 [info] [<unknown>][b616146b][ExtensionHostConnection] <7761> Launched Extension Host Process.
+2024-02-26 23:23:01.409 [warning] No ptyHost heartbeat after 6 seconds
+2024-02-26 23:23:10.038 [info] [<unknown>][b616146b][ExtensionHostConnection] The client has reconnected.
+2024-02-26 23:25:20.322 [warning] No ptyHost heartbeat after 6 seconds

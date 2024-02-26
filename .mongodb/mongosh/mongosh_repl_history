@@ -1,3 +1,4 @@
+exit
 db.collectionName.find()
 db.collectionName.find(). .
 db.collectionName.find().pretty()

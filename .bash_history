@@ -613,3 +613,7 @@ sudo kill -9 4789
 cd blogger
 nohup sudo nodemon
 exit
+mongosh admin --username root -p IpMymwN5+Fiu
+cd blogger
+nohup sudo nodemon
+exit

@@ -8122,3 +8122,49 @@ Mongoose connected to mongodb://0.0.0.0:27017/blogger
 [0mGET /stylesheets/style.css [36m304 [0m0.464 ms - -[0m
 [0mGET /add [36m304 [0m15.101 ms - -[0m
 [0mGET /stylesheets/style.css [36m304 [0m0.430 ms - -[0m
+[0mGET /.env [33m404 [0m18.363 ms - 1032[0m
+[0mPOST / [33m404 [0m177.319 ms - 1032[0m
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose connected to mongodb://0.0.0.0:27017/blogger
+[0mGET /add [36m304 [0m971.584 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.830 ms - -[0m
+[0mGET /list [32m200 [0m29.988 ms - 1843[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.695 ms - -[0m
+[0mGET /add [36m304 [0m28.223 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.494 ms - -[0m
+[0mGET /add?blogtitle=&blogtext=&createdDate= [36m304 [0m32.027 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.509 ms - -[0m
+[0mGET /add?blogtitle=&blogtext=&createdDate= [36m304 [0m36.696 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.655 ms - -[0m
+[0mGET / [36m304 [0m8.432 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.398 ms - -[0m
+[0mGET /list [32m200 [0m26.323 ms - 1843[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.799 ms - -[0m
+[0mGET /list [32m200 [0m27.453 ms - 1843[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.601 ms - -[0m
+[0mGET /list [32m200 [0m32.611 ms - 1843[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.614 ms - -[0m
+[0mGET /list [32m200 [0m18.029 ms - 1843[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.516 ms - -[0m
+[0mGET /list [32m200 [0m21.040 ms - 1804[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.576 ms - -[0m

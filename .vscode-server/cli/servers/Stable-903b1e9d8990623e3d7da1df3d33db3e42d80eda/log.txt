@@ -5,19 +5,19 @@
 * the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
 * the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
 *
-Server bound to /tmp/code-115a1944-3e96-4d91-ad63-91684b9bef3e
-Extension host agent listening on /tmp/code-115a1944-3e96-4d91-ad63-91684b9bef3e
+Server bound to /tmp/code-4131d7a8-b482-4afe-9672-d563d2a7aca4
+Extension host agent listening on /tmp/code-4131d7a8-b482-4afe-9672-d563d2a7aca4
 
-[22:49:27] 
-
-
+[23:28:14] 
 
 
-[22:49:27] Extension host agent started.
-[22:49:27] [<unknown>][70a8c7e5][ManagementConnection] New connection established.
-[22:49:27] [<unknown>][47c92ed5][ExtensionHostConnection] New connection established.
-[22:49:27] [<unknown>][47c92ed5][ExtensionHostConnection] <1276> Launched Extension Host Process.
-[22:49:37] [File Watcher (parcel)] Unexpected error: inotify_add_watch on '/home/bitnami/.vscode-server/data/logs/20240219T234246/exthost1/vscode.git' failed: No such file or directory (EUNKNOWN) (path: /home/bitnami)
-[22:49:37] [File Watcher (universal)] restarting watcher after error: inotify_add_watch on '/home/bitnami/.vscode-server/data/logs/20240219T234246/exthost1/vscode.git' failed: No such file or directory
-New EH opened, aborting shutdown
-[22:54:27] New EH opened, aborting shutdown
+
+
+[23:28:14] Extension host agent started.
+[23:28:14] [<unknown>][b616146b][ExtensionHostConnection] Unknown reconnection token (never seen).
+[23:28:14] [<unknown>][948e564d][ManagementConnection] Unknown reconnection token (never seen).
+[23:29:14] [<unknown>][b616146b][ExtensionHostConnection] Unknown reconnection token (never seen).
+[23:29:14] [<unknown>][948e564d][ManagementConnection] Unknown reconnection token (never seen).
+[23:29:36] [<unknown>][605dd3b4][ManagementConnection] New connection established.
+[23:29:36] [<unknown>][99ed0145][ExtensionHostConnection] New connection established.
+[23:29:36] [<unknown>][99ed0145][ExtensionHostConnection] <1380> Launched Extension Host Process.
