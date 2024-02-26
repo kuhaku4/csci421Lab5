@@ -5,17 +5,17 @@
 * the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
 * the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
 *
-Server bound to /tmp/code-c96adafa-286c-42dd-ac8c-52cdf469036b
-Extension host agent listening on /tmp/code-c96adafa-286c-42dd-ac8c-52cdf469036b
+Server bound to /tmp/code-dc1e14cb-b5e6-4829-97d9-36c746e00bb4
+Extension host agent listening on /tmp/code-dc1e14cb-b5e6-4829-97d9-36c746e00bb4
 
-[18:56:48] 
-
-
+[19:24:42] 
 
 
-[18:56:48] Extension host agent started.
-[18:56:48] [<unknown>][6882cb34][ExtensionHostConnection] New connection established.
-[18:56:48] [<unknown>][f24e4dca][ManagementConnection] New connection established.
-[18:56:48] [<unknown>][6882cb34][ExtensionHostConnection] <4338> Launched Extension Host Process.
-New EH opened, aborting shutdown
-[19:01:48] New EH opened, aborting shutdown
+
+
+[19:24:42] Extension host agent started.
+[19:24:42] [<unknown>][61f05a1a][ExtensionHostConnection] New connection established.
+[19:24:42] [<unknown>][20c69c6c][ManagementConnection] New connection established.
+[19:24:42] [<unknown>][61f05a1a][ExtensionHostConnection] <1268> Launched Extension Host Process.
+[19:24:52] [File Watcher (parcel)] Unexpected error: inotify_add_watch on '/home/bitnami/.vscode-server/data/logs/20240219T232222/exthost1/vscode.github' failed: No such file or directory (EUNKNOWN) (path: /home/bitnami)
+[19:24:52] [File Watcher (universal)] restarting watcher after error: inotify_add_watch on '/home/bitnami/.vscode-server/data/logs/20240219T232222/exthost1/vscode.github' failed: No such file or directory

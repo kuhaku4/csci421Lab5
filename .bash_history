@@ -559,3 +559,13 @@ sudo sysctl -p
 cat /proc/sys/fs/inotify/max_user_watches
 repo:github/linguist
 org:github
+cd blogger
+nohup sudo npm start &
+exit
+cd
+cd blogger
+nohup sudo nodemon
+ps
+ps aux | grep node
+nohup sudo nodemon
+exit

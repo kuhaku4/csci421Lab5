@@ -7463,3 +7463,157 @@ Mongoose connected to mongodb://0.0.0.0:27017/blogger
 [0mGET / [32m200 [0m654994.416 ms - 1138[0m
 [0mGET /.env [33m404 [0m28116.840 ms - 1032[0m
 [0mGET /.git/config [33m404 [0m173005.541 ms - 1032[0m
+
+> blogger@0.0.0 start
+> node ./bin/www
+
+/home/bitnami/blogger/node_modules/express/lib/router/index.js:469
+      throw new TypeError('Router.use() requires a middleware function but got a ' + gettype(fn))
+      ^
+
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (/home/bitnami/blogger/node_modules/express/lib/router/index.js:469:13)
+    at Function.<anonymous> (/home/bitnami/blogger/node_modules/express/lib/application.js:227:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (/home/bitnami/blogger/node_modules/express/lib/application.js:224:7)
+    at Object.<anonymous> (/home/bitnami/blogger/app.js:27:5)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+
+Node.js v18.19.0
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+/home/bitnami/blogger/node_modules/express/lib/router/index.js:469
+      throw new TypeError('Router.use() requires a middleware function but got a ' + gettype(fn))
+      ^
+
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (/home/bitnami/blogger/node_modules/express/lib/router/index.js:469:13)
+    at Function.<anonymous> (/home/bitnami/blogger/node_modules/express/lib/application.js:227:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (/home/bitnami/blogger/node_modules/express/lib/application.js:224:7)
+    at Object.<anonymous> (/home/bitnami/blogger/app.js:27:5)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+
+Node.js v18.19.0
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose connected to mongodb://0.0.0.0:27017/blogger
+[0mGET / [32m200 [0m565.635 ms - 1138[0m
+[0mGET /stylesheets/style.css [32m200 [0m4.672 ms - 111[0m
+[0mGET /favicon.ico [33m404 [0m20.887 ms - 1032[0m
+[0mGET / [36m304 [0m20.176 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.972 ms - -[0m
+[0mGET /list [32m200 [0m26.424 ms - 1263[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.417 ms - -[0m
+[0mGET /list [32m200 [0m22.261 ms - 1263[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.820 ms - -[0m
+[0mGET /list [32m200 [0m25.479 ms - 1263[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.552 ms - -[0m
+[0mGET /list [32m200 [0m21.336 ms - 1263[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.528 ms - -[0m
+[0mGET /list [32m200 [0m13.118 ms - 1263[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.476 ms - -[0m
+[0mGET /list [32m200 [0m22.531 ms - 1263[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.430 ms - -[0m
+[0mGET /list [32m200 [0m15.445 ms - 1263[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.170 ms - -[0m
+[0mGET /list [32m200 [0m13.753 ms - 1263[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.395 ms - -[0m
+[0mGET /list [32m200 [0m10.234 ms - 1263[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.531 ms - -[0m
+[0mGET /list [32m200 [0m31.439 ms - 1263[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.398 ms - -[0m
+[0mGET /list [32m200 [0m26.530 ms - 1263[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.400 ms - -[0m
+[0mGET /list [32m200 [0m14.321 ms - 1263[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.374 ms - -[0m
+[0mGET /list [32m200 [0m8.732 ms - 1263[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.577 ms - -[0m
+[0mGET /list [32m200 [0m8.225 ms - 1263[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.362 ms - -[0m
+[0mGET /list [32m200 [0m11.601 ms - 1263[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.370 ms - -[0m
+[0mGET /list [32m200 [0m12.775 ms - 1263[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.365 ms - -[0m
+[0mGET /list [32m200 [0m13.898 ms - 1263[0m
+[0mGET /list [32m200 [0m7.169 ms - 1263[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.345 ms - -[0m
+[0mGET /list [32m200 [0m9.541 ms - 1263[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.456 ms - -[0m
+[0mGET /list [32m200 [0m8.177 ms - 1263[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.416 ms - -[0m
+[0mGET /list [32m200 [0m8.050 ms - 1263[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.319 ms - -[0m
+[0mGET /list [32m200 [0m11.600 ms - 1263[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.404 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.993 ms - -[0m
+[0mGET /list [32m200 [0m9.016 ms - 1263[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.362 ms - -[0m
+[0mGET /list [32m200 [0m6.329 ms - 1263[0m
+[0mGET /list [32m200 [0m8.854 ms - 1263[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.314 ms - -[0m
+[0mGET /list [32m200 [0m6.544 ms - 1263[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.387 ms - -[0m
+[0mGET /list [32m200 [0m6.211 ms - 1263[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.280 ms - -[0m
+[0mGET /list [32m200 [0m7.656 ms - 1263[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.561 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.378 ms - -[0m
+[0mGET /list [32m200 [0m9.966 ms - 1263[0m
+[0mGET /list [32m200 [0m7.623 ms - 1263[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.390 ms - -[0m
+[0mGET /list [32m200 [0m7.426 ms - 1263[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.382 ms - -[0m
+[0mGET /list [32m200 [0m6.304 ms - 1263[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.715 ms - -[0m
+[0mGET /list [32m200 [0m6.698 ms - 1263[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.396 ms - -[0m
+[0mGET /list [32m200 [0m15.222 ms - 1263[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.701 ms - -[0m
+[0mGET / [32m200 [0m7.579 ms - 1138[0m

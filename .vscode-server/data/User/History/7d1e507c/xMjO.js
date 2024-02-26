@@ -23,10 +23,10 @@ exports.list = (req, res) => {
 };
 
 module.exports.addBlog = function(req,res){
-  res.render('blog-add-form',{
+  res.render('blog-add-form'),{
     title:'Add a blog',
     pageHeader:{
       title: 'blog adder'
     }
-  })
+  }
 };
