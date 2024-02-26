@@ -5,18 +5,17 @@
 * the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
 * the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
 *
-Server bound to /tmp/code-110a680e-0030-4fa1-b00d-2a8288377cbf
-Extension host agent listening on /tmp/code-110a680e-0030-4fa1-b00d-2a8288377cbf
+Server bound to /tmp/code-c96adafa-286c-42dd-ac8c-52cdf469036b
+Extension host agent listening on /tmp/code-c96adafa-286c-42dd-ac8c-52cdf469036b
 
-[14:11:54] 
-
-
+[18:56:48] 
 
 
-[14:11:54] Extension host agent started.
-[14:11:54] [<unknown>][3d2daf8e][ExtensionHostConnection] New connection established.
-[14:11:54] [<unknown>][9bdefe62][ManagementConnection] New connection established.
-[14:11:54] [<unknown>][3d2daf8e][ExtensionHostConnection] <1286> Launched Extension Host Process.
-[14:11:58] [<unknown>][a7bad635][ExtensionHostConnection] New connection established.
-[14:11:58] [<unknown>][a7bad635][ExtensionHostConnection] <1384> Launched Extension Host Process.
-[14:11:58] [<unknown>][505e4fef][ManagementConnection] New connection established.
+
+
+[18:56:48] Extension host agent started.
+[18:56:48] [<unknown>][6882cb34][ExtensionHostConnection] New connection established.
+[18:56:48] [<unknown>][f24e4dca][ManagementConnection] New connection established.
+[18:56:48] [<unknown>][6882cb34][ExtensionHostConnection] <4338> Launched Extension Host Process.
+New EH opened, aborting shutdown
+[19:01:48] New EH opened, aborting shutdown

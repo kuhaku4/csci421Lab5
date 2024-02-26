@@ -10,3 +10,15 @@
 2024-02-26 14:11:58.347 [info] [<unknown>][a7bad635][ExtensionHostConnection] New connection established.
 2024-02-26 14:11:58.354 [info] [<unknown>][a7bad635][ExtensionHostConnection] <1384> Launched Extension Host Process.
 2024-02-26 14:11:58.368 [info] [<unknown>][505e4fef][ManagementConnection] New connection established.
+2024-02-26 14:13:42.054 [info] [<unknown>][89ad6438][ManagementConnection] New connection established.
+2024-02-26 14:13:42.073 [info] [<unknown>][89c07e34][ExtensionHostConnection] New connection established.
+2024-02-26 14:13:42.087 [info] [<unknown>][89c07e34][ExtensionHostConnection] <2127> Launched Extension Host Process.
+2024-02-26 14:16:54.294 [info] New EH opened, aborting shutdown
+2024-02-26 14:16:54.310 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/server/node/server.main.js:187:6090)
+    at process.emit (node:events:514:28)
+2024-02-26 14:16:59.356 [info] [<unknown>][3d2daf8e][ExtensionHostConnection] <1286> Extension Host Process exited with code: 0, signal: null.
+2024-02-26 14:18:42.736 [info] [<unknown>][a7bad635][ExtensionHostConnection] <1384> Extension Host Process exited with code: 0, signal: null.
+2024-02-26 17:14:33.829 [info] [<unknown>][89c07e34][ExtensionHostConnection] <2127> Extension Host Process exited with code: 0, signal: null.
+2024-02-26 17:14:33.830 [info] Last EH closed, waiting before shutting down
+2024-02-26 17:19:33.831 [info] Last EH closed, shutting down
