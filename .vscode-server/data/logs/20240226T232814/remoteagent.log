@@ -11,3 +11,10 @@
 2024-02-26 23:29:36.372 [info] [<unknown>][605dd3b4][ManagementConnection] New connection established.
 2024-02-26 23:29:36.388 [info] [<unknown>][99ed0145][ExtensionHostConnection] New connection established.
 2024-02-26 23:29:36.393 [info] [<unknown>][99ed0145][ExtensionHostConnection] <1380> Launched Extension Host Process.
+2024-02-26 23:33:14.511 [info] New EH opened, aborting shutdown
+2024-02-26 23:33:14.523 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/server/node/server.main.js:187:6090)
+    at process.emit (node:events:514:28)
+2024-02-26 23:41:52.701 [info] [<unknown>][963f82ce][ManagementConnection] New connection established.
+2024-02-26 23:41:52.711 [info] [<unknown>][7948cac3][ExtensionHostConnection] New connection established.
+2024-02-26 23:41:52.730 [info] [<unknown>][7948cac3][ExtensionHostConnection] <2474> Launched Extension Host Process.
