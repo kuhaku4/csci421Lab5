@@ -10,3 +10,9 @@
 2024-02-19 23:42:57.304 [error] [File Watcher (parcel)] Unexpected error: inotify_add_watch on '/home/bitnami/.vscode-server/data/logs/20240212T155003/exthost1/vscode.git' failed: No such file or directory (EUNKNOWN) (path: /home/bitnami)
 2024-02-19 23:42:57.311 [error] [File Watcher (universal)] restarting watcher after error: inotify_add_watch on '/home/bitnami/.vscode-server/data/logs/20240212T155003/exthost1/vscode.git' failed: No such file or directory
 2024-02-19 23:47:46.585 [info] New EH opened, aborting shutdown
+2024-02-20 03:19:22.003 [info] [<unknown>][965b7b4b][ExtensionHostConnection] <1156> Extension Host Process exited with code: 0, signal: null.
+2024-02-20 03:19:22.009 [info] Last EH closed, waiting before shutting down
+2024-02-20 03:19:22.010 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/server/node/server.main.js:187:6090)
+    at process.emit (node:events:514:28)
+2024-02-20 03:24:22.010 [info] Last EH closed, shutting down

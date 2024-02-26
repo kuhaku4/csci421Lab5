@@ -5,19 +5,26 @@
 * the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
 * the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
 *
-Server bound to /tmp/code-a68464d1-1c09-41b9-8976-f2e6b50815b2
-Extension host agent listening on /tmp/code-a68464d1-1c09-41b9-8976-f2e6b50815b2
+Server bound to /tmp/code-00018504-3e11-4bbb-a0c3-f77d5c1d67a2
+Extension host agent listening on /tmp/code-00018504-3e11-4bbb-a0c3-f77d5c1d67a2
 
-[23:42:46] 
-
-
+[01:21:59] 
 
 
-[23:42:46] Extension host agent started.
-[23:42:47] [<unknown>][e1f89b13][ManagementConnection] New connection established.
-[23:42:47] [<unknown>][965b7b4b][ExtensionHostConnection] New connection established.
-[23:42:47] [<unknown>][965b7b4b][ExtensionHostConnection] <1156> Launched Extension Host Process.
-[23:42:57] [File Watcher (parcel)] Unexpected error: inotify_add_watch on '/home/bitnami/.vscode-server/data/logs/20240212T155003/exthost1/vscode.git' failed: No such file or directory (EUNKNOWN) (path: /home/bitnami)
-[23:42:57] [File Watcher (universal)] restarting watcher after error: inotify_add_watch on '/home/bitnami/.vscode-server/data/logs/20240212T155003/exthost1/vscode.git' failed: No such file or directory
-New EH opened, aborting shutdown
-[23:47:46] New EH opened, aborting shutdown
+
+
+[01:21:59] Extension host agent started.
+[01:22:00] [<unknown>][bba0a8db][ExtensionHostConnection] New connection established.
+[01:22:00] [<unknown>][768feeee][ManagementConnection] New connection established.
+[01:22:00] [<unknown>][bba0a8db][ExtensionHostConnection] <74008> Launched Extension Host Process.
+[01:22:04] [<unknown>][300d70d1][ManagementConnection] New connection established.
+[01:22:04] [<unknown>][fc77f271][ExtensionHostConnection] New connection established.
+[01:22:04] [<unknown>][fc77f271][ExtensionHostConnection] <74110> Launched Extension Host Process.
+[01:22:10] [File Watcher (parcel)] Unexpected error: inotify_add_watch on '/home/bitnami/.vscode-server/data/logs/20240219T032633/exthost2/vscode.git' failed: No such file or directory (EUNKNOWN) (path: /home/bitnami)
+[01:22:10] [File Watcher (universal)] restarting watcher after error: inotify_add_watch on '/home/bitnami/.vscode-server/data/logs/20240219T032633/exthost2/vscode.git' failed: No such file or directory
+[01:23:35] [<unknown>][4c05edb4][ExtensionHostConnection] New connection established.
+[01:23:35] [<unknown>][4c05edb4][ExtensionHostConnection] <74553> Launched Extension Host Process.
+[01:23:35] [<unknown>][75e643ae][ManagementConnection] New connection established.
+[01:24:56] [<unknown>][b54dd31c][ExtensionHostConnection] New connection established.
+[01:24:56] [<unknown>][b54dd31c][ExtensionHostConnection] <74645> Launched Extension Host Process.
+[01:24:56] [<unknown>][c9432774][ManagementConnection] New connection established.

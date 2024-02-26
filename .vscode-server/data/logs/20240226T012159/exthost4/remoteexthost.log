@@ -1,0 +1,319 @@
+2024-02-26 01:24:56.941 [info] Extension host with pid 74645 started
+2024-02-26 01:24:56.941 [error] Error: EEXIST: file already exists, open '/home/bitnami/.vscode-server/data/User/workspaceStorage/d866cbe83da49e127745e557969ca682/vscode.lock'
+2024-02-26 01:24:56.948 [info] Lock '/home/bitnami/.vscode-server/data/User/workspaceStorage/d866cbe83da49e127745e557969ca682/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-02-26 01:24:56.978 [info] Lock '/home/bitnami/.vscode-server/data/User/workspaceStorage/d866cbe83da49e127745e557969ca682/vscode.lock': The lock does not look stale, elapsed: 693 ms, giving up.
+2024-02-26 01:24:56.985 [info] Lock '/home/bitnami/.vscode-server/data/User/workspaceStorage/d866cbe83da49e127745e557969ca682-1/vscode.lock': Lock acquired.
+2024-02-26 01:24:57.061 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-02-26 01:24:57.248 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-02-26 01:24:57.255 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2024-02-26 01:24:57.463 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-02-26 01:24:57.463 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-02-26 01:24:58.232 [info] Eager extensions activated
+2024-02-26 01:24:58.233 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-02-26 01:24:58.233 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-02-26 01:24:59.123 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:24:59.124 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:24:59.124 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:24:59.124 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:24:59.125 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:24:59.125 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:24:59.125 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:24:59.125 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:24:59.126 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:24:59.126 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:24:59.126 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:24:59.127 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:24:59.127 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:24:59.127 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:24:59.127 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:24:59.128 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:24:59.128 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:24:59.129 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:24:59.129 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:24:59.129 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:24:59.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:24:59.130 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:24:59.131 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:24:59.131 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:24:59.131 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:24:59.131 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:24:59.132 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:24:59.132 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:24:59.132 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:24:59.132 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:24:59.132 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:24:59.133 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:24:59.133 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:24:59.133 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:24:59.133 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:24:59.133 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:24:59.133 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:24:59.133 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:24:59.133 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:24:59.133 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:24:59.133 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:24:59.133 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:24:59.133 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:24:59.133 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:24:59.133 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:24:59.133 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:24:59.133 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:24:59.133 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:24:59.133 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:24:59.133 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:24:59.364 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-02-26 01:24:59.592 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1360
+2024-02-26 01:25:00.432 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:25:00.435 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:25:00.441 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:25:00.441 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:25:00.444 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:25:00.445 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:25:00.446 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:25:00.448 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:25:00.451 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:25:00.452 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:25:00.459 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:25:00.460 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:25:00.461 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:25:00.461 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:25:00.462 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:25:00.462 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:25:00.463 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:25:00.463 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:25:00.473 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:25:00.473 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:25:00.474 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:25:00.475 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:25:00.475 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:25:00.476 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:25:00.476 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/extensions/git/dist/main.js:2:993939)
+	at ChildProcess.emit (node:events:526:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+2024-02-26 01:25:00.993 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1360
+2024-02-26 01:25:02.018 [error] Error: read ECONNRESET
+	at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20)
+2024-02-26 01:25:32.300 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'

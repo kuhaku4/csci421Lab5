@@ -1,0 +1,27 @@
+2024-02-26 01:21:59.545 [info] 
+
+
+
+
+2024-02-26 01:21:59.559 [info] Extension host agent started.
+2024-02-26 01:22:00.052 [info] [<unknown>][bba0a8db][ExtensionHostConnection] New connection established.
+2024-02-26 01:22:00.053 [info] [<unknown>][768feeee][ManagementConnection] New connection established.
+2024-02-26 01:22:00.172 [info] [<unknown>][bba0a8db][ExtensionHostConnection] <74008> Launched Extension Host Process.
+2024-02-26 01:22:04.893 [info] [<unknown>][300d70d1][ManagementConnection] New connection established.
+2024-02-26 01:22:04.899 [info] [<unknown>][fc77f271][ExtensionHostConnection] New connection established.
+2024-02-26 01:22:04.907 [info] [<unknown>][fc77f271][ExtensionHostConnection] <74110> Launched Extension Host Process.
+2024-02-26 01:22:10.812 [error] [File Watcher (parcel)] Unexpected error: inotify_add_watch on '/home/bitnami/.vscode-server/data/logs/20240219T032633/exthost2/vscode.git' failed: No such file or directory (EUNKNOWN) (path: /home/bitnami)
+2024-02-26 01:22:10.813 [error] [File Watcher (universal)] restarting watcher after error: inotify_add_watch on '/home/bitnami/.vscode-server/data/logs/20240219T032633/exthost2/vscode.git' failed: No such file or directory
+2024-02-26 01:23:35.662 [info] [<unknown>][4c05edb4][ExtensionHostConnection] New connection established.
+2024-02-26 01:23:35.667 [info] [<unknown>][4c05edb4][ExtensionHostConnection] <74553> Launched Extension Host Process.
+2024-02-26 01:23:35.680 [info] [<unknown>][75e643ae][ManagementConnection] New connection established.
+2024-02-26 01:24:56.156 [info] [<unknown>][b54dd31c][ExtensionHostConnection] New connection established.
+2024-02-26 01:24:56.163 [info] [<unknown>][b54dd31c][ExtensionHostConnection] <74645> Launched Extension Host Process.
+2024-02-26 01:24:56.166 [info] [<unknown>][c9432774][ManagementConnection] New connection established.
+2024-02-26 01:25:02.374 [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/bitnami)
+2024-02-26 01:25:02.382 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/server/node/server.main.js:187:6090)
+    at process.emit (node:events:514:28)
+2024-02-26 01:26:59.571 [info] New EH opened, aborting shutdown
+2024-02-26 01:27:05.910 [info] [<unknown>][bba0a8db][ExtensionHostConnection] <74008> Extension Host Process exited with code: 0, signal: null.
+2024-02-26 01:28:37.194 [info] [<unknown>][fc77f271][ExtensionHostConnection] <74110> Extension Host Process exited with code: 0, signal: null.

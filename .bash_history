@@ -515,3 +515,5 @@ exit
 cd blogger
 nohup sudo npm start &
 exit
+cd blogger
+ps aux | grep node
