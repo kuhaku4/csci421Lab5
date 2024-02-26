@@ -517,3 +517,11 @@ nohup sudo npm start &
 exit
 cd blogger
 ps aux | grep node
+git remove rm origin
+git remote rm origin
+rm ./git/FETCH_HEAD
+rm .git/FETCH_HEAD
+cd blogger
+git remote add origin https://github.com/kuhaku4/csci421-lab4.git
+git branch -M main
+git push -u origin main
