@@ -3,21 +3,31 @@ exports.add = (req, res) => {
   };
 
 exports.list = (req, res) => {
-    res.render('blogList', {title: 'Blog List',
+
+  let currentTime = new Date();
+  localStorage.setItem('currentTime', currentTime.toString());
+  let storedTime = localStorage.getItem('currentTime');
+  let storedTimeAsDate = new Date(storedTime);
+    res.render('blogList', {
+      title: 'Blog List',
+      pageHeader:{
+        title: "Add Blogs",
+        strapline: 'Read cool blogs'
+      },
       blogs: [{
         blogtitle: 'test',
         blogtext: 'test text',
-        createdDate: Date.now()
+        createdDate: storedTimeAsDate
       },
     {
       blogtitle: 'Nah I\'d Win',
       blogtext: 'Didn\'t Win',
-      createdDate: Date.now()
+      createdDate: storedTimeAsDate
     },
     {
       blogtitle: 'My First Blog',
       blogtext: 'This is a boring blog',
-      createdDate: Date.now()
+      createdDate: storedTimeAsDate
     }]
 })
 };
