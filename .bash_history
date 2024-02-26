@@ -569,3 +569,14 @@ ps
 ps aux | grep node
 nohup sudo nodemon
 exit
+git fetch
+git pull
+cd blogger
+nohup sudo nodemon
+exit
+cd blogger
+ps aux | grep nodemon
+ps aux | grep node
+sudo kill -9 5400
+nohup sudo nodemon
+exit
