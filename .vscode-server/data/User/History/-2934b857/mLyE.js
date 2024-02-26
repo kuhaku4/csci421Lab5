@@ -8,5 +8,5 @@ router.get('/', crtlHome.home);
 router.get('/list', crtlBlog.list);
 router.get('/add', crtlBlog.add);
 router.get('/')
-/* TEST4*/
+/* TEST3*/
 module.exports = router;
