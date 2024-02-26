@@ -21,3 +21,7 @@
 2024-02-26 22:16:18.028 [info] [<unknown>][8a28bdb0][ExtensionHostConnection] New connection established.
 2024-02-26 22:16:18.041 [info] [<unknown>][8a28bdb0][ExtensionHostConnection] <5601> Launched Extension Host Process.
 2024-02-26 22:21:18.668 [info] [<unknown>][cb4d97e2][ExtensionHostConnection] <5022> Extension Host Process exited with code: 0, signal: null.
+2024-02-26 22:25:17.263 [info] [<unknown>][8ae61429][ManagementConnection] New connection established.
+2024-02-26 22:25:17.278 [info] [<unknown>][35c07d6a][ExtensionHostConnection] New connection established.
+2024-02-26 22:25:17.299 [info] [<unknown>][35c07d6a][ExtensionHostConnection] <7541> Launched Extension Host Process.
+2024-02-26 22:30:18.066 [info] [<unknown>][8a28bdb0][ExtensionHostConnection] <5601> Extension Host Process exited with code: 0, signal: null.

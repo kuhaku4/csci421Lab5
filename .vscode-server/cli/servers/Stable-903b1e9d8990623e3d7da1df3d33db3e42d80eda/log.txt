@@ -5,19 +5,17 @@
 * the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
 * the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
 *
-Server bound to /tmp/code-dc1e14cb-b5e6-4829-97d9-36c746e00bb4
-Extension host agent listening on /tmp/code-dc1e14cb-b5e6-4829-97d9-36c746e00bb4
+Server bound to /tmp/code-115a1944-3e96-4d91-ad63-91684b9bef3e
+Extension host agent listening on /tmp/code-115a1944-3e96-4d91-ad63-91684b9bef3e
 
-[19:24:42] 
-
-
+[22:49:27] 
 
 
-[19:24:42] Extension host agent started.
-[19:24:42] [<unknown>][61f05a1a][ExtensionHostConnection] New connection established.
-[19:24:42] [<unknown>][20c69c6c][ManagementConnection] New connection established.
-[19:24:42] [<unknown>][61f05a1a][ExtensionHostConnection] <1268> Launched Extension Host Process.
-[19:24:52] [File Watcher (parcel)] Unexpected error: inotify_add_watch on '/home/bitnami/.vscode-server/data/logs/20240219T232222/exthost1/vscode.github' failed: No such file or directory (EUNKNOWN) (path: /home/bitnami)
-[19:24:52] [File Watcher (universal)] restarting watcher after error: inotify_add_watch on '/home/bitnami/.vscode-server/data/logs/20240219T232222/exthost1/vscode.github' failed: No such file or directory
-New EH opened, aborting shutdown
-[19:29:42] New EH opened, aborting shutdown
+
+
+[22:49:27] Extension host agent started.
+[22:49:27] [<unknown>][70a8c7e5][ManagementConnection] New connection established.
+[22:49:27] [<unknown>][47c92ed5][ExtensionHostConnection] New connection established.
+[22:49:27] [<unknown>][47c92ed5][ExtensionHostConnection] <1276> Launched Extension Host Process.
+[22:49:37] [File Watcher (parcel)] Unexpected error: inotify_add_watch on '/home/bitnami/.vscode-server/data/logs/20240219T234246/exthost1/vscode.git' failed: No such file or directory (EUNKNOWN) (path: /home/bitnami)
+[22:49:37] [File Watcher (universal)] restarting watcher after error: inotify_add_watch on '/home/bitnami/.vscode-server/data/logs/20240219T234246/exthost1/vscode.git' failed: No such file or directory

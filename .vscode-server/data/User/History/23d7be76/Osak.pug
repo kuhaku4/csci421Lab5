@@ -8,8 +8,8 @@ block content
         each blog in blogs
           .col-xs-12.list-group-item
             h4 
-              a(href="/blog")= blog.blogtitle
-              span.badge.pull-left.badge-default= blog.blogtext
+              a(href="/blog")= blog.blogtitle\n
+              a(href="/blog")= blog.blogtext
               span.badge.pull-right.badge-default= blog.createdDate
     .col-xs-12.col-sm-4 
       p.lead= sidebar

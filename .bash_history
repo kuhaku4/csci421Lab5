@@ -580,3 +580,10 @@ ps aux | grep node
 sudo kill -9 5400
 nohup sudo nodemon
 exit
+cd
+cd blogger
+cd
+git fetch
+git pull
+git fetch
+git pull
