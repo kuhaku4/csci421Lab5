@@ -587,3 +587,29 @@ git fetch
 git pull
 git fetch
 git pull
+git fetch
+git pull
+cd blogger
+nohup sudo nodemon
+exit
+cd blogger
+nohup sudo nodemon
+exit
+ps aux | grep node
+cd blogger
+nohup sudo npm start &
+cd
+cat bitnami_application_password
+mongo admin --username root -p IpMymwN5+Fiu
+mongosh admin --username root -p IpMymwN5+Fiu
+cd blogger
+nohup sudo nodemon
+exit
+cd blogger
+nohup sudo nodemon
+exit
+ps aux | grep node
+sudo kill -9 4789
+cd blogger
+nohup sudo nodemon
+exit
