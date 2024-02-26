@@ -525,3 +525,27 @@ cd blogger
 git remote add origin https://github.com/kuhaku4/csci421-lab4.git
 git branch -M main
 git push -u origin main
+git remote add origin https://github.com/kuhaku4/csci421-lab4.git
+git branch -M main
+git push -u origin main
+cd
+cd blogger
+ls
+git remote rm origin
+git remote rm 
+git remote rm master
+git remote rm orign
+git remote rm origin
+git branch -M main
+git push -u origin main
+git remote add origin https://github.com/kuhaku4/csci421-lab4.git
+git branch -M main
+git push -u origin main
+code . -n
+git remote rm origin
+git remote add origin https://github.com/kuhaku4/csci421-lab4.git
+git branch -M main
+git push -u origin main
+git config --global edalmonr@millersville.edu
+git config --global user.email edalmonr@millersville.edu
+git config --global user.name kuhaku4
