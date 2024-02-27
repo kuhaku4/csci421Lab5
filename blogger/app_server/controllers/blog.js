@@ -1,7 +1,7 @@
 var request = require('request');
 const { render } = require('../../app');
 var apiOptions = {
-  server : "http://localhost:80"  // Change as needed
+  server : "http://52.91.47.28:80"  // Change as needed
 };
 var requestOptions = {
   url : "http://52.91.47.28/api/blogs", method : "GET",
@@ -97,17 +97,6 @@ requestOptions,
   );
 };
 
-/* Render the blog show page */
-// var renderShowPage = function(req, res, responseBody){
-//   res.render('blogList', {
-//       title: 'Blog Info',
-//       pageHeader: {
-//               title: 'Blog Info'
-//       },
-//       blog: responseBody
-//   });
-// };
-
 /* Blog Add */
 module.exports.add = function(req, res) {
   res.render('addBlog', { title: 'Add Blog' });
@@ -173,7 +162,7 @@ var renderDeletePage = function(req, res, responseBody){
 module.exports.deletePost = function(req, res){
   var requestOptions, path, postdata;
   var id = req.params.id;
-  path = '/api/blog/' + id;
+  path = '/api/blogs/' + id;
 
   requestOptions = {
 url : apiOptions.server + path,
