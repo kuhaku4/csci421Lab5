@@ -28,7 +28,6 @@ var apiOptions = {
 //         error: responseBody.error
 //     })
 // }
-
 exports.list = (req, res) => {
     res.render('blog/blog-list', {title: 'Blog List',
       blogs: [{

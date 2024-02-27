@@ -9441,3 +9441,175 @@ MongoServerError: command insert requires authentication
 [0mGET /icons/bootstrap-icons.min.css [33m404 [0m27.940 ms - 2232[0m
 [0mGET /css/bootstrap.min.css [36m304 [0m29.570 ms - -[0m
 [0mGET /stylesheets/style.css [36m304 [0m0.395 ms - -[0m
+***** GET New Blog Form *****
+[0mGET /blog/add [36m304 [0m30.242 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.751 ms - -[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m10.903 ms - 2232[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.509 ms - -[0m
+***** GET New Blog Form *****
+[0mGET /blog/add [36m304 [0m19.918 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.595 ms - -[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m9.145 ms - 2232[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.340 ms - -[0m
+***** POST New Blog Form *****
+Adding Blog
+MongoServerError: command insert requires authentication
+    at Connection.onMessage (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/connection.js:205:26)
+    at MessageStream.<anonymous> (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/connection.js:64:60)
+    at MessageStream.emit (node:events:517:28)
+    at processIncomingData (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/message_stream.js:117:16)
+    at MessageStream._write (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Socket.ondata (node:internal/streams/readable:809:22)
+    at Socket.emit (node:events:517:28) {
+  ok: 0,
+  code: 13,
+  codeName: 'Unauthorized',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+[0mPOST /api/blog/add [33m400 [0m4.486 ms - 44[0m
+[0mPOST /blog/add [0m- [0m- ms - -[0m
+***** GET New Blog Form *****
+[0mGET /blog/add [36m304 [0m15.094 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.543 ms - -[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m9.313 ms - 2232[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.365 ms - -[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m12.785 ms - 2232[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m1.712 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.326 ms - -[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m3.673 ms - 522639[0m
+***** GET New Blog Form *****
+[0mGET /blog/add [36m304 [0m24.308 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.561 ms - -[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m13.588 ms - 2232[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.310 ms - -[0m
+[0mGET /api/blog [33m404 [0m8.769 ms - 2232[0m
+[0mGET /list [0m- [0m- ms - -[0m
+***** GET New Blog Form *****
+[0mGET /blog/add [36m304 [0m13.014 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.695 ms - -[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m14.755 ms - 2232[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.413 ms - -[0m
+***** GET New Blog Form *****
+[0mGET /blog/add [36m304 [0m109.705 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m4.979 ms - -[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m10.429 ms - 2232[0m
+[0mGET /stylesheets/style.css [36m304 [0m3.203 ms - -[0m
+[0mGET / [36m304 [0m24.059 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.095 ms - -[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m11.137 ms - 2232[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m12.984 ms - -[0m
+[0mGET /api/blog [33m404 [0m20.477 ms - 2232[0m
+[0mGET /list [0m- [0m- ms - -[0m
+***** GET New Blog Form *****
+[0mGET /blog/add [36m304 [0m36.611 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.539 ms - -[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m10.555 ms - 2232[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.340 ms - -[0m
+[0mGET /api/blog [33m404 [0m10.794 ms - 2232[0m
+[0mGET /list [0m- [0m- ms - -[0m
+***** GET New Blog Form *****
+[0mGET /blog/add [36m304 [0m15.832 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.524 ms - -[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m11.504 ms - 2232[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.313 ms - -[0m
+***** GET New Blog Form *****
+[0mGET /blog/add [36m304 [0m15.892 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.529 ms - -[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m8.844 ms - 2232[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.366 ms - -[0m
+[0mGET /api/blog [33m404 [0m11.327 ms - 2232[0m
+[0mGET /list [0m- [0m- ms - -[0m
+***** GET New Blog Form *****
+[0mGET /blog/add [36m304 [0m17.620 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.505 ms - -[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m11.824 ms - 2232[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.341 ms - -[0m
+***** GET New Blog Form *****
+[0mGET /blog/add [36m304 [0m14.503 ms - -[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m10.372 ms - 2232[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m11.842 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.533 ms - -[0m
+***** GET New Blog Form *****
+[0mGET /blog/add [36m304 [0m16.226 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.499 ms - -[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m7.810 ms - 2232[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.273 ms - -[0m
+[0mGET /api/blog [33m404 [0m15.040 ms - 2232[0m
+[0mGET /list [0m- [0m- ms - -[0m
+***** GET New Blog Form *****
+[0mGET /blog/add [36m304 [0m10.585 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.621 ms - -[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m7.912 ms - 2232[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.308 ms - -[0m
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+/home/bitnami/blogger/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (/home/bitnami/blogger/node_modules/express/lib/router/route.js:211:15)
+    at proto.<computed> [as get] (/home/bitnami/blogger/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/home/bitnami/blogger/app_server/routes/index.js:7:8)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/bitnami/blogger/app.js:8:19)
+
+Node.js v18.19.0
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose connected to mongodb://0.0.0.0:27017/blogger
+***** GET New Blog Form *****
+[0mGET /blog/add [36m304 [0m592.759 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m1.712 ms - -[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m18.107 ms - 2232[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.422 ms - -[0m
+[0mGET /list [32m200 [0m38.612 ms - 2468[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.695 ms - -[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m14.513 ms - 2232[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.342 ms - -[0m

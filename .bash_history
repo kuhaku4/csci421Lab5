@@ -648,3 +648,14 @@ cd blogger
 nohup sudo nodemon
 cd
 mongosh admin --username root -p IpMymwN5+Fiu
+cat bitnami_credentials 
+cat bitnami_application_password 
+mongosh admin --username root -p IpMymwN5+Fiu
+cd blogger
+nohup sudo nodemon
+ps aux | grep node
+sudo kill -9 3026
+nohup sudo nodemon
+ps aux | grep node
+sudo kill -9 4323
+nohup sudo nodemon

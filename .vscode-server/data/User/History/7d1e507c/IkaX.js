@@ -28,9 +28,8 @@ var apiOptions = {
 //         error: responseBody.error
 //     })
 // }
-
 exports.list = (req, res) => {
-    res.render('blog/blog-list', {title: 'Blog List',
+    res.render('blogList', {title: 'Blog List',
       blogs: [{
         blogtitle: 'test',
         blogtext: 'test text',
@@ -48,7 +47,6 @@ exports.list = (req, res) => {
     }]
 })
 };
-
 var renderBlogEdit = function (req, res, responseBody) {
     var message = null;
     var error = null;

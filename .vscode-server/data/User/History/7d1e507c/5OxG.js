@@ -29,26 +29,6 @@ var apiOptions = {
 //     })
 // }
 
-exports.list = (req, res) => {
-    res.render('blog/blog-list', {title: 'Blog List',
-      blogs: [{
-        blogtitle: 'test',
-        blogtext: 'test text',
-        createdDate: Date.now()
-      },
-    {
-      blogtitle: 'Nah I\'d Win',
-      blogtext: 'Didn\'t Win',
-      createdDate: Date.now()
-    },
-    {
-      blogtitle: 'My First Blog',
-      blogtext: 'This is a boring blog',
-      createdDate: Date.now()
-    }]
-})
-};
-
 var renderBlogEdit = function (req, res, responseBody) {
     var message = null;
     var error = null;
@@ -111,31 +91,31 @@ var blogFindOne = function (req, res, callback) {
     )
 }
 
-// module.exports.blogList = function(req, res) {
-//     var requestOptions, path;
-//     path = '/api/list';
-//     path = apiOptions.uri.blog.all;
-//     requestOptions = {
-//         url: apiOptions.server + path,
-//         method: "GET",
-//         json: {}
-//     };
+module.exports.blogList = function(req, res) {
+    var requestOptions, path;
+    path = '/api/list';
+    path = apiOptions.uri.blog.all;
+    requestOptions = {
+        url: apiOptions.server + path,
+        method: "GET",
+        json: {}
+    };
 
-//     request(
-//         requestOptions,
-//         function (err, response, body) {
-//             var data;
-//             data = {
-//                 blogs: body,
-//                 message: null,
-//                 error: null
-//             };
-//             if (response.statusCode === 200 && data.length) {
-//                 renderBlogList (req, res, data);
-//             }
-//         }
-//     )
-// }
+    request(
+        requestOptions,
+        function (err, response, body) {
+            var data;
+            data = {
+                blogs: body,
+                message: null,
+                error: null
+            };
+            if (response.statusCode === 200 && data.length) {
+                renderBlogList (req, res, data);
+            }
+        }
+    )
+}
 
 module.exports.blogNew = function (req, res) {
     console.log("***** GET New Blog Form *****");

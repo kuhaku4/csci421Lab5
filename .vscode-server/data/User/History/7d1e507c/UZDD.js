@@ -29,26 +29,6 @@ var apiOptions = {
 //     })
 // }
 
-exports.list = (req, res) => {
-    res.render('blog/blog-list', {title: 'Blog List',
-      blogs: [{
-        blogtitle: 'test',
-        blogtext: 'test text',
-        createdDate: Date.now()
-      },
-    {
-      blogtitle: 'Nah I\'d Win',
-      blogtext: 'Didn\'t Win',
-      createdDate: Date.now()
-    },
-    {
-      blogtitle: 'My First Blog',
-      blogtext: 'This is a boring blog',
-      createdDate: Date.now()
-    }]
-})
-};
-
 var renderBlogEdit = function (req, res, responseBody) {
     var message = null;
     var error = null;
