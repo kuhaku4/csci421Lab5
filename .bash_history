@@ -637,3 +637,10 @@ exit
 mongosh admin --username root -p IpMymwN5+Fiu
 cd blogger
 nohup sudo nodemon
+npm i bootstrap-icons
+git fetch
+git pull
+npm i bootstrap-icons
+mongosh admin --username root -p IpMymwN5+Fiu
+cd blogger
+nohup sudo nodemon

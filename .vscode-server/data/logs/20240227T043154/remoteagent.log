@@ -1,20 +1,13 @@
-2024-02-27 04:13:34.229 [info] 
+2024-02-27 04:31:54.345 [info] 
 
 
 
 
-2024-02-27 04:13:34.247 [info] Extension host agent started.
-2024-02-27 04:13:34.594 [info] [<unknown>][ab870190][ManagementConnection] New connection established.
-2024-02-27 04:13:34.595 [info] [<unknown>][b0919302][ExtensionHostConnection] New connection established.
-2024-02-27 04:13:34.684 [info] [<unknown>][b0919302][ExtensionHostConnection] <1285> Launched Extension Host Process.
-2024-02-27 04:18:34.256 [info] New EH opened, aborting shutdown
-2024-02-27 04:18:34.266 [error] Error: Unexpected SIGPIPE
-    at process.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/server/node/server.main.js:187:6090)
-    at process.emit (node:events:514:28)
-2024-02-27 04:20:50.500 [info] [<unknown>][fb380521][ExtensionHostConnection] New connection established.
-2024-02-27 04:20:50.510 [info] [<unknown>][fb380521][ExtensionHostConnection] <1565> Launched Extension Host Process.
-2024-02-27 04:20:50.519 [info] [<unknown>][b1f97e5c][ManagementConnection] New connection established.
-2024-02-27 04:20:53.622 [error] CodeExpectedError: Could not find pty on pty host
+2024-02-27 04:31:54.362 [info] Extension host agent started.
+2024-02-27 04:31:54.698 [info] [<unknown>][0f0ceb0a][ManagementConnection] New connection established.
+2024-02-27 04:31:54.700 [info] [<unknown>][64b0d364][ExtensionHostConnection] New connection established.
+2024-02-27 04:31:55.053 [info] [<unknown>][64b0d364][ExtensionHostConnection] <3699> Launched Extension Host Process.
+2024-02-27 04:31:58.054 [error] CodeExpectedError: Could not find pty on pty host
     at A.U (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:43:32407)
     at A.updateTitle (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:43:27539)
     at U.<computed> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:43:22765)
@@ -28,7 +21,7 @@
     at process.emit (node:events:514:28)
     at emit (node:internal/child_process:937:14)
     at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
-2024-02-27 04:20:53.626 [error] CodeExpectedError: Could not find pty on pty host
+2024-02-27 04:31:58.063 [error] CodeExpectedError: Could not find pty on pty host
     at A.U (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:43:32407)
     at A.updateIcon (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:43:27592)
     at U.<computed> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:43:22765)
@@ -42,4 +35,3 @@
     at process.emit (node:events:514:28)
     at emit (node:internal/child_process:937:14)
     at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
-2024-02-27 04:25:51.546 [info] [<unknown>][b0919302][ExtensionHostConnection] <1285> Extension Host Process exited with code: 0, signal: null.

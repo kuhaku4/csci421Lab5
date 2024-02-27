@@ -37,7 +37,7 @@ var renderBlogEdit = function (req, res, responseBody) {
         responseBody = {}
     }
 
-    res.render('/blog/blog-edit', {
+    res.render('blog/blog-edit', {
         title:"Blog Edit",
         blog: responseBody.blog,
         message: responseBody.message,
@@ -53,7 +53,7 @@ var renderBlogDelete = function (req, res, responseBody) {
         responseBody = {}
     }
 
-    res.render('/blog/blog-delete', {
+    res.render('blog/blog-delete', {
         title:"Blog Delete",
         blog: responseBody,
         message: message,
@@ -119,7 +119,7 @@ module.exports.blogList = function(req, res) {
 
 module.exports.blogNew = function (req, res) {
     console.log("***** GET New Blog Form *****");
-    res.render('/blog/blog-add', {title:"New Blog"});
+    res.render('blog/blog-add', {title:"New Blog"});
 }
 
 module.exports.blogAdd = function(req, res) {
