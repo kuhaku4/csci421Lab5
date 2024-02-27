@@ -12,8 +12,6 @@ var apiOptions = {
     }
 };
 
-const { MongoClient, ObjectId } = require('mongodb');
-
 var renderBlogList = function (req, res, responseBody) {
     var message;
     if (!(responseBody instanceof Array)) {
@@ -23,7 +21,7 @@ var renderBlogList = function (req, res, responseBody) {
         message = "No blogs to display."
     }
 
-    res.render('/list', {
+    res.render('blog/blog-list', {
         title: "Blog List",
         blogs: responseBody.blogs,
         message: responseBody.message,
@@ -39,7 +37,7 @@ var renderBlogEdit = function (req, res, responseBody) {
         responseBody = {}
     }
 
-    res.render('edit', {
+    res.render('blog/blog-edit', {
         title:"Blog Edit",
         blog: responseBody.blog,
         message: responseBody.message,
@@ -55,7 +53,7 @@ var renderBlogDelete = function (req, res, responseBody) {
         responseBody = {}
     }
 
-    res.render('delete', {
+    res.render('blog/blog-delete', {
         title:"Blog Delete",
         blog: responseBody,
         message: message,
@@ -67,6 +65,7 @@ var blogFindOne = function (req, res, callback) {
     console.log("blogFindOne: " + req.params.blogId)
     var requestOptions, path, blogId;
     var blogId = req.params.blogId;
+    // path = '/api/blog/'+blogId;
     path = apiOptions.uri.blog.one + blogId;
 
     requestOptions = {
@@ -94,6 +93,7 @@ var blogFindOne = function (req, res, callback) {
 
 module.exports.blogList = function(req, res) {
     var requestOptions, path;
+    // path = '/api/blog';
     path = apiOptions.uri.blog.all;
     requestOptions = {
         url: apiOptions.server + path,
@@ -118,13 +118,14 @@ module.exports.blogList = function(req, res) {
 }
 
 module.exports.blogNew = function (req, res) {
-    console.log("New Blog");
+    console.log("***** GET New Blog Form *****");
     res.render('blog/blog-add', {title:"New Blog"});
 }
 
 module.exports.blogAdd = function(req, res) {
-    console.log("Post Blog");
+    console.log("***** POST New Blog Form *****");
     var requestOptions, path, blogData;
+    // path = '/api/blog/add';
     path = apiOptions.uri.blog.add;
 
     blogData = {
@@ -136,6 +137,10 @@ module.exports.blogAdd = function(req, res) {
         url: apiOptions.server + path,
         method: "POST",
         json: blogData
+        // json: {
+        //     blogtitle: req.body.blogtitle,
+        //     blogtext: req.body.blogtext
+        // }
     };
 
     request(
@@ -145,7 +150,7 @@ module.exports.blogAdd = function(req, res) {
             data = body;
             if (response.statusCode === 201) {
                 console.log(res.body);
-                res.redirect('/', response.statusCode);
+                res.redirect('/blog', response.statusCode);
             }
         }
     )
@@ -154,13 +159,15 @@ module.exports.blogAdd = function(req, res) {
 module.exports.blogEdit = function(req, res) {
     console.log("blogEdit: " + req.params.blogId)
     blogFindOne(req, res, renderBlogEdit)
+    // res.render('blog/blog-edit', {title: 'Edit Blog'});
 }
 
 module.exports.doBlogEdit = function(req, res) {
     console.log("doBlogEdit: " + req.params.blogId)
-    console.log("Put Blog");
+    console.log("***** PUT Edit Blog Form *****");
     var requestOptions, path, blogId, blogData;
     blogId = req.params.blogId;
+    // path = '/api/blog/'+blogId;
     path = apiOptions.uri.blog.one + blogId;
 
     blogData = {
@@ -184,7 +191,7 @@ module.exports.doBlogEdit = function(req, res) {
             data = body;
             if (response.statusCode === 200) {
                 console.log(body);
-                res.redirect('/');
+                res.redirect('/blog');
             }
         }
     )
@@ -194,6 +201,7 @@ module.exports.doBlogDelete = function(req, res) {
     console.log("blogDelete: " + req.params.blogid)
     var requestOptions, path, blogId;
     blogId = req.params.blogId;
+    // path = '/api/blog/'+blogId;
     path = apiOptions.uri.blog.one + blogId;
 
     requestOptions = {
@@ -205,7 +213,7 @@ module.exports.doBlogDelete = function(req, res) {
         requestOptions,
         function (err, response, body) {
             if (response.statusCode === 204) {
-                res.redirect('/')
+                res.redirect('/blog')
             } else {
                 console.log(err)
             }
