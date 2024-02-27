@@ -1,0 +1,12 @@
+2024-02-27 00:23:13.717 [info] Extension host with pid 6078 started
+2024-02-27 00:23:13.745 [info] Lock '/home/bitnami/.vscode-server/data/User/workspaceStorage/d866cbe83da49e127745e557969ca682/vscode.lock': Lock acquired.
+2024-02-27 00:23:13.902 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-02-27 00:23:13.905 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2024-02-27 00:23:14.857 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-02-27 00:23:14.894 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2024-02-27 00:23:15.119 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-02-27 00:23:15.121 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-02-27 00:23:15.882 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-02-27 00:23:18.066 [info] Eager extensions activated
+2024-02-27 00:23:18.067 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-02-27 00:23:18.071 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'

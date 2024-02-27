@@ -1,20 +1,26 @@
-2024-02-26 23:57:24.461 [info] Extension host with pid 3586 started
-2024-02-26 23:57:24.490 [info] Lock '/home/bitnami/.vscode-server/data/User/workspaceStorage/d866cbe83da49e127745e557969ca682/vscode.lock': Lock acquired.
-2024-02-26 23:57:24.731 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
-2024-02-26 23:57:24.732 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
-2024-02-26 23:57:25.960 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
-2024-02-26 23:57:26.004 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
-2024-02-26 23:57:26.262 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
-2024-02-26 23:57:26.331 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
-2024-02-26 23:57:26.332 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
-2024-02-26 23:57:27.989 [info] Eager extensions activated
-2024-02-26 23:57:27.989 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
-2024-02-26 23:57:27.990 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
-2024-02-27 00:05:37.206 [warning] [Decorations] CAPPING events from decorations provider vscode.git 712
-2024-02-27 00:05:48.775 [warning] [Decorations] CAPPING events from decorations provider vscode.git 713
-2024-02-27 00:15:25.540 [info] Extension host terminating: renderer disconnected for too long (2)
-2024-02-27 00:15:25.654 [info] Lock '/home/bitnami/.vscode-server/data/User/workspaceStorage/d866cbe83da49e127745e557969ca682/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
-2024-02-27 00:15:26.285 [error] Canceled: Canceled
+2024-02-27 00:10:26.553 [info] Extension host with pid 5610 started
+2024-02-27 00:10:26.554 [error] Error: EEXIST: file already exists, open '/home/bitnami/.vscode-server/data/User/workspaceStorage/d866cbe83da49e127745e557969ca682/vscode.lock'
+2024-02-27 00:10:26.566 [info] Lock '/home/bitnami/.vscode-server/data/User/workspaceStorage/d866cbe83da49e127745e557969ca682/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-02-27 00:10:26.587 [info] Lock '/home/bitnami/.vscode-server/data/User/workspaceStorage/d866cbe83da49e127745e557969ca682/vscode.lock': The lock does not look stale, elapsed: 303 ms, giving up.
+2024-02-27 00:10:26.612 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2024-02-27 00:10:26.616 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-02-27 00:10:26.902 [info] Lock '/home/bitnami/.vscode-server/data/User/workspaceStorage/d866cbe83da49e127745e557969ca682-1/vscode.lock': Lock acquired.
+2024-02-27 00:10:27.891 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-02-27 00:10:27.922 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2024-02-27 00:10:28.172 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-02-27 00:10:28.173 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-02-27 00:10:28.908 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-02-27 00:10:31.076 [info] Eager extensions activated
+2024-02-27 00:10:31.078 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-02-27 00:10:31.079 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-02-27 00:10:43.573 [error] Error: unable to verify the first certificate
+	at TLSSocket.onConnectSecure (node:_tls_wrap:1553:34)
+	at TLSSocket.emit (node:events:514:28)
+	at TLSSocket._finishInit (node:_tls_wrap:970:8)
+	at ssl.onhandshakedone (node:_tls_wrap:746:12)
+2024-02-27 00:28:12.931 [info] Extension host terminating: renderer disconnected for too long (2)
+2024-02-27 00:28:12.986 [info] Lock '/home/bitnami/.vscode-server/data/User/workspaceStorage/d866cbe83da49e127745e557969ca682-1/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-02-27 00:28:13.461 [error] Canceled: Canceled
 	at Object.D [as $6] (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/workbench/api/node/extensionHostProcess.js:10:1032)
 	at /home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/workbench/api/node/extensionHostProcess.js:147:2350
 	at Array.forEach (<anonymous>)
@@ -26,7 +32,7 @@
 	at M.h (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/workbench/api/node/extensionHostProcess.js:97:20387)
 	at listOnTimeout (node:internal/timers:569:17)
 	at process.processTimers (node:internal/timers:512:7) setContext undefined
-2024-02-27 00:15:26.285 [error] Canceled: Canceled
+2024-02-27 00:28:13.461 [error] Canceled: Canceled
 	at Object.D [as $6] (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/workbench/api/node/extensionHostProcess.js:10:1032)
 	at /home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/workbench/api/node/extensionHostProcess.js:147:2350
 	at Array.forEach (<anonymous>)
@@ -38,7 +44,7 @@
 	at M.h (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/workbench/api/node/extensionHostProcess.js:97:20387)
 	at listOnTimeout (node:internal/timers:569:17)
 	at process.processTimers (node:internal/timers:512:7) setContext undefined
-2024-02-27 00:15:26.285 [error] Canceled: Canceled
+2024-02-27 00:28:13.462 [error] Canceled: Canceled
 	at Object.D [as $6] (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/workbench/api/node/extensionHostProcess.js:10:1032)
 	at /home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/workbench/api/node/extensionHostProcess.js:147:2350
 	at Array.forEach (<anonymous>)
@@ -50,7 +56,7 @@
 	at M.h (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/workbench/api/node/extensionHostProcess.js:97:20387)
 	at listOnTimeout (node:internal/timers:569:17)
 	at process.processTimers (node:internal/timers:512:7) setContext undefined
-2024-02-27 00:15:26.290 [error] Canceled: Canceled
+2024-02-27 00:28:13.465 [error] Canceled: Canceled
 	at new f (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/workbench/api/node/extensionHostProcess.js:140:45069)
 	at d.U (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/workbench/api/node/extensionHostProcess.js:147:5557)
 	at T.<computed>.O.charCodeAt.T.<computed> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/workbench/api/node/extensionHostProcess.js:147:3008)
@@ -85,7 +91,7 @@
 	at M.h (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/workbench/api/node/extensionHostProcess.js:97:20387)
 	at listOnTimeout (node:internal/timers:569:17)
 	at process.processTimers (node:internal/timers:512:7) setContext undefined
-2024-02-27 00:15:26.293 [error] Canceled: Canceled
+2024-02-27 00:28:13.468 [error] Canceled: Canceled
 	at new f (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/workbench/api/node/extensionHostProcess.js:140:45069)
 	at d.U (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/workbench/api/node/extensionHostProcess.js:147:5557)
 	at T.<computed>.O.charCodeAt.T.<computed> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/workbench/api/node/extensionHostProcess.js:147:3008)
@@ -120,7 +126,7 @@
 	at M.h (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/workbench/api/node/extensionHostProcess.js:97:20387)
 	at listOnTimeout (node:internal/timers:569:17)
 	at process.processTimers (node:internal/timers:512:7) setContext undefined
-2024-02-27 00:15:26.294 [error] Canceled: Canceled
+2024-02-27 00:28:13.469 [error] Canceled: Canceled
 	at new f (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/workbench/api/node/extensionHostProcess.js:140:45069)
 	at d.U (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/workbench/api/node/extensionHostProcess.js:147:5557)
 	at T.<computed>.O.charCodeAt.T.<computed> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/workbench/api/node/extensionHostProcess.js:147:3008)
@@ -157,4 +163,4 @@
 	at M.h (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/workbench/api/node/extensionHostProcess.js:97:20387)
 	at listOnTimeout (node:internal/timers:569:17)
 	at process.processTimers (node:internal/timers:512:7) setContext undefined
-2024-02-27 00:15:26.295 [info] Extension host with pid 3586 exiting with code 0
+2024-02-27 00:28:13.471 [info] Extension host with pid 5610 exiting with code 0

@@ -619,3 +619,18 @@ nohup sudo nodemon
 exit
 cd blogger
 npm install jquery
+npm install --save request
+git fetch
+git pull
+ps aux | grep node
+sudo kill -9 1703
+nohup sudo nodemon
+exit
+mongosh admin --username root -p IpMymwN5+Fiu
+cd blogger
+nohup sudo nodemon
+exit
+mongosh admin --username root -p IpMymwN5+Fiu
+cd blogger
+nohup sudo nodemon
+exit
