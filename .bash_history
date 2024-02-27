@@ -763,3 +763,28 @@ ps aux | grep node
 clear
 ps aux | grep node
 exit
+cd blogger2
+nohup sudo nodemon
+npm install dotenv
+npm install
+nohup sudo nodemon
+cd
+cat bitnami_application_password
+mongo admin --username root -p IpMymwN5+Fiu
+mongosh admin --username root -p IpMymwN5+Fiu
+ps aux | grep node
+sudo kill -9 6582
+cd blogger2
+nohup sudo nodemon
+ps aux | grep node
+sudo kill -9 7364
+cd
+git fetch
+git pull
+cd blogger
+nohup sudo nodemon
+cd
+mongosh admin --username root -p IpMymwN5+Fiu
+cd blogger
+nohup sudo nodemon
+exit

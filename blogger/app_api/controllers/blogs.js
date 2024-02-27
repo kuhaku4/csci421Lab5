@@ -1,3 +1,3 @@
-var mongoose = require('mongoose');
-var Blog = mongoose.model('Blog')
+// var mongoose = require('mongoose');
+// var Blog = mongoose.model('Blog')
 
