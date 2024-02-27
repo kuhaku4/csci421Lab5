@@ -9403,3 +9403,41 @@ MongoServerError: command insert requires authentication
   [Symbol(errorLabels)]: Set(0) {}
 }
 [0mPOST /api/blog/add [33m400 [0m21.166 ms - 44[0m
+[0mPOST /blog/add [0m- [0m- ms - -[0m
+***** GET New Blog Form *****
+[0mGET /blog/add [36m304 [0m9.184 ms - -[0m
+***** GET New Blog Form *****
+[0mGET /blog/add [36m304 [0m7.650 ms - -[0m
+[0mGET /api/blog [33m404 [0m19.362 ms - 2232[0m
+[0mGET /list [0m- [0m- ms - -[0m
+***** GET New Blog Form *****
+[0mGET /blog/add [36m304 [0m12.305 ms - -[0m
+[0mGET / [36m304 [0m14.105 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.820 ms - -[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m19.553 ms - 2232[0m
+[0mGET /stylesheets/style.css [36m304 [0m20.237 ms - -[0m
+***** GET New Blog Form *****
+[0mGET /blog/add [36m304 [0m8.409 ms - -[0m
+***** GET New Blog Form *****
+[0mGET /blog/add [36m304 [0m6.803 ms - -[0m
+[0mGET /api/blog [33m404 [0m9.753 ms - 2232[0m
+[0mGET /list [0m- [0m- ms - -[0m
+***** GET New Blog Form *****
+[0mGET /blog/add [36m304 [0m8.744 ms - -[0m
+***** GET New Blog Form *****
+[0mGET /blog/add [32m200 [0m12.875 ms - 2736[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.715 ms - -[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m11.321 ms - 2232[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.334 ms - -[0m
+***** GET New Blog Form *****
+[0mGET /blog/add [36m304 [0m15.637 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m1.217 ms - -[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m9.628 ms - 2232[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.394 ms - -[0m
+[0mGET /api/blog [33m404 [0m13.514 ms - 2232[0m
+[0mGET /list [0m- [0m- ms - -[0m
+***** GET New Blog Form *****
+[0mGET /blog/add [36m304 [0m15.547 ms - -[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m27.940 ms - 2232[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m29.570 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.395 ms - -[0m

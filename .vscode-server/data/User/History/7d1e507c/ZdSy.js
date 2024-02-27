@@ -65,7 +65,7 @@ var blogFindOne = function (req, res, callback) {
     console.log("blogFindOne: " + req.params.blogId)
     var requestOptions, path, blogId;
     var blogId = req.params.blogId;
-    path = '/api/blog/'+blogId;
+    // path = '/api/blog/'+blogId;
     path = apiOptions.uri.blog.one + blogId;
 
     requestOptions = {
@@ -93,7 +93,7 @@ var blogFindOne = function (req, res, callback) {
 
 module.exports.blogList = function(req, res) {
     var requestOptions, path;
-    path = '/api/list';
+    // path = '/api/blog';
     path = apiOptions.uri.blog.all;
     requestOptions = {
         url: apiOptions.server + path,

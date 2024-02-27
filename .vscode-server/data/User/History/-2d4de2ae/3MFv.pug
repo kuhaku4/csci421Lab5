@@ -1,9 +1,7 @@
-extends ../layout
-
 block content
   include ../partials/nav
   h1= title
-  each blog in blogs
+  each blog, idx in blogs
     .card
       .card-body
         h4.card-title= blog.blogTitle
