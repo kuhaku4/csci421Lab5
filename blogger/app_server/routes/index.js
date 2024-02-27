@@ -3,13 +3,11 @@ var router = express.Router();
 var ctrlHome = require('../controllers/home');
 var ctrlBlog = require('../controllers/blog');
 
-router.get('/', ctrlHome.homepage);
-router.get('/blog', ctrlBlog.blogList);
-router.get('/blog/add', ctrlBlog.blogNew);
-router.post('/blog/add', ctrlBlog.blogAdd)
-router.get('/blog/:blogId/edit', ctrlBlog.blogEdit);
-router.post('/blog/:blogId/save', ctrlBlog.doBlogEdit);
-router.get('/blog/:blogId/delete', ctrlBlog.blogDelete);
+router.get('/blog', ctrlBlogs.blogList);
+router.post('/blog/add', ctrlBlogs.blogAdd);
+router.get('/blog/:blogId', ctrlBlogs.blogFindOne);
+router.put('/blog/:blogId', ctrlBlogs.blogEdit);
+router.delete('/blog/:blogId', ctrlBlogs.blogDelete);
 
 router.post('/blog/:blogId/delete', ctrlBlog.doBlogDelete);
 
