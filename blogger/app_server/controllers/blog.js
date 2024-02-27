@@ -39,8 +39,8 @@ module.exports.blogList = function(req, res) {
         function (err, response, body) {
             var data;
             data = {
-                blogtitle: body,
-                blogtext: blogtext,
+                blogtitle: req.blog.blogtitle,
+                blogtext: req.blog.blogtext,
                 createdDate: createdDate
             };
             if (response.statusCode === 200 && data.blogs.length) {
