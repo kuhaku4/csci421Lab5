@@ -8941,3 +8941,232 @@ CastError: Cast to ObjectId failed for value "blog" (type string) at path "_id" 
 [0mGET /css/bootstrap.min.css [36m304 [0m0.784 ms - -[0m
 [0mGET /icons/bootstrap-icons.min.css [33m404 [0m26.127 ms - 2232[0m
 [0mGET /stylesheets/style.css [36m304 [0m0.770 ms - -[0m
+***** GET New Blog Form *****
+[0mGET /blog/add [31m500 [0m23.101 ms - 2333[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.699 ms - -[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m19.354 ms - 2232[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.168 ms - -[0m
+***** GET New Blog Form *****
+[0mGET /blog/add [31m500 [0m12.260 ms - 2333[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.532 ms - -[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m7.404 ms - 2232[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.352 ms - -[0m
+***** GET New Blog Form *****
+[0mGET /blog/add [31m500 [0m27.030 ms - 2292[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.598 ms - -[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m8.698 ms - 2232[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.283 ms - -[0m
+***** GET New Blog Form *****
+[0mGET /blog/add [31m500 [0m14.748 ms - 2292[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.658 ms - -[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m10.047 ms - 2232[0m
+[0mGET /stylesheets/style.css [36m304 [0m10.330 ms - -[0m
+***** GET New Blog Form *****
+[0mGET /blog/add [31m500 [0m23.323 ms - 2812[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.524 ms - -[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m12.100 ms - 2232[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.362 ms - -[0m
+***** GET New Blog Form *****
+[0mGET /blog/add [31m500 [0m23.791 ms - 2416[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.531 ms - -[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m12.937 ms - 2232[0m
+[0mGET /stylesheets/style.css [36m304 [0m13.313 ms - -[0m
+***** GET New Blog Form *****
+[0mGET /blog/add [31m500 [0m22.112 ms - 2292[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m1.724 ms - -[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m9.174 ms - 2232[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.302 ms - -[0m
+***** GET New Blog Form *****
+[0mGET /blog/add [31m500 [0m12.694 ms - 2804[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.516 ms - -[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m7.157 ms - 2232[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.298 ms - -[0m
+***** GET New Blog Form *****
+[0mGET /blog/add [32m200 [0m8.783 ms - 1407[0m
+Find Blog: blog
+CastError: Cast to ObjectId failed for value "blog" (type string) at path "_id" for model "Blog"
+    at SchemaObjectId.cast (/home/bitnami/blogger/node_modules/mongoose/lib/schema/objectId.js:250:11)
+    at SchemaType.applySetters (/home/bitnami/blogger/node_modules/mongoose/lib/schemaType.js:1221:12)
+    at SchemaType.castForQuery (/home/bitnami/blogger/node_modules/mongoose/lib/schemaType.js:1636:17)
+    at cast (/home/bitnami/blogger/node_modules/mongoose/lib/cast.js:375:32)
+    at Query.cast (/home/bitnami/blogger/node_modules/mongoose/lib/query.js:4746:12)
+    at Query._castConditions (/home/bitnami/blogger/node_modules/mongoose/lib/query.js:2200:10)
+    at model.Query._findOne (/home/bitnami/blogger/node_modules/mongoose/lib/query.js:2484:8)
+    at model.Query.exec (/home/bitnami/blogger/node_modules/mongoose/lib/query.js:4290:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  stringValue: '"blog"',
+  messageFormat: undefined,
+  kind: 'ObjectId',
+  value: 'blog',
+  path: '_id',
+  reason: BSONError: input must be a 24 character hex string, 12 byte Uint8Array, or an integer
+      at new ObjectId (/home/bitnami/blogger/node_modules/bson/lib/bson.cjs:2147:23)
+      at castObjectId (/home/bitnami/blogger/node_modules/mongoose/lib/cast/objectid.js:25:12)
+      at SchemaObjectId.cast (/home/bitnami/blogger/node_modules/mongoose/lib/schema/objectId.js:248:12)
+      at SchemaType.applySetters (/home/bitnami/blogger/node_modules/mongoose/lib/schemaType.js:1221:12)
+      at SchemaType.castForQuery (/home/bitnami/blogger/node_modules/mongoose/lib/schemaType.js:1636:17)
+      at cast (/home/bitnami/blogger/node_modules/mongoose/lib/cast.js:375:32)
+      at Query.cast (/home/bitnami/blogger/node_modules/mongoose/lib/query.js:4746:12)
+      at Query._castConditions (/home/bitnami/blogger/node_modules/mongoose/lib/query.js:2200:10)
+      at model.Query._findOne (/home/bitnami/blogger/node_modules/mongoose/lib/query.js:2484:8)
+      at model.Query.exec (/home/bitnami/blogger/node_modules/mongoose/lib/query.js:4290:80),
+  valueType: 'string',
+  model: Model { Blog }
+}
+[0mGET /api/blog [33m400 [0m17.654 ms - 228[0m
+[0mGET /blog [0m- [0m- ms - -[0m
+[0mGET / [32m200 [0m20.959 ms - 2343[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.535 ms - -[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m9.372 ms - 2232[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.294 ms - -[0m
+Find Blog: blog
+CastError: Cast to ObjectId failed for value "blog" (type string) at path "_id" for model "Blog"
+    at SchemaObjectId.cast (/home/bitnami/blogger/node_modules/mongoose/lib/schema/objectId.js:250:11)
+    at SchemaType.applySetters (/home/bitnami/blogger/node_modules/mongoose/lib/schemaType.js:1221:12)
+    at SchemaType.castForQuery (/home/bitnami/blogger/node_modules/mongoose/lib/schemaType.js:1636:17)
+    at cast (/home/bitnami/blogger/node_modules/mongoose/lib/cast.js:375:32)
+    at Query.cast (/home/bitnami/blogger/node_modules/mongoose/lib/query.js:4746:12)
+    at Query._castConditions (/home/bitnami/blogger/node_modules/mongoose/lib/query.js:2200:10)
+    at model.Query._findOne (/home/bitnami/blogger/node_modules/mongoose/lib/query.js:2484:8)
+    at model.Query.exec (/home/bitnami/blogger/node_modules/mongoose/lib/query.js:4290:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  stringValue: '"blog"',
+  messageFormat: undefined,
+  kind: 'ObjectId',
+  value: 'blog',
+  path: '_id',
+  reason: BSONError: input must be a 24 character hex string, 12 byte Uint8Array, or an integer
+      at new ObjectId (/home/bitnami/blogger/node_modules/bson/lib/bson.cjs:2147:23)
+      at castObjectId (/home/bitnami/blogger/node_modules/mongoose/lib/cast/objectid.js:25:12)
+      at SchemaObjectId.cast (/home/bitnami/blogger/node_modules/mongoose/lib/schema/objectId.js:248:12)
+      at SchemaType.applySetters (/home/bitnami/blogger/node_modules/mongoose/lib/schemaType.js:1221:12)
+      at SchemaType.castForQuery (/home/bitnami/blogger/node_modules/mongoose/lib/schemaType.js:1636:17)
+      at cast (/home/bitnami/blogger/node_modules/mongoose/lib/cast.js:375:32)
+      at Query.cast (/home/bitnami/blogger/node_modules/mongoose/lib/query.js:4746:12)
+      at Query._castConditions (/home/bitnami/blogger/node_modules/mongoose/lib/query.js:2200:10)
+      at model.Query._findOne (/home/bitnami/blogger/node_modules/mongoose/lib/query.js:2484:8)
+      at model.Query.exec (/home/bitnami/blogger/node_modules/mongoose/lib/query.js:4290:80),
+  valueType: 'string',
+  model: Model { Blog }
+}
+[0mGET /api/blog [33m400 [0m2.169 ms - 228[0m
+[0mGET /blog [0m- [0m- ms - -[0m
+[0mGET /list [33m404 [0m14.067 ms - 2232[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.556 ms - -[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m20.259 ms - 2232[0m
+[0mGET /stylesheets/style.css [36m304 [0m20.208 ms - -[0m
+[0mGET /api [33m404 [0m27.034 ms - 2232[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m2.402 ms - -[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m17.584 ms - 2232[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.305 ms - -[0m
+[0mGET /add [33m404 [0m9.907 ms - 2232[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.515 ms - -[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m12.064 ms - 2232[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.324 ms - -[0m
+***** GET New Blog Form *****
+[0mGET /blog/add [32m200 [0m9.189 ms - 1407[0m
+***** GET New Blog Form *****
+[0mGET /blog/add [36m304 [0m13.192 ms - -[0m
+[0mGET /list [33m404 [0m13.274 ms - 2232[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m1.668 ms - -[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m7.352 ms - 2232[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.412 ms - -[0m
+[0mGET /list [33m404 [0m8.227 ms - 2232[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m7.228 ms - 2232[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m8.545 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.292 ms - -[0m
+[0mGET /list [33m404 [0m8.593 ms - 2232[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m10.844 ms - 2232[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m13.374 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.264 ms - -[0m
+[0mGET /list [33m404 [0m7.421 ms - 2232[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m14.251 ms - 2232[0m
+[0mGET /stylesheets/style.css [36m304 [0m12.278 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m16.204 ms - -[0m
+[0mGET /list [33m404 [0m9.392 ms - 2232[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m6.886 ms - 2232[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m8.138 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.355 ms - -[0m
+[0mGET /list [33m404 [0m7.225 ms - 2232[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.552 ms - -[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m9.859 ms - 2232[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.365 ms - -[0m
+[0mGET /list [33m404 [0m10.843 ms - 2232[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.556 ms - -[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m11.603 ms - 2232[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.805 ms - -[0m
+[0mGET /list [33m404 [0m8.342 ms - 2232[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.583 ms - -[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m8.989 ms - 2232[0m
+[0mGET /stylesheets/style.css [36m304 [0m9.441 ms - -[0m
+Find Blog: blog
+CastError: Cast to ObjectId failed for value "blog" (type string) at path "_id" for model "Blog"
+    at SchemaObjectId.cast (/home/bitnami/blogger/node_modules/mongoose/lib/schema/objectId.js:250:11)
+    at SchemaType.applySetters (/home/bitnami/blogger/node_modules/mongoose/lib/schemaType.js:1221:12)
+    at SchemaType.castForQuery (/home/bitnami/blogger/node_modules/mongoose/lib/schemaType.js:1636:17)
+    at cast (/home/bitnami/blogger/node_modules/mongoose/lib/cast.js:375:32)
+    at Query.cast (/home/bitnami/blogger/node_modules/mongoose/lib/query.js:4746:12)
+    at Query._castConditions (/home/bitnami/blogger/node_modules/mongoose/lib/query.js:2200:10)
+    at model.Query._findOne (/home/bitnami/blogger/node_modules/mongoose/lib/query.js:2484:8)
+    at model.Query.exec (/home/bitnami/blogger/node_modules/mongoose/lib/query.js:4290:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  stringValue: '"blog"',
+  messageFormat: undefined,
+  kind: 'ObjectId',
+  value: 'blog',
+  path: '_id',
+  reason: BSONError: input must be a 24 character hex string, 12 byte Uint8Array, or an integer
+      at new ObjectId (/home/bitnami/blogger/node_modules/bson/lib/bson.cjs:2147:23)
+      at castObjectId (/home/bitnami/blogger/node_modules/mongoose/lib/cast/objectid.js:25:12)
+      at SchemaObjectId.cast (/home/bitnami/blogger/node_modules/mongoose/lib/schema/objectId.js:248:12)
+      at SchemaType.applySetters (/home/bitnami/blogger/node_modules/mongoose/lib/schemaType.js:1221:12)
+      at SchemaType.castForQuery (/home/bitnami/blogger/node_modules/mongoose/lib/schemaType.js:1636:17)
+      at cast (/home/bitnami/blogger/node_modules/mongoose/lib/cast.js:375:32)
+      at Query.cast (/home/bitnami/blogger/node_modules/mongoose/lib/query.js:4746:12)
+      at Query._castConditions (/home/bitnami/blogger/node_modules/mongoose/lib/query.js:2200:10)
+      at model.Query._findOne (/home/bitnami/blogger/node_modules/mongoose/lib/query.js:2484:8)
+      at model.Query.exec (/home/bitnami/blogger/node_modules/mongoose/lib/query.js:4290:80),
+  valueType: 'string',
+  model: Model { Blog }
+}
+[0mGET /api/blog [33m400 [0m8.066 ms - 228[0m
+[0mGET /blog [0m- [0m- ms - -[0m
+[0mGET / [36m304 [0m12.661 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.593 ms - -[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m9.713 ms - 2232[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.543 ms - -[0m
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose connected to mongodb://0.0.0.0:27017/blogger
+[0mGET / [32m200 [0m612.390 ms - 2343[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m5.267 ms - -[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m22.182 ms - 2232[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.490 ms - -[0m
+[0mGET /list [33m404 [0m18.819 ms - 2232[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.587 ms - -[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m23.316 ms - 2232[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.421 ms - -[0m
+***** GET New Blog Form *****
+[0mGET /blog/add [31m500 [0m19.576 ms - 2537[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m1.052 ms - -[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m12.617 ms - 2232[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.502 ms - -[0m

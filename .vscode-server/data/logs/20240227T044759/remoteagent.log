@@ -1,0 +1,17 @@
+2024-02-27 04:48:00.269 [info] 
+
+
+
+
+2024-02-27 04:48:00.269 [info] Extension host agent started.
+2024-02-27 04:48:00.340 [error] [<unknown>][0f0ceb0a][ManagementConnection] Unknown reconnection token (never seen).
+2024-02-27 04:48:00.359 [error] [<unknown>][64b0d364][ExtensionHostConnection] Unknown reconnection token (never seen).
+2024-02-27 04:48:53.501 [error] [<unknown>][64b0d364][ExtensionHostConnection] Unknown reconnection token (never seen).
+2024-02-27 04:48:53.522 [error] [<unknown>][0f0ceb0a][ManagementConnection] Unknown reconnection token (never seen).
+2024-02-27 04:49:07.332 [info] [<unknown>][c5a7b7a1][ManagementConnection] New connection established.
+2024-02-27 04:49:07.355 [info] [<unknown>][901139ce][ExtensionHostConnection] New connection established.
+2024-02-27 04:49:07.360 [info] [<unknown>][901139ce][ExtensionHostConnection] <1684> Launched Extension Host Process.
+2024-02-27 04:52:59.850 [info] New EH opened, aborting shutdown
+2024-02-27 04:52:59.862 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/server/node/server.main.js:187:6090)
+    at process.emit (node:events:514:28)
