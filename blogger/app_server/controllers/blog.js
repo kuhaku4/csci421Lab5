@@ -27,7 +27,7 @@ var renderBlogList = function (req, res, responseBody) {
 
 module.exports.blogList = function(req, res) {
     var requestOptions, path;
-    path = apiOptions.uri.blog.all;
+    path = "/api/blog";
     requestOptions = {
         url: apiOptions.server + path,
         method: "GET",
