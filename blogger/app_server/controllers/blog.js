@@ -40,25 +40,6 @@ var renderBlogList = function (req, res, responseBody) {
     );
   };
 
-// exports.list = (req, res) => {
-//     res.render('blog/blog-list', {title: 'Blog List',
-//       blogs: [{
-//         blogtitle: 'test',
-//         blogtext: 'test text',
-//         createdDate: Date.now()
-//       },
-//     {
-//       blogtitle: 'Nah I\'d Win',
-//       blogtext: 'Didn\'t Win',
-//       createdDate: Date.now()
-//     },
-//     {
-//       blogtitle: 'My First Blog',
-//       blogtext: 'This is a boring blog',
-//       createdDate: Date.now()
-//     }]
-// })
-// };
 module.exports.blogList = function(req, res) {
     var requestOptions, path;
     path = apiOptions.uri.blog.all;
@@ -85,37 +66,11 @@ module.exports.blogList = function(req, res) {
 }
 
 var renderBlogEdit = function (req, res, responseBody) {
-    // var message = null;
-    // var error = null;
-    // if (!responseBody) {
-    //     message = "API lookup error";
-    //     responseBody = {}
-    // }
-
-    // res.render('blog/blog-edit', {
-    //     title:"Blog Edit",
-    //     blog: responseBody.blog,
-    //     message: responseBody.message,
-    //     error: responseBody.error
-    // })
     responseBody.title = "Blog Edit";
     res.render('blog/blog-edit', responseBody);
 }
 
 var renderBlogDelete = function (req, res, responseBody) {
-    // var message = null;
-    // var error = null;
-    // if (!responseBody) {
-    //     message = "API lookup error";
-    //     responseBody = {}
-    // }
-
-    // res.render('blog/blog-delete', {
-    //     title:"Blog Delete",
-    //     blog: responseBody,
-    //     message: message,
-    //     error: error
-    // })
     responseBody.title = "Blog Delete";
     res.render('blog/blog-delete', responseBody)
 }
@@ -154,7 +109,7 @@ module.exports.blogNew = function (req, res) {
     res.render('blog/blog-add', {title:"New Blog"});
 }
 
-module.exports.blogAdd = function(req, res) {
+module.exports.blogCreate = function(req, res) {
     console.log("***** POST New Blog Form *****");
     var requestOptions, path, blogData;
     path = apiOptions.uri.blog.add;
@@ -168,10 +123,6 @@ module.exports.blogAdd = function(req, res) {
         url: apiOptions.server + path,
         method: "POST",
         json: blogData
-        // json: {
-        //     blogtitle: req.body.blogtitle,
-        //     blogtext: req.body.blogtext
-        // }
     };
 
     request(
@@ -181,7 +132,7 @@ module.exports.blogAdd = function(req, res) {
             data = body;
             if (response.statusCode === 201) {
                 console.log(res.body);
-                res.redirect('/blog', response.statusCode);
+                res.redirect('/blog');
             }
         }
     )
@@ -190,7 +141,6 @@ module.exports.blogAdd = function(req, res) {
 module.exports.blogEdit = function(req, res) {
     console.log("blogEdit: " + req.params.blogId)
     blogFindOne(req, res, renderBlogEdit)
-    // res.render('blog/blog-edit', {title: 'Edit Blog'});
 }
 
 module.exports.doBlogEdit = function(req, res) {
@@ -208,10 +158,7 @@ module.exports.doBlogEdit = function(req, res) {
     requestOptions = {
         url: apiOptions.server + path,
         method: "PUT",
-        json: {
-            blogtitle: req.body.blogtitle,
-            blogtext: req.body.blogtext
-        }
+        json: blogData
     };
 
     request(

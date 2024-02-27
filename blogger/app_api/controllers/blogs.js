@@ -7,87 +7,120 @@ var sendJSONresponse = function (res, status, content) {
     res.json (content);
   };
 
-var instantiateBlog = function (body) {
-    return {
-        blogtitle: body.blogtitle,
-        blogtext: body.blogtext
-    }
-}
-
-module.exports.blogList = function (req, res) {
-    console.log ("List Blogs")
+/* GET list of blogs */
+module.exports.blogsList = function(req, res) {
     Blog.find()
-        .then(function(blogs) {
-            if (!blogs.length) {
-                sendJSONresponse (res, 204, blogs)
-            } else {
-                sendJSONresponse (res, 200, blogs)
-            }
-        })
-        .catch(function(err) {
-            console.log(err);
-            sendJSONresponse (res, 400, err)
-        })
-}
-
-module.exports.blogFindOne = function (req, res) {
-    var blogId = req.params.blogId;
-    console.log("Find Blog: "+blogId)
-    Blog.findOne({_id:blogId})
-    .then(function(blog) {
-        console.log("API: "+blog)
-        if (blog) {
-            sendJSONresponse (res, 200, blog);
+      .exec(function(err, blogs) {
+        if (err) {
+          console.log(err);
+          sendJSONresponse(res, 404, err);
         } else {
-            sendJSONresponse (res, 404, blog);
+          sendJSONresponse(res, 200, blogs);
         }
-    })
-    .catch(function(err) {
-        console.log(err);
-        sendJSONresponse (res, 400, err);
-
-    })
-}
-
-module.exports.blogAdd = function (req, res) {
-    console.log ("Adding Blog")
-    var blog = instantiateBlog (req.body)
-    Blog.create (blog)
-        .then(function (newBlog) {
-            console.log("Blog Created\n"+newBlog)
-            sendJSONresponse (res, 201, newBlog)
-        })
-        .catch(function(err) {
-            console.log(err)
-            sendJSONresponse (res, 400, err)
-        })
-}
-
-module.exports.blogEdit = function (req, res) {
-    console.log("Edit Blog");
-    var blogId = req.params.blogId;
-    var updates = {$set: {  
-        "blogtitle": req.body.blogtitle,
-        "blogtext": req.body.blogtext
-    }}
-
-    Blog.findByIdAndUpdate(blogId, updates)
-        .then(function(blog) {
-            console.log("Update Blog: "+ blogId);
-            sendJSONresponse (res, 200, blog);
-        })
-        .catch(function(err) {
+      });
+  };
+  
+  /* GET a blog by the id */
+  module.exports.blogsReadOne = function(req, res) {
+    console.log('Finding blog details', req.params);
+    if (req.params && req.params.blogid) {
+      Blog
+        .findById(req.params.blogid)
+        .exec(function(err, blog) {
+          if (!blog) {
+            sendJSONresponse(res, 404, {
+              "message": "blogid not found"
+            });
+            return;
+          } else if (err) {
             console.log(err);
-            sendJSONresponse (res, 404 ,err);
-        })
+            sendJSONresponse(res, 404, err);
+            return;
+          }
+          console.log(blog);
+          sendJSONresponse(res, 200, blog);
+        });
+    } else {
+      console.log('No blogid specified');
+      sendJSONresponse(res, 404, {
+        "message": "No blogid in request"
+      });
+    }
+  };
+  
+  /* POST a new blog */
+  /* /api/blogs */
+  module.exports.blogsCreate = function(req, res) {
+    console.log(req.body);
+    Blog.create({
+      blogtitle: req.body.blogtitle,
+      blogtext: req.body.blogtext,
+      createdDate: Date.now(),
+    }, function(err, blog) {
+      if (err) {
+        console.log(err);
+        sendJSONresponse(res, 400, err);
+      } else {
+        console.log(blog);
+        sendJSONresponse(res, 201, blog);
+      }
+    });
+  };
+  
+  /* PUT /api/blogs/:blogid */
+  module.exports.blogsUpdateOne = function(req, res) {
+    if (!req.params.blogid) {
+      sendJSONresponse(res, 404, {
+        "message": "Not found, blogid is required"
+      });
+      return;
+    }
+    Blog
+      .findById(req.params.blogid)
+      .exec(
+        function(err, blog) {
+          if (!blog) {
+            sendJSONresponse(res, 404, {
+              "message": "blogid not found"
+            });
+            return;
+          } else if (err) {
+            sendJSONresponse(res, 400, err);
+            return;
+          }
+          blog.blogtitle = req.body.blogtitle;
+          blog.blogtext = req.body.blogtext;
+          blog.createdDate = Date.now();
+          blog.save(function(err, blog) {
+            if (err) {
+              sendJSONresponse(res, 404, err);
+            } else {
+              sendJSONresponse(res, 200, blog);
+            }
+          });
+        }
+    );
+  };
 
-}
-
-module.exports.blogDelete = function (req, res) {
-    console.log("Delete Blog");
-    var blogId = req.params.blogId;
-
-    Blog.findByIdAndDelete(blogId)
-        .then(() => sendJSONresponse (res, 204, null))
-        .catch((err) => sendJSONresponse (res, 404, err))
-}
+  module.exports.blogsDeleteOne = function(req, res) {
+    var blogid = req.params.blogid;
+    if (blogid) {
+      Blog
+        .findByIdAndRemove(blogid)
+        .exec(
+          function(err, blog) {
+            if (err) {
+              console.log(err);
+              sendJSONresponse(res, 404, err);
+              return;
+            }
+            console.log("Blog id " + blogid + " deleted");
+            sendJSONresponse(res, 204, null);
+          }
+      );
+    } else {
+      sendJSONresponse(res, 404, {
+        "message": "No blogid"
+      });
+    }
+  };
