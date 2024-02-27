@@ -36,7 +36,7 @@ module.exports.blogsList = function(req, res) {
         _id: obj._id
       });
     });
-    return blogs;
+    return bloggers;
   };
 
   // Read a single blog
