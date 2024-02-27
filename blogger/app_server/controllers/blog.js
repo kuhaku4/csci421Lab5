@@ -2,6 +2,22 @@ var request = require('request');
 
 var apiOptions = {
   server : "http://52.91.47.28:80",
+  uri: {
+    blog: {
+        add: "/api/blog/add",
+        all: "/api/blog",
+        one: "/api/blog/"
+    }
+},
+    status: {
+        blog: {
+            200: "Blog Found.",
+            201: "Added Blog.",
+            204: "Deleted Blog.",
+            400: "Bad Request.",
+            404: "Blog Not Found.",
+        }
+    }
 };
 
 if (process.env.NODE_ENV === 'production') {
@@ -9,29 +25,22 @@ if (process.env.NODE_ENV === 'production') {
   }
 
 var renderBlogList = function (req, res, responseBody) {
-    var requestOptions, path;
-    path = '/api/blog/list';
-    requestOptions = {
-      url : apiOptions.server + path,
-      method : "GET",
-      json : {},
-    };
-
-    request
-    (requestOptions, function(err, response, body) {
-        if (err) {
-        console.log(err);
-        } else if (response.statusCode === 200) {
-        console.log(body);
+    var status = req.query.status
+    if (status) {
+        if (ERROR_STATUS_CODES.includes(status)) {
+            responseBody.error = apiOptions.status.blog[status];
         } else {
-        console.log(response.statusCode);
+            responseBody.message = apiOptions.status.blog[status];
         }
-    });
+    }
+    responseBody.title = "Blog List";
+
+    res.render('blog/blog-list', responseBody);
 }
 
 module.exports.blogList = function(req, res) {
     var requestOptions, path;
-    path = "/api/blog/list";
+    path = apiOptions.uri.blog.all;
     requestOptions = {
         url: apiOptions.server + path,
         method: "GET",
@@ -43,9 +52,9 @@ module.exports.blogList = function(req, res) {
         function (err, response, body) {
             var data;
             data = {
-                blogtitle: req.blog.blogtitle,
-                blogtext: req.blog.blogtext,
-                createdDate: createdDate
+                blogs: body,
+                message: null,
+                error: null
             };
             if (response.statusCode === 200 && data.blogs.length) {
                 renderBlogList (req, res, data);

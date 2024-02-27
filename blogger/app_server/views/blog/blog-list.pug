@@ -2,21 +2,22 @@ extends ../layout
 
 block content
   include ../partials/nav
-  #banner.page-header
-    .row
-      .col-lg-6
-        h1= pageHeader.title
-         small &nbsp;#{pageHeader.strapline}
-  .row
-    .col-xs-12.col-sm-8
-      .error= message
-      .row.list-group
-        each blog in blogs
-          .col-xs-12.list-group-item
-            h4 
-              a(href="/blog/list")= blog.blogtitle
-              small &nbsp;
-                +outputRating(location.rating)
-              span.badge.pull-right.badge-default= blog.blogtext
-    .col-xs-12.col-sm-4 
-      p.lead= sidebar
+  h1= title
+  if error
+    include ./blog-error
+  else if message
+    include ./blog-message
+  each blog, idx in blogs
+    .card
+      .card-body
+        h4.card-title= blog.blogTitle
+        p.card-text= blog.blogText
+        ul.nav.nav-pills.justify-content-end
+          li.nav-item 
+            a.nav-link(href="/blog/"+blog._id+"/edit")
+              i.bi.bi-pencil-square 
+              span Edit
+          li.nav-item
+            a.nav-link(href="/blog/"+blog._id+"/delete")
+              i.bi.bi-trash3
+              span Delete

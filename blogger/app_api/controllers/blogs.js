@@ -7,38 +7,7 @@ var sendJSONresponse = function (res, status, content) {
     res.json (content);
   };
 
-/* GET list of blogs */
-// module.exports.blogsList = function(req, res) {
-//     var blogtitle = req.query.blogtext;
-//     var blogtext = req.query.blogtext;
-//     var createdDate = parseFloat(req.query.createdDate);
-//     Loc.listBlogger(function(err, results, stats) {
-//       var blogs;
-//       console.log('Blog Title', results);
-//       console.log('Blog Text', stats);
-//       if (err) {
-//         console.log('listBlogger error:', err);
-//         sendJSONresponse(res, 404, err);
-//       } else {
-//         blogs = buildBlogList(req, res, results, stats);
-//         sendJSONresponse(res, 200, blogs);
-//       }
-//     });
-//   };
 
-//   var buildBlogList = function(req, res, results, stats) {
-//     var blogs = [];
-//     results.forEach(function(doc) {
-//       blogs.push({
-//         blogtitle: doc.obj.blogtitle,
-//         blogtext: doc.obj.blogtext,
-//         createdDate: doc.obj.createdDate,
-//         _id: doc.obj._id
-//       });
-//     });
-//     return blogs;
-//   };
-  
   /* GET a blog by the id */
   module.exports.blogsReadOne = function(req, res) {
     console.log('Finding blog details', req.params);

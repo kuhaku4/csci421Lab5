@@ -12,12 +12,10 @@ bin
 .vscode-server
 myapp
 public
-routes
 todo
-views
 .bash_history
 .bashrc
 .profile
 .vininfo
 .wget-hsts
-~
+
