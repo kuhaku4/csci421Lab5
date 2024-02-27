@@ -675,3 +675,7 @@ git fetch
 git pull
 cd blogger
 nohup sudo nodemon
+git fetch
+git pull
+cd blogger
+nohup sudo nodemon

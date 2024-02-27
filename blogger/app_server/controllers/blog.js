@@ -7,14 +7,14 @@ var apiOptions = {
         blog: {
             add: "/api/blog/add",
             all: "/api/blog",
-            one: "/api/list/"
+            one: "/api/blog/"
         }
     }
 };
 
 var renderBlogList = function (req, res, responseBody) {
     var requestOptions, path;
-    path = '/api/list';
+    path = '/api/blog';
     requestOptions = {
       url : apiOptions.server + path,
       method : "GET",
@@ -132,7 +132,7 @@ module.exports.blogCreate = function(req, res) {
             data = body;
             if (response.statusCode === 201) {
                 console.log(res.body);
-                res.redirect('/');
+                res.redirect('/blog');
             }
         }
     )
@@ -168,7 +168,7 @@ module.exports.doBlogEdit = function(req, res) {
             data = body;
             if (response.statusCode === 200) {
                 console.log(body);
-                res.redirect('/');
+                res.redirect('/blog');
             }
         }
     )
@@ -189,7 +189,7 @@ module.exports.doBlogDelete = function(req, res) {
         requestOptions,
         function (err, response, body) {
             if (response.statusCode === 204) {
-                res.redirect('/')
+                res.redirect('/blog')
             } else {
                 console.log(err)
             }
