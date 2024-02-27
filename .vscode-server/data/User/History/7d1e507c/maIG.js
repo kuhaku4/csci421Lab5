@@ -118,12 +118,12 @@ module.exports.blogList = function(req, res) {
 }
 
 module.exports.blogNew = function (req, res) {
-    console.log("New Blog");
+    console.log("***** GET New Blog Form *****");
     res.render('blog/blog-add', {title:"New Blog"});
 }
 
 module.exports.blogAdd = function(req, res) {
-    console.log("Post Blog");
+    console.log("***** POST New Blog Form *****");
     var requestOptions, path, blogData;
     path = apiOptions.uri.blog.add;
 
@@ -145,7 +145,7 @@ module.exports.blogAdd = function(req, res) {
             data = body;
             if (response.statusCode === 201) {
                 console.log(res.body);
-                res.redirect('/', response.statusCode);
+                res.redirect('/blog', response.statusCode);
             }
         }
     )
@@ -158,7 +158,7 @@ module.exports.blogEdit = function(req, res) {
 
 module.exports.doBlogEdit = function(req, res) {
     console.log("doBlogEdit: " + req.params.blogId)
-    console.log("Put Blog");
+    console.log("***** PUT Edit Blog Form *****");
     var requestOptions, path, blogId, blogData;
     blogId = req.params.blogId;
     path = apiOptions.uri.blog.one + blogId;
@@ -184,7 +184,7 @@ module.exports.doBlogEdit = function(req, res) {
             data = body;
             if (response.statusCode === 200) {
                 console.log(body);
-                res.redirect('/');
+                res.redirect('/blog');
             }
         }
     )
@@ -205,7 +205,7 @@ module.exports.doBlogDelete = function(req, res) {
         requestOptions,
         function (err, response, body) {
             if (response.statusCode === 204) {
-                res.redirect('/')
+                res.redirect('/blog')
             } else {
                 console.log(err)
             }

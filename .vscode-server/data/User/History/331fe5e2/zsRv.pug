@@ -2,10 +2,6 @@ extends ../nav
 
 block content
   h1= title
-  if error
-    include ./blog-error
-  else if message
-    include ./blog-message
   each blog, idx in blogs
     .card
       .card-body

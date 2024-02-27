@@ -1,11 +1,11 @@
 var express = require('express');
 var router = express.Router();
-var ctrlHome = require('../controllers/home');
+var ctrlHome = require('../controllers/homepage');
 var ctrlBlog = require('../controllers/blog');
 
 router.get('/', ctrlHome.home);
 
-router.get('/', ctrlBlog.blogList);
+router.get('/list', ctrlBlog.blogList);
 router.get('/add', ctrlBlog.blogNew);
 router.post('/add', ctrlBlog.blogAdd)
 router.get('/edit/:blogId', ctrlBlog.blogEdit);

@@ -5,9 +5,9 @@ var apiOptions = {
   server : "http://52.91.47.28:80",
     uri: {
         blog: {
-            add: "/api/blog/add",
-            all: "/api/blog",
-            one: "/api/blog/"
+            add: "/api/add",
+            all: "/api",
+            one: "/api"
         }
     }
 };
@@ -23,7 +23,7 @@ var renderBlogList = function (req, res, responseBody) {
         message = "No blogs to display."
     }
 
-    res.render('/list', {
+    res.render('blog/blog-list', {
         title: "Blog List",
         blogs: responseBody.blogs,
         message: responseBody.message,
@@ -39,7 +39,7 @@ var renderBlogEdit = function (req, res, responseBody) {
         responseBody = {}
     }
 
-    res.render('edit', {
+    res.render('blog/edit', {
         title:"Blog Edit",
         blog: responseBody.blog,
         message: responseBody.message,
@@ -55,7 +55,7 @@ var renderBlogDelete = function (req, res, responseBody) {
         responseBody = {}
     }
 
-    res.render('delete', {
+    res.render('blog/delete', {
         title:"Blog Delete",
         blog: responseBody,
         message: message,
@@ -119,7 +119,7 @@ module.exports.blogList = function(req, res) {
 
 module.exports.blogNew = function (req, res) {
     console.log("New Blog");
-    res.render('blog/blog-add', {title:"New Blog"});
+    res.render('blog/add', {title:"New Blog"});
 }
 
 module.exports.blogAdd = function(req, res) {
@@ -145,7 +145,7 @@ module.exports.blogAdd = function(req, res) {
             data = body;
             if (response.statusCode === 201) {
                 console.log(res.body);
-                res.redirect('/', response.statusCode);
+                res.redirect('/blog', response.statusCode);
             }
         }
     )
@@ -184,7 +184,7 @@ module.exports.doBlogEdit = function(req, res) {
             data = body;
             if (response.statusCode === 200) {
                 console.log(body);
-                res.redirect('/');
+                res.redirect('/blog');
             }
         }
     )
