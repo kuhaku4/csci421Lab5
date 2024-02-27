@@ -1,0 +1,93 @@
+awdawd
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch main
+# Your branch is up to date with 'main/main'.
+#
+# Changes to be committed:
+#	new file:   .mongodb/mongosh/65dd4cfd2b2dad4a215fdfae_log
+#	new file:   .npm/_logs/2024-02-27T03_28_22_879Z-debug-0.log
+#	new file:   .vscode-server/data/User/History/-100c2936/Oh44
+#	new file:   .vscode-server/data/User/History/-1559c444/EEAJ.pug
+#	new file:   .vscode-server/data/User/History/-1559c444/FMoo.pug
+#	new file:   .vscode-server/data/User/History/-1559c444/FsOM.pug
+#	new file:   .vscode-server/data/User/History/-1559c444/Fwc1.pug
+#	new file:   .vscode-server/data/User/History/-1559c444/IpQn.pug
+#	new file:   .vscode-server/data/User/History/-1559c444/ecf4.pug
+#	new file:   .vscode-server/data/User/History/-1559c444/entries.json
+#	new file:   .vscode-server/data/User/History/-1559c444/idEq.pug
+#	new file:   .vscode-server/data/User/History/-1559c444/jPbJ.pug
+#	new file:   .vscode-server/data/User/History/-1559c444/q5R2.pug
+#	new file:   .vscode-server/data/User/History/-1559c444/xfBN.pug
+#	new file:   .vscode-server/data/User/History/-2575c676/IC8b.js
+#	new file:   .vscode-server/data/User/History/-2575c676/Zesn.js
+#	new file:   .vscode-server/data/User/History/-2575c676/hYoJ.js
+#	new file:   .vscode-server/data/User/History/-2575c676/u4UT.js
+#	new file:   .vscode-server/data/User/History/-2934b857/6T5e.js
+#	new file:   .vscode-server/data/User/History/-2934b857/MmWM.js
+#	new file:   .vscode-server/data/User/History/-2934b857/Zrpp.js
+#	modified:   .vscode-server/data/User/History/-2934b857/entries.json
+#	new file:   .vscode-server/data/User/History/-2934b857/ieqP.js
+#	new file:   .vscode-server/data/User/History/-2934b857/j2mU.js
+#	new file:   .vscode-server/data/User/History/-7653b282/XM56.js
+#	new file:   .vscode-server/data/User/History/-c9d29bd/Iufn.js
+#	new file:   .vscode-server/data/User/History/23d7be76/SVKD.pug
+#	new file:   .vscode-server/data/User/History/23d7be76/bYZK.pug
+#	modified:   .vscode-server/data/User/History/23d7be76/entries.json
+#	new file:   .vscode-server/data/User/History/331fe5e2/TmaU.pug
+#	new file:   .vscode-server/data/User/History/331fe5e2/entries.json
+#	new file:   .vscode-server/data/User/History/331fe5e2/vRoz.pug
+#	new file:   .vscode-server/data/User/History/331fe5e2/zsRv.pug
+#	new file:   .vscode-server/data/User/History/4992a003/0xuH.pug
+#	new file:   .vscode-server/data/User/History/4992a003/GUHl.pug
+#	new file:   .vscode-server/data/User/History/4992a003/entries.json
+#	new file:   .vscode-server/data/User/History/6567e9c0/87og.pug
+#	new file:   .vscode-server/data/User/History/6567e9c0/E7Dk.pug
+#	new file:   .vscode-server/data/User/History/6567e9c0/entries.json
+#	new file:   .vscode-server/data/User/History/6567e9c0/o3W2.pug
+#	new file:   .vscode-server/data/User/History/6758b16c/entries.json
+#	new file:   .vscode-server/data/User/History/6758b16c/kda8.pug
+#	new file:   .vscode-server/data/User/History/70d0cf35/G8Jp.pug
+#	new file:   .vscode-server/data/User/History/70d0cf35/tsZb.pug
+#	new file:   .vscode-server/data/User/History/7d1e507c/0U4F.js
+#	new file:   .vscode-server/data/User/History/7d1e507c/BXXO.js
+#	new file:   .vscode-server/data/User/History/7d1e507c/D8dT.js
+#	new file:   .vscode-server/data/User/History/7d1e507c/EYRL.js
+#	new file:   .vscode-server/data/User/History/7d1e507c/KGMF.js
+#	new file:   .vscode-server/data/User/History/7d1e507c/QVNL.js
+#	modified:   .vscode-server/data/User/History/7d1e507c/entries.json
+#	new file:   .vscode-server/data/User/History/7d1e507c/maIG.js
+#	new file:   .vscode-server/data/User/History/7d1e507c/vWAo.js
+#	new file:   .vscode-server/data/User/workspaceStorage/d866cbe83da49e127745e557969ca682/vscode.lock
+#	new file:   .vscode-server/data/logs/20240226T232814/exthost7/remoteexthost.log
+#	new file:   .vscode-server/data/logs/20240226T232814/exthost7/vscode.git/Git.log
+#	new file:   .vscode-server/data/logs/20240226T232814/exthost7/vscode.github/GitHub.log
+#	new file:   .vscode-server/data/logs/20240226T232814/exthost7/vscode.typescript-language-features/TypeScript.log
+#	new file:   .vscode-server/data/logs/20240227T024546/exthost1/remoteexthost.log
+#	new file:   .vscode-server/data/logs/20240227T024546/exthost1/vscode.git/Git.log
+#	new file:   .vscode-server/data/logs/20240227T024546/exthost1/vscode.github/GitHub.log
+#	new file:   .vscode-server/data/logs/20240227T024546/exthost1/vscode.typescript-language-features/TypeScript.log
+#	new file:   .vscode-server/data/logs/20240227T024546/network.log
+#	new file:   .vscode-server/data/logs/20240227T024546/ptyhost.log
+#	new file:   .vscode-server/data/logs/20240227T024546/remoteagent.log
+#	new file:   .vscode-server/data/logs/20240227T032800/exthost1/remoteexthost.log
+#	new file:   .vscode-server/data/logs/20240227T032800/exthost1/vscode.git/Git.log
+#	new file:   .vscode-server/data/logs/20240227T032800/exthost1/vscode.github/GitHub.log
+#	new file:   .vscode-server/data/logs/20240227T032800/exthost2/remoteexthost.log
+#	new file:   .vscode-server/data/logs/20240227T032800/exthost2/vscode.git/Git.log
+#	new file:   .vscode-server/data/logs/20240227T032800/exthost2/vscode.github/GitHub.log
+#	new file:   .vscode-server/data/logs/20240227T032800/exthost2/vscode.typescript-language-features/TypeScript.log
+#	new file:   .vscode-server/data/logs/20240227T032800/network.log
+#	new file:   .vscode-server/data/logs/20240227T032800/ptyhost.log
+#	new file:   .vscode-server/data/logs/20240227T032800/remoteagent.log
+#	modified:   blogger/app_server/controllers/blog.js
+#	modified:   blogger/app_server/routes/index.js
+#	modified:   blogger/app_server/views/blogEdit.pug
+#	modified:   blogger/app_server/views/blogList.pug
+#	modified:   blogger/app_server/views/deleteBlog.pug
+#	renamed:    blogger/app_server/views/partials/showblog.pug -> blogger/app_server/views/partials/layout.pug
+#
+# Changes not staged for commit:
+#	modified:   .vscode-server/data/logs/20240227T032800/exthost2/vscode.git/Git.log
+#
