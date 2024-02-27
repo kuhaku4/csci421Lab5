@@ -4,6 +4,10 @@ var apiOptions = {
   server : "http://52.91.47.28:80",
 };
 
+if (process.env.NODE_ENV === 'production') {
+    apiOptions.server = "http://52.91.47.28:80";
+  }
+
 var renderBlogList = function (req, res, responseBody) {
     var requestOptions, path;
     path = '/api/blog/list';
