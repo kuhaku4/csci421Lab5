@@ -21,7 +21,7 @@ var renderBlogList = function (req, res, responseBody) {
         message = "No blogs to display."
     }
 
-    res.render('blog/blog-list', {
+    res.render('list', {
         title: "Blog List",
         blogs: responseBody.blogs,
         message: responseBody.message,

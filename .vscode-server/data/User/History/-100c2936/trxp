@@ -1,0 +1,106 @@
+yes
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch main
+# Your branch is up to date with 'main/main'.
+#
+# Changes to be committed:
+#	modified:   .bash_history
+#	new file:   .mongodb/mongosh/65dd69edfa673aecef345adf_log
+#	new file:   .mongodb/mongosh/65dd69ff6ee1c8bbc793d24e_log
+#	new file:   .mongodb/mongosh/65dd6a364bef5f3ac34a4b23_log
+#	new file:   .mongodb/mongosh/65dd6a42af9ce1d52234a398_log
+#	new file:   .mongodb/mongosh/65dd6a54cdd5741effe3de57_log
+#	new file:   .mongodb/mongosh/65dd6a890374543c4e82c644_log
+#	new file:   .mongodb/mongosh/am-65aef14116fe566f5048f4a1.json
+#	modified:   .npm/_cacache/index-v5/05/f2/5efeceaf581d5b606bdafad32623ddd75352cb1942290a9cd93d48923be6
+#	modified:   .npm/_cacache/index-v5/1c/51/5bbeece361c3126e054dd84d819fcc973f955f25dc50cc9042eb2ee93e6d
+#	modified:   .npm/_cacache/index-v5/39/67/d60137fffadcd5ff799a60729a7de6578efbd95c2436df45ed4421b6e16d
+#	modified:   .npm/_cacache/index-v5/3b/f4/752915f135ecef5a71d918a4c4eddae386618103ab4f247e11fa323ce06d
+#	modified:   .npm/_cacache/index-v5/75/d4/7b595507282eaac8becd60f3b68f8709493c0e98366ad8c721621454f8fb
+#	modified:   .npm/_cacache/index-v5/b8/89/b22bbdaf31406d873be6021ff43d0de364f06fb3f06a544f6fbf6c63ae2d
+#	modified:   .npm/_cacache/index-v5/d7/45/e1ccaea11148973bfded4dbe1a6b58975978932e0ea608543a82861b1428
+#	modified:   .npm/_cacache/index-v5/f2/d0/ed41a5bfc43f8091295f838927ed11dde93131e385e81d0e192518b417c0
+#	deleted:    .npm/_logs/2024-02-27T04_21_31_329Z-debug-0.log
+#	new file:   .npm/_logs/2024-02-27T04_50_03_677Z-debug-0.log
+#	modified:   .vscode-server/.cli.903b1e9d8990623e3d7da1df3d33db3e42d80eda.log
+#	modified:   .vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/log.txt
+#	modified:   .vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/pid.txt
+#	new file:   .vscode-server/data/User/History/-100c2936/92Lr
+#	modified:   .vscode-server/data/User/History/-100c2936/entries.json
+#	new file:   .vscode-server/data/User/History/-1559c444/ZmoO.pug
+#	modified:   .vscode-server/data/User/History/-1559c444/entries.json
+#	new file:   .vscode-server/data/User/History/-1559c444/knde.pug
+#	new file:   .vscode-server/data/User/History/-1559c444/xBZb.pug
+#	new file:   .vscode-server/data/User/History/-1d313184/6ECy.pug
+#	new file:   .vscode-server/data/User/History/-1d313184/entries.json
+#	new file:   .vscode-server/data/User/History/-2575c676/EICy.js
+#	modified:   .vscode-server/data/User/History/-2575c676/entries.json
+#	new file:   .vscode-server/data/User/History/-2d4de2ae/Vdwl.pug
+#	new file:   .vscode-server/data/User/History/-2d4de2ae/entries.json
+#	new file:   .vscode-server/data/User/History/-4537b305/S7r7.pug
+#	new file:   .vscode-server/data/User/History/-4537b305/entries.json
+#	new file:   .vscode-server/data/User/History/4c121895/16FG.pug
+#	new file:   .vscode-server/data/User/History/4c121895/KgBX.pug
+#	new file:   .vscode-server/data/User/History/4c121895/RL9o.pug
+#	new file:   .vscode-server/data/User/History/4c121895/TP7T.pug
+#	new file:   .vscode-server/data/User/History/4c121895/Xxi1.pug
+#	new file:   .vscode-server/data/User/History/4c121895/ecsK.pug
+#	modified:   .vscode-server/data/User/History/4c121895/entries.json
+#	new file:   .vscode-server/data/User/History/4c121895/s3Ne.pug
+#	modified:   .vscode-server/data/User/workspaceStorage/d866cbe83da49e127745e557969ca682/vscode.lock
+#	deleted:    .vscode-server/data/logs/20240226T012159/exthost1/remoteexthost.log
+#	deleted:    .vscode-server/data/logs/20240226T012159/exthost1/vscode.git/Git.log
+#	deleted:    .vscode-server/data/logs/20240226T012159/exthost1/vscode.github/GitHub.log
+#	deleted:    .vscode-server/data/logs/20240226T012159/exthost2/remoteexthost.log
+#	deleted:    .vscode-server/data/logs/20240226T012159/exthost2/vscode.git/Git.log
+#	deleted:    .vscode-server/data/logs/20240226T012159/exthost2/vscode.github/GitHub.log
+#	deleted:    .vscode-server/data/logs/20240226T012159/exthost3/remoteexthost.log
+#	deleted:    .vscode-server/data/logs/20240226T012159/exthost3/vscode.git/Git.log
+#	deleted:    .vscode-server/data/logs/20240226T012159/exthost3/vscode.github/GitHub.log
+#	deleted:    .vscode-server/data/logs/20240226T012159/exthost4/remoteexthost.log
+#	deleted:    .vscode-server/data/logs/20240226T012159/exthost4/vscode.git/Git.log
+#	deleted:    .vscode-server/data/logs/20240226T012159/exthost4/vscode.github/GitHub.log
+#	deleted:    .vscode-server/data/logs/20240226T012159/exthost4/vscode.typescript-language-features/TypeScript.log
+#	deleted:    .vscode-server/data/logs/20240226T012159/exthost5/remoteexthost.log
+#	deleted:    .vscode-server/data/logs/20240226T012159/exthost5/vscode.git/Git.log
+#	deleted:    .vscode-server/data/logs/20240226T012159/exthost5/vscode.github/GitHub.log
+#	deleted:    .vscode-server/data/logs/20240226T012159/exthost5/vscode.typescript-language-features/TypeScript.log
+#	deleted:    .vscode-server/data/logs/20240226T012159/exthost6/remoteexthost.log
+#	deleted:    .vscode-server/data/logs/20240226T012159/exthost6/vscode.git/Git.log
+#	deleted:    .vscode-server/data/logs/20240226T012159/exthost6/vscode.github/GitHub.log
+#	deleted:    .vscode-server/data/logs/20240226T012159/exthost6/vscode.typescript-language-features/TypeScript.log
+#	deleted:    .vscode-server/data/logs/20240226T012159/exthost7/remoteexthost.log
+#	deleted:    .vscode-server/data/logs/20240226T012159/exthost7/vscode.git/Git.log
+#	deleted:    .vscode-server/data/logs/20240226T012159/exthost7/vscode.github/GitHub.log
+#	deleted:    .vscode-server/data/logs/20240226T012159/exthost7/vscode.typescript-language-features/TypeScript.log
+#	deleted:    .vscode-server/data/logs/20240226T012159/exthost8/remoteexthost.log
+#	deleted:    .vscode-server/data/logs/20240226T012159/exthost8/vscode.git/Git.log
+#	deleted:    .vscode-server/data/logs/20240226T012159/exthost8/vscode.github/GitHub.log
+#	deleted:    .vscode-server/data/logs/20240226T012159/exthost8/vscode.typescript-language-features/TypeScript.log
+#	deleted:    .vscode-server/data/logs/20240226T012159/ptyhost.log
+#	deleted:    .vscode-server/data/logs/20240226T012159/remoteagent.log
+#	modified:   .vscode-server/data/logs/20240227T041334/remoteagent.log
+#	modified:   .vscode-server/data/logs/20240227T043154/exthost1/remoteexthost.log
+#	modified:   .vscode-server/data/logs/20240227T043154/exthost1/vscode.git/Git.log
+#	new file:   .vscode-server/data/logs/20240227T043154/exthost1/vscode.typescript-language-features/TypeScript.log
+#	modified:   .vscode-server/data/logs/20240227T043154/remoteagent.log
+#	new file:   .vscode-server/data/logs/20240227T044759/exthost1/remoteexthost.log
+#	new file:   .vscode-server/data/logs/20240227T044759/exthost1/vscode.git/Git.log
+#	new file:   .vscode-server/data/logs/20240227T044759/exthost1/vscode.github/GitHub.log
+#	new file:   .vscode-server/data/logs/20240227T044759/exthost1/vscode.typescript-language-features/TypeScript.log
+#	renamed:    .vscode-server/data/logs/20240226T012159/network.log -> .vscode-server/data/logs/20240227T044759/network.log
+#	new file:   .vscode-server/data/logs/20240227T044759/ptyhost.log
+#	new file:   .vscode-server/data/logs/20240227T044759/remoteagent.log
+#	modified:   blogger/app_api/routes/index.js
+#	modified:   blogger/app_server/views/blog/blog-add.pug
+#	new file:   blogger/app_server/views/blog/blog-error.pug
+#	modified:   blogger/app_server/views/blog/blog-list.pug
+#	new file:   blogger/app_server/views/blog/blog-message.pug
+#	modified:   blogger/app_server/views/partials/nav.pug
+#	modified:   blogger/nohup.out
+#
+# Changes not staged for commit:
+#	modified:   .vscode-server/data/logs/20240227T044759/exthost1/vscode.git/Git.log
+#
