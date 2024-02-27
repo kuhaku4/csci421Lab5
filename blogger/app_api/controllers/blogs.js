@@ -9,7 +9,7 @@ var sendJSONresponse = function(res, status, content) {
 // Get list of blogs
 module.exports.blogsList = function(req, res) {
     console.log('Getting blogs list');
-    Loc
+    Blogger
         .find()
         .exec(function(err, results) {
           if (!results) {
@@ -43,7 +43,7 @@ module.exports.blogsList = function(req, res) {
   module.exports.blogsReadOne = function(req, res) {
     console.log('Finding blog details', req.params);
     if (req.params && req.params.blogid) {
-        Loc
+        Blogger
           .findById(req.params.blogid)
           .exec(function(err, blog) {
             if (!blog) {
