@@ -1,7 +1,7 @@
-extends ../layout
+extends layout
 
 block content
-    include ../partials/nav
+    include ./partials/nav
     h1= title
     form(action='/blog/add' method="post")
         .mb-3.mt-3
