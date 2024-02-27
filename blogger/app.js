@@ -5,8 +5,8 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 require('./app_api/models/db');
 
-var indexRouter = require('./app_server/routes/index');
-var apiRouter = require('./app_api/routes/index');
+var routes = require('./app_server/routes/index');
+var routesAPI = require('./app_api/routes/index');
 
 var app = express();
 
@@ -25,8 +25,8 @@ app.use('/jq', express.static(path.join(__dirname, 'node_modules/jquery/dist')))
 app.use('/css', express.static(__dirname + '/node_modules/bootstrap/dist/css')); // redirect CSS bootstrap
 app.use('/icons', express.static(path.join(__dirname, 'node_modules/bootstrap-icons/font')))
 
-app.use('/', indexRouter);
-app.use('/api', apiRouter);
+app.use('/', routes);
+app.use('/api', routesAPI);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

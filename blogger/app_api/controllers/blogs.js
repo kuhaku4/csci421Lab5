@@ -7,20 +7,41 @@ var sendJSONresponse = function(res, status, content) {
 };
 
 // Get list of blogs
-exports.blogsList = function(req, res) {
-    Blogger
-      .find()
-      .exec(function(err, blogs) {
-        if (err) {
-          sendJSONresponse(res, 404, err);
-        } else {
-          sendJSONresponse(res, 200, blogs);
-        }
+module.exports.blogsList = function(req, res) {
+    console.log('Getting blogs list');
+    Loc
+        .find()
+        .exec(function(err, results) {
+          if (!results) {
+            sendJSONresponse(res, 404, {
+              "message": "no blogs found"
+            });
+            return;
+          } else if (err) {
+            console.log(err);
+            sendJSONresponse(res, 404, err);
+            return;
+          }
+          console.log(results);
+          sendJSONresponse(res, 200, buildBlogList(req, res, results));
+        }); 
+  };
+  
+  var buildBlogList = function(req, res, results) {
+    var bloggers = [];
+    results.forEach(function(obj) {
+      bloggers.push({
+        blogtitle: obj.blogtitle,
+        blogtext: obj.blogtext,
+        _id: obj._id
       });
+    });
+    return blogs;
   };
   
   // Create a new blog
-  exports.blogsCreate = function(req, res) {
+  module.exports.blogsCreate = function(req, res) {
+    console.log('Creating New Blog');
     Blogger.create({
       blogtitle: req.body.blogtitle,
       blogtext: req.body.blogtext
@@ -34,7 +55,8 @@ exports.blogsList = function(req, res) {
   };
   
   // Read a single blog
-  exports.blogsReadOne = function(req, res) {
+  module.exports.blogsReadOne = function(req, res) {
+    console
     Blogger
       .findById(req.params.blogid)
       .exec(function(err, blog) {
@@ -47,7 +69,7 @@ exports.blogsList = function(req, res) {
   };
   
   // Update a single blog
-  exports.blogsUpdate = function(req, res) {
+  module.exports.blogsUpdate = function(req, res) {
     if (!req.params.blogid) {
       sendJSONresponse(res, 404, {
         "message": "blogid required"
@@ -82,7 +104,7 @@ exports.blogsList = function(req, res) {
   };
   
   // Delete a single blog
-  exports.blogsDelete = function(req, res) {
+  module.exports.blogsDelete = function(req, res) {
     var blogid = req.params.blogid;
     if (blogid) {
       Blogger

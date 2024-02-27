@@ -2,14 +2,14 @@ var express = require('express');
 var router = express.Router();
 var ctrlBlogs = require('../controllers/blogs');
 
-router.get('/api', ctrlBlogs.blogsList);
+router.get('/blogs', ctrlBlogs.blogsList);
 
-router.post('/api', ctrlBlogs.blogsCreate);
+router.post('/blogs', ctrlBlogs.blogsCreate);
 
-router.get('/api/:blogid', ctrlBlogs.blogsReadOne);
+router.get('/blogs/:blogid', ctrlBlogs.blogsReadOne);
 
-router.put('/api/:blogid', ctrlBlogs.blogsUpdate);
+router.put('/blogs/:blogid', ctrlBlogs.blogsUpdate);
 
-router.delete('/api/:blogid', ctrlBlogs.blogsDelete);
+router.delete('/blogs/:blogid', ctrlBlogs.blogsDelete);
 
 module.exports = router;
