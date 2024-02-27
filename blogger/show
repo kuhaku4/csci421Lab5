@@ -1,9 +1,0 @@
-Current Mongosh Log ID:	65d3d0b2f9c2c13796995adf
-Connecting to:		mongodb://127.0.0.1:27017/databases?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.1.1
-Using MongoDB:		6.0.12
-Using Mongosh:		2.1.1
-mongosh 2.1.4 is available for download: https://www.mongodb.com/try/download/shell
-
-For mongosh info see: [1mhttps://docs.mongodb.com/mongodb-shell/[0m
-
-databases> 
