@@ -6,7 +6,7 @@ var apiOptions = {
 
 var renderBlogList = function (req, res, responseBody) {
     var requestOptions, path;
-    path = '/api/blog';
+    path = '/api/blog/list';
     requestOptions = {
       url : apiOptions.server + path,
       method : "GET",
@@ -27,7 +27,7 @@ var renderBlogList = function (req, res, responseBody) {
 
 module.exports.blogList = function(req, res) {
     var requestOptions, path;
-    path = "/api/blog";
+    path = "/api/blog/list";
     requestOptions = {
         url: apiOptions.server + path,
         method: "GET",
