@@ -662,3 +662,16 @@ nohup sudo nodemon
 ps aux | grep node
 sudo kill -9 4688
 nohup sudo nodemon
+mongosh admin --username root -p IpMymwN5+Fiu
+git fetch
+git pull
+cd blogger
+nohup sudo nodemon
+exit
+cd blogger
+nohup sudo nodemon
+cd
+git fetch
+git pull
+cd blogger
+nohup sudo nodemon

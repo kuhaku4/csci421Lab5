@@ -9845,3 +9845,232 @@ Error: Route.get() requires a callback function but got a [object Undefined]
     at Object.<anonymous> (/home/bitnami/blogger/app.js:9:17)
 
 Node.js v18.19.0
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+/home/bitnami/blogger/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/home/bitnami/blogger/node_modules/express/lib/router/route.js:211:15)
+    at proto.<computed> [as post] (/home/bitnami/blogger/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/home/bitnami/blogger/app_server/routes/index.js:11:8)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/bitnami/blogger/app.js:8:19)
+
+Node.js v18.19.0
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+/home/bitnami/blogger/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/home/bitnami/blogger/node_modules/express/lib/router/route.js:211:15)
+    at proto.<computed> [as post] (/home/bitnami/blogger/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/home/bitnami/blogger/app_server/routes/index.js:11:8)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/bitnami/blogger/app.js:8:19)
+
+Node.js v18.19.0
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+/home/bitnami/blogger/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.put() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as put] (/home/bitnami/blogger/node_modules/express/lib/router/route.js:211:15)
+    at proto.<computed> [as put] (/home/bitnami/blogger/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/home/bitnami/blogger/app_server/routes/index.js:11:8)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/bitnami/blogger/app.js:8:19)
+
+Node.js v18.19.0
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+/home/bitnami/blogger/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (/home/bitnami/blogger/node_modules/express/lib/router/route.js:211:15)
+    at proto.<computed> [as get] (/home/bitnami/blogger/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/home/bitnami/blogger/app_server/routes/index.js:11:8)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/bitnami/blogger/app.js:8:19)
+
+Node.js v18.19.0
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+/home/bitnami/blogger/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/home/bitnami/blogger/node_modules/express/lib/router/route.js:211:15)
+    at proto.<computed> [as post] (/home/bitnami/blogger/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/home/bitnami/blogger/app_server/routes/index.js:11:8)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/bitnami/blogger/app.js:8:19)
+
+Node.js v18.19.0
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose connected to mongodb://0.0.0.0:27017/blogger
+[0mGET / [36m304 [0m671.125 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m7.011 ms - -[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m25.909 ms - 2232[0m
+[0mGET /stylesheets/style.css [36m304 [0m26.289 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m18.963 ms - 2232[0m
+***** GET New Blog Form *****
+[0mGET /blog/add [36m304 [0m25.904 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.892 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.034 ms - -[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m22.443 ms - 2232[0m
+[0mGET /api/blog [33m404 [0m37.115 ms - 2232[0m
+[0mGET /list [0m- [0m- ms - -[0m
+***** GET New Blog Form *****
+[0mGET /blog/add [36m304 [0m14.339 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.607 ms - -[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m14.788 ms - 2232[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.380 ms - -[0m
