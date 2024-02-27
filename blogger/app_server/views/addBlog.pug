@@ -1,38 +1,12 @@
-<html>
+extends ../layout
 
-<head>
-    <title>Add Blog</title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-</head>
-
-<body>
-    <div class="container">
-        <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-primary">
-            <a class="navbar-brand" href="/">My Blog</a>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link active" href="/list">List Blogs</a>
-                    <a class="nav-item nav-link active" href="/add">Add Blog</a>
-                </div>
-            </div>
-        </nav>
-        <p></p>
-        <div class="card border-primary" style="width: 50%">
-            <form method="post" action="/add/" style="padding: 20px">
-                <div class="form-group">
-                    <label for="summary" class="text-primary">Blog Title</label>
-                    <input class="form-control" id="title" name="blogtitle"></textarea>
-
-                    <label for="detail" class="text-primary">Blog Text</label>
-                    <textarea class="form-control" id="text" rows="3" name="blogtext"></textarea>
-                </div>
-                <input type="submit" class="btn btn-primary" value="Add Blog">
-            </form>
-        </div>
-    </div> <!-- container -->
-</body>
-<script src="/js/jquery.min.js"></script>
-<script src="/js/bootstrap.min.js"></script>
-
-</html>
+block content
+    h1= title
+    form(action='/blog/add' method="post")
+        .mb-3.mt-3
+            label.form-label(for="blogtitle") Blog title
+            input#blogtitle.form-control(type="text", placeholder="Blog title", name="blogtitle")
+        .mb-3
+            label.form-label(for="blogtext") Blog text
+            textarea#blogtext.form-control(name="blogtext", cols="30", rows="10")
+        button.btn.btn-primary(type="submit") Submit
