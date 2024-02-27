@@ -679,3 +679,31 @@ git fetch
 git pull
 cd blogger
 nohup sudo nodemon
+git clone -b chapter-07 https://github.com/simonholmes/getting-MEAN.git
+cd getting-mean
+cd getting-MEAN
+npm install
+nohup sudo nodemon
+cd
+git fetch
+git pull
+cd blogger
+nohup sudo nodemon
+exit
+git fetch
+git pull
+cd blogger
+ps aux | grep node
+sudo kill -9 6199
+sudo kill -9 6645
+nohup sudo nodemon
+git fetch
+git pull
+cd blogger
+nohup sudo nodemon
+git fetch
+git pull
+ps aux | grep node
+cd blogger
+nohup sudo nodemon
+ps aux | grep node
