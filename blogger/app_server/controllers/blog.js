@@ -6,7 +6,7 @@ var apiOptions = {
 
 var renderBlogList = function (req, res, responseBody) {
     var requestOptions, path;
-    path = '/api/list';
+    path = '/api/blog';
     requestOptions = {
       url : apiOptions.server + path,
       method : "GET",
