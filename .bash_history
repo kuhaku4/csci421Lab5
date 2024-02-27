@@ -659,3 +659,6 @@ nohup sudo nodemon
 ps aux | grep node
 sudo kill -9 4323
 nohup sudo nodemon
+ps aux | grep node
+sudo kill -9 4688
+nohup sudo nodemon

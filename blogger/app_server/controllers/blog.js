@@ -12,80 +12,118 @@ var apiOptions = {
     }
 };
 
-// var renderBlogList = function (req, res, responseBody) {
-//     var message;
-//     if (!(responseBody instanceof Array)) {
-//         message = "API lookup error";
-//         responseBody = [];
-//     } else if (!responseBody.length) {
-//         message = "No blogs to display."
-//     }
+var renderBlogList = function (req, res, responseBody) {
+    var requestOptions, path;
+    path = '/api/blog';
+    requestOptions = {
+      url : apiOptions.server + path,
+      method : "GET",
+      json : {},
+      qs : {
+        lng : -0.7992599,
+        lat : 51.378091,
+        maxDistance : 20
+      }
+    };
+    request(
+      requestOptions,
+      function(err, response, body) {
+        var i, data;
+        data = body;
+        if (response.statusCode === 200 && data.length) {
+          for (i=0; i<data.length; i++) {
+            data[i].distance = _formatDistance(data[i].distance);
+          }
+        }
+        renderHomepage(req, res, data);
+      }
+    );
+  };
 
-//     res.render('blog/blog-list', {
-//         title: "Blog List",
-//         blogs: responseBody.blogs,
-//         message: responseBody.message,
-//         error: responseBody.error
-//     })
-// }
+// exports.list = (req, res) => {
+//     res.render('blog/blog-list', {title: 'Blog List',
+//       blogs: [{
+//         blogtitle: 'test',
+//         blogtext: 'test text',
+//         createdDate: Date.now()
+//       },
+//     {
+//       blogtitle: 'Nah I\'d Win',
+//       blogtext: 'Didn\'t Win',
+//       createdDate: Date.now()
+//     },
+//     {
+//       blogtitle: 'My First Blog',
+//       blogtext: 'This is a boring blog',
+//       createdDate: Date.now()
+//     }]
+// })
+// };
+module.exports.blogList = function(req, res) {
+    var requestOptions, path;
+    path = apiOptions.uri.blog.all;
+    requestOptions = {
+        url: apiOptions.server + path,
+        method: "GET",
+        json: {}
+    };
 
-exports.list = (req, res) => {
-    res.render('blog/blog-list', {title: 'Blog List',
-      blogs: [{
-        blogtitle: 'test',
-        blogtext: 'test text',
-        createdDate: Date.now()
-      },
-    {
-      blogtitle: 'Nah I\'d Win',
-      blogtext: 'Didn\'t Win',
-      createdDate: Date.now()
-    },
-    {
-      blogtitle: 'My First Blog',
-      blogtext: 'This is a boring blog',
-      createdDate: Date.now()
-    }]
-})
-};
+    request(
+        requestOptions,
+        function (err, response, body) {
+            var data;
+            data = {
+                blogs: body,
+                message: null,
+                error: null
+            };
+            if (response.statusCode === 200 && data.blogs.length) {
+                renderBlogList (req, res, data);
+            }
+        }
+    )
+}
 
 var renderBlogEdit = function (req, res, responseBody) {
-    var message = null;
-    var error = null;
-    if (!responseBody) {
-        message = "API lookup error";
-        responseBody = {}
-    }
+    // var message = null;
+    // var error = null;
+    // if (!responseBody) {
+    //     message = "API lookup error";
+    //     responseBody = {}
+    // }
 
-    res.render('blog/blog-edit', {
-        title:"Blog Edit",
-        blog: responseBody.blog,
-        message: responseBody.message,
-        error: responseBody.error
-    })
+    // res.render('blog/blog-edit', {
+    //     title:"Blog Edit",
+    //     blog: responseBody.blog,
+    //     message: responseBody.message,
+    //     error: responseBody.error
+    // })
+    responseBody.title = "Blog Edit";
+    res.render('blog/blog-edit', responseBody);
 }
 
 var renderBlogDelete = function (req, res, responseBody) {
-    var message = null;
-    var error = null;
-    if (!responseBody) {
-        message = "API lookup error";
-        responseBody = {}
-    }
+    // var message = null;
+    // var error = null;
+    // if (!responseBody) {
+    //     message = "API lookup error";
+    //     responseBody = {}
+    // }
 
-    res.render('blog/blog-delete', {
-        title:"Blog Delete",
-        blog: responseBody,
-        message: message,
-        error: error
-    })
+    // res.render('blog/blog-delete', {
+    //     title:"Blog Delete",
+    //     blog: responseBody,
+    //     message: message,
+    //     error: error
+    // })
+    responseBody.title = "Blog Delete";
+    res.render('blog/blog-delete', responseBody)
 }
 
 var blogFindOne = function (req, res, callback) {
     console.log("blogFindOne: " + req.params.blogId)
     var requestOptions, path, blogId;
     var blogId = req.params.blogId;
-    path = '/api/blog/'+blogId;
     path = apiOptions.uri.blog.one + blogId;
 
     requestOptions = {
@@ -111,32 +149,6 @@ var blogFindOne = function (req, res, callback) {
     )
 }
 
-// module.exports.blogList = function(req, res) {
-//     var requestOptions, path;
-//     path = '/api/list';
-//     path = apiOptions.uri.blog.all;
-//     requestOptions = {
-//         url: apiOptions.server + path,
-//         method: "GET",
-//         json: {}
-//     };
-
-//     request(
-//         requestOptions,
-//         function (err, response, body) {
-//             var data;
-//             data = {
-//                 blogs: body,
-//                 message: null,
-//                 error: null
-//             };
-//             if (response.statusCode === 200 && data.length) {
-//                 renderBlogList (req, res, data);
-//             }
-//         }
-//     )
-// }
-
 module.exports.blogNew = function (req, res) {
     console.log("***** GET New Blog Form *****");
     res.render('blog/blog-add', {title:"New Blog"});
@@ -145,7 +157,6 @@ module.exports.blogNew = function (req, res) {
 module.exports.blogAdd = function(req, res) {
     console.log("***** POST New Blog Form *****");
     var requestOptions, path, blogData;
-    path = '/api/blog/add';
     path = apiOptions.uri.blog.add;
 
     blogData = {
@@ -187,7 +198,6 @@ module.exports.doBlogEdit = function(req, res) {
     console.log("***** PUT Edit Blog Form *****");
     var requestOptions, path, blogId, blogData;
     blogId = req.params.blogId;
-    // path = '/api/blog/'+blogId;
     path = apiOptions.uri.blog.one + blogId;
 
     blogData = {
@@ -221,7 +231,6 @@ module.exports.doBlogDelete = function(req, res) {
     console.log("blogDelete: " + req.params.blogid)
     var requestOptions, path, blogId;
     blogId = req.params.blogId;
-    // path = '/api/blog/'+blogId;
     path = apiOptions.uri.blog.one + blogId;
 
     requestOptions = {
