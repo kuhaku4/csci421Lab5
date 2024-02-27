@@ -1,50 +1,22 @@
-<html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-  </head>
-  <body>
-    <div class="container">
-        <% include ./partials/nav %>
-        <div class="card" style="width: 50%">
-        <form method="post" action="/edit/<%=id%>" style="padding: 20px">
-            <div class="form-group">
-                <label for="summary" class="text-primary">Summary</label>
-                <input class="form-control" id="summary" name="summary" value="<%=blog.blogtitle%>"></textarea>
+extends ../nav
 
-                <label for="detail" class="text-primary">Details</label>
-                <input class="form-control" id="detail" name="detail" value="<%=blog.blogtext%>"></textarea>
-            
-                <label for="priority" class="text-primary">Priority</label>
-                <select class="form-control" id="priority" name="priority">
-                    <% switch(blog.priority) { 
-                        case 'Normal': %>
-                            <option>Low</option>
-                            <option selected>Normal</option>
-                            <option>High</option>
-                        <% break; %>
-                        <% case 'High': %>
-                            <option>Low</option>
-                            <option>Normal</option>
-                            <option selected>High</option>
-                        <% break; %>
-                        <% case 'Low': %>
-                            <option selected>Low</option>
-                            <option>Normal</option>
-                            <option>High</option>
-                        <% break; %>
-                    <% } %>                        
-                </select>
-                <input id="isComplete" name="isComplete" type="hidden" value="<%=blog.isComplete%>">
-                <label for="duedate" class="text-primary">Due Date:</label>
-                <input type="date" class="form-control" id="duedate" name="dueDate" value="<%=blog.dueDate%>">
-            </div>
-                <input type="submit" class="btn btn-primary" value="Save Blog">
-        </form>
-        </div>
-    </div> <!-- container -->
-  </body>
-  <script src="/js/jquery.min.js"></script>
-  <script src="/js/bootstrap.min.js"></script>
-</html>
+block content
+  h1= title
+  if error
+    include ./blog-error
+  else if message
+    include ./blog-message
+  each blog, idx in blogs
+    .card
+      .card-body
+        h4.card-title= blog.blogtitle
+        p.card-text= blog.blogtext
+        ul.nav.nav-pills.justify-content-end
+          li.nav-item 
+            a.nav-link(href="/blog/"+blog._id+"/edit")
+              i.bi.bi-pencil-square 
+              span Edit
+          li.nav-item
+            a.nav-link(href="/blog/"+blog._id+"/delete")
+              i.bi.bi-trash3
+              span Delete
