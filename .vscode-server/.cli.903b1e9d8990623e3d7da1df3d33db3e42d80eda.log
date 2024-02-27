@@ -1,5 +1,5 @@
-Listening on 127.0.0.1:41007
-[2024-02-27 00:23:12] info Disposed of connection to running server.
-looking for token 939242d6-61ac-4376-866a-31940ba81f9a, got Some("939242d6-61ac-4376-866a-31940ba81f9a")
-[2024-02-27 00:23:12] info Checking /home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/log.txt and /home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/pid.txt for a running server...
-[2024-02-27 00:23:12] info Found running server (pid=1129)
+Listening on 127.0.0.1:35963
+[2024-02-27 00:33:25] info Disposed of connection to running server.
+looking for token 63d21793-bb96-4bda-b35e-d8f5c6434c55, got Some("63d21793-bb96-4bda-b35e-d8f5c6434c55")
+[2024-02-27 00:33:25] info Checking /home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/log.txt and /home/bitnami/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/pid.txt for a running server...
+[2024-02-27 00:33:25] info Found running server (pid=1129)
