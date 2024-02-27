@@ -17,11 +17,11 @@ const debug = require('debug')('app:utilController');
 exports.setupDB = async function () {
   const url = process.env.DB_URL;
   debug(`attempting to connect to database at ${url}`);
-  const dbName = 'tasks';
+  const dbName = 'blogs';
   try {
     const client = await MongoClient.connect(url, { useNewUrlParser: true });
-    const db = client.db(dbName);
-    const collection = await db.collection('tasks');
+    const db = client.db(Blog);
+    const collection = await db.collection('blogs');
     return ({ client: client, collection: collection })
   }
 
@@ -30,11 +30,11 @@ exports.setupDB = async function () {
   }
 };
 
-exports.saveTask = async (req, res) => {
+exports.saveBlog = async (req, res) => {
   try {
-    const task = req.body;
+    const blog = req.body;
     const dbParams = await util.setupDB();
-    await dbParams.collection.insertOne(task);
+    await dbParams.collection.insertOne(blog);
     dbParams.client.close();
     res.redirect('/');
   }
@@ -44,14 +44,12 @@ exports.saveTask = async (req, res) => {
   }
 };
 
-const util = require('./utilController');
-
 exports.commitComplete = async (req, res) => {
   try {
       const { id } = req.params;
       const dbParams = await util.setupDB();
-      const task = await dbParams.collection.findOne({ _id: new ObjectId(id) });
-      let status = (task.isComplete == 'false') ? 'true' : 'false';
+      const blog = await dbParams.collection.findOne({ _id: new ObjectId(id) });
+      let status = (blog.isComplete == 'false') ? 'true' : 'false';
       await dbParams.collection.findOneAndUpdate({ _id: new ObjectId(id) }, { $set: { isComplete: status } });
       dbParams.client.close();
       res.redirect('/');
@@ -62,13 +60,13 @@ exports.commitComplete = async (req, res) => {
   }
 };
 
-exports.deleteTask = async (req, res) => {
+exports.deleteBlog = async (req, res) => {
   try {
     const { id } = req.params;
     const dbParams = await util.setupDB();
-    const task = await dbParams.collection.findOne({ _id: new ObjectId(id) });
+    const blog = await dbParams.collection.findOne({ _id: new ObjectId(id) });
     dbParams.client.close();
-    res.render('confirmDelete', { task, title: 'Confirm Delete' });
+    res.render('confirmDelete', { blog, title: 'Confirm Delete' });
   }
 
   catch (err) {
@@ -80,8 +78,8 @@ exports.confirmDelete = async (req, res) => {
   try {
     const { id } = req.params;
     const dbParams = await util.setupDB();
-    const task = await dbParams.collection.deleteOne({ _id: new ObjectId(id) });
-    const tasks = await dbParams.collection.find({}).sort({ dueDate: 1 }).toArray();
+    const blog = await dbParams.collection.deleteOne({ _id: new ObjectId(id) });
+    const blogs = await dbParams.collection.find({}).sort({ dueDate: 1 }).toArray();
     dbParams.client.close();
     res.redirect('/');
   }
@@ -91,13 +89,13 @@ exports.confirmDelete = async (req, res) => {
   };
 };
 
-exports.editTask = async (req, res) => {
+exports.blogEdit = async (req, res) => {
   try {
     const { id } = req.params;
     const dbParams = await util.setupDB();
-    const task = await dbParams.collection.findOne({ _id: new ObjectId(id) });
+    const blog = await dbParams.collection.findOne({ _id: new ObjectId(id) });
     dbParams.client.close();
-    res.render('editTask', { task, id, title: 'Save Changes' });
+    res.render('editBlog', { blog, id, title: 'Save Changes' });
   }
 
   catch (err) {
@@ -108,9 +106,9 @@ exports.editTask = async (req, res) => {
 exports.commitEdit = async (req, res) => {
   try {
     const { id } = req.params;
-    const task = { $set: req.body };
+    const blog = { $set: req.body };
     const dbParams = await util.setupDB();
-    await dbParams.collection.findOneAndUpdate({ _id: new ObjectId(id) }, task);
+    await dbParams.collection.findOneAndUpdate({ _id: new ObjectId(id) }, blog);
     dbParams.client.close();
     res.redirect('/');
   }
@@ -121,12 +119,12 @@ exports.commitEdit = async (req, res) => {
 };
 
 const os = require("os");
-exports.showTasks = async function (req, res) {
+exports.blogList = async function (req, res) {
   try {
     const dbParams = await util.setupDB();
-    const tasks = await dbParams.collection.find({}).sort({ dueDate: 1 }).toArray();
+    const blogs = await dbParams.collection.find({}).sort({ dueDate: 1 }).toArray();
     const hostname = os.hostname();
-    res.render('showTasks', { tasks, title: 'ToDo List', hostname });
+    res.render('showBlogs', { blog, title: 'Blog List', hostname });
     dbParams.client.close();
   }
   
