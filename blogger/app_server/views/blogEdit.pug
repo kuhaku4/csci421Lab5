@@ -1,22 +1,12 @@
 extends ../nav
 
 block content
-  h1= title
-  if error
-    include ./blog-error
-  else if message
-    include ./blog-message
-  each blog, idx in blogs
-    .card
-      .card-body
-        h4.card-title= blog.blogtitle
-        p.card-text= blog.blogtext
-        ul.nav.nav-pills.justify-content-end
-          li.nav-item 
-            a.nav-link(href="/edit/"+blog._id)
-              i.bi.bi-pencil-square 
-              span Edit
-          li.nav-item
-            a.nav-link(href="/delete/"+blog._id)
-              i.bi.bi-trash3
-              span Delete
+    h1= title
+    form(action='/blog/'+blog._id+'/save' method="post")
+        .mb-3.mt-3
+            label.form-label(for="blogtitle") Blog title
+            input#blogtitle.form-control(type="text", placeholder="Blog title", name="blogtitle", value=blog.blogtitle)
+        .mb-3
+            label.form-label(for="blogtext") Blog text
+            textarea#blogtext.form-control(name="blogtext", cols="30", rows="10")= blog.blogtext
+        button.btn.btn-primary(type="submit") Submit
