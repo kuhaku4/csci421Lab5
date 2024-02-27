@@ -707,3 +707,59 @@ ps aux | grep node
 cd blogger
 nohup sudo nodemon
 ps aux | grep node
+git fetch
+git pull
+cd blogger
+nohup sudo nodemon
+ps aux | grep node
+sudo kill -9 8128
+nohup sudo nodemon
+cd blogger
+nohup sudo nodemon
+git fetch
+git pull
+git fetch
+git pull
+cd blogger
+nohup sudo nodemon
+exit
+git fetch
+git pull
+cd blogger
+nohup sudo nodemon
+exit
+git fetch
+git pull
+cd blogger
+nohup sudo nodemon
+git fetch
+git pull
+cd blogger
+nohup sudo nodemon
+git fetch
+git pull
+cd blogger
+git fetch
+git pull
+cd blogger
+nohup sudo nodemon
+git fetch
+git pull
+cd blogger
+nohup sudo nodemon
+git fetch
+git pull
+cd blogger2
+nohup sudo nodemon
+nohup sudo nodemon
+ps aux | grep node
+sudo kill -9 3453
+cd blogger2
+nohup sudo nodemon
+sudo kill -9 3453
+ps aux | grep node
+sudo kill -9 3453
+ps aux | grep node
+clear
+ps aux | grep node
+exit

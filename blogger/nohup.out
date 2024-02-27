@@ -10495,3 +10495,407 @@ Mongoose connected to mongodb://0.0.0.0:27017/blogger
 [0mGET /css/bootstrap.min.css [36m304 [0m1.195 ms - -[0m
 [0mGET /icons/bootstrap-icons.min.css [33m404 [0m24.368 ms - 2237[0m
 [0mGET /stylesheets/style.css [36m304 [0m0.609 ms - -[0m
+[0mGET /blog/list [33m404 [0m316.241 ms - 2237[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m4.855 ms - -[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m49.634 ms - 2237[0m
+[0mGET /stylesheets/style.css [36m304 [0m49.769 ms - -[0m
+[0mGET /blog/list [33m404 [0m32.180 ms - 2237[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m1.222 ms - -[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m34.258 ms - 2237[0m
+[0mGET /stylesheets/style.css [36m304 [0m24.781 ms - -[0m
+***** GET New Blog Form *****
+[0mGET /blog/add [36m304 [0m69.365 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.714 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.498 ms - -[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m24.614 ms - 2237[0m
+[0mGET /blog/list [33m404 [0m15.388 ms - 2237[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.572 ms - -[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m20.549 ms - 2237[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.541 ms - -[0m
+[0mGET / [36m304 [0m22.216 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.731 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.385 ms - -[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m15.066 ms - 2237[0m
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose connected to mongodb://0.0.0.0:27017/blogger
+[0mGET / [36m304 [0m541.276 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m3.640 ms - -[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m23.830 ms - 2237[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.633 ms - -[0m
+***** GET New Blog Form *****
+[0mGET /blog/add [36m304 [0m31.291 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m1.058 ms - -[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m26.834 ms - 2237[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.535 ms - -[0m
+/home/bitnami/blogger/node_modules/mongoose/lib/query.js:4231
+    throw new MongooseError('Query.prototype.exec() no longer accepts a callback');
+          ^
+
+MongooseError: Query.prototype.exec() no longer accepts a callback
+    at model.Query.exec (/home/bitnami/blogger/node_modules/mongoose/lib/query.js:4231:11)
+    at module.exports.blogsList (/home/bitnami/blogger/app_api/controllers/blogs.js:13:8)
+    at Layer.handle [as handle_request] (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/bitnami/blogger/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/bitnami/blogger/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:95:5)
+    at /home/bitnami/blogger/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/bitnami/blogger/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/bitnami/blogger/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/bitnami/blogger/node_modules/express/lib/router/index.js:175:3)
+
+Node.js v18.19.0
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose connected to mongodb://0.0.0.0:27017/blogger
+[0mGET / [36m304 [0m646.085 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m4.721 ms - -[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m22.318 ms - 2237[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.514 ms - -[0m
+***** GET New Blog Form *****
+[0mGET /blog/add [36m304 [0m31.770 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.719 ms - -[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m18.916 ms - 2237[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.523 ms - -[0m
+Finding blog details { blogid: 'list' }
+/home/bitnami/blogger/node_modules/mongoose/lib/query.js:4231
+    throw new MongooseError('Query.prototype.exec() no longer accepts a callback');
+          ^
+
+MongooseError: Query.prototype.exec() no longer accepts a callback
+    at model.Query.exec (/home/bitnami/blogger/node_modules/mongoose/lib/query.js:4231:11)
+    at module.exports.blogsReadOne (/home/bitnami/blogger/app_api/controllers/blogs.js:48:10)
+    at Layer.handle [as handle_request] (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/bitnami/blogger/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/bitnami/blogger/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:95:5)
+    at /home/bitnami/blogger/node_modules/express/lib/router/index.js:284:15
+    at param (/home/bitnami/blogger/node_modules/express/lib/router/index.js:365:14)
+    at param (/home/bitnami/blogger/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/home/bitnami/blogger/node_modules/express/lib/router/index.js:421:3)
+
+Node.js v18.19.0
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose connected to mongodb://0.0.0.0:27017/blogger
+***** GET New Blog Form *****
+[0mGET /blog/add [36m304 [0m235.819 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m1.721 ms - -[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m18.977 ms - 2237[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.470 ms - -[0m
+Finding blog details { blogid: 'list' }
+/home/bitnami/blogger/node_modules/mongoose/lib/query.js:4231
+    throw new MongooseError('Query.prototype.exec() no longer accepts a callback');
+          ^
+
+MongooseError: Query.prototype.exec() no longer accepts a callback
+    at model.Query.exec (/home/bitnami/blogger/node_modules/mongoose/lib/query.js:4231:11)
+    at module.exports.blogsReadOne (/home/bitnami/blogger/app_api/controllers/blogs.js:48:10)
+    at Layer.handle [as handle_request] (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/bitnami/blogger/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/bitnami/blogger/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:95:5)
+    at /home/bitnami/blogger/node_modules/express/lib/router/index.js:284:15
+    at param (/home/bitnami/blogger/node_modules/express/lib/router/index.js:365:14)
+    at param (/home/bitnami/blogger/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/home/bitnami/blogger/node_modules/express/lib/router/index.js:421:3)
+
+Node.js v18.19.0
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose connected to mongodb://0.0.0.0:27017/blogger
+[0mGET / [36m304 [0m227.911 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m1.688 ms - -[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m22.261 ms - 2237[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.831 ms - -[0m
+***** GET New Blog Form *****
+[0mGET /blog/add [36m304 [0m28.606 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.611 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m2.330 ms - -[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m27.372 ms - 2237[0m
+Finding blog details { blogid: 'list' }
+/home/bitnami/blogger/node_modules/mongoose/lib/query.js:4231
+    throw new MongooseError('Query.prototype.exec() no longer accepts a callback');
+          ^
+
+MongooseError: Query.prototype.exec() no longer accepts a callback
+    at model.Query.exec (/home/bitnami/blogger/node_modules/mongoose/lib/query.js:4231:11)
+    at module.exports.blogsReadOne (/home/bitnami/blogger/app_api/controllers/blogs.js:48:10)
+    at Layer.handle [as handle_request] (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/bitnami/blogger/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/bitnami/blogger/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:95:5)
+    at /home/bitnami/blogger/node_modules/express/lib/router/index.js:284:15
+    at param (/home/bitnami/blogger/node_modules/express/lib/router/index.js:365:14)
+    at param (/home/bitnami/blogger/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/home/bitnami/blogger/node_modules/express/lib/router/index.js:421:3)
+
+Node.js v18.19.0
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose connected to mongodb://0.0.0.0:27017/blogger
+***** GET New Blog Form *****
+[0mGET /blog/add [36m304 [0m274.779 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m1.942 ms - -[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m19.636 ms - 2237[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.397 ms - -[0m
+Finding blog details { blogid: 'list' }
+/home/bitnami/blogger/node_modules/mongoose/lib/query.js:4231
+    throw new MongooseError('Query.prototype.exec() no longer accepts a callback');
+          ^
+
+MongooseError: Query.prototype.exec() no longer accepts a callback
+    at model.Query.exec (/home/bitnami/blogger/node_modules/mongoose/lib/query.js:4231:11)
+    at module.exports.blogsReadOne (/home/bitnami/blogger/app_api/controllers/blogs.js:48:10)
+    at Layer.handle [as handle_request] (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/bitnami/blogger/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/bitnami/blogger/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:95:5)
+    at /home/bitnami/blogger/node_modules/express/lib/router/index.js:284:15
+    at param (/home/bitnami/blogger/node_modules/express/lib/router/index.js:365:14)
+    at param (/home/bitnami/blogger/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/home/bitnami/blogger/node_modules/express/lib/router/index.js:421:3)
+
+Node.js v18.19.0
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose connected to mongodb://0.0.0.0:27017/blogger
+[0mGET / [32m200 [0m267.649 ms - 2353[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m2.099 ms - -[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m23.017 ms - 2237[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.419 ms - -[0m
+***** GET New Blog Form *****
+[0mGET /blog/add [36m304 [0m29.194 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.748 ms - -[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m17.080 ms - 2237[0m
+[0mGET /stylesheets/style.css [36m304 [0m3.616 ms - -[0m
+Finding blog details { blogid: 'list' }
+/home/bitnami/blogger/node_modules/mongoose/lib/query.js:4231
+    throw new MongooseError('Query.prototype.exec() no longer accepts a callback');
+          ^
+
+MongooseError: Query.prototype.exec() no longer accepts a callback
+    at model.Query.exec (/home/bitnami/blogger/node_modules/mongoose/lib/query.js:4231:11)
+    at module.exports.blogsReadOne (/home/bitnami/blogger/app_api/controllers/blogs.js:48:10)
+    at Layer.handle [as handle_request] (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/bitnami/blogger/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/bitnami/blogger/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:95:5)
+    at /home/bitnami/blogger/node_modules/express/lib/router/index.js:284:15
+    at param (/home/bitnami/blogger/node_modules/express/lib/router/index.js:365:14)
+    at param (/home/bitnami/blogger/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/home/bitnami/blogger/node_modules/express/lib/router/index.js:421:3)
+
+Node.js v18.19.0
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose connected to mongodb://0.0.0.0:27017/blogger
+[0mGET / [36m304 [0m364.584 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m1.785 ms - -[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m22.180 ms - 2237[0m
+[0mGET /stylesheets/style.css [36m304 [0m22.354 ms - -[0m
+***** GET New Blog Form *****
+[0mGET /blog/add [36m304 [0m36.958 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.607 ms - -[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m23.516 ms - 2237[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.535 ms - -[0m
+***** POST New Blog Form *****
+[0mPOST /blog/add [31m500 [0m31.049 ms - 2406[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.954 ms - -[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m20.529 ms - 2237[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.613 ms - -[0m
+Finding blog details { blogid: 'list' }
+/home/bitnami/blogger/node_modules/mongoose/lib/query.js:4231
+    throw new MongooseError('Query.prototype.exec() no longer accepts a callback');
+          ^
+
+MongooseError: Query.prototype.exec() no longer accepts a callback
+    at model.Query.exec (/home/bitnami/blogger/node_modules/mongoose/lib/query.js:4231:11)
+    at module.exports.blogsReadOne (/home/bitnami/blogger/app_api/controllers/blogs.js:48:10)
+    at Layer.handle [as handle_request] (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/bitnami/blogger/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/bitnami/blogger/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:95:5)
+    at /home/bitnami/blogger/node_modules/express/lib/router/index.js:284:15
+    at param (/home/bitnami/blogger/node_modules/express/lib/router/index.js:365:14)
+    at param (/home/bitnami/blogger/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/home/bitnami/blogger/node_modules/express/lib/router/index.js:421:3)
+
+Node.js v18.19.0
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose connected to mongodb://0.0.0.0:27017/blogger
+[0mGET / [32m200 [0m213.561 ms - 2343[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m1.693 ms - -[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m18.408 ms - 2232[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.423 ms - -[0m
+***** GET New Blog Form *****
+[0mGET /blog/add [32m200 [0m32.031 ms - 2736[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.720 ms - -[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m26.359 ms - 2232[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.362 ms - -[0m
+[0mGET /api/blog [33m404 [0m18.626 ms - 2232[0m
+[0mGET /blog [0m- [0m- ms - -[0m
+[0mGET / [36m304 [0m19.713 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.763 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.926 ms - -[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m26.472 ms - 2232[0m
+***** GET New Blog Form *****
+[0mGET /blog/add [36m304 [0m25.775 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.633 ms - -[0m
+[0mGET /icons/bootstrap-icons.min.css [33m404 [0m12.645 ms - 2232[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.753 ms - -[0m
+[0mGET /api/blog [33m404 [0m17.838 ms - 2232[0m
+[0mGET /blog [0m- [0m- ms - -[0m
