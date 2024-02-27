@@ -1,44 +1,29 @@
-const response = require('express');
 var request = require('request');
 
 var apiOptions = {
   server : "http://52.91.47.28:80",
-    uri: {
-        blog: {
-            add: "/api/blog/add",
-            all: "/api/blog",
-            one: "/api/blog/"
-        }
-    }
 };
 
 var renderBlogList = function (req, res, responseBody) {
     var requestOptions, path;
-    path = '/api/blog';
+    path = '/api/list';
     requestOptions = {
       url : apiOptions.server + path,
       method : "GET",
       json : {},
-      qs : {
-        lng : -0.7992599,
-        lat : 51.378091,
-        maxDistance : 20
-      }
     };
-    request(
-      requestOptions,
-      function(err, response, body) {
-        var i, data;
-        data = body;
-        if (response.statusCode === 200 && data.length) {
-          for (i=0; i<data.length; i++) {
-            data[i].distance = _formatDistance(data[i].distance);
-          }
+
+    request
+    (requestOptions, function(err, response, body) {
+        if (err) {
+        console.log(err);
+        } else if (response.statusCode === 200) {
+        console.log(body);
+        } else {
+        console.log(response.statusCode);
         }
-        renderHomepage(req, res, data);
-      }
-    );
-  };
+    });
+}
 
 module.exports.blogList = function(req, res) {
     var requestOptions, path;
@@ -54,9 +39,9 @@ module.exports.blogList = function(req, res) {
         function (err, response, body) {
             var data;
             data = {
-                blogs: body,
-                message: null,
-                error: null
+                blogtitle: body,
+                blogtext: blogtext,
+                createdDate: createdDate
             };
             if (response.statusCode === 200 && data.blogs.length) {
                 renderBlogList (req, res, data);
