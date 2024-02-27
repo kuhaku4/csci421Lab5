@@ -618,3 +618,4 @@ cd blogger
 nohup sudo nodemon
 exit
 cd blogger
+npm install jquery

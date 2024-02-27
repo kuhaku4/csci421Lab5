@@ -38,10 +38,10 @@ module.exports.blogsReadOne = function(req, res) {
 /* /api/blogs */
 module.exports.blogsCreate = function(req, res) {
   console.log(req.body);
-  Blog.create({
+  Loc.create({
     blogtitle: req.body.blogtitle,
     blogtext: req.body.blogtext,
-    createdeDate: req.body.createdDate
+    createdDate: req.body.createdDate
   }, function(err, blog) {
     if (err) {
       console.log(err);
@@ -53,7 +53,6 @@ module.exports.blogsCreate = function(req, res) {
   });
 };
 
-
 /* PUT /api/blog/:blogid */
 module.exports.blogsUpdateOne = function(req, res) {
   if (!req.params.blogid) {
@@ -62,7 +61,7 @@ module.exports.blogsUpdateOne = function(req, res) {
     });
     return;
   }
-  Blog
+  Loc
     .findById(req.params.blogid)
     .select('-blogtitle -blogtext')
     .exec(
@@ -94,7 +93,7 @@ module.exports.blogsUpdateOne = function(req, res) {
 module.exports.blogsDeleteOne = function(req, res) {
   var blogid = req.params.blogid;
   if (blogid) {
-    Blog
+    Loc
       .findByIdAndRemove(blogid)
       .exec(
         function(err, blog) {
