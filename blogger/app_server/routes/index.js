@@ -1,30 +1,30 @@
 var express = require('express');
 var router = express.Router();
-var crtlHome = require('../controllers/homepage');
-var crtlBlog = require('../controllers/blog');
+var ctrlHome = require('../controllers/homepage');
+var ctrlBlog = require('../controllers/blog');
 
 /* GET home page. */
-router.get('/', crtlHome.home);
+router.get('/', ctrlHome.home);
 
 /* GET blogs lists */
-router.get('/', blogsCtrl.list);
+router.get('/', ctrlBlog.list);
 
 /* Blog Show */
-router.get('/blog/:id', blogsCtrl.edit);
+router.get('/blog/:id', ctrlBlog.edit);
 
 /* Blog Edit Post */
-router.put('/blog/:id', blogsCtrl.editPost);
+router.put('/blog/:id', ctrlBlog.editPost);
 
 /* Blog Add */
-router.get('/blog/add', blogsCtrl.add);
+router.get('/blog/add', ctrlBlog.add);
 
 /* Blog Add Post */
-router.post('/blog/add', blogsCtrl.addPost);
+router.post('/blog/add', ctrlBlog.addPost);
 
 /* Blog Delete */
-router.get('/blog/:id/delete', blogsCtrl.del);
+router.get('/blog/:id/delete', ctrlBlog.del);
 
 /* Blog Delete Post */
-router.delete('/blog/:id/delete', blogsCtrl.deletePost);
+router.delete('/blog/:id/delete', ctrlBlog.deletePost);
 
 module.exports = router;
