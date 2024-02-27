@@ -10,21 +10,21 @@ router.get('/', ctrlHome.home);
 router.get('/', ctrlBlog.list);
 
 /* Blog Show */
-router.get('/blog/:id', ctrlBlog.edit);
+router.get('/blogs/:id', ctrlBlog.edit);
 
 /* Blog Edit Post */
-router.put('/blog/:id', ctrlBlog.editPost);
+router.put('/blogs/:id', ctrlBlog.editPost);
 
 /* Blog Add */
-router.get('/blog/add', ctrlBlog.add);
+router.get('/blogs/add', ctrlBlog.add);
 
 /* Blog Add Post */
-router.post('/blog/add', ctrlBlog.addPost);
+router.post('/blogs/add', ctrlBlog.addPost);
 
 /* Blog Delete */
-router.get('/blog/:id/delete', ctrlBlog.del);
+router.get('/blogs/:id/delete', ctrlBlog.del);
 
 /* Blog Delete Post */
-router.delete('/blog/:id/delete', ctrlBlog.deletePost);
+router.delete('/blogs/:id/delete', ctrlBlog.deletePost);
 
 module.exports = router;
