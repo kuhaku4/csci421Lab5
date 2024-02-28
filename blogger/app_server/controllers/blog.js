@@ -85,7 +85,7 @@ module.exports.editPost = function(req, res){
 requestOptions,
       function(err, response, body) {
           if (response.statusCode === 201) {
-              res.redirect('/list');
+              res.redirect('/blogs');
           } else {
               _showError(req, res, response.statusCode);
           }
@@ -118,7 +118,7 @@ module.exports.addPost = function(req, res){
     requestOptions,
     function(err, response, body) {
        if (response.statusCode === 201) {
-            res.redirect('/list');
+            res.redirect('/blogs');
        } else {
             _showError(req, res, response.statusCode);
        } 
@@ -170,38 +170,10 @@ url : apiOptions.server + path,
       requestOptions,
       function(err, response, body) {
           if (response.statusCode === 204) {
-              res.redirect('/list');
+              res.redirect('/blogs');
           } else {
               _showError(req, res, response.statusCode);
           }
       }
   );
 };
-
-
-
-
-
-// exports.add = (req, res) => {
-//     res.render('addBlog', { title: 'Add Blog' });
-//   };
-
-// exports.list = (req, res) => {
-//     res.render('blogList', {title: 'Blog List',
-//       blogs: [{
-//         blogtitle: 'test',
-//         blogtext: 'test text',
-//         createdDate: Date.now()
-//       },
-//     {
-//       blogtitle: 'Nah I\'d Win',
-//       blogtext: 'Didn\'t Win',
-//       createdDate: Date.now()
-//     },
-//     {
-//       blogtitle: 'My First Blog',
-//       blogtext: 'This is a boring blog',
-//       createdDate: Date.now()
-//     }]
-// })
-// };
