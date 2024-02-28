@@ -77,7 +77,7 @@ module.exports.blogsList = function(req, res) {
     //   "blogtext": req.body.blogtext
     // }}
     Blog
-  	  .findByIdAndUpdate(blogid, {"blogtitle": req.body.blogtitle, "blogtext": req.body.blogtext})
+  	  .findByIdAndUpdate(blogid, {$set: {"blogtitle": req.body.blogtitle, "blogtext": req.body.blogtext}})
       .then(function(blog) {
           console.log("Updated blog: "+blogid);
           sendJSONresponse (res, 200, blog);
