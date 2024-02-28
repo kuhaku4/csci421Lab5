@@ -13884,3 +13884,842 @@ ReferenceError: _showError is not defined
     at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
 
 Node.js v18.19.0
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose connected to mongodb://0.0.0.0:27017/Blog
+[0mGET / [32m200 [0m658.553 ms - 1145[0m
+[0mGET /stylesheets/style.css [36m304 [0m9.028 ms - -[0m
+[0mGET /blogs/add [36m304 [0m24.090 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.748 ms - -[0m
+[0mPOST /:undefinedapi/blog/add [33m404 [0m10.266 ms - 1032[0m
+[0mPOST /blogs/add [33m404 [0m37.513 ms - 17[0m
+[0mGET /:undefinedapi/blog [33m404 [0m12.236 ms - 1032[0m
+[0mGET /blogs [36m304 [0m68.991 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.621 ms - -[0m
+[0mGET /:undefined/api/blog/undefined [33m404 [0m18.188 ms - 1032[0m
+[0mGET /blogs/undefined/edit [32m200 [0m40.886 ms - 1552[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.427 ms - -[0m
+[0mPOST /blogs/undefined/edit [33m404 [0m6.761 ms - 1032[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.386 ms - -[0m
+[0mGET /blogs/add [36m304 [0m16.262 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.386 ms - -[0m
+[0mPOST /:undefinedapi/blog/add [33m404 [0m12.600 ms - 1032[0m
+[0mPOST /blogs/add [33m404 [0m17.093 ms - 17[0m
+[0mGET / [36m304 [0m9.430 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.570 ms - -[0m
+[0mGET / [36m304 [0m6.650 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.485 ms - -[0m
+[0mGET /blogs/add [32m200 [0m14.043 ms - 1540[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.533 ms - -[0m
+[0mGET /blogs/add [36m304 [0m29.795 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.554 ms - -[0m
+[0mGET /blogs/add [36m304 [0m10.931 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.449 ms - -[0m
+[0mGET /blogs/add [36m304 [0m14.211 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.379 ms - -[0m
+[0mGET /:undefinedapi/blog [33m404 [0m6.523 ms - 1032[0m
+[0mGET /blogs [36m304 [0m44.683 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.676 ms - -[0m
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Port 80 is already in use
+[0mGET /:undefinedapi/blog [33m404 [0m5.838 ms - 1032[0m
+[0mGET /blogs [32m200 [0m27.318 ms - 145847[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.442 ms - -[0m
+[0mGET /blogs/add [36m304 [0m13.557 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.502 ms - -[0m
+[0mGET /blogs/add [36m304 [0m13.445 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.427 ms - -[0m
+[0mGET /blogs/add [36m304 [0m10.457 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.396 ms - -[0m
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose connected to mongodb://0.0.0.0:27017/Blog
+[0mGET /:undefinedapi/blog [33m404 [0m248.307 ms - 1032[0m
+[0mGET /blogs [32m200 [0m374.358 ms - 432449[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.069 ms - -[0m
+[0mGET /blogs/add [36m304 [0m29.748 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.535 ms - -[0m
+[0mGET /blogs/add [36m304 [0m11.138 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.405 ms - -[0m
+[0mGET /blogs/add [36m304 [0m23.040 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.622 ms - -[0m
+[0mGET / [32m200 [0m14.573 ms - 1145[0m
+[0mGET / [32m200 [0m9.223 ms - 1145[0m
+[0mGET / [36m304 [0m22.709 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.643 ms - -[0m
+[0mGET / [36m304 [0m10.077 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.446 ms - -[0m
+[0mGET /blogs/add [36m304 [0m19.647 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.393 ms - -[0m
+[0mPOST /:undefinedapi/blog/add [33m404 [0m7.884 ms - 1032[0m
+[0mPOST /blogs/add [33m404 [0m14.697 ms - 17[0m
+[0mGET /:undefinedapi/blog [33m404 [0m8.603 ms - 1032[0m
+[0mGET /blogs [36m304 [0m59.333 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.413 ms - -[0m
+[0mGET /:undefined/api/blog/undefined [33m404 [0m7.355 ms - 1032[0m
+[0mGET /blogs/undefined/edit [36m304 [0m29.235 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.440 ms - -[0m
+[0mPOST /blogs/undefined/edit [33m404 [0m6.052 ms - 1032[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.531 ms - -[0m
+[0mGET /:undefinedapi/blog [33m404 [0m6.003 ms - 1032[0m
+[0mGET /blogs [36m304 [0m65.186 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.566 ms - -[0m
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose connected to mongodb://0.0.0.0:27017/Blog
+[0mGET / [36m304 [0m222.567 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.395 ms - -[0m
+[0mGET / [36m304 [0m18.677 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.790 ms - -[0m
+[0mGET /blogs/add [36m304 [0m20.852 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.716 ms - -[0m
+[0mGET /:undefined/api/blog [33m404 [0m29.008 ms - 1032[0m
+[0mGET /blogs [36m304 [0m89.152 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.786 ms - -[0m
+[0mGET /:undefined/api/blog/undefined [33m404 [0m15.861 ms - 1032[0m
+[0mGET /blogs/undefined/edit [36m304 [0m63.886 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.505 ms - -[0m
+[0mGET /api/blogs/undefined/edit [33m404 [0m40.018 ms - 1032[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.715 ms - -[0m
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Port 80 is already in use
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose connected to mongodb://0.0.0.0:27017/Blog
+[0mGET /api/blog/undefined [33m404 [0m250.821 ms - 1032[0m
+[0mGET /blogs/undefined/edit [36m304 [0m331.772 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.211 ms - -[0m
+[0mGET /api/blog/undefined [33m404 [0m9.271 ms - 1032[0m
+[0mGET /blogs/undefined/edit [36m304 [0m36.110 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.423 ms - -[0m
+[0mGET /api/blog/undefined [33m404 [0m8.078 ms - 1032[0m
+[0mGET /blogs/undefined/edit [36m304 [0m29.745 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.184 ms - -[0m
+[0mGET /api/blog/undefined [33m404 [0m6.852 ms - 1032[0m
+[0mGET /blogs/undefined/edit [36m304 [0m34.499 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.409 ms - -[0m
+[0mGET /api/blog [33m404 [0m8.059 ms - 1032[0m
+[0mGET /blogs [36m304 [0m78.551 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.607 ms - -[0m
+[0mGET /blogs/add [36m304 [0m13.295 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.439 ms - -[0m
+[0mPOST /api/blog/add [33m404 [0m6.640 ms - 1032[0m
+[0mPOST /blogs/add [33m404 [0m10.839 ms - 17[0m
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose connected to mongodb://0.0.0.0:27017/Blog
+[0mGET /blogs/add [36m304 [0m227.669 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.302 ms - -[0m
+[Object: null prototype] { blogtitle: '<3', blogtext: '</3' }
+[0mPOST /api/blog/add [33m404 [0m12.348 ms - 1032[0m
+[0mPOST /blogs/add [33m404 [0m34.819 ms - 17[0m
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose connected to mongodb://0.0.0.0:27017/blogs
+[0mGET /blogs/add [36m304 [0m357.421 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m4.417 ms - -[0m
+[0mGET /blogs/add [36m304 [0m22.049 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.049 ms - -[0m
+[0mGET /api/blog [33m404 [0m25.307 ms - 1032[0m
+[0mGET /blogs [36m304 [0m95.158 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.519 ms - -[0m
+[0mGET /api/blog [33m404 [0m18.250 ms - 1032[0m
+[0mGET /blogs [36m304 [0m61.077 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.451 ms - -[0m
+[0mGET /api/blog [33m404 [0m10.692 ms - 1032[0m
+[0mGET /blogs [36m304 [0m65.894 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.420 ms - -[0m
+[0mGET / [36m304 [0m8.109 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.814 ms - -[0m
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose connected to mongodb://127.0.0.1:27017/blogs
+[0mGET / [36m304 [0m232.362 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.556 ms - -[0m
+[0mGET / [36m304 [0m13.985 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.887 ms - -[0m
+[0mGET / [36m304 [0m9.544 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.510 ms - -[0m
+[0mGET /blogs/add [36m304 [0m35.870 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.109 ms - -[0m
+[0mGET /blogs/add [36m304 [0m21.889 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.539 ms - -[0m
+[0mGET /api/blog [33m404 [0m17.395 ms - 1032[0m
+[0mGET /blogs [36m304 [0m59.279 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.641 ms - -[0m
+[0mGET /api/blog [33m404 [0m15.726 ms - 1032[0m
+[0mGET /blogs [36m304 [0m61.145 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.676 ms - -[0m
+[0mGET /api/blog [33m404 [0m5.996 ms - 1032[0m
+[0mGET /blogs [36m304 [0m65.469 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.386 ms - -[0m
+[0mGET /api/blog [33m404 [0m4.821 ms - 1032[0m
+[0mGET /blogs [36m304 [0m35.385 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.542 ms - -[0m
+[0mGET /api/blog/undefined [33m404 [0m5.513 ms - 1032[0m
+[0mGET /blogs/undefined/delete [36m304 [0m29.963 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.640 ms - -[0m
+[0mPOST /blogs/undefined/delete [33m404 [0m6.144 ms - 1032[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.376 ms - -[0m
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose connected to mongodb://127.0.0.1:27017/blogs
+[0mGET /api/blog [33m404 [0m221.004 ms - 1032[0m
+[0mGET /blogs [32m200 [0m317.963 ms - 1073[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.791 ms - -[0m
+[0mGET /api/blog [33m404 [0m14.768 ms - 1032[0m
+[0mGET /blogs [36m304 [0m62.716 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.442 ms - -[0m
+[0mGET /blogs/add [36m304 [0m11.707 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.394 ms - -[0m
+[0mGET /blogs/add [36m304 [0m17.129 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.226 ms - -[0m
+[0mPOST /api/blog/add [33m404 [0m11.245 ms - 1032[0m
+[0mPOST /blogs/add [33m404 [0m16.485 ms - 17[0m
+[0mGET /blogs/add [36m304 [0m19.393 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.518 ms - -[0m
+[0mGET /blogs/add [36m304 [0m27.888 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.794 ms - -[0m
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose connected to mongodb://127.0.0.1:27017/blogs
+[0mGET /blogs/add [32m200 [0m227.925 ms - 1392[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.486 ms - -[0m
+[0mPOST /blogs [33m404 [0m28.135 ms - 1032[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.052 ms - -[0m
+[0mGET /api/blog [33m404 [0m14.291 ms - 1032[0m
+[0mGET /blogs [36m304 [0m68.491 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.736 ms - -[0m
+[0mGET /blogs/add [36m304 [0m36.429 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.673 ms - -[0m
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose connected to mongodb://127.0.0.1:27017/blogs
+[0mGET /blogs/add [32m200 [0m247.106 ms - 1396[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.471 ms - -[0m
+[0mGET /blogs/add [36m304 [0m22.209 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.191 ms - -[0m
+[0mGET /api/blog [33m404 [0m16.132 ms - 1032[0m
+[0mGET /blogs [36m304 [0m71.498 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.478 ms - -[0m
+[0mGET /blogs/add [36m304 [0m28.381 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.603 ms - -[0m
+[0mPOST /api/blog/add [33m404 [0m21.152 ms - 1032[0m
+[0mPOST /blogs/add [33m404 [0m27.720 ms - 17[0m
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose connected to mongodb://127.0.0.1:27017/Blog
+[0mPOST /api/blog/add [33m404 [0m216.022 ms - 1032[0m
+[0mPOST /blogs/add [33m404 [0m252.348 ms - 17[0m
+[0mGET /blogs/add [36m304 [0m22.480 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.570 ms - -[0m
+[0mPOST /api/blog/add [33m404 [0m9.457 ms - 1032[0m
+[0mPOST /blogs/add [33m404 [0m17.322 ms - 17[0m
+[0mGET /blogs/add [36m304 [0m22.250 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.632 ms - -[0m
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose connected to mongodb://127.0.0.1:27017/Blog
+[0mGET /blogs/add [36m304 [0m311.399 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.470 ms - -[0m
+[0mGET /blogs/add [36m304 [0m24.629 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.787 ms - -[0m
+[0mGET /api/blog?blogtitle=Text [33m404 [0m19.595 ms - 1032[0m
+[0mGET /blogs [36m304 [0m87.046 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.539 ms - -[0m
+[0mGET /api/blog?blogtitle=Text [33m404 [0m21.314 ms - 1032[0m
+[0mGET /blogs [36m304 [0m54.333 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.509 ms - -[0m
+[0mGET /api/blog?blogtitle=Text [33m404 [0m7.216 ms - 1032[0m
+[0mGET /blogs [36m304 [0m35.726 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.601 ms - -[0m
+[0mGET /api/blog?blogtitle=Text [33m404 [0m11.971 ms - 1032[0m
+[0mGET /blogs [36m304 [0m40.549 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.498 ms - -[0m
+[0mGET /blogs/add [36m304 [0m31.328 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.506 ms - -[0m
+[0mPOST /api/blog/add [33m404 [0m7.077 ms - 1032[0m
+[0mPOST /blogs/add [33m404 [0m16.158 ms - 17[0m
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose connected to mongodb://127.0.0.1:27017/Blog
+[0mGET /blogs/add [36m304 [0m232.573 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.378 ms - -[0m
+[0mPOST /api/blog/add [33m404 [0m12.495 ms - 1032[0m
+[0mPOST /blogs/add [33m404 [0m32.863 ms - 17[0m
+[0mGET / [36m304 [0m16.139 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.514 ms - -[0m
+[0mGET /blogs/add [36m304 [0m30.875 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.449 ms - -[0m
+[0mGET /api/blog [33m404 [0m9.524 ms - 1032[0m
+[0mGET /blogs [36m304 [0m52.355 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.456 ms - -[0m
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose connected to mongodb://127.0.0.1:27017/Blog
+[0mGET /api/blog [33m404 [0m232.544 ms - 1032[0m
+[0mGET /blogs [36m304 [0m318.534 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.101 ms - -[0m
+[0mGET /blogs/add [32m200 [0m26.712 ms - 1394[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.648 ms - -[0m
+[0mPOST /api/blog/add [33m404 [0m56.802 ms - 1032[0m
+[0mPOST /blogs/add [33m404 [0m69.046 ms - 17[0m
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose connected to mongodb://127.0.0.1:27017/Blog
+[0mGET /blogs/add [32m200 [0m285.131 ms - 1396[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.289 ms - -[0m
+[0mPOST /api/blog/add [33m404 [0m12.348 ms - 1032[0m
+[0mPOST /blogs/add [33m404 [0m31.647 ms - 17[0m
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose connected to mongodb://127.0.0.1:27017/Blog
+[0mGET /blogs/add [36m304 [0m211.093 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.228 ms - -[0m
+[0mGET /blogs/add [36m304 [0m17.981 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.621 ms - -[0m
+[0mGET /api/blog [33m404 [0m15.899 ms - 1032[0m
+[0mGET /blogs [36m304 [0m66.006 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.597 ms - -[0m
+[0mGET / [36m304 [0m16.775 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.679 ms - -[0m
+[0mGET /api/blog [33m404 [0m7.522 ms - 1032[0m
+[0mGET /blogs [36m304 [0m38.467 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.583 ms - -[0m
+[0mGET /blogs/add [36m304 [0m25.633 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.439 ms - -[0m
+[0mGET /api/blog [33m404 [0m10.558 ms - 1032[0m
+[0mGET /blogs [36m304 [0m31.531 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.421 ms - -[0m
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose connected to mongodb://127.0.0.1:27017/Blog
+[0mGET / [36m304 [0m688.316 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.953 ms - -[0m
+[0mGET /blogs/add [36m304 [0m29.280 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.701 ms - -[0m
+[0mPOST /api/blog/add [33m404 [0m14.080 ms - 1032[0m
+[0mPOST /blogs/add [33m404 [0m47.360 ms - 17[0m
+[0mPOST /api/blog/add [33m404 [0m9.542 ms - 1032[0m
+[0mPOST /blogs/add [33m404 [0m13.961 ms - 17[0m
+[0mGET /api/blog [33m404 [0m8.585 ms - 1032[0m
+[0mGET /blogs [36m304 [0m55.157 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.241 ms - -[0m
+[0mGET /api/blog [33m404 [0m20.800 ms - 1032[0m
+[0mGET /blogs [36m304 [0m48.610 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.466 ms - -[0m
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose connected to mongodb://127.0.0.1:27017/Blog
+[0mGET /api/blog [33m404 [0m656.780 ms - 1032[0m
+[0mGET /blogs [36m304 [0m781.987 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.079 ms - -[0m
+[0mGET /blogs/add [36m304 [0m25.840 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.598 ms - -[0m
+[0mPOST /api/blog/add [33m404 [0m16.159 ms - 1032[0m
+[0mPOST /blogs/add [33m404 [0m27.653 ms - 17[0m
+[0mPOST /api/blog/add [33m404 [0m17.497 ms - 1032[0m
+[0mPOST /blogs/add [33m404 [0m24.492 ms - 17[0m
+[0mGET /api/blog [33m404 [0m10.979 ms - 1032[0m
+[0mGET /blogs [36m304 [0m55.382 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.511 ms - -[0m
+[0mGET /api/blog [33m404 [0m10.962 ms - 1032[0m
+[0mGET /blogs [36m304 [0m52.546 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.397 ms - -[0m
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose connected to mongodb://127.0.0.1:27017/Blog
+[0mGET /api/blog [33m404 [0m251.787 ms - 1032[0m
+[0mGET /blogs [36m304 [0m345.442 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.114 ms - -[0m
+[0mGET /blogs/add [36m304 [0m25.850 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.652 ms - -[0m
+[0mPOST /api/blog/add [33m404 [0m7.564 ms - 1032[0m
+[0mPOST /blogs/add [33m404 [0m13.377 ms - 17[0m
+Finding blog details { blogid: 'add' }
+/home/bitnami/blogger/node_modules/mongoose/lib/query.js:4231
+    throw new MongooseError('Query.prototype.exec() no longer accepts a callback');
+          ^
+
+MongooseError: Query.prototype.exec() no longer accepts a callback
+    at model.Query.exec (/home/bitnami/blogger/node_modules/mongoose/lib/query.js:4231:11)
+    at module.exports.blogsReadOne (/home/bitnami/blogger/app_api/controllers/blogs.js:49:12)
+    at Layer.handle [as handle_request] (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/bitnami/blogger/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/bitnami/blogger/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:95:5)
+    at /home/bitnami/blogger/node_modules/express/lib/router/index.js:284:15
+    at param (/home/bitnami/blogger/node_modules/express/lib/router/index.js:365:14)
+    at param (/home/bitnami/blogger/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/home/bitnami/blogger/node_modules/express/lib/router/index.js:421:3)
+
+Node.js v18.19.0
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose connected to mongodb://127.0.0.1:27017/Blog
+[0mGET /api/blog [33m404 [0m373.922 ms - 1032[0m
+[0mGET /blogs [32m200 [0m463.509 ms - 1073[0m
+Getting blogs list
+/home/bitnami/blogger/node_modules/mongoose/lib/query.js:4231
+    throw new MongooseError('Query.prototype.exec() no longer accepts a callback');
+          ^
+
+MongooseError: Query.prototype.exec() no longer accepts a callback
+    at model.Query.exec (/home/bitnami/blogger/node_modules/mongoose/lib/query.js:4231:11)
+    at module.exports.blogsList (/home/bitnami/blogger/app_api/controllers/blogs.js:14:8)
+    at Layer.handle [as handle_request] (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/bitnami/blogger/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/bitnami/blogger/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:95:5)
+    at /home/bitnami/blogger/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/bitnami/blogger/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/bitnami/blogger/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/bitnami/blogger/node_modules/express/lib/router/index.js:175:3)
+
+Node.js v18.19.0
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose connected to mongodb://127.0.0.1:27017/Blog
+[0mGET / [36m304 [0m602.337 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.002 ms - -[0m
+[0mGET /api/blog [33m404 [0m31.292 ms - 1032[0m
+[0mGET /blogs [32m200 [0m89.757 ms - 1073[0m

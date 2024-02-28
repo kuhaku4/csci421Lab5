@@ -4,9 +4,9 @@ var apiOptions = {
   server : "http://localhost:80", //+process.env.PORT,
   uri: {
     blog: {
-      add: "/api/blog/add",
-      all: "/api/blog",
-      one: "/api/blog/"
+      add: "/api/blogs/add",
+      all: "/api/blogs",
+      one: "/api/blogs/"
     }
   }
 };
