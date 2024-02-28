@@ -4,7 +4,7 @@ var ctrlBlogs = require('../controllers/blogs');
 
 router.get('/blogs', ctrlBlogs.blogsList);
 
-router.post('/blogs', ctrlBlogs.blogsCreate);
+router.post('/blogs/add', ctrlBlogs.blogsCreate);
 
 router.get('/blogs/:blogid', ctrlBlogs.blogsReadOne);
 
