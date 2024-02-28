@@ -19,7 +19,11 @@ module.exports.list = function(req, res){
       url : apiOptions.server + path,
       method : "GET",
       json : {},
-      qs : {} 
+      qs : {
+        blogtitle: "Test",
+        blogtitle: "Text",
+        createdDate: Date.now
+      } 
       };
   request(
       requestOptions,
