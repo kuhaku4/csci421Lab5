@@ -28,15 +28,15 @@ module.exports.blogsList = function(req, res) {
   };
   
   var buildBlogList = function(req, res, results) {
-    var bloggers = [];
+    var blogs = [];
     results.forEach(function(obj) {
-      bloggers.push({
+      blogs.push({
         blogtitle: obj.blogtitle,
         blogtext: obj.blogtext,
         _id: obj._id
       });
     });
-    return bloggers;
+    return blogs;
   };
 
   // Read a single blog
