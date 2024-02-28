@@ -1,13 +1,21 @@
 var request = require('request');
 //const { response } = require('express');
 var apiOptions = {
-  server : "http://localhost:80"  // Change as needed
+  server : "http://localhost:"+process.env.PORT,
+  uri: {
+    blog: {
+      add: "api/blog/add",
+      all: "api/blog",
+      one: "/api/blog/"
+    }
+  }
 };
 
 /* GET blogs lists */      
 module.exports.list = function(req, res){
   var requestOptions, path;
-  path = '/blogs';
+  //path = '/blogs';
+  path = apiOptions.uri.blog.all;
   requestOptions = { 
       url : apiOptions.server + path,
       method : "GET",
@@ -37,7 +45,9 @@ var renderListPage = function(req, res, responseBody){
 /* Blog Show */
 module.exports.edit = function(req, res) {
   var requestOptions, path;
-  path = "/blogs" + req.params.id;
+  var blogid = req.params.blogid;
+  path = apiOptions.uri.blog.one + blogid;
+  //path = "/blogs" + req.params.id;
   requestOptions = {
       url : apiOptions.server + path,
       method : "GET",
@@ -66,8 +76,9 @@ var renderEditPage = function(req, res, responseBody){
 /* Blog Edit Post */
 module.exports.editPost = function(req, res){
   var requestOptions, path, postdata;
-  var id = req.params.id;
-  path = '/blogs' + id;
+  var blogid = req.params.blogid;
+  //path = '/blogs' + id;
+  path = apiOptions.uri.blog.one + blogid;
 
   postdata = {
       blogtitle: req.body.blogtitle,
@@ -100,7 +111,8 @@ module.exports.add = function(req, res) {
 /* Blog Add Post */
 module.exports.addPost = function(req, res){
   var requestOptions, path, postdata;
-  path = '/blogs/add';
+  //path = '/blogs/add';
+  path = apiOptions.uri.blog.add;
 
   postdata = {
       blogtitle: req.body.blogtitle,
@@ -128,7 +140,8 @@ module.exports.addPost = function(req, res){
 /* Blog Delete */
 module.exports.del = function(req, res) {
   var requestOptions, path;
-  path = "/blogs" + req.params.id;
+  //path = "/blogs" + req.params.id;
+
   requestOptions = {
       url : apiOptions.server + path,
       method : "GET",
@@ -156,8 +169,9 @@ var renderDeletePage = function(req, res, responseBody){
 /* Blog Delete Post */
 module.exports.deletePost = function(req, res){
   var requestOptions, path, postdata;
-  var id = req.params.id;
-  path = '/blogs' + id;
+  var blogid = req.params.blogid;
+  //path = '/blogs' + blogid;
+  path = apiOptions.uri.blog.one + blogid;
 
   requestOptions = {
 url : apiOptions.server + path,
