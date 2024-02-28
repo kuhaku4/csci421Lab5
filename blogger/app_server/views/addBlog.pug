@@ -5,9 +5,9 @@ block content
     h1= title
     form(action='/blogs/add' method="post")
         .mb-3.mt-3
-            label.form-label(for="blogtitle") Blog title
+            label.form-label(for="blogtitle") Blog Title
             input#blogtitle.form-control(type="text", placeholder="Blog title", name="blogtitle")
         .mb-3
-            label.form-label(for="blogtext") Blog text
+            label.form-label(for="blogtext") Blog Text
             textarea#blogtext.form-control(name="blogtext", cols="30", rows="10")
         button.btn.btn-primary(type="submit") Add Blog
