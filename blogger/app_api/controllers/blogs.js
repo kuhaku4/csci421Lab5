@@ -1,5 +1,5 @@
 var mongoose = require('mongoose');
-var Blog = mongoose.model('Blog')
+var blogs = mongoose.model('Blog')
 
 var sendJSONresponse = function(res, status, content) {
     res.status(status);
@@ -9,7 +9,7 @@ var sendJSONresponse = function(res, status, content) {
 /* GET a list of all locations */
 module.exports.blogsList = function(req, res) {
   console.log('Getting blogs list');
-  Blog
+  blogs
       .find()
       .exec(function(err, results) {
         if (!results) {
@@ -44,7 +44,7 @@ var buildBlogList = function(req, res, results) {
     var blogid = req.params.blogid;
     console.log('Finding blog details', req.params);
     if (req.params && req.params.blogid) {
-      Blog
+      blogs
           .findById(req.params.blogid)
           .exec(function(err, blog) {
             if (!blog) {
@@ -71,7 +71,7 @@ var buildBlogList = function(req, res, results) {
   // Create a new blog
   module.exports.blogsCreate = function(req, res) {
     console.log(req.body);
-    Blog
+    blogs
      .create({
         blogtitle: req.body.blogtitle,
         blogtext: req.body.blogtext
@@ -92,7 +92,7 @@ var buildBlogList = function(req, res, results) {
     console.log("Updating a blog entry with id of " + req.params.blogid);
     console.log(req.body);
     var blogid = req.params.blogid;
-    Blog
+    blogs
   	  .findOneAndUpdate(
 	     { _id: blogid },
  	     { $set: {"blogtitle": req.body.blogtitle, "blogtext": req.body.blogtext}},
@@ -111,7 +111,7 @@ var buildBlogList = function(req, res, results) {
     console.log("Deleting blog entry with id of " + req.params.blogid);
     var blogid = req.params.blogid;
     console.log(req.body);
-    Blog
+    blogs
         .findByIdAndRemove(req.params.blogid)
         .exec (
             function(err, response) {
