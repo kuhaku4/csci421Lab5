@@ -2,11 +2,9 @@ const mongoose = require('mongoose');
 
 main().catch(err => console.log(err));
 
-var dbURI = 'mongodb://Localhost/Blog';
+var dbURI = process.env.BLOGGER_DB_URI;
 
-async function main() {
-  await mongoose.connect('mongodb://Localhost/Blog');
-}
+mongoose.connect(dbURI);
 
 
 // Monitor and report when database is connected                      
