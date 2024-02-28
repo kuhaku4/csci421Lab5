@@ -14817,3 +14817,450 @@ MongooseError: Query.prototype.exec() no longer accepts a callback
     at Function.handle (/home/bitnami/blogger/node_modules/express/lib/router/index.js:175:3)
 
 Node.js v18.19.0
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose connected to mongodb://127.0.0.1:27017/Blog
+[0mGET / [36m304 [0m713.294 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.739 ms - -[0m
+Getting blogs list
+[0mGET /api/blogs [33m400 [0m22.493 ms - 44[0m
+[0mGET /blogs [36m304 [0m77.995 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.727 ms - -[0m
+[0mGET /blogs/add [36m304 [0m34.590 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.430 ms - -[0m
+{ blogtitle: 'title', blogtext: 'text' }
+/home/bitnami/blogger/app_api/controllers/blogs.js:80
+      res.sendJSONresponse(res, 400, err)
+          ^
+
+TypeError: res.sendJSONresponse is not a function
+    at /home/bitnami/blogger/app_api/controllers/blogs.js:80:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+Node.js v18.19.0
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose connected to mongodb://127.0.0.1:27017/Blog
+[0mGET / [36m304 [0m715.643 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m6.087 ms - -[0m
+[0mGET /blogs/add [36m304 [0m51.900 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.980 ms - -[0m
+{ blogtitle: 'title', blogtext: 'text' }
+[0mPOST /api/blogs/add [33m400 [0m79.300 ms - 44[0m
+[0mPOST /blogs/add [33m400 [0m192.836 ms - 17[0m
+Getting blogs list
+[0mGET /api/blogs [33m400 [0m18.633 ms - 44[0m
+[0mGET /blogs [36m304 [0m106.486 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m4.617 ms - -[0m
+Getting blogs list
+[0mGET /api/blogs [33m400 [0m4.603 ms - 44[0m
+[0mGET /blogs [36m304 [0m69.129 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.576 ms - -[0m
+[0mGET / [32m200 [0m62.684 ms - 1145[0m
+[0mGET /favicon.ico [33m404 [0m33.249 ms - 1032[0m
+Getting blogs list
+[0mGET /api/blogs [33m400 [0m5.500 ms - 44[0m
+[0mGET /blogs [36m304 [0m43.662 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.087 ms - -[0m
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose connected to mongodb://127.0.0.1:27017/Blog
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose connected to mongodb://127.0.0.1:27017/Blog
+[0mGET / [36m304 [0m666.727 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.855 ms - -[0m
+[0mGET /blogs/add [36m304 [0m24.250 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.643 ms - -[0m
+Blog Add Request
+MongoServerError: command insert requires authentication
+    at Connection.onMessage (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/connection.js:205:26)
+    at MessageStream.<anonymous> (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/connection.js:64:60)
+    at MessageStream.emit (node:events:517:28)
+    at processIncomingData (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/message_stream.js:117:16)
+    at MessageStream._write (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Socket.ondata (node:internal/streams/readable:809:22)
+    at Socket.emit (node:events:517:28) {
+  ok: 0,
+  code: 13,
+  codeName: 'Unauthorized',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+[0mPOST /api/blogs/add [33m400 [0m17.982 ms - 44[0m
+[0mPOST /blogs/add [33m400 [0m49.155 ms - 17[0m
+Getting blogs list
+MongoServerError: command find requires authentication
+    at Connection.onMessage (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/connection.js:205:26)
+    at MessageStream.<anonymous> (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/connection.js:64:60)
+    at MessageStream.emit (node:events:517:28)
+    at processIncomingData (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/message_stream.js:117:16)
+    at MessageStream._write (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Socket.ondata (node:internal/streams/readable:809:22)
+    at Socket.emit (node:events:517:28) {
+  ok: 0,
+  code: 13,
+  codeName: 'Unauthorized',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+[0mGET /api/blogs [33m400 [0m11.521 ms - 44[0m
+[0mGET /blogs [36m304 [0m66.276 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.613 ms - -[0m
+Getting blogs list
+MongoServerError: command find requires authentication
+    at Connection.onMessage (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/connection.js:205:26)
+    at MessageStream.<anonymous> (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/connection.js:64:60)
+    at MessageStream.emit (node:events:517:28)
+    at processIncomingData (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/message_stream.js:117:16)
+    at MessageStream._write (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Socket.ondata (node:internal/streams/readable:809:22)
+    at Socket.emit (node:events:517:28) {
+  ok: 0,
+  code: 13,
+  codeName: 'Unauthorized',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+[0mGET /api/blogs [33m400 [0m4.096 ms - 44[0m
+[0mGET /blogs [36m304 [0m54.703 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.422 ms - -[0m
+[0mGET / [32m200 [0m152.913 ms - 1145[0m
+Getting blogs list
+MongoServerError: command find requires authentication
+    at Connection.onMessage (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/connection.js:205:26)
+    at MessageStream.<anonymous> (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/connection.js:64:60)
+    at MessageStream.emit (node:events:517:28)
+    at processIncomingData (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/message_stream.js:117:16)
+    at MessageStream._write (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Socket.ondata (node:internal/streams/readable:809:22)
+    at Socket.emit (node:events:517:28) {
+  ok: 0,
+  code: 13,
+  codeName: 'Unauthorized',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+[0mGET /api/blogs [33m400 [0m43.794 ms - 44[0m
+[0mGET /blogs [36m304 [0m114.732 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.859 ms - -[0m
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose disconnected
+MongoServerError: Authentication failed.
+    at Connection.onMessage (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/connection.js:205:26)
+    at MessageStream.<anonymous> (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/connection.js:64:60)
+    at MessageStream.emit (node:events:517:28)
+    at processIncomingData (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/message_stream.js:117:16)
+    at MessageStream._write (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Socket.ondata (node:internal/streams/readable:809:22)
+    at Socket.emit (node:events:517:28) {
+  ok: 0,
+  code: 18,
+  codeName: 'AuthenticationFailed',
+  connectionGeneration: 0,
+  [Symbol(errorLabels)]: Set(2) { 'HandshakeError', 'ResetPool' }
+}
+Mongoose connection error: MongoServerError: Authentication failed.
+Getting blogs list
+MongooseError: Operation `blogs.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/home/bitnami/blogger/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:186:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[0mGET /api/blogs [33m400 [0m10029.645 ms - 2[0m
+[0mGET /blogs [36m304 [0m10759.509 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.173 ms - -[0m
+[0mGET / [36m304 [0m13.593 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.613 ms - -[0m
+[0mGET /blogs/add [36m304 [0m22.239 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.454 ms - -[0m
+Getting blogs list
+[0mGET /blogs [0m- [0m- ms - -[0m
+[0mGET /blogs/add [36m304 [0m16.233 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.434 ms - -[0m
+Blog Add Request
+MongooseError: Operation `blogs.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/home/bitnami/blogger/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:186:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[0mGET /api/blogs [33m400 [0m10004.922 ms - 2[0m
+MongooseError: Operation `blogs.insertOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/home/bitnami/blogger/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:186:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[0mPOST /api/blogs/add [33m400 [0m10017.179 ms - 2[0m
+[0mPOST /blogs/add [33m400 [0m10021.457 ms - 17[0m
+Getting blogs list
+MongooseError: Operation `blogs.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/home/bitnami/blogger/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:186:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[0mGET /api/blogs [33m400 [0m10009.776 ms - 2[0m
+[0mGET /blogs [32m200 [0m10054.754 ms - 1073[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.530 ms - -[0m
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose disconnected
+MongoServerError: Authentication failed.
+    at Connection.onMessage (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/connection.js:205:26)
+    at MessageStream.<anonymous> (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/connection.js:64:60)
+    at MessageStream.emit (node:events:517:28)
+    at processIncomingData (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/message_stream.js:117:16)
+    at MessageStream._write (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Socket.ondata (node:internal/streams/readable:809:22)
+    at Socket.emit (node:events:517:28) {
+  ok: 0,
+  code: 18,
+  codeName: 'AuthenticationFailed',
+  connectionGeneration: 0,
+  [Symbol(errorLabels)]: Set(2) { 'HandshakeError', 'ResetPool' }
+}
+Mongoose connection error: MongoServerError: Authentication failed.
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+/home/bitnami/blogger/app_api/models/db.js:3
+main().catch(err => console.log(err));
+^
+
+ReferenceError: main is not defined
+    at Object.<anonymous> (/home/bitnami/blogger/app_api/models/db.js:3:1)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/bitnami/blogger/app.js:6:1)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+
+Node.js v18.19.0
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose disconnected
+MongoServerError: Authentication failed.
+    at Connection.onMessage (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/connection.js:205:26)
+    at MessageStream.<anonymous> (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/connection.js:64:60)
+    at MessageStream.emit (node:events:517:28)
+    at processIncomingData (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/message_stream.js:117:16)
+    at MessageStream._write (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Socket.ondata (node:internal/streams/readable:809:22)
+    at Socket.emit (node:events:517:28) {
+  ok: 0,
+  code: 18,
+  codeName: 'AuthenticationFailed',
+  connectionGeneration: 0,
+  [Symbol(errorLabels)]: Set(2) { 'HandshakeError', 'ResetPool' }
+}
+Mongoose connection error: MongoServerError: Authentication failed.
+[0mGET / [36m304 [0m559.884 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.975 ms - -[0m
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose disconnected
+MongoServerError: Authentication failed.
+    at Connection.onMessage (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/connection.js:205:26)
+    at MessageStream.<anonymous> (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/connection.js:64:60)
+    at MessageStream.emit (node:events:517:28)
+    at processIncomingData (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/message_stream.js:117:16)
+    at MessageStream._write (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Socket.ondata (node:internal/streams/readable:809:22)
+    at Socket.emit (node:events:517:28) {
+  ok: 0,
+  code: 18,
+  codeName: 'AuthenticationFailed',
+  connectionGeneration: 0,
+  [Symbol(errorLabels)]: Set(2) { 'HandshakeError', 'ResetPool' }
+}
+Mongoose connection error: MongoServerError: Authentication failed.
