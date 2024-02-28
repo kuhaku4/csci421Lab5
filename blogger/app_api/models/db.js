@@ -1,8 +1,8 @@
 const mongoose = require('mongoose');
 
-main().catch(err => console.log(err));
+// main().catch(err => console.log(err));
 
-var dbURI = process.env.BLOGGER_DB_URI;
+var dbURI = 'mongodb://127.0.0.1:27017/Blog';
 
 mongoose.connect(dbURI);
 

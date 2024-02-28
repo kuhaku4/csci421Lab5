@@ -11618,3 +11618,1425 @@ Mongoose connected to mongodb://Localhost/Blog
 [0mGET /stylesheets/style.css [36m304 [0m0.663 ms - -[0m
 [0mGET /.env [33m404 [0m9.978 ms - 1032[0m
 [0mPOST / [33m404 [0m30.809 ms - 1032[0m
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+(node:1936) Warning: Accessing non-existent property 'render' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+Mongoose connected to mongodb://Localhost/Blog
+[0mGET / [32m200 [0m208.039 ms - 1145[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.569 ms - -[0m
+Finding blog details { blogid: 'add' }
+/home/bitnami/blogger/node_modules/mongoose/lib/query.js:4231
+    throw new MongooseError('Query.prototype.exec() no longer accepts a callback');
+          ^
+
+MongooseError: Query.prototype.exec() no longer accepts a callback
+    at model.Query.exec (/home/bitnami/blogger/node_modules/mongoose/lib/query.js:4231:11)
+    at module.exports.blogsReadOne (/home/bitnami/blogger/app_api/controllers/blogs.js:48:12)
+    at Layer.handle [as handle_request] (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/bitnami/blogger/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/bitnami/blogger/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:95:5)
+    at /home/bitnami/blogger/node_modules/express/lib/router/index.js:284:15
+    at param (/home/bitnami/blogger/node_modules/express/lib/router/index.js:365:14)
+    at param (/home/bitnami/blogger/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/home/bitnami/blogger/node_modules/express/lib/router/index.js:421:3)
+
+Node.js v18.19.0
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+(node:2020) Warning: Accessing non-existent property 'render' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+Mongoose connected to mongodb://Localhost/Blog
+[0mGET /blogs [33m404 [0m222.151 ms - 1032[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.550 ms - -[0m
+Getting blogs list
+/home/bitnami/blogger/node_modules/mongoose/lib/query.js:4231
+    throw new MongooseError('Query.prototype.exec() no longer accepts a callback');
+          ^
+
+MongooseError: Query.prototype.exec() no longer accepts a callback
+    at model.Query.exec (/home/bitnami/blogger/node_modules/mongoose/lib/query.js:4231:11)
+    at module.exports.blogsList (/home/bitnami/blogger/app_api/controllers/blogs.js:14:10)
+    at Layer.handle [as handle_request] (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/bitnami/blogger/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/bitnami/blogger/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:95:5)
+    at /home/bitnami/blogger/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/bitnami/blogger/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/bitnami/blogger/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/bitnami/blogger/node_modules/express/lib/router/index.js:175:3)
+
+Node.js v18.19.0
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+(node:2101) Warning: Accessing non-existent property 'render' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+Mongoose connected to mongodb://Localhost/Blog
+[0mGET / [36m304 [0m270.688 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.414 ms - -[0m
+Finding blog details { blogid: 'add' }
+/home/bitnami/blogger/node_modules/mongoose/lib/query.js:4231
+    throw new MongooseError('Query.prototype.exec() no longer accepts a callback');
+          ^
+
+MongooseError: Query.prototype.exec() no longer accepts a callback
+    at model.Query.exec (/home/bitnami/blogger/node_modules/mongoose/lib/query.js:4231:11)
+    at module.exports.blogsReadOne (/home/bitnami/blogger/app_api/controllers/blogs.js:48:12)
+    at Layer.handle [as handle_request] (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/bitnami/blogger/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/bitnami/blogger/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:95:5)
+    at /home/bitnami/blogger/node_modules/express/lib/router/index.js:284:15
+    at param (/home/bitnami/blogger/node_modules/express/lib/router/index.js:365:14)
+    at param (/home/bitnami/blogger/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/home/bitnami/blogger/node_modules/express/lib/router/index.js:421:3)
+
+Node.js v18.19.0
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose connected to mongodb://Localhost/Blog
+[0mGET / [32m200 [0m672.470 ms - 1145[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.143 ms - -[0m
+Finding blog details { blogid: 'add' }
+/home/bitnami/blogger/node_modules/mongoose/lib/query.js:4231
+    throw new MongooseError('Query.prototype.exec() no longer accepts a callback');
+          ^
+
+MongooseError: Query.prototype.exec() no longer accepts a callback
+    at model.Query.exec (/home/bitnami/blogger/node_modules/mongoose/lib/query.js:4231:11)
+    at module.exports.blogsReadOne (/home/bitnami/blogger/app_api/controllers/blogs.js:48:12)
+    at Layer.handle [as handle_request] (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/bitnami/blogger/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/bitnami/blogger/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:95:5)
+    at /home/bitnami/blogger/node_modules/express/lib/router/index.js:284:15
+    at param (/home/bitnami/blogger/node_modules/express/lib/router/index.js:365:14)
+    at param (/home/bitnami/blogger/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/home/bitnami/blogger/node_modules/express/lib/router/index.js:421:3)
+
+Node.js v18.19.0
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose connected to mongodb://Localhost/Blog
+Finding blog details { blogid: 'add' }
+/home/bitnami/blogger/node_modules/mongoose/lib/query.js:4231
+    throw new MongooseError('Query.prototype.exec() no longer accepts a callback');
+          ^
+
+MongooseError: Query.prototype.exec() no longer accepts a callback
+    at model.Query.exec (/home/bitnami/blogger/node_modules/mongoose/lib/query.js:4231:11)
+    at module.exports.blogsReadOne (/home/bitnami/blogger/app_api/controllers/blogs.js:48:12)
+    at Layer.handle [as handle_request] (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/bitnami/blogger/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/bitnami/blogger/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:95:5)
+    at /home/bitnami/blogger/node_modules/express/lib/router/index.js:284:15
+    at param (/home/bitnami/blogger/node_modules/express/lib/router/index.js:365:14)
+    at param (/home/bitnami/blogger/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/home/bitnami/blogger/node_modules/express/lib/router/index.js:421:3)
+
+Node.js v18.19.0
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose connected to mongodb://Localhost/Blog
+[0mGET / [36m304 [0m230.849 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.513 ms - -[0m
+[0mGET /blogs [33m404 [0m15.871 ms - 1032[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.557 ms - -[0m
+[0mGET /blogsadd [33m404 [0m23.942 ms - 1032[0m
+[0mGET /blogs/add [32m200 [0m39.797 ms - 0[0m
+[0mGET /blogsadd [33m404 [0m26.083 ms - 1032[0m
+[0mGET /blogs/add [36m304 [0m32.802 ms - -[0m
+[0mGET /blogsadd [33m404 [0m11.404 ms - 1032[0m
+[0mGET /blogs/add [36m304 [0m16.110 ms - -[0m
+[0mGET /blogs [33m404 [0m8.572 ms - 1032[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.517 ms - -[0m
+[0mGET /blogs [33m404 [0m15.488 ms - 1032[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.559 ms - -[0m
+[0mGET /blogsadd [33m404 [0m12.244 ms - 1032[0m
+[0mGET /blogs/add [36m304 [0m17.698 ms - -[0m
+[0mGET /blogs [33m404 [0m8.395 ms - 1032[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.567 ms - -[0m
+[0mGET /api [33m404 [0m8.704 ms - 1032[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.559 ms - -[0m
+[0mGET /blogs [33m404 [0m6.745 ms - 1032[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.502 ms - -[0m
+[0mGET /blogs [33m404 [0m7.449 ms - 1032[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.435 ms - -[0m
+[0mGET /blogs [33m404 [0m7.592 ms - 1032[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.516 ms - -[0m
+[0mGET /blogs/ [33m404 [0m9.648 ms - 1032[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.574 ms - -[0m
+[0mGET /blogs [33m404 [0m6.918 ms - 1032[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.400 ms - -[0m
+Getting blogs list
+/home/bitnami/blogger/node_modules/mongoose/lib/query.js:4231
+    throw new MongooseError('Query.prototype.exec() no longer accepts a callback');
+          ^
+
+MongooseError: Query.prototype.exec() no longer accepts a callback
+    at model.Query.exec (/home/bitnami/blogger/node_modules/mongoose/lib/query.js:4231:11)
+    at module.exports.blogsList (/home/bitnami/blogger/app_api/controllers/blogs.js:14:10)
+    at Layer.handle [as handle_request] (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/bitnami/blogger/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/bitnami/blogger/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:95:5)
+    at /home/bitnami/blogger/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/bitnami/blogger/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/bitnami/blogger/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/bitnami/blogger/node_modules/express/lib/router/index.js:175:3)
+
+Node.js v18.19.0
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose connected to mongodb://Localhost/Blog
+[0mGET / [36m304 [0m207.658 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.357 ms - -[0m
+[0mGET /blogs/add [32m200 [0m25.261 ms - 1539[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.685 ms - -[0m
+[0mGET /blogs [33m404 [0m13.838 ms - 1032[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.505 ms - -[0m
+[0mGET /blogs [33m404 [0m16.080 ms - 1032[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.427 ms - -[0m
+[0mGET /blogs [33m404 [0m10.884 ms - 1032[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.599 ms - -[0m
+[0mPOST /blogs [33m404 [0m13.316 ms - 1032[0m
+/home/bitnami/blogger/app_server/controllers/blog.js:123
+            _showError(req, res, response.statusCode);
+            ^
+
+ReferenceError: _showError is not defined
+    at Request._callback (/home/bitnami/blogger/app_server/controllers/blog.js:123:13)
+    at self.callback (/home/bitnami/blogger/node_modules/request/request.js:185:22)
+    at Request.emit (node:events:517:28)
+    at Request.<anonymous> (/home/bitnami/blogger/node_modules/request/request.js:1154:10)
+    at Request.emit (node:events:517:28)
+    at IncomingMessage.<anonymous> (/home/bitnami/blogger/node_modules/request/request.js:1076:12)
+    at Object.onceWrapper (node:events:631:28)
+    at IncomingMessage.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1400:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+Node.js v18.19.0
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose connected to mongodb://Localhost/Blog
+[0mGET / [36m304 [0m256.034 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.388 ms - -[0m
+[0mGET /blogs/add [36m304 [0m32.424 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.649 ms - -[0m
+[0mPOST /blogs [33m404 [0m13.954 ms - 1032[0m
+/home/bitnami/blogger/app_server/controllers/blog.js:123
+            _showError(req, res, response.statusCode);
+            ^
+
+ReferenceError: _showError is not defined
+    at Request._callback (/home/bitnami/blogger/app_server/controllers/blog.js:123:13)
+    at self.callback (/home/bitnami/blogger/node_modules/request/request.js:185:22)
+    at Request.emit (node:events:517:28)
+    at Request.<anonymous> (/home/bitnami/blogger/node_modules/request/request.js:1154:10)
+    at Request.emit (node:events:517:28)
+    at IncomingMessage.<anonymous> (/home/bitnami/blogger/node_modules/request/request.js:1076:12)
+    at Object.onceWrapper (node:events:631:28)
+    at IncomingMessage.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1400:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+Node.js v18.19.0
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose connected to mongodb://Localhost/Blog
+[0mGET / [36m304 [0m225.113 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.414 ms - -[0m
+[0mGET /blogs [0m- [0m- ms - -[0m
+[0mGET / [36m304 [0m96.321 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m4.960 ms - -[0m
+[0mGET / [36m304 [0m95.868 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m8.218 ms - -[0m
+[0mGET / [36m304 [0m13.874 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.482 ms - -[0m
+[0mGET / [36m304 [0m12.184 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.575 ms - -[0m
+
+<--- Last few GCs --->
+
+[3668:0x575d870]    48776 ms: Mark-sweep 463.5 (485.5) -> 460.5 (486.7) MB, 540.4 / 0.0 ms  (average mu = 0.475, current mu = 0.420) task; scavenge might not succeed
+[3668:0x575d870]    49808 ms: Mark-sweep 464.8 (486.7) -> 461.6 (487.7) MB, 683.8 / 0.0 ms  (average mu = 0.405, current mu = 0.337) allocation failure; scavenge might not succeed
+
+
+<--- JS stacktrace --->
+
+FATAL ERROR: Reached heap limit Allocation failed - JavaScript heap out of memory
+ 1: 0xb95b60 node::Abort() [node]
+ 2: 0xa9a7f8  [node]
+ 3: 0xd6f2f0 v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, bool) [node]
+ 4: 0xd6f697 v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, bool) [node]
+ 5: 0xf4cba5  [node]
+ 6: 0xf5f08d v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags) [node]
+ 7: 0xf3978e v8::internal::HeapAllocator::AllocateRawWithLightRetrySlowPath(int, v8::internal::AllocationType, v8::internal::AllocationOrigin, v8::internal::AllocationAlignment) [node]
+ 8: 0xf3ab57 v8::internal::HeapAllocator::AllocateRawWithRetryOrFailSlowPath(int, v8::internal::AllocationType, v8::internal::AllocationOrigin, v8::internal::AllocationAlignment) [node]
+ 9: 0xf1bd2a v8::internal::Factory::NewFillerObject(int, v8::internal::AllocationAlignment, v8::internal::AllocationType, v8::internal::AllocationOrigin) [node]
+10: 0x12e114f v8::internal::Runtime_AllocateInYoungGeneration(int, unsigned long*, v8::internal::Isolate*) [node]
+11: 0x170deb9  [node]
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose connected to mongodb://Localhost/Blog
+[0mGET / [36m304 [0m662.863 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.012 ms - -[0m
+[0mGET /blogs/add [36m304 [0m22.985 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.508 ms - -[0m
+
+<--- Last few GCs --->
+
+[3755:0x6a21870]    44240 ms: Scavenge 466.2 (481.7) -> 465.3 (486.0) MB, 5.6 / 0.0 ms  (average mu = 0.950, current mu = 0.937) task; 
+[3755:0x6a21870]    44970 ms: Mark-sweep 468.5 (486.0) -> 464.3 (486.7) MB, 484.2 / 0.2 ms  (average mu = 0.827, current mu = 0.612) task; scavenge might not succeed
+[3755:0x6a21870]    45992 ms: Mark-sweep 468.7 (487.0) -> 464.8 (487.7) MB, 657.8 / 0.0 ms  (average mu = 0.651, current mu = 0.356) task; scavenge might not succeed
+
+
+<--- JS stacktrace --->
+
+FATAL ERROR: Reached heap limit Allocation failed - JavaScript heap out of memory
+ 1: 0xb95b60 node::Abort() [node]
+ 2: 0xa9a7f8  [node]
+ 3: 0xd6f2f0 v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, bool) [node]
+ 4: 0xd6f697 v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, bool) [node]
+ 5: 0xf4cba5  [node]
+ 6: 0xf5f08d v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags) [node]
+ 7: 0xfce0e4 v8::internal::ScavengeJob::Task::RunInternal() [node]
+ 8: 0xe3ea3b non-virtual thunk to v8::internal::CancelableTask::Run() [node]
+ 9: 0xc01444  [node]
+10: 0xc048ae node::PerIsolatePlatformData::FlushForegroundTasksInternal() [node]
+11: 0x1671316  [node]
+12: 0x1683854  [node]
+13: 0x1671c7e uv_run [node]
+14: 0xad1a8d node::SpinEventLoop(node::Environment*) [node]
+15: 0xbdb814 node::NodeMainInstance::Run() [node]
+16: 0xb4dab8 node::LoadSnapshotDataAndRun(node::SnapshotData const**, node::InitializationResult const*) [node]
+17: 0xb5161f node::Start(int, char**) [node]
+18: 0x7f76be2c3d0a __libc_start_main [/lib/x86_64-linux-gnu/libc.so.6]
+19: 0xacfdce _start [node]
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+/home/bitnami/blogger/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (/home/bitnami/blogger/node_modules/express/lib/router/route.js:211:15)
+    at proto.<computed> [as get] (/home/bitnami/blogger/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/home/bitnami/blogger/app_server/routes/index.js:18:8)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/bitnami/blogger/app.js:8:14)
+
+Node.js v18.19.0
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+/home/bitnami/blogger/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (/home/bitnami/blogger/node_modules/express/lib/router/route.js:211:15)
+    at proto.<computed> [as get] (/home/bitnami/blogger/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/home/bitnami/blogger/app_server/routes/index.js:18:8)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/bitnami/blogger/app.js:8:14)
+
+Node.js v18.19.0
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+/home/bitnami/blogger/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (/home/bitnami/blogger/node_modules/express/lib/router/route.js:211:15)
+    at proto.<computed> [as get] (/home/bitnami/blogger/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/home/bitnami/blogger/app_server/routes/index.js:18:8)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/bitnami/blogger/app.js:8:14)
+
+Node.js v18.19.0
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose connected to mongodb://Localhost/Blog
+[0mGET / [36m304 [0m540.178 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.329 ms - -[0m
+[0mGET /blogs/add [32m200 [0m23.246 ms - 1539[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.541 ms - -[0m
+[0mGET /blogs [0m- [0m- ms - -[0m
+[0mGET /blogs/add [36m304 [0m29.236 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.232 ms - -[0m
+[0mGET /blogs/add [36m304 [0m19.838 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m3.615 ms - -[0m
+[0mGET / [36m304 [0m56.702 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.385 ms - -[0m
+[0mGET / [36m304 [0m11.858 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.546 ms - -[0m
+[0mGET / [36m304 [0m11.204 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.699 ms - -[0m
+[0mGET / [36m304 [0m25.686 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.448 ms - -[0m
+[0mGET / [36m304 [0m6.857 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.472 ms - -[0m
+[0mGET / [36m304 [0m13.193 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m5.196 ms - -[0m
+[0mGET / [36m304 [0m11.815 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.349 ms - -[0m
+
+<--- Last few GCs --->
+
+[4552:0x66cb870]    52792 ms: Mark-sweep 467.6 (486.2) -> 464.6 (487.2) MB, 488.7 / 0.0 ms  (average mu = 0.508, current mu = 0.422) task; scavenge might not succeed
+[4552:0x66cb870]    53786 ms: Mark-sweep 468.2 (487.5) -> 465.5 (488.2) MB, 642.7 / 0.0 ms  (average mu = 0.433, current mu = 0.354) task; scavenge might not succeed
+
+
+<--- JS stacktrace --->
+
+FATAL ERROR: Reached heap limit Allocation failed - JavaScript heap out of memory
+ 1: 0xb95b60 node::Abort() [node]
+ 2: 0xa9a7f8  [node]
+ 3: 0xd6f2f0 v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, bool) [node]
+ 4: 0xd6f697 v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, bool) [node]
+ 5: 0xf4cba5  [node]
+ 6: 0xf5f08d v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags) [node]
+ 7: 0xfce0e4 v8::internal::ScavengeJob::Task::RunInternal() [node]
+ 8: 0xe3ea3b non-virtual thunk to v8::internal::CancelableTask::Run() [node]
+ 9: 0xc01444  [node]
+10: 0xc048ae node::PerIsolatePlatformData::FlushForegroundTasksInternal() [node]
+11: 0x1671316  [node]
+12: 0x1683854  [node]
+13: 0x1671c7e uv_run [node]
+14: 0xad1a8d node::SpinEventLoop(node::Environment*) [node]
+15: 0xbdb814 node::NodeMainInstance::Run() [node]
+16: 0xb4dab8 node::LoadSnapshotDataAndRun(node::SnapshotData const**, node::InitializationResult const*) [node]
+17: 0xb5161f node::Start(int, char**) [node]
+18: 0x7f6b649a1d0a __libc_start_main [/lib/x86_64-linux-gnu/libc.so.6]
+19: 0xacfdce _start [node]
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose connected to mongodb://Localhost/Blog
+[0mGET / [36m304 [0m712.364 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.974 ms - -[0m
+[0mGET /blogs/add [36m304 [0m23.200 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.601 ms - -[0m
+[0mGET /blogs [0m- [0m- ms - -[0m
+[0mGET /blogs/add [36m304 [0m75.766 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.979 ms - -[0m
+[0mGET /blogs/add [36m304 [0m24.770 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m3.451 ms - -[0m
+[0mPOST /blogs [33m404 [0m29.175 ms - 1032[0m
+/home/bitnami/blogger/app_server/controllers/blog.js:123
+            _showError(req, res, response.statusCode);
+            ^
+
+ReferenceError: _showError is not defined
+    at Request._callback (/home/bitnami/blogger/app_server/controllers/blog.js:123:13)
+    at self.callback (/home/bitnami/blogger/node_modules/request/request.js:185:22)
+    at Request.emit (node:events:517:28)
+    at Request.<anonymous> (/home/bitnami/blogger/node_modules/request/request.js:1154:10)
+    at Request.emit (node:events:517:28)
+    at IncomingMessage.<anonymous> (/home/bitnami/blogger/node_modules/request/request.js:1076:12)
+    at Object.onceWrapper (node:events:631:28)
+    at IncomingMessage.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1400:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+Node.js v18.19.0
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose connected to mongodb://Localhost/Blog
+[0mPOST /blogs/add [0m- [0m- ms - -[0m
+[0mGET / [36m304 [0m209.646 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.633 ms - -[0m
+[0mGET / [36m304 [0m13.653 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.582 ms - -[0m
+[0mGET /blogs/add [36m304 [0m23.261 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.526 ms - -[0m
+[0mPOST /blogs/add [0m- [0m- ms - -[0m
+[0mGET /blogs/add [36m304 [0m112.389 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m33.631 ms - -[0m
+[0mGET /blogs/add [36m304 [0m31.744 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m9.458 ms - -[0m
+[0mGET /blogs/add [36m304 [0m229.146 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.638 ms - -[0m
+
+<--- Last few GCs --->
+
+[4737:0x547b870]    43319 ms: Mark-sweep 464.3 (485.7) -> 461.7 (486.5) MB, 566.6 / 0.1 ms  (average mu = 0.616, current mu = 0.395) task; scavenge might not succeed
+[4737:0x547b870]    44457 ms: Mark-sweep 466.0 (486.5) -> 462.8 (487.7) MB, 697.8 / 0.0 ms  (average mu = 0.511, current mu = 0.387) allocation failure; scavenge might not succeed
+
+
+<--- JS stacktrace --->
+
+FATAL ERROR: Reached heap limit Allocation failed - JavaScript heap out of memory
+ 1: 0xb95b60 node::Abort() [node]
+ 2: 0xa9a7f8  [node]
+ 3: 0xd6f2f0 v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, bool) [node]
+ 4: 0xd6f697 v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, bool) [node]
+ 5: 0xf4cba5  [node]
+ 6: 0xf5f08d v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags) [node]
+ 7: 0xf3978e v8::internal::HeapAllocator::AllocateRawWithLightRetrySlowPath(int, v8::internal::AllocationType, v8::internal::AllocationOrigin, v8::internal::AllocationAlignment) [node]
+ 8: 0xf3ab57 v8::internal::HeapAllocator::AllocateRawWithRetryOrFailSlowPath(int, v8::internal::AllocationType, v8::internal::AllocationOrigin, v8::internal::AllocationAlignment) [node]
+ 9: 0xf1b0a0 v8::internal::Factory::AllocateRaw(int, v8::internal::AllocationType, v8::internal::AllocationAlignment) [node]
+10: 0xf1266c v8::internal::FactoryBase<v8::internal::Factory>::AllocateRawArray(int, v8::internal::AllocationType) [node]
+11: 0xf127e5 v8::internal::FactoryBase<v8::internal::Factory>::NewFixedArrayWithFiller(v8::internal::Handle<v8::internal::Map>, int, v8::internal::Handle<v8::internal::Oddball>, v8::internal::AllocationType) [node]
+12: 0x115b31c v8::internal::JSObject::MigrateToMap(v8::internal::Isolate*, v8::internal::Handle<v8::internal::JSObject>, v8::internal::Handle<v8::internal::Map>, int) [node]
+13: 0x119032e v8::internal::LookupIterator::ApplyTransitionToDataProperty(v8::internal::Handle<v8::internal::JSReceiver>) [node]
+14: 0x11a98fd v8::internal::Object::TransitionAndWriteDataProperty(v8::internal::LookupIterator*, v8::internal::Handle<v8::internal::Object>, v8::internal::PropertyAttributes, v8::Maybe<v8::internal::ShouldThrow>, v8::internal::StoreOrigin) [node]
+15: 0x11c1c23 v8::internal::Object::AddDataProperty(v8::internal::LookupIterator*, v8::internal::Handle<v8::internal::Object>, v8::internal::PropertyAttributes, v8::Maybe<v8::internal::ShouldThrow>, v8::internal::StoreOrigin, v8::internal::EnforceDefineSemantics) [node]
+16: 0x11c2a76 v8::internal::Object::SetProperty(v8::internal::LookupIterator*, v8::internal::Handle<v8::internal::Object>, v8::internal::StoreOrigin, v8::Maybe<v8::internal::ShouldThrow>) [node]
+17: 0x12eaeb5 v8::internal::Runtime::SetObjectProperty(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>, v8::internal::Handle<v8::internal::Object>, v8::internal::Handle<v8::internal::Object>, v8::internal::StoreOrigin, v8::Maybe<v8::internal::ShouldThrow>) [node]
+18: 0xff1e8e v8::internal::Runtime_KeyedStoreIC_Slow(int, unsigned long*, v8::internal::Isolate*) [node]
+19: 0x170deb9  [node]
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose connected to mongodb://Localhost/Blog
+[0mGET / [36m304 [0m543.690 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.682 ms - -[0m
+[0mGET /blogs/add [32m200 [0m20.742 ms - 1541[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.507 ms - -[0m
+[0mGET /blogs [0m- [0m- ms - -[0m
+
+<--- Last few GCs --->
+
+[4858:0x6aa2870]    46475 ms: Mark-sweep 466.3 (484.5) -> 463.0 (485.2) MB, 480.3 / 0.0 ms  (average mu = 0.614, current mu = 0.411) task; scavenge might not succeed
+[4858:0x6aa2870]    47333 ms: Mark-sweep 466.6 (485.5) -> 463.9 (486.5) MB, 487.9 / 0.1 ms  (average mu = 0.537, current mu = 0.432) task; scavenge might not succeed
+[4858:0x6aa2870]    48382 ms: Mark-sweep 467.8 (486.7) -> 464.8 (487.7) MB, 677.7 / 0.0 ms  (average mu = 0.444, current mu = 0.354) task; scavenge might not succeed
+
+
+<--- JS stacktrace --->
+
+FATAL ERROR: Reached heap limit Allocation failed - JavaScript heap out of memory
+ 1: 0xb95b60 node::Abort() [node]
+ 2: 0xa9a7f8  [node]
+ 3: 0xd6f2f0 v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, bool) [node]
+ 4: 0xd6f697 v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, bool) [node]
+ 5: 0xf4cba5  [node]
+ 6: 0xf5f08d v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags) [node]
+ 7: 0xfce0e4 v8::internal::ScavengeJob::Task::RunInternal() [node]
+ 8: 0xe3ea3b non-virtual thunk to v8::internal::CancelableTask::Run() [node]
+ 9: 0xc01444  [node]
+10: 0xc048ae node::PerIsolatePlatformData::FlushForegroundTasksInternal() [node]
+11: 0x1671316  [node]
+12: 0x1683854  [node]
+13: 0x1671c7e uv_run [node]
+14: 0xad1a8d node::SpinEventLoop(node::Environment*) [node]
+15: 0xbdb814 node::NodeMainInstance::Run() [node]
+16: 0xb4dab8 node::LoadSnapshotDataAndRun(node::SnapshotData const**, node::InitializationResult const*) [node]
+17: 0xb5161f node::Start(int, char**) [node]
+18: 0x7fe9f1be9d0a __libc_start_main [/lib/x86_64-linux-gnu/libc.so.6]
+19: 0xacfdce _start [node]
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose connected to mongodb://Localhost/Blog
+[0mGET / [36m304 [0m613.040 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m3.025 ms - -[0m
+[0mGET /blogs/add [36m304 [0m21.053 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.769 ms - -[0m
+[0mGET /blogs [0m- [0m- ms - -[0m
+[0mGET / [36m304 [0m27.097 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.136 ms - -[0m
+
+<--- Last few GCs --->
+
+[4939:0x6ee7870]    54062 ms: Mark-sweep 467.6 (485.0) -> 464.4 (485.7) MB, 535.3 / 0.0 ms  (average mu = 0.587, current mu = 0.414) task; scavenge might not succeed
+[4939:0x6ee7870]    54934 ms: Mark-sweep 468.1 (485.7) -> 465.4 (486.7) MB, 505.6 / 0.0 ms  (average mu = 0.514, current mu = 0.420) task; scavenge might not succeed
+[4939:0x6ee7870]    55949 ms: Mark-sweep 469.1 (486.7) -> 466.3 (487.7) MB, 653.6 / 0.1 ms  (average mu = 0.435, current mu = 0.356) task; scavenge might not succeed
+
+
+<--- JS stacktrace --->
+
+FATAL ERROR: Reached heap limit Allocation failed - JavaScript heap out of memory
+ 1: 0xb95b60 node::Abort() [node]
+ 2: 0xa9a7f8  [node]
+ 3: 0xd6f2f0 v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, bool) [node]
+ 4: 0xd6f697 v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, bool) [node]
+ 5: 0xf4cba5  [node]
+ 6: 0xf5f08d v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags) [node]
+ 7: 0xfce0e4 v8::internal::ScavengeJob::Task::RunInternal() [node]
+ 8: 0xe3ea3b non-virtual thunk to v8::internal::CancelableTask::Run() [node]
+ 9: 0xc01444  [node]
+10: 0xc048ae node::PerIsolatePlatformData::FlushForegroundTasksInternal() [node]
+11: 0x1671316  [node]
+12: 0x1683854  [node]
+13: 0x1671c7e uv_run [node]
+14: 0xad1a8d node::SpinEventLoop(node::Environment*) [node]
+15: 0xbdb814 node::NodeMainInstance::Run() [node]
+16: 0xb4dab8 node::LoadSnapshotDataAndRun(node::SnapshotData const**, node::InitializationResult const*) [node]
+17: 0xb5161f node::Start(int, char**) [node]
+18: 0x7f637f53bd0a __libc_start_main [/lib/x86_64-linux-gnu/libc.so.6]
+19: 0xacfdce _start [node]
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose connected to mongodb://Localhost/Blog
+[0mGET / [36m304 [0m585.682 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.412 ms - -[0m
+[0mGET /blogs/add [32m200 [0m23.519 ms - 1541[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.629 ms - -[0m
+[0mGET /blogs [0m- [0m- ms - -[0m
+
+<--- Last few GCs --->
+
+[5028:0x65e5870]    53795 ms: Mark-sweep 466.7 (485.0) -> 463.6 (486.0) MB, 490.1 / 0.1 ms  (average mu = 0.601, current mu = 0.448) task; scavenge might not succeed
+[5028:0x65e5870]    54674 ms: Mark-sweep 467.4 (486.2) -> 464.5 (487.2) MB, 505.9 / 0.0 ms  (average mu = 0.524, current mu = 0.424) task; scavenge might not succeed
+[5028:0x65e5870]    55776 ms: Mark-sweep 468.4 (487.2) -> 465.4 (487.7) MB, 742.3 / 0.1 ms  (average mu = 0.421, current mu = 0.327) task; scavenge might not succeed
+
+
+<--- JS stacktrace --->
+
+FATAL ERROR: Reached heap limit Allocation failed - JavaScript heap out of memory
+ 1: 0xb95b60 node::Abort() [node]
+ 2: 0xa9a7f8  [node]
+ 3: 0xd6f2f0 v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, bool) [node]
+ 4: 0xd6f697 v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, bool) [node]
+ 5: 0xf4cba5  [node]
+ 6: 0xf5f08d v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags) [node]
+ 7: 0xfce0e4 v8::internal::ScavengeJob::Task::RunInternal() [node]
+ 8: 0xe3ea3b non-virtual thunk to v8::internal::CancelableTask::Run() [node]
+ 9: 0xc01444  [node]
+10: 0xc048ae node::PerIsolatePlatformData::FlushForegroundTasksInternal() [node]
+11: 0x1671316  [node]
+12: 0x1683854  [node]
+13: 0x1671c7e uv_run [node]
+14: 0xad1a8d node::SpinEventLoop(node::Environment*) [node]
+15: 0xbdb814 node::NodeMainInstance::Run() [node]
+16: 0xb4dab8 node::LoadSnapshotDataAndRun(node::SnapshotData const**, node::InitializationResult const*) [node]
+17: 0xb5161f node::Start(int, char**) [node]
+18: 0x7fded83bdd0a __libc_start_main [/lib/x86_64-linux-gnu/libc.so.6]
+19: 0xacfdce _start [node]
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose connected to mongodb://Localhost/Blog
+[0mGET / [36m304 [0m602.578 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.929 ms - -[0m
+[0mGET /blogs/add [36m304 [0m23.000 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.687 ms - -[0m
+
+<--- Last few GCs --->
+
+[5133:0x5e28870]    48485 ms: Mark-sweep 466.4 (485.7) -> 462.6 (486.0) MB, 511.6 / 0.0 ms  (average mu = 0.707, current mu = 0.422) task; scavenge might not succeed
+[5133:0x5e28870]    49295 ms: Mark-sweep 466.2 (486.2) -> 463.5 (487.2) MB, 507.1 / 0.0 ms  (average mu = 0.582, current mu = 0.373) task; scavenge might not succeed
+[5133:0x5e28870]    50308 ms: Mark-sweep 467.2 (487.2) -> 464.4 (487.7) MB, 654.9 / 0.0 ms  (average mu = 0.472, current mu = 0.354) task; scavenge might not succeed
+
+
+<--- JS stacktrace --->
+
+FATAL ERROR: Reached heap limit Allocation failed - JavaScript heap out of memory
+ 1: 0xb95b60 node::Abort() [node]
+ 2: 0xa9a7f8  [node]
+ 3: 0xd6f2f0 v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, bool) [node]
+ 4: 0xd6f697 v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, bool) [node]
+ 5: 0xf4cba5  [node]
+ 6: 0xf5f08d v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags) [node]
+ 7: 0xfce0e4 v8::internal::ScavengeJob::Task::RunInternal() [node]
+ 8: 0xe3ea3b non-virtual thunk to v8::internal::CancelableTask::Run() [node]
+ 9: 0xc01444  [node]
+10: 0xc048ae node::PerIsolatePlatformData::FlushForegroundTasksInternal() [node]
+11: 0x1671316  [node]
+12: 0x1683854  [node]
+13: 0x1671c7e uv_run [node]
+14: 0xad1a8d node::SpinEventLoop(node::Environment*) [node]
+15: 0xbdb814 node::NodeMainInstance::Run() [node]
+16: 0xb4dab8 node::LoadSnapshotDataAndRun(node::SnapshotData const**, node::InitializationResult const*) [node]
+17: 0xb5161f node::Start(int, char**) [node]
+18: 0x7f38e8549d0a __libc_start_main [/lib/x86_64-linux-gnu/libc.so.6]
+19: 0xacfdce _start [node]
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose connected to mongodb://Localhost/Blog
+[0mGET /blogs [0m- [0m- ms - -[0m
+[0mGET /blogs/add [36m304 [0m689.981 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.672 ms - -[0m
+[0mGET / [36m304 [0m17.354 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.907 ms - -[0m
+[0mGET / [36m304 [0m17.463 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.686 ms - -[0m
+[0mGET / [36m304 [0m12.275 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.155 ms - -[0m
+
+<--- Last few GCs --->
+
+[5277:0x5488870]    45671 ms: Mark-sweep 464.9 (485.5) -> 461.8 (486.5) MB, 570.3 / 0.0 ms  (average mu = 0.555, current mu = 0.394) task; scavenge might not succeed
+[5277:0x5488870]    46631 ms: Mark-sweep 465.5 (486.5) -> 462.7 (487.5) MB, 556.2 / 0.0 ms  (average mu = 0.496, current mu = 0.421) task; scavenge might not succeed
+[5277:0x5488870]    47737 ms: Mark-sweep 466.5 (487.5) -> 463.6 (488.5) MB, 711.8 / 0.0 ms  (average mu = 0.426, current mu = 0.356) task; scavenge might not succeed
+
+
+<--- JS stacktrace --->
+
+FATAL ERROR: Reached heap limit Allocation failed - JavaScript heap out of memory
+ 1: 0xb95b60 node::Abort() [node]
+ 2: 0xa9a7f8  [node]
+ 3: 0xd6f2f0 v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, bool) [node]
+ 4: 0xd6f697 v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, bool) [node]
+ 5: 0xf4cba5  [node]
+ 6: 0xf5f08d v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags) [node]
+ 7: 0xfce0e4 v8::internal::ScavengeJob::Task::RunInternal() [node]
+ 8: 0xe3ea3b non-virtual thunk to v8::internal::CancelableTask::Run() [node]
+ 9: 0xc01444  [node]
+10: 0xc048ae node::PerIsolatePlatformData::FlushForegroundTasksInternal() [node]
+11: 0x1671316  [node]
+12: 0x1683854  [node]
+13: 0x1671c7e uv_run [node]
+14: 0xad1a8d node::SpinEventLoop(node::Environment*) [node]
+15: 0xbdb814 node::NodeMainInstance::Run() [node]
+16: 0xb4dab8 node::LoadSnapshotDataAndRun(node::SnapshotData const**, node::InitializationResult const*) [node]
+17: 0xb5161f node::Start(int, char**) [node]
+18: 0x7f11b240dd0a __libc_start_main [/lib/x86_64-linux-gnu/libc.so.6]
+19: 0xacfdce _start [node]
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose connected to mongodb://Localhost/Blog
+[0mGET / [36m304 [0m570.393 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m3.597 ms - -[0m
+[0mGET /blogs/add [36m304 [0m23.582 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.644 ms - -[0m
+
+<--- Last few GCs --->
+
+[5366:0x650e870]    50687 ms: Mark-sweep 466.3 (485.5) -> 463.3 (486.5) MB, 497.5 / 0.0 ms  (average mu = 0.541, current mu = 0.421) task; scavenge might not succeed
+[5366:0x650e870]    51531 ms: Mark-sweep 466.9 (486.7) -> 464.2 (487.5) MB, 515.3 / 0.0 ms  (average mu = 0.474, current mu = 0.389) task; scavenge might not succeed
+[5366:0x650e870]    52603 ms: Mark-sweep 468.0 (487.5) -> 465.2 (488.2) MB, 658.5 / 0.0 ms  (average mu = 0.427, current mu = 0.386) task; scavenge might not succeed
+
+
+<--- JS stacktrace --->
+
+FATAL ERROR: Reached heap limit Allocation failed - JavaScript heap out of memory
+ 1: 0xb95b60 node::Abort() [node]
+ 2: 0xa9a7f8  [node]
+ 3: 0xd6f2f0 v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, bool) [node]
+ 4: 0xd6f697 v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, bool) [node]
+ 5: 0xf4cba5  [node]
+ 6: 0xf5f08d v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags) [node]
+ 7: 0xfce0e4 v8::internal::ScavengeJob::Task::RunInternal() [node]
+ 8: 0xe3ea3b non-virtual thunk to v8::internal::CancelableTask::Run() [node]
+ 9: 0xc01444  [node]
+10: 0xc048ae node::PerIsolatePlatformData::FlushForegroundTasksInternal() [node]
+11: 0x1671316  [node]
+12: 0x1683854  [node]
+13: 0x1671c7e uv_run [node]
+14: 0xad1a8d node::SpinEventLoop(node::Environment*) [node]
+15: 0xbdb814 node::NodeMainInstance::Run() [node]
+16: 0xb4dab8 node::LoadSnapshotDataAndRun(node::SnapshotData const**, node::InitializationResult const*) [node]
+17: 0xb5161f node::Start(int, char**) [node]
+18: 0x7f5925bbfd0a __libc_start_main [/lib/x86_64-linux-gnu/libc.so.6]
+19: 0xacfdce _start [node]
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose connected to mongodb://Localhost/Blog
+[0mGET / [36m304 [0m506.459 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.379 ms - -[0m
+[0mGET /blogs/add [36m304 [0m24.072 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.748 ms - -[0m
+[0mGET /blogs [0m- [0m- ms - -[0m
+
+<--- Last few GCs --->
+
+[5850:0x60db870]    50386 ms: Mark-sweep 466.2 (485.7) -> 463.6 (486.5) MB, 488.6 / 0.0 ms  (average mu = 0.585, current mu = 0.382) task; scavenge might not succeed
+[5850:0x60db870]    51193 ms: Mark-sweep 467.0 (486.5) -> 464.4 (487.5) MB, 470.9 / 0.0 ms  (average mu = 0.514, current mu = 0.416) task; scavenge might not succeed
+[5850:0x60db870]    52302 ms: Mark-sweep 468.3 (487.5) -> 465.5 (488.0) MB, 682.8 / 0.0 ms  (average mu = 0.444, current mu = 0.384) task; scavenge might not succeed
+
+
+<--- JS stacktrace --->
+
+FATAL ERROR: Reached heap limit Allocation failed - JavaScript heap out of memory
+ 1: 0xb95b60 node::Abort() [node]
+ 2: 0xa9a7f8  [node]
+ 3: 0xd6f2f0 v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, bool) [node]
+ 4: 0xd6f697 v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, bool) [node]
+ 5: 0xf4cba5  [node]
+ 6: 0xf5f08d v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags) [node]
+ 7: 0xfce0e4 v8::internal::ScavengeJob::Task::RunInternal() [node]
+ 8: 0xe3ea3b non-virtual thunk to v8::internal::CancelableTask::Run() [node]
+ 9: 0xc01444  [node]
+10: 0xc048ae node::PerIsolatePlatformData::FlushForegroundTasksInternal() [node]
+11: 0x1671316  [node]
+12: 0x1683854  [node]
+13: 0x1671c7e uv_run [node]
+14: 0xad1a8d node::SpinEventLoop(node::Environment*) [node]
+15: 0xbdb814 node::NodeMainInstance::Run() [node]
+16: 0xb4dab8 node::LoadSnapshotDataAndRun(node::SnapshotData const**, node::InitializationResult const*) [node]
+17: 0xb5161f node::Start(int, char**) [node]
+18: 0x7ff957d27d0a __libc_start_main [/lib/x86_64-linux-gnu/libc.so.6]
+19: 0xacfdce _start [node]
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+/home/bitnami/blogger/app_api/models/db.js:3
+main().catch(err => console.log(err));
+^
+
+ReferenceError: main is not defined
+    at Object.<anonymous> (/home/bitnami/blogger/app_api/models/db.js:3:1)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/bitnami/blogger/app.js:6:1)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+
+Node.js v18.19.0
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+node:internal/modules/cjs/loader:1137
+  throw err;
+  ^
+
+Error: Cannot find module 'dotenv'
+Require stack:
+- /home/bitnami/blogger/app.js
+- /home/bitnami/blogger/bin/www
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+    at Module._load (node:internal/modules/cjs/loader:975:27)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/bitnami/blogger/app.js:6:1)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/home/bitnami/blogger/app.js', '/home/bitnami/blogger/bin/www' ]
+}
+
+Node.js v18.19.0
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+/home/bitnami/blogger/app_api/models/db.js:3
+main().catch(err => console.log(err));
+^
+
+ReferenceError: main is not defined
+    at Object.<anonymous> (/home/bitnami/blogger/app_api/models/db.js:3:1)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/bitnami/blogger/app.js:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+
+Node.js v18.19.0
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose connection error: MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+/home/bitnami/blogger/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:206
+    throw new MongooseError('The `uri` parameter to `openUri()` must be a ' +
+          ^
+
+MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at NativeConnection.createClient (/home/bitnami/blogger/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:206:11)
+    at NativeConnection.openUri (/home/bitnami/blogger/node_modules/mongoose/lib/connection.js:779:34)
+    at Mongoose.connect (/home/bitnami/blogger/node_modules/mongoose/lib/mongoose.js:404:15)
+    at Object.<anonymous> (/home/bitnami/blogger/app_api/models/db.js:7:10)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+
+Node.js v18.19.0
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose connection error: MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+/home/bitnami/blogger/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:206
+    throw new MongooseError('The `uri` parameter to `openUri()` must be a ' +
+          ^
+
+MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at NativeConnection.createClient (/home/bitnami/blogger/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:206:11)
+    at NativeConnection.openUri (/home/bitnami/blogger/node_modules/mongoose/lib/connection.js:779:34)
+    at Mongoose.connect (/home/bitnami/blogger/node_modules/mongoose/lib/mongoose.js:404:15)
+    at Object.<anonymous> (/home/bitnami/blogger/app_api/models/db.js:7:10)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+
+Node.js v18.19.0
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose connected to mongodb://localhost/blogs
+[0mGET / [36m304 [0m709.456 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m3.259 ms - -[0m
+[0mGET /blogs/add [36m304 [0m31.151 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.678 ms - -[0m
+[0mGET /blogs [0m- [0m- ms - -[0m
+[0mGET /blogs/add [36m304 [0m33.630 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.587 ms - -[0m
+[0mGET /blogs/add [36m304 [0m3402.405 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m34.691 ms - -[0m
