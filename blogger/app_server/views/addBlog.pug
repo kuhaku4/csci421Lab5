@@ -1,13 +1,15 @@
 extends layout
 
 block content
-    include ./partials/nav
-    h1= title
-    form(action='/blogs/add' method="post")
-        .mb-3.mt-3
-            label.form-label(for="blogtitle") Blog Title
-            input#blogtitle.form-control(type="text", placeholder="Blog title", name="blogtitle")
-        .mb-3
-            label.form-label(for="blogtext") Blog Text
-            textarea#blogtext.form-control(name="blogtext", cols="15", rows="8")
-        button.btn.btn-primary(type="submit") Add Blog
+  include ./partials/nav
+  h1 Add a Blog
+  form(method="post" action="/blogs")
+    label(for="blogtitle") Blog Title:
+    br
+    input(type="text" id="blogtitle" name="blogtitle" required)
+    br
+    label(for="blogtext") Blog Text:
+    br
+    textarea(id="blogtext" name="blogtext" rows="4" cols="50" required)
+    br
+    button(type="submit") Add Blog
