@@ -15264,3 +15264,727 @@ MongoServerError: Authentication failed.
   [Symbol(errorLabels)]: Set(2) { 'HandshakeError', 'ResetPool' }
 }
 Mongoose connection error: MongoServerError: Authentication failed.
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose connected to mongodb://127.0.0.1:27017/Blog
+[0mGET / [32m200 [0m651.740 ms - 1145[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.834 ms - -[0m
+[0mGET /blogs/add [36m304 [0m20.643 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.701 ms - -[0m
+Blog Add Request
+MongoServerError: command insert requires authentication
+    at Connection.onMessage (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/connection.js:205:26)
+    at MessageStream.<anonymous> (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/connection.js:64:60)
+    at MessageStream.emit (node:events:517:28)
+    at processIncomingData (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/message_stream.js:117:16)
+    at MessageStream._write (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Socket.ondata (node:internal/streams/readable:809:22)
+    at Socket.emit (node:events:517:28) {
+  ok: 0,
+  code: 13,
+  codeName: 'Unauthorized',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+[0mPOST /api/blogs/add [33m400 [0m15.420 ms - 44[0m
+[0mPOST /blogs/add [33m400 [0m44.561 ms - 17[0m
+[0mGET / [36m304 [0m293.529 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m5.291 ms - -[0m
+Getting blogs list
+MongoServerError: command find requires authentication
+    at Connection.onMessage (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/connection.js:205:26)
+    at MessageStream.<anonymous> (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/connection.js:64:60)
+    at MessageStream.emit (node:events:517:28)
+    at processIncomingData (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/message_stream.js:117:16)
+    at MessageStream._write (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Socket.ondata (node:internal/streams/readable:809:22)
+    at Socket.emit (node:events:517:28) {
+  ok: 0,
+  code: 13,
+  codeName: 'Unauthorized',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+[0mGET /api/blogs [33m400 [0m188.774 ms - 44[0m
+[0mGET /blogs [32m200 [0m315.514 ms - 1073[0m
+Getting blogs list
+MongoServerError: command find requires authentication
+    at Connection.onMessage (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/connection.js:205:26)
+    at MessageStream.<anonymous> (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/connection.js:64:60)
+    at MessageStream.emit (node:events:517:28)
+    at processIncomingData (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/message_stream.js:117:16)
+    at MessageStream._write (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Socket.ondata (node:internal/streams/readable:809:22)
+    at Socket.emit (node:events:517:28) {
+  ok: 0,
+  code: 13,
+  codeName: 'Unauthorized',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+[0mGET /api/blogs [33m400 [0m3.479 ms - 44[0m
+[0mGET / [32m200 [0m9.850 ms - 1145[0m
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose connected to mongodb://127.0.0.1:27017/Blog
+[0mGET / [36m304 [0m562.377 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.372 ms - -[0m
+[0mGET /blogs/add [36m304 [0m25.515 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.618 ms - -[0m
+Getting blogs list
+MongoServerError: command find requires authentication
+    at Connection.onMessage (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/connection.js:205:26)
+    at MessageStream.<anonymous> (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/connection.js:64:60)
+    at MessageStream.emit (node:events:517:28)
+    at processIncomingData (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/message_stream.js:117:16)
+    at MessageStream._write (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Socket.ondata (node:internal/streams/readable:809:22)
+    at Socket.emit (node:events:517:28) {
+  ok: 0,
+  code: 13,
+  codeName: 'Unauthorized',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+[0mGET /api/blogs [33m400 [0m27.476 ms - 44[0m
+[0mGET /blogs [36m304 [0m86.120 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.607 ms - -[0m
+[0mGET / [32m200 [0m26.080 ms - 1145[0m
+[0mGET /3/3/3/3/3/3/3/3/3/3/3/3/3/3/3/3/ [33m404 [0m13.516 ms - 1032[0m
+[0mGET / [36m304 [0m21.841 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.555 ms - -[0m
+[0mGET /boaform/admin/formLogin?username=user&psd=user [33m404 [0m13.291 ms - 1032[0m
+[0mGET / [32m200 [0m24.431 ms - 1145[0m
+[0mGET /stylesheets/style.css [32m200 [0m3.373 ms - 111[0m
+[0mGET /favicon.ico [33m404 [0m14.245 ms - 1032[0m
+Getting blogs list
+MongoServerError: command find requires authentication
+    at Connection.onMessage (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/connection.js:205:26)
+    at MessageStream.<anonymous> (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/connection.js:64:60)
+    at MessageStream.emit (node:events:517:28)
+    at processIncomingData (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/message_stream.js:117:16)
+    at MessageStream._write (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Socket.ondata (node:internal/streams/readable:809:22)
+    at Socket.emit (node:events:517:28) {
+  ok: 0,
+  code: 13,
+  codeName: 'Unauthorized',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+[0mGET /api/blogs [33m400 [0m8.762 ms - 44[0m
+[0mGET /blogs [32m200 [0m58.230 ms - 1073[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.722 ms - -[0m
+[0mGET /blogs/add [32m200 [0m24.850 ms - 1396[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.690 ms - -[0m
+Blog Add Request
+MongoServerError: command insert requires authentication
+    at Connection.onMessage (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/connection.js:205:26)
+    at MessageStream.<anonymous> (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/connection.js:64:60)
+    at MessageStream.emit (node:events:517:28)
+    at processIncomingData (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/message_stream.js:117:16)
+    at MessageStream._write (/home/bitnami/blogger/node_modules/mongodb/lib/cmap/message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Socket.ondata (node:internal/streams/readable:809:22)
+    at Socket.emit (node:events:517:28) {
+  ok: 0,
+  code: 13,
+  codeName: 'Unauthorized',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+[0mPOST /api/blogs/add [33m400 [0m18.270 ms - 44[0m
+[0mPOST /blogs/add [33m400 [0m23.644 ms - 17[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.372 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m8.003 ms - 1032[0m
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+MongoParseError: Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"
+    at new ConnectionString (/home/bitnami/blogger/node_modules/mongodb-connection-string-url/lib/index.js:86:19)
+    at parseOptions (/home/bitnami/blogger/node_modules/mongodb/lib/connection_string.js:186:17)
+    at new MongoClient (/home/bitnami/blogger/node_modules/mongodb/lib/mongo_client.js:51:63)
+    at NativeConnection.createClient (/home/bitnami/blogger/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:293:14)
+    at NativeConnection.openUri (/home/bitnami/blogger/node_modules/mongoose/lib/connection.js:779:34)
+    at Mongoose.connect (/home/bitnami/blogger/node_modules/mongoose/lib/mongoose.js:404:15)
+    at main (/home/bitnami/blogger/app_api/models/db.js:8:18)
+    at Object.<anonymous> (/home/bitnami/blogger/app_api/models/db.js:3:1)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+Mongoose connection error: MongoParseError: Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"
+[0mGET / [36m304 [0m603.081 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.386 ms - -[0m
+[0mGET /blogs/add [36m304 [0m18.317 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.706 ms - -[0m
+Getting blogs list
+MongooseError: Operation `blogs.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/home/bitnami/blogger/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:186:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[0mGET /api/blogs [33m400 [0m10030.672 ms - 2[0m
+[0mGET /blogs [36m304 [0m10107.369 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.552 ms - -[0m
+Getting blogs list
+MongooseError: Operation `blogs.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (/home/bitnami/blogger/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:186:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[0mGET /api/blogs [33m400 [0m10078.553 ms - 2[0m
+[0mGET /blogs [36m304 [0m10369.262 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m3.302 ms - -[0m
+[0mGET /blogs/add [36m304 [0m20.438 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.403 ms - -[0m
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+/home/bitnami/blogger/app_api/models/db.js:8
+await mongoose.connect(drURI);
+^^^^^
+
+SyntaxError: await is only valid in async functions and the top level bodies of modules
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/bitnami/blogger/app.js:6:1)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+/home/bitnami/blogger/app_api/models/db.js:8
+mongoose.connect(drURI);
+                 ^
+
+ReferenceError: drURI is not defined
+    at Object.<anonymous> (/home/bitnami/blogger/app_api/models/db.js:8:18)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/bitnami/blogger/app.js:6:1)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+
+Node.js v18.19.0
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose connection error: MongoParseError: Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"
+/home/bitnami/blogger/node_modules/mongodb-connection-string-url/lib/index.js:86
+            throw new MongoParseError('Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"');
+                  ^
+
+MongoParseError: Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"
+    at new ConnectionString (/home/bitnami/blogger/node_modules/mongodb-connection-string-url/lib/index.js:86:19)
+    at parseOptions (/home/bitnami/blogger/node_modules/mongodb/lib/connection_string.js:186:17)
+    at new MongoClient (/home/bitnami/blogger/node_modules/mongodb/lib/mongo_client.js:51:63)
+    at NativeConnection.createClient (/home/bitnami/blogger/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:293:14)
+    at NativeConnection.openUri (/home/bitnami/blogger/node_modules/mongoose/lib/connection.js:779:34)
+    at Mongoose.connect (/home/bitnami/blogger/node_modules/mongoose/lib/mongoose.js:404:15)
+    at Object.<anonymous> (/home/bitnami/blogger/app_api/models/db.js:8:10)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+
+Node.js v18.19.0
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose connection error: MongoParseError: Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"
+/home/bitnami/blogger/node_modules/mongodb-connection-string-url/lib/index.js:86
+            throw new MongoParseError('Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"');
+                  ^
+
+MongoParseError: Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"
+    at new ConnectionString (/home/bitnami/blogger/node_modules/mongodb-connection-string-url/lib/index.js:86:19)
+    at parseOptions (/home/bitnami/blogger/node_modules/mongodb/lib/connection_string.js:186:17)
+    at new MongoClient (/home/bitnami/blogger/node_modules/mongodb/lib/mongo_client.js:51:63)
+    at NativeConnection.createClient (/home/bitnami/blogger/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:293:14)
+    at NativeConnection.openUri (/home/bitnami/blogger/node_modules/mongoose/lib/connection.js:779:34)
+    at Mongoose.connect (/home/bitnami/blogger/node_modules/mongoose/lib/mongoose.js:404:15)
+    at Object.<anonymous> (/home/bitnami/blogger/app_api/models/db.js:8:10)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+
+Node.js v18.19.0
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose connection error: MongoParseError: Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"
+/home/bitnami/blogger/node_modules/mongodb-connection-string-url/lib/index.js:86
+            throw new MongoParseError('Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"');
+                  ^
+
+MongoParseError: Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"
+    at new ConnectionString (/home/bitnami/blogger/node_modules/mongodb-connection-string-url/lib/index.js:86:19)
+    at parseOptions (/home/bitnami/blogger/node_modules/mongodb/lib/connection_string.js:186:17)
+    at new MongoClient (/home/bitnami/blogger/node_modules/mongodb/lib/mongo_client.js:51:63)
+    at NativeConnection.createClient (/home/bitnami/blogger/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:293:14)
+    at NativeConnection.openUri (/home/bitnami/blogger/node_modules/mongoose/lib/connection.js:779:34)
+    at Mongoose.connect (/home/bitnami/blogger/node_modules/mongoose/lib/mongoose.js:404:15)
+    at Object.<anonymous> (/home/bitnami/blogger/app_api/models/db.js:8:10)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+
+Node.js v18.19.0
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose connected to mongodb://blogs:blogs@localhost/Blog
+[0mGET /blogs/add [36m304 [0m630.507 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.480 ms - -[0m
+Blog Add Request
+Added Blog: {
+  blogtitle: 'title',
+  blogtext: 'text',
+  _id: new ObjectId('65dfb46d079117c11e252c1a'),
+  createdDate: 2024-02-28T22:32:13.475Z,
+  __v: 0
+}
+[0mPOST /api/blogs/add [32m201 [0m58.880 ms - 121[0m
+[0mPOST /blogs/add [36m302 [0m87.501 ms - 56[0m
+Getting blogs list
+[0mGET /api/blogs [32m200 [0m17.001 ms - 123[0m
+[0mGET /blogs [32m200 [0m65.049 ms - 1530[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.595 ms - -[0m
+Finding blog details 65dfb46d079117c11e252c1a
+API: {
+  _id: new ObjectId('65dfb46d079117c11e252c1a'),
+  blogtitle: 'title',
+  blogtext: 'text',
+  createdDate: 2024-02-28T22:32:13.475Z,
+  __v: 0
+}
+[0mGET /api/blogs/65dfb46d079117c11e252c1a [32m200 [0m11.512 ms - 121[0m
+[0mGET /blogs/65dfb46d079117c11e252c1a/edit [32m200 [0m41.764 ms - 1585[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.819 ms - -[0m
+[0mPOST /blogs/65dfb46d079117c11e252c1a/edit [33m404 [0m9.651 ms - 1032[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.461 ms - -[0m
+Finding blog details 65dfb46d079117c11e252c1a
+API: {
+  _id: new ObjectId('65dfb46d079117c11e252c1a'),
+  blogtitle: 'title',
+  blogtext: 'text',
+  createdDate: 2024-02-28T22:32:13.475Z,
+  __v: 0
+}
+[0mGET /api/blogs/65dfb46d079117c11e252c1a [32m200 [0m4.236 ms - 121[0m
+[0mGET /blogs/65dfb46d079117c11e252c1a/delete [32m200 [0m44.906 ms - 1608[0m
+[0mGET /stylesheets/style.css [36m304 [0m4.003 ms - -[0m
+[0mPOST /blogs/65dfb46d079117c11e252c1a/delete [33m404 [0m16.812 ms - 1032[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.425 ms - -[0m
+Finding blog details 65dfb46d079117c11e252c1a
+API: {
+  _id: new ObjectId('65dfb46d079117c11e252c1a'),
+  blogtitle: 'title',
+  blogtext: 'text',
+  createdDate: 2024-02-28T22:32:13.475Z,
+  __v: 0
+}
+[0mGET /api/blogs/65dfb46d079117c11e252c1a [32m200 [0m5.097 ms - 121[0m
+[0mGET /blogs/65dfb46d079117c11e252c1a/edit [36m304 [0m28.483 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.410 ms - -[0m
+[0mPOST /blogs/65dfb46d079117c11e252c1a/edit [33m404 [0m6.533 ms - 1032[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.424 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.626 ms - -[0m
+Getting blogs list
+[0mGET /api/blogs [32m200 [0m3.808 ms - 123[0m
+[0mGET /blogs [36m304 [0m50.952 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.680 ms - -[0m
+Getting blogs list
+[0mGET /api/blogs [32m200 [0m11.879 ms - 123[0m
+[0mGET /blogs [36m304 [0m56.252 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.415 ms - -[0m
+Getting blogs list
+[0mGET /api/blogs [32m200 [0m3.967 ms - 123[0m
+[0mGET /blogs [36m304 [0m37.258 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.412 ms - -[0m
+Finding blog details 65dfb46d079117c11e252c1a
+API: {
+  _id: new ObjectId('65dfb46d079117c11e252c1a'),
+  blogtitle: 'title',
+  blogtext: 'text',
+  createdDate: 2024-02-28T22:32:13.475Z,
+  __v: 0
+}
+[0mGET /api/blogs/65dfb46d079117c11e252c1a [32m200 [0m3.969 ms - 121[0m
+[0mGET /blogs/65dfb46d079117c11e252c1a/edit [36m304 [0m24.787 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.408 ms - -[0m
+[0mPOST /blogs/65dfb46d079117c11e252c1a/edit [33m404 [0m6.469 ms - 1032[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.513 ms - -[0m
+[0mGET / [32m200 [0m7.980 ms - 1145[0m
+[0mPOST /blogs/65dfb46d079117c11e252c1a/edit [33m404 [0m6.595 ms - 1032[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.422 ms - -[0m
+[0mPOST /blogs/65dfb46d079117c11e252c1a/edit [33m404 [0m16.351 ms - 1032[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.400 ms - -[0m
+Finding blog details 65dfb46d079117c11e252c1a
+API: {
+  _id: new ObjectId('65dfb46d079117c11e252c1a'),
+  blogtitle: 'title',
+  blogtext: 'text',
+  createdDate: 2024-02-28T22:32:13.475Z,
+  __v: 0
+}
+[0mGET /api/blogs/65dfb46d079117c11e252c1a [32m200 [0m6.866 ms - 121[0m
+[0mGET /blogs/65dfb46d079117c11e252c1a/edit [36m304 [0m24.072 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.431 ms - -[0m
+[0mPOST /blogs/65dfb46d079117c11e252c1a/edit [33m404 [0m5.343 ms - 1032[0m
+[0mGET /stylesheets/style.css [36m304 [0m5.448 ms - -[0m
+Finding blog details 65dfb46d079117c11e252c1a
+API: {
+  _id: new ObjectId('65dfb46d079117c11e252c1a'),
+  blogtitle: 'title',
+  blogtext: 'text',
+  createdDate: 2024-02-28T22:32:13.475Z,
+  __v: 0
+}
+[0mGET /api/blogs/65dfb46d079117c11e252c1a [32m200 [0m4.142 ms - 121[0m
+[0mGET /blogs/65dfb46d079117c11e252c1a/edit [36m304 [0m19.918 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.638 ms - -[0m
+[0mPOST /blogs/65dfb46d079117c11e252c1a/edit [33m404 [0m5.942 ms - 1032[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.408 ms - -[0m
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose connected to mongodb://blogs:blogs@localhost/Blog
+[0mGET / [36m304 [0m255.164 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.603 ms - -[0m
+Getting blogs list
+[0mGET /api/blogs [32m200 [0m21.486 ms - 123[0m
+[0mGET /blogs [36m304 [0m74.788 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.594 ms - -[0m
+Finding blog details 65dfb46d079117c11e252c1a
+API: {
+  _id: new ObjectId('65dfb46d079117c11e252c1a'),
+  blogtitle: 'title',
+  blogtext: 'text',
+  createdDate: 2024-02-28T22:32:13.475Z,
+  __v: 0
+}
+[0mGET /api/blogs/65dfb46d079117c11e252c1a [32m200 [0m8.164 ms - 121[0m
+[0mGET /blogs/65dfb46d079117c11e252c1a/edit [32m200 [0m42.801 ms - 1584[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.197 ms - -[0m
+Finding blog details 65dfb46d079117c11e252c1a
+API: {
+  _id: new ObjectId('65dfb46d079117c11e252c1a'),
+  blogtitle: 'title',
+  blogtext: 'text',
+  createdDate: 2024-02-28T22:32:13.475Z,
+  __v: 0
+}
+[0mGET /api/blogs/65dfb46d079117c11e252c1a [32m200 [0m4.504 ms - 121[0m
+[0mGET /blogs/65dfb46d079117c11e252c1a/edit?blogtitle=title&blogtext=text1 [32m200 [0m23.094 ms - 1584[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.448 ms - -[0m
+Getting blogs list
+[0mGET /api/blogs [32m200 [0m3.696 ms - 123[0m
+[0mGET /blogs [36m304 [0m49.227 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.651 ms - -[0m
+Getting blogs list
+[0mGET /api/blogs [32m200 [0m4.339 ms - 123[0m
+[0mGET /blogs [36m304 [0m43.130 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.590 ms - -[0m
+Finding blog details 65dfb46d079117c11e252c1a
+API: {
+  _id: new ObjectId('65dfb46d079117c11e252c1a'),
+  blogtitle: 'title',
+  blogtext: 'text',
+  createdDate: 2024-02-28T22:32:13.475Z,
+  __v: 0
+}
+[0mGET /api/blogs/65dfb46d079117c11e252c1a [32m200 [0m4.621 ms - 121[0m
+[0mGET /blogs/65dfb46d079117c11e252c1a/edit [36m304 [0m34.415 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.563 ms - -[0m
+Finding blog details 65dfb46d079117c11e252c1a
+API: {
+  _id: new ObjectId('65dfb46d079117c11e252c1a'),
+  blogtitle: 'title',
+  blogtext: 'text',
+  createdDate: 2024-02-28T22:32:13.475Z,
+  __v: 0
+}
+[0mGET /api/blogs/65dfb46d079117c11e252c1a [32m200 [0m9.628 ms - 121[0m
+[0mGET /blogs/65dfb46d079117c11e252c1a/edit?blogtitle=title&blogtext=No+Text [32m200 [0m63.112 ms - 1584[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.595 ms - -[0m
+[33m[nodemon] 3.0.3[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at errorOrDestroy (node:internal/streams/destroy:214:7)
+    at node:internal/fs/streams:260:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:677:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v18.19.0
+Mongoose connected to mongodb://blogs:blogs@localhost/Blog
+Getting blogs list
+[0mGET /api/blogs [32m200 [0m19.617 ms - 123[0m
+[0mGET /blogs [36m304 [0m305.843 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.693 ms - -[0m
+Finding blog details 65dfb46d079117c11e252c1a
+API: {
+  _id: new ObjectId('65dfb46d079117c11e252c1a'),
+  blogtitle: 'title',
+  blogtext: 'text',
+  createdDate: 2024-02-28T22:32:13.475Z,
+  __v: 0
+}
+[0mGET /api/blogs/65dfb46d079117c11e252c1a [32m200 [0m7.958 ms - 121[0m
+[0mGET /blogs/65dfb46d079117c11e252c1a/delete [32m200 [0m35.621 ms - 1610[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.445 ms - -[0m
+Finding blog details 65dfb46d079117c11e252c1a
+API: {
+  _id: new ObjectId('65dfb46d079117c11e252c1a'),
+  blogtitle: 'title',
+  blogtext: 'text',
+  createdDate: 2024-02-28T22:32:13.475Z,
+  __v: 0
+}
+[0mGET /api/blogs/65dfb46d079117c11e252c1a [32m200 [0m5.369 ms - 121[0m
+[0mGET /blogs/65dfb46d079117c11e252c1a/delete?blogtitle=title&blogtext=text [32m200 [0m31.577 ms - 1610[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.943 ms - -[0m
+Finding blog details 65dfb46d079117c11e252c1a
+API: {
+  _id: new ObjectId('65dfb46d079117c11e252c1a'),
+  blogtitle: 'title',
+  blogtext: 'text',
+  createdDate: 2024-02-28T22:32:13.475Z,
+  __v: 0
+}
+[0mGET /api/blogs/65dfb46d079117c11e252c1a [32m200 [0m3.977 ms - 121[0m
+[0mGET /blogs/65dfb46d079117c11e252c1a/delete?blogtitle=title&blogtext=text [36m304 [0m29.767 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.767 ms - -[0m
+Getting blogs list
+[0mGET /api/blogs [32m200 [0m3.782 ms - 123[0m
+[0mGET /blogs [36m304 [0m47.830 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.488 ms - -[0m
+Getting blogs list
+[0mGET /api/blogs [32m200 [0m3.572 ms - 123[0m
+[0mGET /blogs [36m304 [0m34.329 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.700 ms - -[0m
+Finding blog details 65dfb46d079117c11e252c1a
+API: {
+  _id: new ObjectId('65dfb46d079117c11e252c1a'),
+  blogtitle: 'title',
+  blogtext: 'text',
+  createdDate: 2024-02-28T22:32:13.475Z,
+  __v: 0
+}
+[0mGET /api/blogs/65dfb46d079117c11e252c1a [32m200 [0m4.957 ms - 121[0m
+[0mGET /blogs/65dfb46d079117c11e252c1a/edit [32m200 [0m27.512 ms - 1585[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.501 ms - -[0m
+[0mPOST /blogs/65dfb46d079117c11e252c1a/save [33m404 [0m6.361 ms - 1032[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.549 ms - -[0m
