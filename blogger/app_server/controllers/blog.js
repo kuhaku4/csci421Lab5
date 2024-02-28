@@ -140,7 +140,8 @@ module.exports.addPost = function(req, res){
 /* Blog Delete */
 module.exports.del = function(req, res) {
   var requestOptions, path;
-  //path = "/blogs" + req.params.id;
+  var blogid = req.params.blogid;
+  path = apiOptions.uri.blog.one + blogid;
 
   requestOptions = {
       url : apiOptions.server + path,
@@ -170,7 +171,6 @@ var renderDeletePage = function(req, res, responseBody){
 module.exports.deletePost = function(req, res){
   var requestOptions, path, postdata;
   var blogid = req.params.blogid;
-  //path = '/blogs' + blogid;
   path = apiOptions.uri.blog.one + blogid;
 
   requestOptions = {
