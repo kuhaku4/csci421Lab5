@@ -4,16 +4,11 @@ const { response } = require('express');
 var apiOptions = {
   server : "http://52.91.47.28:80"  // Change as needed
 };
-var requestOptions = {
-  url : "http://52.91.47.28/api/blogs", method : "GET",
-  json : {},
-  qs: {}
-};
 
 /* GET blogs lists */      
 module.exports.list = function(req, res){
   var requestOptions, path;
-  path = '/api/blogs';
+  path = '/blogs';
   requestOptions = { 
       url : apiOptions.server + path,
       method : "GET",
@@ -43,7 +38,7 @@ var renderListPage = function(req, res, responseBody){
 /* Blog Show */
 module.exports.edit = function(req, res) {
   var requestOptions, path;
-  path = "/api/blogs/" + req.params.id;
+  path = "/blogs" + req.params.id;
   requestOptions = {
       url : apiOptions.server + path,
       method : "GET",
@@ -73,7 +68,7 @@ var renderEditPage = function(req, res, responseBody){
 module.exports.editPost = function(req, res){
   var requestOptions, path, postdata;
   var id = req.params.id;
-  path = '/api/blogs/' + id;
+  path = '/blogs' + id;
 
   postdata = {
       blogtitle: req.body.blogtitle,
@@ -106,7 +101,7 @@ module.exports.add = function(req, res) {
 /* Blog Add Post */
 module.exports.addPost = function(req, res){
   var requestOptions, path, postdata;
-  path = '/api/blogs/';
+  path = '/blogs';
 
   postdata = {
       blogtitle: req.body.blogtitle,
@@ -134,7 +129,7 @@ module.exports.addPost = function(req, res){
 /* Blog Delete */
 module.exports.del = function(req, res) {
   var requestOptions, path;
-  path = "/api/blogs/" + req.params.id;
+  path = "/blogs" + req.params.id;
   requestOptions = {
       url : apiOptions.server + path,
       method : "GET",
@@ -163,7 +158,7 @@ var renderDeletePage = function(req, res, responseBody){
 module.exports.deletePost = function(req, res){
   var requestOptions, path, postdata;
   var id = req.params.id;
-  path = '/api/blogs/' + id;
+  path = '/blogs' + id;
 
   requestOptions = {
 url : apiOptions.server + path,
