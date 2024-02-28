@@ -1,7 +1,7 @@
 var request = require('request');
 //const { response } = require('express');
 var apiOptions = {
-  server : "http://localhost:"+process.env.PORT,
+  server : "http://localhost:80", //+process.env.PORT,
   uri: {
     blog: {
       add: "/api/blog/add",
