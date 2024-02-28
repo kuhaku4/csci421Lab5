@@ -2,10 +2,10 @@ const mongoose = require('mongoose');
 
 main().catch(err => console.log(err));
 
-var dbURI = 'mongodb://0.0.0.0:27017/blogs';
+var dbURI = 'mongodb://127.0.0.1:27017/blogs';
 
 async function main() {
-  await mongoose.connect('mongodb://0.0.0.0:27017/blogs');
+  await mongoose.connect('mongodb://127.0.0.1:27017/blogs');
 }
 
 
