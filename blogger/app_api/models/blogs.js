@@ -7,4 +7,4 @@ var blogSchema = new mongoose.Schema({
 });
 
 
-mongoose.model('Blogs', blogSchema);
+mongoose.model('Blog', blogSchema);

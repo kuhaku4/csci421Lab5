@@ -1,5 +1,5 @@
 var mongoose = require('mongoose');
-var Blogger = mongoose.model('Blogs')
+var Blogger = mongoose.model('Blog')
 
 var sendJSONresponse = function(res, status, content) {
     res.status(status);
