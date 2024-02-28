@@ -95,7 +95,7 @@ requestOptions,
           if (response.statusCode === 201) {
               res.redirect('/blogs');
           } else {
-              _showError(req, res, response.statusCode);
+              res.status(response.statusCode).send('An error occurred');
           }
       }
   );
@@ -123,17 +123,17 @@ module.exports.addPost = function(req, res){
     json : postdata
   };
   
-  request(
-    requestOptions,
-    function(err, response, body) {
-       if (response.statusCode === 201) {
-            res.redirect('/blogs');
-       } else {
-            _showError(req, res, response.statusCode);
-       } 
-    }
-  ); 
-};
+    request(
+      requestOptions,
+      function(err, response, body) {
+        if (response.statusCode === 201) {
+              res.redirect('/blogs');
+        } else {
+              res.status(response.statusCode).send('An error occurred');
+        } 
+      }
+  );
+}
 
 /* Blog Delete */
 module.exports.del = function(req, res) {
@@ -183,7 +183,7 @@ url : apiOptions.server + path,
           if (response.statusCode === 204) {
               res.redirect('/blogs');
           } else {
-              _showError(req, res, response.statusCode);
+            res.status(response.statusCode).send('An error occurred');
           }
       }
   );
