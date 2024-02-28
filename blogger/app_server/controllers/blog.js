@@ -4,8 +4,8 @@ var apiOptions = {
   server : "http://localhost:"+process.env.PORT,
   uri: {
     blog: {
-      add: "api/blog/add",
-      all: "api/blog",
+      add: "/api/blog/add",
+      all: "/api/blog",
       one: "/api/blog/"
     }
   }
@@ -14,7 +14,6 @@ var apiOptions = {
 /* GET blogs lists */      
 module.exports.list = function(req, res){
   var requestOptions, path;
-  //path = '/blogs';
   path = apiOptions.uri.blog.all;
   requestOptions = { 
       url : apiOptions.server + path,
