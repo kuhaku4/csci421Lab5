@@ -5,9 +5,9 @@ block content
     h1= title
     form(action='/blogs/'+blog._id+'/delete' method="post")
         .mb-3.mt-3
-            label.form-label(for="blogTitle") Blog Title
-            input#blogTitle.form-control(type="text", placeholder="Blog Title", name="blogTitle", value=blog.blogTitle, readonly)
+            label.form-label(for="blogtitle") Blog Title
+            input#blogtitle.form-control(type="text", placeholder="Blog Title", name="blogtitle", value=blog.blogtitle, readonly)
         .mb-3
-            label.form-label(for="blogText") Blog Text
-            textarea#blogText.form-control(name="blogText", cols="30", rows="10", readonly)= blog.blogText
+            label.form-label(for="blogtext") Blog Text
+            textarea#blogtext.form-control(name="blogtext", cols="30", rows="10", readonly)= blog.blogtext
         button.btn.btn-danger(type="submit") Delete

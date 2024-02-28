@@ -10,10 +10,10 @@ router.get('/', ctrlHome.home);
 router.get('/', ctrlBlog.list);
 
 /* Blog Show */
-router.get('/blogs/:id', ctrlBlog.edit);
+router.get('/blogs/:blogid/edit', ctrlBlog.edit);
 
 /* Blog Edit Post */
-router.put('/blogs/:id', ctrlBlog.editPost);
+router.put('/blogs/:blogid/save', ctrlBlog.editPost);
 
 /* Blog Add */
 router.get('/blogs/add', ctrlBlog.add);
@@ -22,9 +22,9 @@ router.get('/blogs/add', ctrlBlog.add);
 router.post('/blogs/add', ctrlBlog.addPost);
 
 /* Blog Delete */
-router.get('/blogs/:id/delete', ctrlBlog.del);
+router.get('/blogs/:blogid/delete', ctrlBlog.del);
 
 /* Blog Delete Post */
-router.delete('/blogs/:id/delete', ctrlBlog.deletePost);
+router.delete('/blogs/:blogid/delete', ctrlBlog.deletePost);
 
 module.exports = router;
