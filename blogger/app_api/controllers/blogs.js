@@ -72,12 +72,12 @@ module.exports.blogsList = function(req, res) {
   module.exports.blogsUpdate = function(req, res) {
     console.log("Updating a blog entry with id of " + req.params.blogid);
     var blogid = req.params.blogid;
-    var update = {$set: {
-      "blogtitle": req.body.blogtitle,
-      "blogtext": req.body.blogtext
-    }}
+    // var update = {$set: {
+    //   "blogtitle": req.body.blogtitle,
+    //   "blogtext": req.body.blogtext
+    // }}
     Blog
-  	  .findByIdAndUpdate(blogid, update)
+  	  .findByIdAndUpdate(blogid, {"blogtitle": req.body.blogtitle, "blogtext": req.body.blogtext})
       .then(function(blog) {
           console.log("Updated blog: "+blogid);
           sendJSONresponse (res, 200, blog);
