@@ -13,7 +13,7 @@ var initBlog = function (body) {
   }
 }
 
-/* GET a list of all locations */
+/* GET a list of all blogs */
 module.exports.blogsList = function(req, res) {
   console.log('Getting blogs list');
   Blog
