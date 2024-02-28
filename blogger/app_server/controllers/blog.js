@@ -3,10 +3,10 @@ var request = require('request');
 var apiOptions = {
   server : "http://localhost:80", //+process.env.PORT,
   uri: {
-    blog: {
+    blogapi: {
       add: "/api/blogs/add",
-      all: "/api/blogs",
-      one: "/api/blogs/"
+      list: "/api/blogs",
+      listone: "/api/blogs/"
     }
   }
 };
@@ -14,7 +14,7 @@ var apiOptions = {
 /* GET blogs lists */      
 module.exports.list = function(req, res){
   var requestOptions, path;
-  path = apiOptions.uri.blog.all;
+  path = apiOptions.uri.blogapi.list;
   requestOptions = { 
       url : apiOptions.server + path,
       method : "GET",
@@ -45,7 +45,7 @@ var renderListPage = function(req, res, responseBody){
 module.exports.edit = function(req, res) {
   var requestOptions, path;
   var blogid = req.params.blogid;
-  path = apiOptions.uri.blog.one + blogid;
+  path = apiOptions.uri.blogapi.listone + blogid;
   requestOptions = {
       url : apiOptions.server + path,
       method : "GET",
@@ -75,7 +75,7 @@ var renderEditPage = function(req, res, responseBody){
 module.exports.editBlog = function(req, res){
   var requestOptions, path, blogData;
   var blogid = req.params.blogid;
-  path = apiOptions.uri.blog.one + blogid;
+  path = apiOptions.uri.blogapi.listone + blogid;
 
   blogData = {
       blogtitle: req.body.blogtitle,
@@ -108,7 +108,7 @@ module.exports.add = function(req, res) {
 /* Blog Add Blog */
 module.exports.addBlog = function(req, res){
   var requestOptions, path, blogData;
-  path = apiOptions.uri.blog.add;
+  path = apiOptions.uri.blogapi.add;
 
   blogData = {
       blogtitle: req.body.blogtitle,
@@ -137,7 +137,7 @@ module.exports.addBlog = function(req, res){
 module.exports.del = function(req, res) {
   var requestOptions, path;
   var blogid = req.params.blogid;
-  path = apiOptions.uri.blog.one + blogid;
+  path = apiOptions.uri.blogapi.listone + blogid;
 
   requestOptions = {
       url : apiOptions.server + path,
@@ -167,7 +167,7 @@ var renderDeletePage = function(req, res, responseBody){
 module.exports.deleteBlog = function(req, res){
   var requestOptions, path, blogid;
   blogid = req.params.blogid;
-  path = apiOptions.uri.blog.one + blogid;
+  path = apiOptions.uri.blogapi.listone + blogid;
 
   requestOptions = {
       url : apiOptions.server + path,
