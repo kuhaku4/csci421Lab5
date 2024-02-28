@@ -11,33 +11,32 @@ module.exports.blogsList = function(req, res) {
   console.log('Getting blogs list');
   Blogger
       .find()
-      .exec(function(err, results) {
-        if (!results) {
-          sendJSONresponse(res, 404, {
-            "message": "no blogs found"
-          });
-          return;
-        } else if (err) {
-          console.log(err);
-          sendJSONresponse(res, 404, err);
-          return;
+      .then (function(blogs){
+        if(!blogs.length){
+          sendJSONresponse(res, 204, blogs)
         }
-        console.log(results);
-        sendJSONresponse(res, 200, buildBlogList(req, res, results));
-      }); 
+        else{
+          sendJSONresponse(res, 200, blogs)
+        }
+      })
+      .catch(function(err){
+        sendJSONresponse(res, 400, err)
+      })
+        
+      
 };
 
-var buildBlogList = function(req, res, results) {
-  var blogs = [];
-  results.forEach(function(doc) {
-    blogs.push({
-      blogtitle: doc.obj.blogtitle,
-      blogtext: doc.obj.blogtext,
-      _id: doc.obj._id
-    });
-  });
-  return blogs;
-};
+// var buildBlogList = function(req, res, results) {
+//   var blogs = [];
+//   results.forEach(function(doc) {
+//     blogs.push({
+//       blogtitle: doc.obj.blogtitle,
+//       blogtext: doc.obj.blogtext,
+//       _id: doc.obj._id
+//     });
+//   });
+//   return blogs;
+// };
 
   // Read a single blog
   module.exports.blogsReadOne = function(req, res) {
@@ -74,11 +73,11 @@ var buildBlogList = function(req, res, results) {
     blogData = {blogtitle: req.body.blogtitle, blogtext: req.body.blogtext}
     Blogger
      .create(blogData)
-     .then((res) => {
-      res.send({ kq: 1, msg: 'add blog' })
+     .then(function (addedBlog) {
+      res.sendJSONresponse(res, 201, addedBlog)
     })
     .catch((err) => {
-      res.send({ kq: 0, msg: 'err' })
+      res.sendJSONresponse(res, 400, err)
     })
   };
   
