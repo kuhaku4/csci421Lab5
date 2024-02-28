@@ -34,89 +34,67 @@ var renderListPage = function(req, res, responseBody){
   });
 };
 
-var blogFindOne = function (req, res, callback) {
-  console.log("blogFindOne: " + req.params.blogid)
-  var requestOptions, path, blogid;
-  var blogid = req.params.blogId;
-  path = '/blogs/'+blogid;
-
-  requestOptions = {
-      url: apiOptions.server + path,
-      method: "GET",
-      json: {}
-  }
-
-  request(
-      requestOptions,
-      function (err, response, body) {
-          var data = {};
-          if (ERROR_STATUS_CODES.includes(response.statusCode)) {
-              data.blog = null;
-              data.error = apiOptions.status.blog[response.statusCode]
-              data.message = null;
-          } else {
-              data.blog = body;
-              data.error = null;
-              data.message = apiOptions.status.blog[response.statusCode]
-              console.log(body);
-          }
-          callback(req, res, data)
-      }
-  )
-}
-
 
 /* Blog Show */
 module.exports.edit = function(req, res) {
-
-  blogFindOne(req, res, renderBlogEdit)
-}
+  var requestOptions, path;
+  path = "/blogs" + req.params.id;
+  requestOptions = {
+      url : apiOptions.server + path,
+      method : "GET",
+      json : {}
+  }; 
+  request(
+      requestOptions,
+      function(err, response, body) {
+              renderEditPage(req, res, body);
+    }
+  );
+};
 
 /* Render the Blog edit page */
 var renderEditPage = function(req, res, responseBody){
-  responseBody.title = "Blog Edit";
-    res.render('blogEdit', responseBody);
+  res.render('blogEdit', {
+      title: 'Blog Edit',
+      pageHeader: {
+          title: 'Blog Edit'
+      },
+      blog: responseBody
+  });
 };
 
 
 /* Blog Edit Post */
 module.exports.editPost = function(req, res){
-  console.log("blogEdit: " + req.params.blogid)
-  console.log("Edit Blog");
-  var requestOptions, path, blogid, blogData;
-  blogid = req.params.blogid;
-  path = '/blogs/'+blogid;
+  var requestOptions, path, postdata;
+  var id = req.params.id;
+  path = '/blogs' + id;
 
-  blogData = {
-      blogTitle: req.body.blogTitle,
-      blogText: req.body.blogText
+  postdata = {
+      blogtitle: req.body.blogtitle,
+      blogtext: req.body.blogtext
   };
 
   requestOptions = {
-      url: apiOptions.server + path,
-      method: "PUT",
-      json: {
-          blogTitle: req.body.blogTitle,
-          blogText: req.body.blogText
-      }
+      url : apiOptions.server + path,
+      method : "PUT",
+      json : postdata
   };
 
   request(
-      requestOptions,
-      function (err, response, body) {
-          var data;
-          data = body;
-          if (response.statusCode === 200) {
-              console.log(body);
+requestOptions,
+      function(err, response, body) {
+          if (response.statusCode === 201) {
               res.redirect('/blogs');
+          } else {
+              _showError(req, res, response.statusCode);
           }
       }
-  )
+  );
 };
 
 /* Blog Add */
 module.exports.add = function(req, res) {
-  console.log("Add Blog")
   res.render('addBlog', { title: 'Add Blog' });
 };    
 
@@ -150,36 +128,52 @@ module.exports.addPost = function(req, res){
 
 /* Blog Delete */
 module.exports.del = function(req, res) {
-  console.log("blogEdit: " + req.params.blogid)
-  blogFindOne(req, res, renderDeletePage)
-}
+  var requestOptions, path;
+  path = "/blogs" + req.params.id;
+  requestOptions = {
+      url : apiOptions.server + path,
+      method : "GET",
+      json : {}
+  };
+  request(
+requestOptions,
+      function(err, response, body) {
+          renderDeletePage(req, res, body);
+      }
+  );
+};
 
 /* Render the blook delete page */
 var renderDeletePage = function(req, res, responseBody){
-  responseBody.title = "Blog Delete";
-  res.render('deleteBlog', responseBody)
-}
+      res.render('deleteBlog', {
+      title: 'Blog Delete',
+      pageHeader: {
+              title: 'blog Delete'
+      },
+      blog: responseBody
+  });
+};
 
 /* Blog Delete Post */
 module.exports.deletePost = function(req, res){
-  console.log("deleteBlog: " + req.params.blogid)
-  var requestOptions, path, blogid;
-  blogid = req.params.blogid;
-  path = '/blogs/'+blogid;
+  var requestOptions, path, postdata;
+  var id = req.params.id;
+  path = '/blogs' + id;
 
   requestOptions = {
-      url: apiOptions.server + path,
-      method: "DELETE",
-      json: {}
+url : apiOptions.server + path,
+      method : "DELETE",
+      json : {}
   };
+
   request(
       requestOptions,
-      function (err, response, body) {
+      function(err, response, body) {
           if (response.statusCode === 204) {
-              res.redirect('/blogs')
+              res.redirect('/blogs');
           } else {
-              console.log(err)
+              _showError(req, res, response.statusCode);
           }
       }
-  )
-}
+  );
+};
