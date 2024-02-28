@@ -74,7 +74,7 @@ var buildBlogList = function(req, res, results) {
     Blog
      .create({
         blogtitle: req.body.blogtitle,
-        blogtext: req.body.blogtext,
+        blogtext: req.body.blogtext
        }, function(err, blog) {
          if (err) {
             console.log(err);
