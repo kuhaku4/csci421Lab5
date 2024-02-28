@@ -9,7 +9,7 @@ router.get('/', ctrlHome.home);
 /* GET blogs lists */
 router.get('/blogs', ctrlBlog.list);
 
-/* Blog Show */
+/* Blog Edit */
 router.get('/blogs/:blogid/edit', ctrlBlog.edit);
 
 /* Blog Edit Post */
