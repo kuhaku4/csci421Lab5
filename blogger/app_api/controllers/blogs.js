@@ -71,21 +71,16 @@ var buildBlogList = function(req, res, results) {
   // Create a new blog
   module.exports.blogsCreate = function(req, res) {
     console.log(req.body);
+    blogData = {blogtitle: req.body.blogtitle, blogtext: req.body.blogtext}
     Blogger
-     .create({
-        blogtitle: req.body.blogtitle,
-        blogtext: req.body.blogtext
-       }, function(err, blog) {
-         if (err) {
-            console.log(err);
-            sendJSONresponse(res, 400, err);
-         } else {
-            console.log(blog);
-            sendJSONresponse(res, 201, blog);
-         }
-       }
-     );
-  }; 
+     .create(blogData)
+     .then(() => {
+      res.send({ kq: 1, msg: 'add blog' })
+    })
+    .catch((err) => {
+      res.send({ kq: 0, msg: 'err' })
+    })
+  };
   
   // Update a single blog
   module.exports.blogsUpdate = function(req, res) {
