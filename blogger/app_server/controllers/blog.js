@@ -101,7 +101,7 @@ module.exports.add = function(req, res) {
 /* Blog Add Post */
 module.exports.addPost = function(req, res){
   var requestOptions, path, postdata;
-  path = '/blogs';
+  path = '/blogs/add';
 
   postdata = {
       blogtitle: req.body.blogtitle,
