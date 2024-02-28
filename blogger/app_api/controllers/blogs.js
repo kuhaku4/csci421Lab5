@@ -74,7 +74,7 @@ var buildBlogList = function(req, res, results) {
     blogData = {blogtitle: req.body.blogtitle, blogtext: req.body.blogtext}
     Blogger
      .create(blogData)
-     .then(() => {
+     .then((res) => {
       res.send({ kq: 1, msg: 'add blog' })
     })
     .catch((err) => {
