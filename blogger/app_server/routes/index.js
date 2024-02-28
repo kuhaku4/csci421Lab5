@@ -13,18 +13,18 @@ router.get('/blogs', ctrlBlog.list);
 router.get('/blogs/:blogid/edit', ctrlBlog.edit);
 
 /* Blog Edit Post */
-router.put('/blogs/:blogid/edit', ctrlBlog.editPost);
+router.put('/blogs/:blogid/edit', ctrlBlog.editBlog);
 
 /* Blog Add */
 router.get('/blogs/add', ctrlBlog.add);
 
 /* Blog Add Post */
-router.post('/blogs/add', ctrlBlog.addPost);
+router.post('/blogs/add', ctrlBlog.addBlog);
 
 /* Blog Delete */
 router.get('/blogs/:blogid/delete', ctrlBlog.del);
 
 /* Blog Delete Post */
-router.delete('/blogs/:blogid/delete', ctrlBlog.deletePost);
+router.delete('/blogs/:blogid/delete', ctrlBlog.deleteBlog);
 
 module.exports = router;

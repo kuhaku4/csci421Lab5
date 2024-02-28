@@ -72,12 +72,12 @@ var renderEditPage = function(req, res, responseBody){
 
 
 /* Blog Edit Post */
-module.exports.editPost = function(req, res){
-  var requestOptions, path, postdata;
+module.exports.editBlog = function(req, res){
+  var requestOptions, path, blogData;
   var blogid = req.params.blogid;
   path = apiOptions.uri.blog.one + blogid;
 
-  postdata = {
+  blogData = {
       blogtitle: req.body.blogtitle,
       blogtext: req.body.blogtext
   };
@@ -85,7 +85,7 @@ module.exports.editPost = function(req, res){
   requestOptions = {
       url : apiOptions.server + path,
       method : "PUT",
-      json : postdata
+      json : blogData
   };
 
   request(
@@ -105,8 +105,8 @@ module.exports.add = function(req, res) {
   res.render('addBlog', { title: 'Add Blog' });
 };    
 
-/* Blog Add Post */
-module.exports.addPost = function(req, res){
+/* Blog Add Blog */
+module.exports.addBlog = function(req, res){
   var requestOptions, path, blogData;
   path = apiOptions.uri.blog.add;
 
@@ -163,14 +163,14 @@ var renderDeletePage = function(req, res, responseBody){
   });
 };
 
-/* Blog Delete Post */
-module.exports.deletePost = function(req, res){
-  var requestOptions, path, postdata;
-  var blogid = req.params.blogid;
+/* Blog Delete Blog */
+module.exports.deleteBlog = function(req, res){
+  var requestOptions, path, blogid;
+  blogid = req.params.blogid;
   path = apiOptions.uri.blog.one + blogid;
 
   requestOptions = {
-url : apiOptions.server + path,
+      url : apiOptions.server + path,
       method : "DELETE",
       json : {}
   };
