@@ -1,10 +1,12 @@
 const mongoose = require('mongoose');
 
-// main().catch(err => console.log(err));
+main().catch(err => console.log(err));
 
-var dbURI = 'mongodb://127.0.0.1:27017/Blog';
+var dbURI = 'mongodb://0.0.0.0:27017/Blog';
 
-mongoose.connect(dbURI);
+async function main() {
+  await mongoose.connect('mongodb://0.0.0.0:27017/Blog');
+}
 
 
 // Monitor and report when database is connected                      
