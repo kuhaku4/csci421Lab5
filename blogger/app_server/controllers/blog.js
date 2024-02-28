@@ -1,7 +1,7 @@
 var request = require('request');
 //const { response } = require('express');
 var apiOptions = {
-  server : "http://52.91.47.28:80"  // Change as needed
+  server : "http://localhost:80"  // Change as needed
 };
 
 /* GET blogs lists */      
