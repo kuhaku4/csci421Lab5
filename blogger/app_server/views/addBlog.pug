@@ -1,13 +1,14 @@
-extends layout
-
-block content
-    include ./partials/nav
-    h1= title
-    form(action='/blogs/add' method="post")
-        .mb-3.mt-3
-            label.form-label(for="blogtitle") Blog Title
-            input#blogtitle.form-control(type="text", placeholder="Blog title", name="blogtitle")
-        .mb-3
-            label.form-label(for="blogtext") Blog Text
-            textarea#blogtext.form-control(name="blogtext", cols="30", rows="10")
-        button.btn.btn-primary(type="submit") Add Blog
+<div class="container mt-5">
+  <h1>Add a New Blog Post</h1>
+  <form id="/blog/add">
+    <div class="form-group">
+      <label for="blogtitle">Blog Title</label>
+      <input type="text" class="form-control" id="blogtitle" placeholder="Enter blog title" required>
+    </div>
+    <div class="form-group">
+      <label for="blogtext">Blog Text</label>
+      <textarea class="form-control" id="blogtext" rows="5" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Add Blog Post</button>
+  </form>
+</div>
