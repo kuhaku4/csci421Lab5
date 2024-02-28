@@ -3,7 +3,7 @@ extends layout
 block content
   include ./partials/nav
   h1 Add a Blog
-  form(method="post" action="/blogs")
+  form(method="post" action="/blogs/add")
     label(for="blogtitle") Blog Title:
     br
     input(type="text" id="blogtitle" name="blogtitle" required)
