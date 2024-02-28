@@ -7,7 +7,7 @@ var ctrlBlog = require('../controllers/blog');
 router.get('/', ctrlHome.home);
 
 /* GET blogs lists */
-router.get('/', ctrlBlog.list);
+router.get('/blogs', ctrlBlog.list);
 
 /* Blog Show */
 router.get('/blogs/:blogid/edit', ctrlBlog.edit);
