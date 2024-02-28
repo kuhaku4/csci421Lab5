@@ -8,36 +8,33 @@ var sendJSONresponse = function(res, status, content) {
 
 // Get list of blogs
 module.exports.blogsList = function(req, res) {
-    console.log('Getting blogs list');
-    Blogger
-        .find()
-        .exec(function(err, results) {
-          if (!results) {
-            sendJSONresponse(res, 404, {
-              "message": "no blogs found"
-            });
-            return;
-          } else if (err) {
-            console.log(err);
-            sendJSONresponse(res, 404, err);
-            return;
+  console.log ("Blog Lister")
+  Blogger
+  .find()
+      .then(function(blogs) {
+          if (!blogs.length) {
+              sendJSONresponse (res, 204, blogs)
+          } else {
+              sendJSONresponse (res, 200, blogs)
           }
-          console.log(results);
-          sendJSONresponse(res, 200, buildBlogList(req, res, results));
-        }); 
-  };
+      })
+      .catch(function(err) {
+          console.log(err);
+          sendJSONresponse (res, 400, err)
+      })
+}
   
-  var buildBlogList = function(req, res, results) {
-    var blogs = [];
-    results.forEach(function(obj) {
-      blogs.push({
-        blogtitle: obj.blogtitle,
-        blogtext: obj.blogtext,
-        _id: obj._id
-      });
-    });
-    return blogs;
-  };
+  // var buildBlogList = function(req, res, results) {
+  //   var blogs = [];
+  //   results.forEach(function(obj) {
+  //     blogs.push({
+  //       blogtitle: obj.blogtitle,
+  //       blogtext: obj.blogtext,
+  //       _id: obj._id
+  //     });
+  //   });
+  //   return blogs;
+  // };
 
   // Read a single blog
   module.exports.blogsReadOne = function(req, res) {
