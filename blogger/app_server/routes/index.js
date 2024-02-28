@@ -13,7 +13,7 @@ router.get('/blogs', ctrlBlog.list);
 router.get('/blogs/:blogid/edit', ctrlBlog.edit);
 
 /* Blog Edit Post */
-router.put('/blogs/:blogid/edit', ctrlBlog.editBlog);
+router.post('/blogs/:blogid/edit', ctrlBlog.editBlog);
 
 /* Blog Add */
 router.get('/blogs/add', ctrlBlog.add);
@@ -25,6 +25,6 @@ router.post('/blogs/add', ctrlBlog.addBlog);
 router.get('/blogs/:blogid/delete', ctrlBlog.del);
 
 /* Blog Delete Post */
-router.delete('/blogs/:blogid/delete', ctrlBlog.deleteBlog);
+router.post('/blogs/:blogid/delete', ctrlBlog.deleteBlog);
 
 module.exports = router;
