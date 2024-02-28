@@ -91,7 +91,7 @@ module.exports.editBlog = function(req, res){
   request(
 requestOptions,
       function(err, response, body) {
-          if (response.statusCode === 201) {
+          if (err) {
               res.redirect('/blogs');
           } else {
               res.status(response.statusCode).send('An error occurred');
