@@ -13,7 +13,7 @@ router.get('/blogs', ctrlBlog.list);
 router.get('/blogs/:blogid/edit', ctrlBlog.edit);
 
 /* Blog Edit Post */
-router.put('/blogs/:blogid/save', ctrlBlog.editPost);
+router.put('/blogs/:blogid/edit', ctrlBlog.editPost);
 
 /* Blog Add */
 router.get('/blogs/add', ctrlBlog.add);
