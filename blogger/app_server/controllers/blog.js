@@ -47,7 +47,6 @@ module.exports.edit = function(req, res) {
   var requestOptions, path;
   var blogid = req.params.blogid;
   path = apiOptions.uri.blog.one + blogid;
-  //path = "/blogs" + req.params.id;
   requestOptions = {
       url : apiOptions.server + path,
       method : "GET",
@@ -77,7 +76,6 @@ var renderEditPage = function(req, res, responseBody){
 module.exports.editPost = function(req, res){
   var requestOptions, path, postdata;
   var blogid = req.params.blogid;
-  //path = '/blogs' + id;
   path = apiOptions.uri.blog.one + blogid;
 
   postdata = {

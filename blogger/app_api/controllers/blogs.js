@@ -1,5 +1,5 @@
 var mongoose = require('mongoose');
-var Blogger = mongoose.model('Blog')
+var Blog = mongoose.model('Blog')
 
 var sendJSONresponse = function(res, status, content) {
     res.status(status);
@@ -9,7 +9,7 @@ var sendJSONresponse = function(res, status, content) {
 /* GET a list of all locations */
 module.exports.blogsList = function(req, res) {
   console.log('Getting blogs list');
-  Blogger
+  Blog
       .find()
       .exec(function(err, results) {
         if (!results) {
@@ -41,9 +41,10 @@ var buildBlogList = function(req, res, results) {
 
   // Read a single blog
   module.exports.blogsReadOne = function(req, res) {
+    var blogid = req.params.blogid;
     console.log('Finding blog details', req.params);
     if (req.params && req.params.blogid) {
-        Blogger
+      Blog
           .findById(req.params.blogid)
           .exec(function(err, blog) {
             if (!blog) {
@@ -70,7 +71,7 @@ var buildBlogList = function(req, res, results) {
   // Create a new blog
   module.exports.blogsCreate = function(req, res) {
     console.log(req.body);
-    Blogger
+    Blog
      .create({
         blogtitle: req.body.blogtitle,
         blogtext: req.body.blogtext,
@@ -90,9 +91,10 @@ var buildBlogList = function(req, res, results) {
   module.exports.blogsUpdate = function(req, res) {
     console.log("Updating a blog entry with id of " + req.params.blogid);
     console.log(req.body);
-    Blogger
+    var blogid = req.params.blogid;
+    Blog
   	  .findOneAndUpdate(
-	     { _id: req.params.blogid },
+	     { _id: blogid },
  	     { $set: {"blogtitle": req.body.blogtitle, "blogtext": req.body.blogtext}},
 	     function(err, response) {
 	         if (err) {
@@ -107,8 +109,9 @@ var buildBlogList = function(req, res, results) {
   // Delete a single blog
   module.exports.blogsDelete = function(req, res) {
     console.log("Deleting blog entry with id of " + req.params.blogid);
+    var blogid = req.params.blogid;
     console.log(req.body);
-    Blogger
+    Blog
         .findByIdAndRemove(req.params.blogid)
         .exec (
             function(err, response) {
