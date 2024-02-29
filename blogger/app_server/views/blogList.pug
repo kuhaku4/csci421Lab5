@@ -10,6 +10,7 @@ block content
           .card-body
             h4.card-title= blog.blogtitle
             p.card-text= blog.blogtext
+            p.card-text= blog.createdDate
             ul.nav.nav-pills.justify-content-end
               li.nav-item 
                 a.nav-link(href="/blogs/" + blog._id + "/edit")
