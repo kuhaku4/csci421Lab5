@@ -37,5 +37,6 @@
             controller: 'delCtrl',
             controllerAs: 'vm'
         })
+        .otherwise({redirectTo: '/'})
     }
   })();
