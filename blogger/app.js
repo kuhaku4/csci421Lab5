@@ -11,6 +11,11 @@ var routesAPI = require('./app_api/routes/index');
 
 var app = express();
 
+var appClientFiles = [
+  'app_client/app.js',
+  'app_client/home/bloggerApp.js',
+];
+
 // view engine setup
 app.set('views', path.join(__dirname, 'app_server', 'views'));
 app.set('view engine', 'pug');
@@ -25,6 +30,7 @@ app.use('/js', express.static(__dirname + '/node_modules/jquery/dist')); // redi
 app.use('/jq', express.static(path.join(__dirname, 'node_modules/jquery/dist')))
 app.use('/css', express.static(__dirname + '/node_modules/bootstrap/dist/css')); // redirect CSS bootstrap
 app.use('/icons', express.static(path.join(__dirname, 'node_modules/bootstrap-icons/font')))
+app.use(express.static(path.join(__dirname, 'app_client')));
 
 app.use('/', routes);
 app.use('/api', routesAPI);
