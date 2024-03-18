@@ -22,5 +22,13 @@
       };
   
     }
+    angular
+    .module('bloggerApp')
+    .controller('blogCtrl', addCtrl);
+
+  blogCtrl.$inject = ['$scope'];
+  function blogCtrl($scope){
+    
+  }
   
   })();
