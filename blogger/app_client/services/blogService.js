@@ -1,4 +1,4 @@
-const db = require('../db/blogs');
+const db = require('../../app_api/db/blogs');
 
 exports.getBlogs = () => {
   return db.getBlogs();
