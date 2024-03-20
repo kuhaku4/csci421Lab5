@@ -32,7 +32,7 @@ app.use('/css', express.static(__dirname + '/node_modules/bootstrap/dist/css'));
 app.use('/icons', express.static(path.join(__dirname, 'node_modules/bootstrap-icons/font')))
 app.use(express.static(path.join(__dirname, 'app_client')));
 
-app.use('/', routes);
+//app.use('/', routes);
 app.use('/api', routesAPI);
 
 // catch 404 and forward to error handler
