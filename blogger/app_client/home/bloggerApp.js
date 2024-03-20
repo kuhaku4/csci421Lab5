@@ -1,35 +1,34 @@
 (function () {
-  angular
-      .module('blogApp', ['ngRoute'])
-      .config(function($routeProvider) {
-          $routeProvider
-              .when('/', {
-                  templateUrl: 'pages/home.html',
-                  controller: 'homeCtrl',
-                  controllerAs: 'vm'
-              })
-              .otherwise({ redirectTo: '/' });
-      });
 
-  angular
-      .module('blogApp')
+    angular
+      .module('bloggerApp')
       .controller('homeCtrl', homeCtrl);
-
-  homeCtrl.$inject = ['$scope'];
-  function homeCtrl ($scope) {
+  
+    homeCtrl.$inject = ['$scope'];
+    function homeCtrl ($scope) {
       var vm = this;
       vm.pageHeader = {
-          title: "Eric Almonrode's Blogger",
-          strapline: 'Blogs'
+        title: 'blogger',
+        strapline: 'Blogs'
       };
       vm.sidebar = {
-          content: "Blogger"
+        content: "Blogger"
       };
-
+  
       vm.showError = function (error) {
-          $scope.$apply(function() {
-              vm.message = error.message;
-          });
+        $scope.$apply(function() {
+          vm.message = error.message;
+        });
       };
+  
+    }
+    angular
+    .module('bloggerApp')
+    .controller('blogCtrl', addCtrl);
+
+  blogCtrl.$inject = ['$scope'];
+  function blogCtrl($scope){
+    
   }
-})();
+  
+  })();
