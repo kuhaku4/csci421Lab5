@@ -3,7 +3,7 @@
     var app = angular.module('bloggerApp', ['ngRoute']);
 
     app.controller("blogCtrl", function($scope) {
-      $scope.myInput = "Eric Almonrode's Blogger";
+      //$scope.myInput = "Eric Almonrode's Blogger";
    });     
   
   //   function config ($routeProvider) {
