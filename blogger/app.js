@@ -3,6 +3,7 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
+const blogController = require('./app_client/controllers/blogController');
 require('./app_api/models/db');
 
 
@@ -32,8 +33,9 @@ app.use('/css', express.static(__dirname + '/node_modules/bootstrap/dist/css'));
 app.use('/icons', express.static(path.join(__dirname, 'node_modules/bootstrap-icons/font')))
 app.use(express.static(path.join(__dirname, 'app_client')));
 
-app.use('/', routes);
+//app.use('/', routes);
 app.use('/api', routesAPI);
+app.use('/', blogController);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
