@@ -6,7 +6,7 @@ var logger = require('morgan');
 require('./app_api/models/db');
 
 
-var routes = require('./app_server/routes/index');
+//var routes = require('./app_server/routes/index');
 var routesAPI = require('./app_api/routes/index');
 
 var app = express();
@@ -17,7 +17,7 @@ var appClientFiles = [
 ];
 
 // view engine setup
-app.set('views', path.join(__dirname, 'app_server', 'views'));
+//app.set('views', path.join(__dirname, 'app_server', 'views'));
 app.set('view engine', 'pug');
 
 app.use(logger('dev'));
