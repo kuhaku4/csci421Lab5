@@ -21,13 +21,13 @@ app.config(function($routeProvider) {
         controllerAs: 'vm'
       })
   
-      .when('/blogEdit/:blogid', {
+      .when('/blogEdit/:id', {
         templateUrl: 'pages/blogEdit.html',
         controller: 'EditController',
         controllerAs: 'vm'
       })
   
-      .when('/blogDelete/:blogid', {
+      .when('/blogDelete/:id', {
         templateUrl: 'pages/blogDelete.html',
         controller: 'DeleteController',
         controllerAs: 'vm'
@@ -62,9 +62,9 @@ app.config(function($routeProvider) {
   app.controller('HomeController', function HomeController() {
     var vm = this;
     vm.pageHeader = {
-        title: "Eric's Blog App"
+        title: "Logan's Blog App"
     };
-    vm.message = "Welcome.";
+    vm.message = "Welcome. Click 'Add Blog' above to add a new blog, or click 'List Blogs' to view and manage all of your current blogs.";
   });
   
   app.controller('ListController', function ListController($http) {
