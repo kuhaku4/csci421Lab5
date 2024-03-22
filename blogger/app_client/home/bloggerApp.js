@@ -21,13 +21,13 @@ app.config(function($routeProvider) {
         controllerAs: 'vm'
       })
   
-      .when('/blogEdit/:id', {
+      .when('/blogEdit/:blogid', {
         templateUrl: 'pages/blogEdit.html',
         controller: 'EditController',
         controllerAs: 'vm'
       })
   
-      .when('/blogDelete/:id', {
+      .when('/blogDelete/:blogid', {
         templateUrl: 'pages/blogDelete.html',
         controller: 'DeleteController',
         controllerAs: 'vm'
