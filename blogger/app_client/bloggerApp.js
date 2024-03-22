@@ -94,8 +94,8 @@ app.config(function($routeProvider) {
 
     vm.submit = function () {
         var data = {
-            title: vm.blog.blogtitle,
-            text: vm.blog.blogtext
+            title: vm.blog.title,
+            text: vm.blog.text
         };
 
         addBlog($http, data)
