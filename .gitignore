@@ -3,7 +3,6 @@ bitnami_credentials
 .gitconfig
 .gitconfig.save
 .ssh
-node_modules
 bin
 .cache
 .config
@@ -11,7 +10,6 @@ bin
 .npm
 .vscode-server
 myapp
-public
 todo
 .bash_history
 .bashrc
