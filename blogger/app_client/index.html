@@ -29,7 +29,7 @@
     <br>
     <p>{{vm.message}}</p>
     <div ng-repeat="blog in vm.blogs">
-        <div class="card border-primary" style="width: 50%"> 
+        <div class="card border-primary"style="width: 50%"> 
             <div class="card-header">
                 <h5 class="card-title">{{blog.createdOn | date:'medium'}}</h5>
             </div>
@@ -37,20 +37,13 @@
                 <h6 class="card-subtitle mb-2 text-muted" style="font-size: 20px; font-weight: bold;">{{blog.blogtitle}}</h6>
                 <p class="card-text">{{blog.blogtext}}</p>
             </div>
-            <div class="card-footer">
-                <div class="col-sm">
-                    <ul class="nav justify-content-end nav-pills card-header-pills">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#/blogEdit/{{blog._id}}"><i class="fas fa-edit"></i></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#/blogDelete/{{blog._id}}"><i class="fas fa-trash-alt"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
         </div>
         <p></p>
+    </div>
+    <div class="card border-primary" style="width: 50%" ng-show="!vm.blogs.length">
+        <div class="card-body">
+            <p class="card-text">No blog posts found. Create one above.</p>
+        </div>
     </div>
 </script>
 
@@ -60,50 +53,16 @@
       <form name="userForm" ng-submit="vm.submit()" ng-controller="AddController" style="padding: 20px">
         <div class="form-group">
           <label for="summary" class="text-primary">Blog Title</label>
-          <!-- Use ng-model to bind the input value to vm.blog.blogtitle -->
-          <input class="form-control" id="title" name="title" ng-model="vm.blog.blogtitle">
+          <input class="form-control" id="title" name="title" ng-model="vm.blog.blogtitle" required>
+          <p class="text-danger" ng-show="userForm.title.$error.required">Title is required.</p>
           <p></p>
           <label for="text" class="text-primary">Blog Text</label>
-          <!-- Use ng-model to bind the textarea value to vm.blog.blogtext -->
-          <textarea class="form-control" id="text" rows="3" name="text" ng-model="vm.blog.blogtext"></textarea>
+          <textarea class="form-control" id="text" rows="3" name="text" ng-model="vm.blog.blogtext" required></textarea>
+          <p class="text-danger" ng-show="userForm.text.$error.required">Text is required.</p>
           <p></p>
-        </div>
-        <input type="submit" class="btn btn-primary" value="Add Blog">
+        </div><input type="submit" class="btn btn-primary" value="Add Blog" ng-disabled="userForm.$invalid">
       </form>
     </div>
-  </script>
-
-
-  <script type="text/ng-template" id="pages/blogEdit.html">
-    <p>{{vm.message}}</p>
-      <div class="card border-primary" style="width: 50%">  
-        <form name="userForm" ng-submit="vm.submit()" ng-controller="EditController" style="padding: 20px">
-          <div class="form-group">
-            <label for="summary" class="text-primary">Title</label>
-            <input class="form-control" id="title" name="title" value="{{vm.blog.blogtitle}}">
-            <label for="detail" class="text-primary">Blog Text</label>
-            <textarea class="form-control" id="text" name="text" rows="3">{{vm.blog.blogtext}}</textarea>
-            <p></p>
-          </div>
-          <input type="submit" class="btn btn-primary" value="Update Blog">
-        </form>
-      </div>
-  </script>
-
-  <script type="text/ng-template" id="pages/blogDelete.html">
-    <p></p>
-      <div class="card border-primary" style="width: 50%">
-        <form name="userForm" ng-submit="vm.submit()" ng-controller="DeleteController" style="padding: 20px">
-          <div class="form-group">
-              <label for="summary" class="text-primary">Title</label>
-              <input readonly class="form-control" id="title" name="title" value="{{vm.blog.blogtitle}}">
-              <label for="detail" class="text-primary">Blog Text</label>
-              <textarea readonly class="form-control" id="text" name="text" rows="3">{{vm.blog.blogtext}}</textarea>
-          </div>
-             <input type="submit" class="btn btn-danger float-right" style="margin-right: 10px; margin-top: 15px" value="Delete Blog">
-             <button ng-click="vm.cancel()" ng-controller="DeleteController" class="btn btn-primary float-right" style="margin-top: 15px">Cancel</button>
-        </form>
-      </div>
   </script>
 
 <!-- Angular View -->
