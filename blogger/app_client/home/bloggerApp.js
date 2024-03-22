@@ -62,9 +62,9 @@ app.config(function($routeProvider) {
   app.controller('HomeController', function HomeController() {
     var vm = this;
     vm.pageHeader = {
-        title: "Logan's Blog App"
+        title: "Eric's Blogger"
     };
-    vm.message = "Welcome. Click 'Add Blog' above to add a new blog, or click 'List Blogs' to view and manage all of your current blogs.";
+    vm.message = "Welcome.";
   });
   
   app.controller('ListController', function ListController($http) {
