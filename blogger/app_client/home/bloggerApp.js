@@ -21,13 +21,13 @@ app.config(function($routeProvider) {
         controllerAs: 'vm'
       })
   
-      .when('/blogEdit/:blogid', {
+      .when('/blogEdit/:id', {
         templateUrl: 'pages/blogEdit.html',
         controller: 'EditController',
         controllerAs: 'vm'
       })
   
-      .when('/blogDelete/:blogid', {
+      .when('/blogDelete/:id', {
         templateUrl: 'pages/blogDelete.html',
         controller: 'DeleteController',
         controllerAs: 'vm'
@@ -62,7 +62,7 @@ app.config(function($routeProvider) {
   app.controller('HomeController', function HomeController() {
     var vm = this;
     vm.pageHeader = {
-        title: "Eric's Blogger"
+        title: "Eric's Blog App"
     };
     vm.message = "Welcome.";
   });
