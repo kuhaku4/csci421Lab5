@@ -13,13 +13,8 @@ var app = express();
 
 // Added per Lab 5 - Angular
 app.use(function(req, res) {
-  res.sendFile(path.join(__dirname, 'app_client', '/index.html'));
+  res.sendFile(path.join(__dirname, 'app_client', 'index.html'));
 });
-
-var appClientFiles = [
-  'app_client/app.js',
-  'app_client/home/bloggerApp.js',
-];
 
 // view engine setup
 app.set('views', path.join(__dirname, 'app_server', 'views'));
